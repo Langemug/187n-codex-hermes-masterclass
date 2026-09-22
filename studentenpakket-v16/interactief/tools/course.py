@@ -112,7 +112,7 @@ class Course:
             lock.unlink()
 
     def _atomic(self, target, content):
-        self._local(str(target.relative_to(self.root)))
+        self._local(target.relative_to(self.root).as_posix())
         fd, tmp = tempfile.mkstemp(prefix='progress-', suffix='.tmp', dir=self.state_dir)
         try:
             with os.fdopen(fd, 'w', encoding='utf-8') as stream:

@@ -1,6 +1,7 @@
 """Portable acceptance checks; no network, accounts or third-party dependencies."""
 import importlib.util
 import json
+import hashlib
 from pathlib import Path
 import re
 import shutil
@@ -17,6 +18,11 @@ spec.loader.exec_module(module)
 class ContentTests(unittest.TestCase):
     def setUp(self):
         self.course = module.Course(REPO)
+
+    def test_release_hashes_match_on_this_platform(self):
+        for line in (REPO / 'MANIFEST.sha256').read_text(encoding='utf-8').splitlines():
+            expected, name = line.split('  ', 1)
+            self.assertEqual(hashlib.sha256((REPO / name).read_bytes()).hexdigest(), expected, name)
 
     def test_exactly_113_lessons_and_codes(self):
         lessons = self.course.lessons
