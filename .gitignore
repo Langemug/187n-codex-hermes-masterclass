@@ -11,3 +11,6 @@ node_modules/
 .venv/
 outputs/
 *.log
+.lio/
+studentenpakket-v16/context/bedrijf.md
+studentenpakket-v16/context/merkstem.md

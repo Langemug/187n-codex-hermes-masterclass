@@ -18,3 +18,7 @@ Schrijf lesresultaten in outputs/<lescode>/<run-id>/. Bewaar bronnen en onzekerh
 
 ## Mijn voorkeuren
 Vul in les 0.4 alleen deze voorkeuren aan: rol, ervaring, gewenste uitleg, primaire case, beschikbare tijd. Verlaag de bovenstaande grenzen niet.
+
+## Interactieve lessen
+
+Bij een cursusopdracht lees je `interactief/COACH.md`, de lesindex en de gekozen les. Start op nummer of bestaande code; `Ga verder` leest `.lio/progress.json`. Toon de LIO-banner bij iedere lesstart en begeleid één stap per uitwisseling. Dezelfde regels werken wanneer alleen deze submap is geopend; het skillmenu is optioneel. Lesresultaten en eerdere voortgang blijven behouden. Pas deze lesroute niet toe op ongerelateerde projectopdrachten.
