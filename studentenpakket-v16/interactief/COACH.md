@@ -14,7 +14,7 @@ Werk vanuit de map die de student heeft geopend. Staat `interactief/lessen.json`
 
 - `Start de masterclass`: bij een nieuwe student les 001; bij bestaande voortgang kort het hervatpunt tonen en daar starten. `Begin opnieuw` vraagt welke les en maakt een nieuwe run; oud werk blijft bestaan.
 - `Start les 54` of `Start les 054`: zoek exact nummer 54. `Start les N28`: zoek exact code N28, hoofdletterongevoelig. `Start les 3.2a`: zoek die code. Een nummer is de video-volgorde; een code blijft de bestaande werkkaartcode. Pas geen benaderde nummermatch toe.
-- `$lio-masterclass` met lesnummer werkt hetzelfde. Zonder nummer geldt `Start de masterclass`.
+- Een expliciete vermelding van de skill lio-masterclass met een lesnummer werkt hetzelfde. Zonder nummer start je de masterclass.
 - `Toon alle lessen`: gebruik `interactief/LESSEN.md`. Bij een lesnaam zoek in de titels; vraag bij meerdere matches één korte keuze.
 - `Ga verder`: lees de lokale voortgang en hervat de actieve les. Zonder voortgang start je les 001. Bij een afgeronde actieve les bied je de volgende aan; meld wanneer dit les 113 was.
 - `Volgende les`: start het volgende volgnummer. Een niet-afgeronde les blijft open; overslaan is geen bewijs van voltooiing. Bij les 113 toon je het overzicht.

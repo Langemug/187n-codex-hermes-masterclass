@@ -48,3 +48,7 @@ Lokale snapshots hebben bron- en exporthashes. Een volledige upstream commit ont
 ## Hercontrole van de actieve subset
 
 De exact geëxporteerde 21 actieve designsnapshots en 50 portable profielen zijn apart opnieuw gescand: 100% deterministische dekking. De zeven meldingen vallen onder de bovenstaande locatiegebonden verklaringen (drie HIGH: begrensde beeldconversie, openbare outputregels en een verbod op state verwijderen). Eindoordeel CAUTION voor de lokale snapshots met genoemde grenzen; geen vrijgave van onbekende externe dependencies. De drie SOURCE_ONLY-skills blijven buiten deze hercontrole en blijven geblokkeerd voor laden/installeren.
+
+## Interactieve release 1.0
+
+De drie SOURCE_ONLY-bronbundels zijn buiten de installeerbare release bewaard. Op hun startpaden staan alleen statusverwijzingen. Dit verandert hun blokkade niet. De 21 bestaande designsnapshots en 50 portable profielen blijven beschikbaar onder de hierboven genoemde voorwaarden. De HTML-index is vereenvoudigd; er is geen installatiecode aan toegevoegd.

@@ -33,11 +33,14 @@
     "kind": "design-skill",
     "name": "21st-registry",
     "source_sha256": "b1dd7ca00383b73d89bfa6b26e8bcd9724c8f03c83b2c66abd70bdae18a09b74",
-    "export": "source-only/21st-registry/SKILL.md",
+    "export": null,
     "export_sha256": "b1dd7ca00383b73d89bfa6b26e8bcd9724c8f03c83b2c66abd70bdae18a09b74",
     "upstream_commit": null,
     "status": "local_snapshot_no_upstream_commit_proven",
-    "upstream_urls": []
+    "upstream_urls": [],
+    "historical_export": "source-only/21st-registry/SKILL.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
@@ -116,11 +119,14 @@
     "kind": "design-skill",
     "name": "design-brief",
     "source_sha256": "ad5fe6da79a23c9c21649e2319269006d6a7692fc2ea8c075f64b243d9e750a2",
-    "export": "source-only/design-brief/SKILL.md",
+    "export": null,
     "export_sha256": "f26e59f957a768c2346796322ead34e40958266052c0bd9099ae2aea7ff44dbd",
     "upstream_commit": null,
     "status": "local_snapshot_no_upstream_commit_proven",
-    "upstream_urls": []
+    "upstream_urls": [],
+    "historical_export": "source-only/design-brief/SKILL.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
@@ -308,191 +314,254 @@
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "694d74ccc7e7203544b5b61a0dbb1366bfba2c0c692832af7578aa7c67032915",
-    "export": "source-only/motion-design-bank/SKILL.md",
+    "export": null,
     "export_sha256": "839b2ed32520e80ab40aecc391c63bb9a677fca35994a315bd44c61abbac1a90",
     "upstream_commit": null,
     "status": "local_snapshot_no_upstream_commit_proven",
-    "upstream_urls": []
+    "upstream_urls": [],
+    "historical_export": "source-only/motion-design-bank/SKILL.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "f9cfa00d3325dceadcb9ffd77dcb5dcbc51d34121f3b1f162979939006056773",
-    "export": "source-only/motion-design-bank/patterns/ambient-continuous.md",
+    "export": null,
     "export_sha256": "f9cfa00d3325dceadcb9ffd77dcb5dcbc51d34121f3b1f162979939006056773",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/patterns/ambient-continuous.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "46c8da91843c593deb763a4a7fa32849bdaeb7a7ecd4d559e3b21bcc976f2c46",
-    "export": "source-only/motion-design-bank/patterns/multi-element.md",
+    "export": null,
     "export_sha256": "46c8da91843c593deb763a4a7fa32849bdaeb7a7ecd4d559e3b21bcc976f2c46",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/patterns/multi-element.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "dac86388c2d8fcdfc2f194b4f8877caedcdc010df9ce29d27dfc99d08cf8c60e",
-    "export": "source-only/motion-design-bank/patterns/state-feedback.md",
+    "export": null,
     "export_sha256": "dac86388c2d8fcdfc2f194b4f8877caedcdc010df9ce29d27dfc99d08cf8c60e",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/patterns/state-feedback.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "70b3fc3a8d58ebe58e293e643b78fd13750d9c8ef1c8fc5fe85e52f7378cbd91",
-    "export": "source-only/motion-design-bank/patterns/entrance-exit.md",
+    "export": null,
     "export_sha256": "70b3fc3a8d58ebe58e293e643b78fd13750d9c8ef1c8fc5fe85e52f7378cbd91",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/patterns/entrance-exit.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "550e96a1c8c369513304ee74c0e89b63168bc7287b83e9ed5685bb65609986b3",
-    "export": "source-only/motion-design-bank/director/context-adaptation.md",
+    "export": null,
     "export_sha256": "550e96a1c8c369513304ee74c0e89b63168bc7287b83e9ed5685bb65609986b3",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/director/context-adaptation.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "c81257b56160b9b2f3d99f78d4b8172b425c22d9ca73be06d3ffaa7305a34deb",
-    "export": "source-only/motion-design-bank/director/choreography.md",
+    "export": null,
     "export_sha256": "c81257b56160b9b2f3d99f78d4b8172b425c22d9ca73be06d3ffaa7305a34deb",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/director/choreography.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "7aaa8a065d9940dad0198cf9cfe74979008495e6daf87f46f9022fff1b6a85e9",
-    "export": "source-only/motion-design-bank/director/core-philosophy.md",
+    "export": null,
     "export_sha256": "7aaa8a065d9940dad0198cf9cfe74979008495e6daf87f46f9022fff1b6a85e9",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/director/core-philosophy.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "39024711890c2684a3434659a4d95a52ca8231facea74e87e79503054aaca671",
-    "export": "source-only/motion-design-bank/director/disney-principles.md",
+    "export": null,
     "export_sha256": "39024711890c2684a3434659a4d95a52ca8231facea74e87e79503054aaca671",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/director/disney-principles.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "a279e55a3f52a9f5830d38dc54679c652d9a5c26f0dd360700c16e23766d468b",
-    "export": "source-only/motion-design-bank/director/emotion-mapping.md",
+    "export": null,
     "export_sha256": "a279e55a3f52a9f5830d38dc54679c652d9a5c26f0dd360700c16e23766d468b",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/director/emotion-mapping.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "4b6758da6742475c928b4f8be8c662f4b5ed0964468ba7760df8f7635c779358",
-    "export": "source-only/motion-design-bank/director/decision-framework.md",
+    "export": null,
     "export_sha256": "4b6758da6742475c928b4f8be8c662f4b5ed0964468ba7760df8f7635c779358",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/director/decision-framework.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "66a3623b6654869482c02157ca791034a614ca6dcb02a8112049e28d292ee18a",
-    "export": "source-only/motion-design-bank/director/motion-personality.md",
+    "export": null,
     "export_sha256": "66a3623b6654869482c02157ca791034a614ca6dcb02a8112049e28d292ee18a",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/director/motion-personality.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "d49db19db40425dec027c3012d553b50fd74ed79e27ace9dec1226796469061b",
-    "export": "source-only/motion-design-bank/director/narrative-structure.md",
+    "export": null,
     "export_sha256": "d49db19db40425dec027c3012d553b50fd74ed79e27ace9dec1226796469061b",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/director/narrative-structure.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "04e9fd4cc9602cd2e9ac141ef5914401a053cdd379c148a931cade026f82794f",
-    "export": "source-only/motion-design-bank/pipelines/html-motion-video.md",
+    "export": null,
     "export_sha256": "04e9fd4cc9602cd2e9ac141ef5914401a053cdd379c148a931cade026f82794f",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/pipelines/html-motion-video.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "0436599019342c1efc88eeb794343d831740da0f69c714b2b0c5a85718b7730a",
-    "export": "source-only/motion-design-bank/pipelines/capture.mjs",
+    "export": null,
     "export_sha256": "0436599019342c1efc88eeb794343d831740da0f69c714b2b0c5a85718b7730a",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/pipelines/capture.mjs",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "9a4a34c853c3acf8d51a5d77c7125934152ed64086ed0f746328a92e5a08cfaa",
-    "export": "source-only/motion-design-bank/pipelines/package-lock.json",
+    "export": null,
     "export_sha256": "9a4a34c853c3acf8d51a5d77c7125934152ed64086ed0f746328a92e5a08cfaa",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/pipelines/package-lock.json",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "da17e13a30d960dfbed7878fd184cbcf9266211cdd50b8dff25c7f1b3d3f832d",
-    "export": "source-only/motion-design-bank/pipelines/package.json",
+    "export": null,
     "export_sha256": "da17e13a30d960dfbed7878fd184cbcf9266211cdd50b8dff25c7f1b3d3f832d",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/pipelines/package.json",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "c11bf193b700d9c9ebc5d871f1d5f193bccc441c4eccc0509b53a40d6e8dc558",
-    "export": "source-only/motion-design-bank/reference/quality-checklist.md",
+    "export": null,
     "export_sha256": "c11bf193b700d9c9ebc5d871f1d5f193bccc441c4eccc0509b53a40d6e8dc558",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/reference/quality-checklist.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "69e5aaeee108231d51187143ae3fce4db7a42936f10682908ca9462a008a047a",
-    "export": "source-only/motion-design-bank/reference/troubleshooting.md",
+    "export": null,
     "export_sha256": "69e5aaeee108231d51187143ae3fce4db7a42936f10682908ca9462a008a047a",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/reference/troubleshooting.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "e478f3b99c4cac3f96eca008e20f8808d4cfae165f5799f260092baf9b6ebcff",
-    "export": "source-only/motion-design-bank/reference/timing-easing-tables.md",
+    "export": null,
     "export_sha256": "e478f3b99c4cac3f96eca008e20f8808d4cfae165f5799f260092baf9b6ebcff",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/reference/timing-easing-tables.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
     "name": "motion-design-bank",
     "source_sha256": "053d830795fc824fed27618fbd18084207af6aeed55b73c0a6e1d5665de894ae",
-    "export": "source-only/motion-design-bank/reference/property-selection.md",
+    "export": null,
     "export_sha256": "053d830795fc824fed27618fbd18084207af6aeed55b73c0a6e1d5665de894ae",
     "upstream_commit": null,
-    "status": "local_snapshot_no_upstream_commit_proven"
+    "status": "local_snapshot_no_upstream_commit_proven",
+    "historical_export": "source-only/motion-design-bank/reference/property-selection.md",
+    "included_in_interactive_release": false,
+    "archive_status": "original bytes preserved by course owner; blocked source-only"
   },
   {
     "kind": "design-skill",
