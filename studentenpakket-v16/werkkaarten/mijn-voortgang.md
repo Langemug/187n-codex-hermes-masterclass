@@ -12,3 +12,4 @@
 | 2.5 | 2026-10-02-01 | outputs/2.5/2026-10-02-01/release/oplevering.md | Klantreis OK, privé preview, release a974d60 | completed | Les 031 |
 | 3.2 | 2026-10-02-01 | outputs/3.2/2026-10-02-01/shopify/theme/ | Ongepubliceerd theme + Founding Member Hoodie + 6 collecties + 150 Draft hoodies | completed | Les 032 |
 | 3.2a | 2026-10-02-01 | outputs/3.2a/2026-10-02-01/shopify/editor-controle.md | Bewerkbare hero/benefits/FAQ, metafields, campagnepagina; render wacht op foto's + activatie | concept | Les 033 |
+| 3.2b | 2026-10-02-01 | outputs/3.2b/2026-10-02-01/shopify/aankooproute.md | Aankooproute in code gecontroleerd, testplan + releasecheck; testorder niet uitgevoerd | concept | Les 034 |
