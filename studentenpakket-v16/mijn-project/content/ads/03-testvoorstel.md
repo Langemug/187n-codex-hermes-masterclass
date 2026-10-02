@@ -6,3 +6,6 @@
 - Geen winnaar zonder genoeg data; geen claims over kwaliteit buiten bevestigde feiten.
 - Hyperframes: NIET_UITGEVOERD (niet geïnstalleerd/gescand). Motion via lokale HTML/CSS + Playwright.
 Niets gepubliceerd, geen campagne aangemaakt.
+
+## Keuze student (2026-10-02)
+Favoriet: **P2 · H3a reel**. Eerste in de test; H1 als uitdager.
