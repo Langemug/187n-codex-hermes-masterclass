@@ -1,33 +1,36 @@
-# Visionair Society · brandkit v0.1
+# Visionair Society · brandkit v0.2
 
-Enige bron voor kleuren, typografie en knopstijlen. Alle previews en content refereren hiernaar.
+Single source for colors, typography, and button styles. All previews and content reference this file.
 
-## Kleuren
-| Rol | Hex | Gebruik |
-|-----|-----|--------|
-| Zwart (background) | `#000000` | Standaard achtergrond overal. |
-| Wit (foreground)   | `#FFFFFF` | Primaire tekst, logo. |
-| Paars (accent)     | `#7A1FD1` | Primaire accentkleur, CTA-fill, warning-tape, dividers. |
-| Paars hot (hover)  | `#B14BFF` | Hover-states, kickers, highlights. |
-| Grijs (muted)      | `#6A6A6A` | Secundaire tekst, metadata, serial. |
+## Tagline
+**Stand apart. Move together.**
 
-## Typografie
-- Familie: Helvetica Neue / Arial fallback (geen externe font-loads tot bevestigd).
-- Alles **UPPERCASE**, letterspacing krap in headlines, ruim in labels.
-- Headline-weight: 900. Body: 700–800. Nooit regular.
-- Hero-size: `clamp(44px, 10vw, 150px)`. Line-height 0.88–0.92.
+## Colors
+| Role | Hex | Use |
+|------|-----|-----|
+| Black (background) | `#000000` | Default background everywhere. |
+| White (foreground) | `#FFFFFF` | Primary text, logo. |
+| Purple (accent)    | `#7A1FD1` | Primary accent, CTA fill, warning tape, dividers. |
+| Purple hot (hover) | `#B14BFF` | Hover states, kickers, highlights. |
+| Grey (muted)       | `#6A6A6A` | Secondary text, metadata, serials. |
 
-## Knopstijlen
-- Primair: paarse fill (`#7A1FD1`), witte tekst, 2px paarse border. Hover: wit vlak + paarse offset-shadow 4px/4px.
-- Ghost: transparant, witte border. Hover: paars-hot fill.
+## Typography
+- Family: Helvetica Neue / Arial fallback (no external font loads until confirmed).
+- All **UPPERCASE**, tight letterspacing in headlines, wide in labels.
+- Headline weight: 900. Body: 700–800. Never regular.
+- Hero size: `clamp(44px, 10vw, 150px)`. Line-height 0.88–0.92.
+
+## Buttons
+- Primary: purple fill (`#7A1FD1`), white text, 2px purple border. Hover: white fill + purple offset shadow 4px/4px.
+- Ghost: transparent, white border. Hover: purple-hot fill.
 - Padding: `20px 36px`. Font 14px, letterspacing 0.25em, uppercase, weight 900.
 
 ## Logo
-- Primaire master: `mijn-project/brand/logo/vs-mark-transparent.png` — monogram V+S in cirkel, wit op transparant (gebruiken op elke achtergrond).
-- Alternatieven: `vs-mark-square.png` (wit op zwart), `vs-wordmark-white.png` (bredere achtergrond).
-- Minimale hoogte op scherm: 32px.
-- Rondom: minstens de halve logohoogte wit-ruimte.
-- Op licht/kleurrijk beeld: altijd op donker vlak plaatsen; nooit paars-op-paars.
+- Primary master: `mijn-project/brand/logo/vs-mark-transparent.png` — V+S monogram in circle, white on transparent (use on any background).
+- Alternatives: `vs-mark-square.png` (white on black), `vs-wordmark-white.png` (wider canvas).
+- Minimum on-screen height: 32px.
+- Clearspace: at least half the logo height.
+- Never place purple-on-purple; always on a dark surface.
 
-## Tone (verwijzing)
-Zie `context/merkstem.md`. Niet dupliceren.
+## Voice (reference)
+See `context/merkstem.md`. Do not duplicate.

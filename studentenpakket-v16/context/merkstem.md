@@ -1,17 +1,18 @@
-# Merkstem
-Status: CONCEPT — ingevuld in les 0.4, nog niet goedgekeurd.
-Doelgroep: 18–28, dromers met ambitie (eigen bedrijf, impact), actief op TikTok en Instagram.
-Taal en aanspreekvorm: Nederlands, jij-vorm, statement-stijl. Korte zinnen. Geen uitleg, geen opsmuk.
-Drie passende voorbeelden:
-- "Visionair Society is voor dromers die groots denken en durven doen."
-- "No excuses. Alleen werk."
-- "Je draagt waar je voor staat."
-Drie formuleringen die niet passen:
-- Soft, lief, "fijn voor jou" — te vriendelijk.
-- Marketing-jargon ("ontdek onze premium collectie").
-- Lange uitleggende zinnen met bijzinnen.
-Goedgekeurd eigen tekstvoorbeeld: "Visionair Society is voor dromers die groots denken en durven doen."
-Kanaalafspraken: TikTok en Instagram eerst. Toon overal gelijk.
-Versie en goedgekeurd door: v0.1 concept — Remi.
+# Brand voice
+Status: DRAFT — filled in during lesson 0.4, not yet approved.
+Audience: 18–28, dreamers with ambition (own business, real impact), active on TikTok and Instagram.
+Language and address: English, direct second person. Statement style. Short sentences. No fluff, no filler.
+Three fitting examples:
+- "Visionair Society is for dreamers who think big and dare to act."
+- "No excuses. Only work."
+- "Wear what you stand for."
+Three formulations that do not fit:
+- Soft, nice, "glad for you" — too friendly.
+- Marketing jargon ("discover our premium collection").
+- Long explanatory sentences with subclauses.
+Approved own writing sample: "Visionair Society is for dreamers who think big and dare to act."
+Tagline: Stand apart. Move together.
+Channel agreements: TikTok and Instagram first. Same tone everywhere.
+Version and approved by: v0.2 draft — Remi.
 
-Schrijf concrete tekst met bevestigde productfeiten. Gebruik geen verzonnen testimonials, schaarste of gezondheidsclaims. Bewaar eenmalige feedback apart van goedgekeurde algemene stijlregels.
+Write concrete copy with confirmed product facts. Do not use invented testimonials, scarcity, or health claims. Keep one-off feedback separate from approved general style rules.

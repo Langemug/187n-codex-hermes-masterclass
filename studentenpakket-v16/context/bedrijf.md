@@ -1,20 +1,23 @@
-# Mijn bedrijf en werkcontext
-Naam en rol: (nog in te vullen)
-Doel van deze cursus: Visionair Society — hoodiemerk opzetten en de eerste hoodie lanceren.
-Website indien aanwezig:
-Gewenste eerste teamopdracht: Eerste hoodie van Visionair Society lanceren.
-Ervaring en uitlegvoorkeur:
-Beschikbare accounts:
-Budget per opdracht en maand:
-Eigenaar van externe beslissingen:
+# My business and work context
+Name and role: (to be filled in)
+Goal of this course: Visionair Society — build a hoodie brand and launch the first hoodie.
+Website if any:
+First team task wanted: Launch the first Visionair Society hoodie.
+Experience and explanation preference:
+Available accounts:
+Budget per task and per month:
+Owner of external decisions:
 
-Product- en merkfeiten staan uitsluitend in context/merkdossier.md. Geef wijzigingen daar door; kopieer ze niet naar vijftien profielen.
+Product and brand facts live only in context/merkdossier.md. Push changes there; don't copy them into fifteen profiles.
 
-## Aanbod (eerste lancering)
-Eén oversized zwarte hoodie, premium zwaar katoen.
+## Offer (first launch)
+One oversized black hoodie, premium heavyweight cotton.
 
-## Doelgroep
-18–28 jaar, actief op TikTok en Instagram, dromen van eigen bedrijf en impact maken.
+## Audience
+18–28, active on TikTok and Instagram, dream of their own business and real impact.
 
-## Verschil
-Het verhaal. Je draagt waar je voor staat — Visionair Society is een identiteit, geen kleding.
+## Difference
+The story. You wear what you stand for — Visionair Society is an identity, not clothing.
+
+## Tagline
+Stand apart. Move together.
