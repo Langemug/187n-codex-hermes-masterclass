@@ -33,3 +33,4 @@
 | 3.4 | 2026-10-02-01 | outputs/3.4/2026-10-02-01/workflows/support-operations/ | Support + operations op TEST-data; M sold out | completed | Les 052 |
 | 3.5 | 2026-10-02-01 | outputs/3.5/2026-10-02-01/workflows/analytics/ | Omzet/refund/marge op testdata, dashboard, 3 acties | completed | Les 053 |
 | N13 | 2026-10-02-01 | outputs/N13/2026-10-02-01/ochtendbriefing.md | Ochtendbriefing op testdata + tweede run | completed | Les 054 |
+| N28 | 2026-10-02-01 | outputs/N28/2026-10-02-01/campagne-oplevering.md | Campagnepakket + Meta-account gelezen; niets aangemaakt | concept | Les 055 |

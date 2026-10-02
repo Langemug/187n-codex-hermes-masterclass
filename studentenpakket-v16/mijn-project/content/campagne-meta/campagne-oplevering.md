@@ -33,3 +33,5 @@ UTM: `?utm_source=meta&utm_medium=paid&utm_campaign=fmh_launch&utm_content=<A1|A
 3. Claims: nummering Tapstitch + Founding Member-kanaal + online lidstatus ingericht.
 4. Expliciete autorisatie: account + budget + looptijd.
 Zonder 1–4: geen campagne aanmaken, geen live-uitvoering.
+
+Student-oordeel (2026-10-02): pakket akkoord; bestaande campagne 'VS – Sales Test v1 – EU5' laten staan (niet beoordeeld).
