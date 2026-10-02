@@ -35,3 +35,4 @@
 | N13 | 2026-10-02-01 | outputs/N13/2026-10-02-01/ochtendbriefing.md | Ochtendbriefing op testdata + tweede run | completed | Les 054 |
 | N28 | 2026-10-02-01 | outputs/N28/2026-10-02-01/campagne-oplevering.md | Campagnepakket + Meta-account gelezen; niets aangemaakt | concept | Les 055 |
 | N29 | 2026-10-02-01 | outputs/N29/2026-10-02-01/media-buyer-testplan.md | Ratio's fictieve export + echte campagne read-only; 3 tests; brief T3 | concept | Les 056 |
+| 6.1 | 2026-10-02-01 | outputs/6.1/2026-10-02-01/seo/kansen.md | Zoekvragen (HYPOTHESE) geclusterd; top 3: product, fit-gids, drop 001; fit-gids eerst | concept | Les 057 |
