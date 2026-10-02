@@ -32,3 +32,4 @@
 | 3.3 | 2026-10-02-01 | outputs/3.3/2026-10-02-01/workflows/email/ | 4 e-mailflows lokaal + oefenevent-test | concept | Les 051 |
 | 3.4 | 2026-10-02-01 | outputs/3.4/2026-10-02-01/workflows/support-operations/ | Support + operations op TEST-data; M sold out | completed | Les 052 |
 | 3.5 | 2026-10-02-01 | outputs/3.5/2026-10-02-01/workflows/analytics/ | Omzet/refund/marge op testdata, dashboard, 3 acties | completed | Les 053 |
+| N13 | 2026-10-02-01 | outputs/N13/2026-10-02-01/ochtendbriefing.md | Ochtendbriefing op testdata + tweede run | completed | Les 054 |
