@@ -1,0 +1,4 @@
+positie,sectie,bestand,sha1_10,duur_s,tijdlijn_start,tijdlijn_eind,oorspronkelijke_bron
+1,product,outputs/N20/2026-10-02-01/v2-product.mp4,b23966e0b9,5.5,0.0,5.5,scherm1 0.0-5.5 (outputs/5.3/.../v2-bewerkt.mp4)
+2,demo,outputs/N20/2026-10-02-01/v2-demo.mp4,a0e6fa22c6,4.5,5.5,10.0,scherm2 3.5-8.0 (outputs/5.3/.../clip2-v1-origineel.mp4)
+3,end,outputs/N20/2026-10-02-01/v2-end.mp4,9999bd6359,2.7,10.0,12.7,scherm1 6.7-8.2 + hold 1.2 + fade
