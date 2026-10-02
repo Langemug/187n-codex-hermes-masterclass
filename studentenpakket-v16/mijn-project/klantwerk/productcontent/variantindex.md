@@ -33,3 +33,7 @@ Body en CTA identiek → hooks eerlijk vergelijkbaar (les 034-principe: één di
 ## Eén afgebakende feedbackronde
 Klant geeft in één bericht per item: OK / wijzig (+ tijdcode of beeldnummer). Binnen de ronde: tekst, volgorde, uitsnede, kleur captions, 1 hook vervangen. Buiten de ronde (nieuwe opdracht): nieuwe fotoshoot, creator/AI-presentator, extra designs, andere formaten.
 Na verwerking: definitieve exports + bijgewerkte variantindex.
+
+## Feedbackronde (2026-10-02) — afgerond
+Klantkeuze: **H1** als hoofdversie; verder geen wijzigingen. H2/H3 blijven beschikbaar voor test.
+Definitieve exports: `definitief/` (5 beelden + founding-member-ugc-H1.mp4).
