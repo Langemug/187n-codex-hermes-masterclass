@@ -49,7 +49,7 @@ Combinaties (contrast):
 - **Header**: logo paars-met-dikke-witte-rand 34px + "VISIONAIR SOCIETY" + streep + "EST. 2026"; rechts systeemregel met echte info. Onderlijn `--line`.
 - **Statusbalk**: SYSTEM.ACTIVE · DROP 001 · V1.0 links; pulserende `--hot`-stipjes + Nº ____ rechts; blur-achtergrond.
 - **Knoppen**: outline 1px, padding 14×22. Primair = `--hot` rand en tekst; ghost = wit. Hover: vullen + hoekaccenten 8px verschijnen. Focus: 2px `--hot` outline, offset 4px.
-- **Koopknop (besluit student, les 2.2): A · outline + glitch.** Hover/tap: korte glitch 0,32s (slice-verschuiving + paars/wit RGB-split). "JOIN THE SOCIETY" start met een boot-animatie (0,9s na laden, 1,3s: tekst wordt in stappen opgebouwd, flikkert en flitst één keer paars) en glitcht daarna kort in rust, elke 4,6s. Reduced-motion: geen glitch.
+- **Koopknop (besluit student, les 2.2): A · outline + glitch.** Hover/tap: korte glitch 0,32s (slice-verschuiving + paars/wit RGB-split). "JOIN THE SOCIETY" start met een boot-animatie (0,9s na laden, 1,3s: tekst wordt in stappen opgebouwd, flikkert en flitst één keer paars) en glitcht daarna kort in rust, elke 4,6s. Bij klik: tekst wordt `> ACCESS GRANTED`, knop vult paars en bouwt op (0,7s), na 1,4s door naar de link. Reduced-motion: geen glitch.
 - **Productkaart**: recht, `--line` rand, paneeltint, beeld vierkant met 12% padding, meta-regel mono (naam links, prijs `--hot` rechts). Hover: rand `--hot`.
 - **Sticker**: `--hot` vlak, zwarte mono-tekst 10px, 4° gedraaid, rechtsboven.
 - **Decoratie** (alleen met betekenis): lijn met ∞ of Nº, puntrij, statusstipjes.
