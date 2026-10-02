@@ -67,3 +67,5 @@ Video-regels (bevestigde voorkeuren): één tekst tegelijk, eindbeeld ≤1,5 s, 
 - Alle drie briefs: zelfde aanbod en dezelfde claims; elk claim herleidbaar naar offerbrief/productpagina.
 - Open vóór live: online-lidstatus in praktijk inrichten (kanaal), nummering Tapstitch, pop-up-datum/locatie, "no restock" daadwerkelijk nakomen.
 Niets gepubliceerd.
+
+Student-oordeel (2026-10-02): volgorde A → B akkoord.
