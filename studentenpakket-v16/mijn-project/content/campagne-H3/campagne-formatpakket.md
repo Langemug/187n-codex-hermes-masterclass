@@ -7,7 +7,7 @@ Bewijs dat elk format toont: (1) design op de rug, (2) offerregel "hoodie number
 |---|---|---|
 | 1 Beeld (1080×1350) | **GEMAAKT** | `beeld-H3-static.png` |
 | 2 UGC (9:16, ~20 s) | **CONCEPT — opname ontbreekt** | script + opnameopdracht hieronder |
-| 3 Productvideo (9:16, 10,3 s) | **GEMAKT** (= P2 uit 5.7) | `productvideo-H3-reel.mp4` |
+| 3 Productvideo (9:16, 10,3 s) | **GEMAAKT** (= P2 uit 5.7) | `productvideo-H3-reel.mp4` |
 
 ## 1 · Beeldconcept
 Model achterkant design 010 (donkere achtergrond) · headline "YOUR HOODIE NUMBER IS YOUR MEMBER NUMBER." · sub "Founding Member access included · 500 gsm · €64,95" · CTA "> JOIN THE SOCIETY" · label CONCEPT · MOCKUP.
