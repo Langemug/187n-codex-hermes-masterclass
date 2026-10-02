@@ -89,7 +89,7 @@ button.btn[disabled]:hover{background:none;color:var(--fg)}
 .cpanel{display:none}
 .chead{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:10px;color:var(--dim);padding:10px 0;border-bottom:1px solid var(--line);margin-bottom:16px}
 .chead span:first-child{color:var(--hot)}
-.cgrid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.cgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
 .ccard{margin:0;border:1px solid var(--line);background:rgba(11,6,17,.85);min-width:0}
 .ccard:hover{border-color:var(--hot)}
 .cimg{aspect-ratio:4/5;overflow:hidden}
