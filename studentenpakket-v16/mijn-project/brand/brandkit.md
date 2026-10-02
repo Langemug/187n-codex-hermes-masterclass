@@ -34,7 +34,8 @@ Definitive versions (lesson 5.1), all 2048×2048 PNG in `mijn-project/brand/logo
 | `vs-mark-square.png` | White on black square | Avatars, app icons |
 | `vs-mark-purple.png` | Purple `#7A1FD1` | White / light only (2.9:1 on black, too weak) |
 | `vs-mark-purple-hot.png` | Purple hot `#B14BFF` | Black / dark (5.3:1) |
-| `vs-mark-purple-outline.png` | Purple `#7A1FD1` + white outline | Black / dark, photos; on white the outline disappears |
+| `vs-mark-purple-outline.png` | Purple `#7A1FD1` + thin white outline | Large sizes on dark, photos |
+| `vs-mark-purple-outline-thick.png` | Purple `#7A1FD1` + thick white outline | Small sizes (header, footer, avatars) on dark |
 
 Retired: `vs-wordmark-white.png` (phone screenshot, do not use).
 - Minimum on-screen height: 32px.
