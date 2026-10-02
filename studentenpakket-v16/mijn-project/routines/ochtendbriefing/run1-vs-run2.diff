@@ -1,0 +1,14 @@
+7c7
+< - Verzonden zonder tracking: TEST-VS-003
+---
+> - Verzonden zonder tracking: geen
+10c10
+< - Tickets: 6 (bron: tickets.json) · open escalaties: 4 (bron: escalaties.csv)
+---
+> - Tickets: 6 (bron: tickets.json) · open escalaties: 3 (bron: escalaties.csv)
+14d13
+<   - TT3: tracking ontbreekt bij Tapstitch
+27c26
+< 3. **Tracking opvragen voor TEST-VS-003** — bron: orders.csv — reden: klant heeft geen trackinglink
+---
+> 3. **Productiestatus checken voor TEST-VS-002, TEST-VS-006** — bron: orders.csv — reden: betaald, nog niet verzonden

@@ -1,0 +1,7 @@
+order_id,klant_id,sku,maat,bedrag_eur,betaalstatus,verzendstatus,tracking,besteld
+TEST-VS-001,TEST-K1,FMH-BLK,M,64.95,betaald,verzonden,TEST-TRK-001,2026-10-20
+TEST-VS-002,TEST-K2,FMH-BLK,L,64.95,betaald,niet_verzonden,,2026-10-21
+TEST-VS-003,TEST-K3,FMH-BLK,XL,74.95,betaald,verzonden,TEST-TRK-003,2026-10-19
+TEST-VS-004,TEST-K4,FMH-BLK,S,64.95,terugbetaald,geannuleerd,,2026-10-18
+TEST-VS-005,TEST-K5,FMH-BLK,2XL,64.95,open,niet_verzonden,,2026-10-22
+TEST-VS-006,TEST-K6,FMH-BLK,L,64.95,betaald,niet_verzonden,,2026-10-22

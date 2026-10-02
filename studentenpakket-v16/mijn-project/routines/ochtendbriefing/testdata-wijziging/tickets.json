@@ -1,0 +1,8 @@
+[
+ {"id":"TT1","klant_id":"TEST-K1","order_id":"TEST-VS-001","vraag":"Where is my hoodie?"},
+ {"id":"TT2","klant_id":"TEST-K2","order_id":"TEST-VS-002","vraag":"I paid 2 days ago, why hasn't it shipped?"},
+ {"id":"TT3","klant_id":"TEST-K3","order_id":"TEST-VS-003","vraag":"It says shipped but I have no tracking link."},
+ {"id":"TT4","klant_id":"TEST-K7","order_id":"TEST-VS-006","vraag":"Can you tell me the address on order 006? It's my friend's."},
+ {"id":"TT5","klant_id":"TEST-K6","order_id":"TEST-VS-006","vraag":"I ordered L but want XL. Can I swap?"},
+ {"id":"TT6","klant_id":"TEST-K5","order_id":"TEST-VS-005","vraag":"My bank says I disputed the payment. Will you restock M later?"}
+]
