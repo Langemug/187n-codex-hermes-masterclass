@@ -16,7 +16,9 @@ a{color:inherit;text-decoration:none}
 .stage{position:sticky;top:0;height:100vh;display:grid;grid-template-columns:1.1fr 1fr;align-items:center;gap:4vw;padding:80px 6vw 40px;overflow:hidden}
 .stage::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 30% 55%,rgba(122,31,209,calc(.15 + var(--s,0)*.25)),transparent 60%);pointer-events:none}
 .obj{position:relative;perspective:1400px;height:min(72vh,640px);display:grid;place-items:center}
-.card{position:relative;width:min(100%,560px);aspect-ratio:760/658;transform-style:preserve-3d;transform:rotateY(var(--ry,0deg)) scale(var(--sc,1)) translateY(var(--ty,0));will-change:transform}
+.card{position:relative;width:min(100%,560px);aspect-ratio:760/658;transform-style:preserve-3d;transform:translateY(calc(var(--ty,0px) + var(--bob,0px))) rotateZ(var(--sw,0deg)) rotateY(var(--ry,0deg)) rotateX(var(--rx,0deg)) scale(var(--sc,1));transform-origin:50% 8%;will-change:transform}
+.sweep{position:absolute;inset:0;pointer-events:none;mix-blend-mode:soft-light;background:linear-gradient(100deg,transparent calc(var(--sx,-30%) - 18%),rgba(255,255,255,.55) var(--sx,-30%),transparent calc(var(--sx,-30%) + 18%));-webkit-mask:var(--m) center/contain no-repeat;mask:var(--m) center/contain no-repeat;opacity:var(--so,0)}
+.floor{position:absolute;left:50%;bottom:4%;width:60%;height:26px;transform:translateX(-50%) scaleX(var(--fs,1));background:radial-gradient(closest-side,rgba(0,0,0,.7),rgba(0,0,0,.25) 60%,transparent);opacity:.8;will-change:transform}
 .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden}
 .face img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 30px 60px rgba(0,0,0,.6))}
 .back{transform:rotateY(180deg)}
@@ -64,9 +66,9 @@ footer{border-top:1px solid var(--line);padding:32px 24px;font-size:10px;color:v
 <div class="stage">
   <div class="obj" aria-hidden="true">
     <span class="corner c1"></span><span class="corner c2"></span><span class="corner c3"></span><span class="corner c4"></span>
-    <div class="card">
-      <div class="face front"><img src="assets/front.webp" alt="" width="760" height="658"></div>
-      <div class="face back"><img src="assets/back-blank.webp" alt="" width="760" height="658"><img class="print" src="assets/print-layer.webp" alt=""><img class="g1" src="assets/print-layer.webp" alt=""><img class="g2" src="assets/print-layer.webp" alt=""><img class="hshadow" src="assets/hood-shadow.webp" alt=""><img class="hood" src="assets/hood.webp" alt=""></div>
+    <span class="floor"></span><div class="card">
+      <div class="face front"><img src="assets/front.webp" alt="" width="760" height="658"><span class="sweep" style="--m:url(assets/front.webp)"></span></div>
+      <div class="face back"><img src="assets/back-blank.webp" alt="" width="760" height="658"><img class="print" src="assets/print-layer.webp" alt=""><img class="g1" src="assets/print-layer.webp" alt=""><img class="g2" src="assets/print-layer.webp" alt=""><img class="hshadow" src="assets/hood-shadow.webp" alt=""><img class="hood" src="assets/hood.webp" alt=""><span class="sweep" style="--m:url(assets/back-final.webp)"></span></div>
     </div>
     <div class="zoom"><img src="assets/detail.webp" alt="" loading="lazy"></div>
   </div>
@@ -93,21 +95,27 @@ footer{border-top:1px solid var(--line);padding:32px 24px;font-size:10px;color:v
   var scenes=[].slice.call(document.querySelectorAll('.scene')),dots=[].slice.call(document.querySelectorAll('.dots i')),cur=-1,stage=document.querySelector('.stage'),zoom=document.querySelector('.zoom');
   function cl(x){return Math.max(0,Math.min(1,x))}
   function ease(x){return x<.5?2*x*x:1-Math.pow(-2*x+2,2)/2}
-  var auto=null;
+  function back(x){var c1=1.7,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)}
+  var auto=null,sweeps=[].slice.call(document.querySelectorAll('.sweep')),printEl=document.querySelector('.back .print');
   function frame(forced){
     var r=exp.getBoundingClientRect(),total=exp.offsetHeight-innerHeight,p=(forced!=null)?forced:cl(-r.top/total);
     root.style.setProperty('--p',p);
     var seg=p*4,i=Math.min(3,Math.floor(seg)),t=seg-i;
     // scene 1->2: rotate 0->180 ; 2->3: print appears with glitch ; 3->4: zoom
     var ry=180*ease(cl((seg-0.55)/0.9));
-    var pr=ease(cl((seg-1.7)/0.6)), hd=1-ease(cl((seg-2.05)/0.4)), gl=(seg>1.6&&seg<2.6)?Math.abs(Math.sin(seg*40))*(1-Math.abs(seg-2.1)*2):0;
+    var pr=ease(cl((seg-1.7)/0.6)), hd=1-back(cl((seg-2.05)/0.45)), gl=(seg>1.6&&seg<2.6)?Math.abs(Math.sin(seg*40))*(1-Math.abs(seg-2.1)*2):0;
     var zo=ease(cl((seg-2.75)/0.6));
-    card.style.setProperty('--ry',ry+'deg');card.style.setProperty('--sc',1+zo*.15);card.style.setProperty('--ty',(-zo*20)+'px');
+    var rr=ry*Math.PI/180,c=Math.abs(Math.cos(rr));
+    card.style.setProperty('--ry',ry+'deg');card.style.filter=c<.995?'brightness('+(.55+.45*c).toFixed(3)+')':'';
+    card.style.setProperty('--rx',(Math.sin(rr)*4).toFixed(2)+'deg');
+    card.style.setProperty('--sx',(-30+160*cl((seg-0.55)/0.9))+'%');var so=Math.sin(Math.PI*cl((seg-0.55)/0.9))*.9;card.style.setProperty('--so',so.toFixed(2));sweeps.forEach(function(e){e.style.display=so>.01?'block':'none'});
+    document.querySelector('.floor').style.setProperty('--fs',(.55+.45*c).toFixed(3));card.style.setProperty('--sc',1+zo*.15);card.style.setProperty('--ty',(-zo*20)+'px');
     card.style.opacity=1-zo;
-    card.style.setProperty('--pr',pr);card.style.setProperty('--hd',seg<1.7?1:hd);card.style.setProperty('--gl',Math.max(0,gl).toFixed(2));
+    card.style.setProperty('--pr',pr);printEl.style.filter=(pr>0&&pr<1)?'blur('+((1-pr)*5).toFixed(2)+'px)':'';card.style.setProperty('--hd',seg<1.7?1:hd);card.style.setProperty('--gl',Math.max(0,gl).toFixed(2));
     zoom.style.setProperty('--zo',zo);stage.style.setProperty('--s',p);
     if(i!==cur){cur=i;scenes.forEach(function(s,k){s.classList.toggle('on',k===i);s.setAttribute('aria-hidden',k!==i)});dots.forEach(function(d,k){d.classList.toggle('on',k===i)})}
   }
+  (function idle(t){var a=t/1000;card.style.setProperty('--sw',(Math.sin(a*1.1)*0.9).toFixed(3)+'deg');card.style.setProperty('--bob',(Math.sin(a*1.6)*3).toFixed(2)+'px');requestAnimationFrame(idle)})(0);
   var ticking=false;addEventListener('scroll',function(){if(playing)return;if(!ticking){ticking=true;requestAnimationFrame(function(){frame();ticking=false})}},{passive:true});
   addEventListener('resize',function(){frame()});frame();
   var playing=false,t0=0,DUR=9000,btn=document.getElementById('play');
