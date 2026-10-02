@@ -36,3 +36,5 @@ Bestaat: hook-kaart → model met print → productpagina "Founding Member acces
 | No restock | 2 | offerbrief | ✔ |
 | Reviews/schaarste-aantallen | — | — | bewust niet gebruikt |
 Niets gepubliceerd; geen campagne/budget.
+
+Student-oordeel (2026-10-02): pakket en UGC-script akkoord.

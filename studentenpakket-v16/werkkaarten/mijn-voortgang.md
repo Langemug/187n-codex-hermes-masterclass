@@ -25,3 +25,4 @@
 | N12 | 2026-10-02-01 | outputs/N12/2026-10-02-01/browser-batch.md | 3 concepten in oefenplanner, teruggelezen, hersteltest | completed | Les 044 |
 | 5.6 | 2026-10-02-01 | outputs/5.6/2026-10-02-01/klantwerk/productcontent/ | Klantpakket: 5 beelden + UGC 3 hooks, H1 definitief | completed | Les 045 |
 | 5.7 | 2026-10-02-01 | outputs/5.7/2026-10-02-01/content/ads/ | 3 ads + variantregister + testvoorstel; P2 favoriet | completed | Les 046 |
+| N27 | 2026-10-02-01 | outputs/N27/2026-10-02-01/campagne-formatpakket.md | H3 in 3 formats; UGC-opname open | completed | Les 047 |
