@@ -43,6 +43,7 @@ a{color:inherit;text-decoration:none}
 .trust{font-size:10px;color:var(--dim)}
 .dots{position:absolute;right:24px;top:50%;transform:translateY(-50%);display:grid;gap:10px;z-index:3}
 .dots i{width:6px;height:6px;border:1px solid var(--dim)}.dots i.on{background:var(--hot);border-color:var(--hot)}
+.playbtn{font:500 10px var(--mono);letter-spacing:.16em;color:var(--hot);background:none;border:1px solid var(--hot);padding:7px 10px;cursor:pointer}.playbtn:focus-visible{outline:2px solid var(--hot);outline-offset:3px}
 .note{border:1px dashed var(--hot);color:var(--hot);padding:8px 10px;font-size:10px;max-width:48ch}
 /* light variant: reduced motion OR ?lite OR small screen without enough height -> stacked static scenes */
 .lite .exp{height:auto}
@@ -58,7 +59,7 @@ footer{border-top:1px solid var(--line);padding:32px 24px;font-size:10px;color:v
 </style></head>
 <body>
 <div class="prog" aria-hidden="true"></div>
-<header class="top"><a class="b" href="../index.html"><img src="assets/logo.png" alt="">VISIONAIR SOCIETY</a><a href="#scene-4">€64,95 · JOIN</a></header>
+<header class="top"><a class="b" href="../index.html"><img src="assets/logo.png" alt="">VISIONAIR SOCIETY</a><span style="display:flex;gap:10px;align-items:center"><button id="play" type="button" class="playbtn">▶ PLAY</button><a href="#scene-4">€64,95 · JOIN</a></span></header>
 <main class="exp" id="exp">
 <div class="stage">
   <div class="obj" aria-hidden="true">
@@ -85,13 +86,16 @@ footer{border-top:1px solid var(--line);padding:32px 24px;font-size:10px;color:v
 <script>
 (function(){
   var root=document.documentElement,exp=document.getElementById('exp'),card=document.querySelector('.card');
-  var lite=matchMedia('(prefers-reduced-motion: reduce)').matches||/[?&]lite\b/.test(location.search);
-  if(lite){document.body.classList.add('lite');return}
+  var lite=(matchMedia('(prefers-reduced-motion: reduce)').matches&&!/[?&]full\b/.test(location.search))||/[?&]lite\b/.test(location.search);
+  if(lite){document.body.classList.add('lite');var pb=document.getElementById('play');pb.textContent='▶ PLAY ANIMATION';pb.onclick=function(){document.body.classList.remove('lite');pb.onclick=null;full()};return}
+  full();
+  function full(){
   var scenes=[].slice.call(document.querySelectorAll('.scene')),dots=[].slice.call(document.querySelectorAll('.dots i')),cur=-1,stage=document.querySelector('.stage'),zoom=document.querySelector('.zoom');
   function cl(x){return Math.max(0,Math.min(1,x))}
   function ease(x){return x<.5?2*x*x:1-Math.pow(-2*x+2,2)/2}
-  function frame(){
-    var r=exp.getBoundingClientRect(),total=exp.offsetHeight-innerHeight,p=cl(-r.top/total);
+  var auto=null;
+  function frame(forced){
+    var r=exp.getBoundingClientRect(),total=exp.offsetHeight-innerHeight,p=(forced!=null)?forced:cl(-r.top/total);
     root.style.setProperty('--p',p);
     var seg=p*4,i=Math.min(3,Math.floor(seg)),t=seg-i;
     // scene 1->2: rotate 0->180 ; 2->3: print appears with glitch ; 3->4: zoom
@@ -104,10 +108,19 @@ footer{border-top:1px solid var(--line);padding:32px 24px;font-size:10px;color:v
     zoom.style.setProperty('--zo',zo);stage.style.setProperty('--s',p);
     if(i!==cur){cur=i;scenes.forEach(function(s,k){s.classList.toggle('on',k===i);s.setAttribute('aria-hidden',k!==i)});dots.forEach(function(d,k){d.classList.toggle('on',k===i)})}
   }
-  var ticking=false;addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(function(){frame();ticking=false})}},{passive:true});
-  addEventListener('resize',frame);frame();
+  var ticking=false;addEventListener('scroll',function(){if(playing)return;if(!ticking){ticking=true;requestAnimationFrame(function(){frame();ticking=false})}},{passive:true});
+  addEventListener('resize',function(){frame()});frame();
+  var playing=false,t0=0,DUR=9000,btn=document.getElementById('play');
+  function tick(t){if(!playing)return;var x=((t-t0)%(DUR+1500))/DUR;frame(Math.min(1,x));auto=requestAnimationFrame(tick)}
+  function play(){playing=true;t0=performance.now();btn.textContent='❚❚ PAUSE';cancelAnimationFrame(auto);auto=requestAnimationFrame(tick)}
+  function stop(){playing=false;cancelAnimationFrame(auto);btn.textContent='▶ PLAY';}
+  btn.addEventListener('click',function(){playing?stop():play()});
+  addEventListener('wheel',function(){if(playing){stop();frame()}},{passive:true});
+  addEventListener('touchmove',function(){if(playing){stop();frame()}},{passive:true});
+  if(scrollY<10)play();
   // anker naar scene-4 scrollt naar eind van de stage
   document.querySelector('a[href="#scene-4"]').addEventListener('click',function(e){e.preventDefault();scrollTo({top:exp.offsetTop+exp.offsetHeight-innerHeight,behavior:'smooth'})});
+}
 })();
 </script>
 </body></html>
