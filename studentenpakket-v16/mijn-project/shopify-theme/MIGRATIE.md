@@ -39,3 +39,8 @@ Bron: `mijn-project/storefront/` (goedgekeurd in 2.3/N11). Doel: `shopify/theme/
 - Logo's verkleind (320px, PNG8) voor upload; base.css/storefront.css opgeschoond (dode collectie-tab-regels eruit).
 - Productsjablonen: `product.json` neutraal (geen hoodieclaims op T-shirts); `product.founding-member.json` met hoodie-copy. Maattabel alleen bij tag `size-ut0268`.
 - Render-test vanuit deze sessie niet mogelijk: storefront-domein geblokkeerd door egress-proxy (403). Controle door student via preview-link.
+
+## Testproduct (toestemming student: C)
+- Product "The Founding Member Hoodie" aangemaakt als **DRAFT** (niet zichtbaar voor klanten): id `gid://shopify/Product/16222167826757`, handle `founding-member-hoodie`, templateSuffix `founding-member`, tags `size-ut0268, drop-001, founding-member, concept`, varianten S–2XL à €64,95, SKU VS-FMH-*.
+- Geen afbeeldingen: upload via deze sessie kan alleen met publieke URL. Student uploadt `mijn-project/storefront/assets/img/founding-member-hoodie-*.jpg` zelf in de admin.
+- Voorraad niet gevolgd (untracked); product staat niet in een verkoopkanaal-publicatie gecontroleerd.
