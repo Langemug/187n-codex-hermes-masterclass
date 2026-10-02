@@ -11,7 +11,8 @@ Bronnen voor bovenstaande keuzes: outputs/1.1/2026-10-02-01/research/markt.md, o
 ## Productwaarheid
 Productnaam en SKU: The Visionair Hoodie 01 · leverancier Tapstitch, model #MW0036 (Oversized Heavyweight Fleece Hoodie)
 Goedgekeurde productomschrijving en bron: nog niet. Volgens zoekresultaat 460 GSM, nog niet op productpagina of in account geverifieerd.
-Materiaal / samenstelling: alleen invullen uit Tapstitch-productdocumentatie (katoenpercentage onbekend).
+Materiaal / samenstelling: INDICATIE uit zoekresultaat 2026-10-02, niet op productpagina geverifieerd: 85% katoen / 15% polyester, 460 GSM fleece, losse pasvorm met drop shoulders, maten XS–4XL, 4 kleuren. Gevolg: niet 'premium heavyweight cotton' noemen maar bijv. 'heavyweight cotton-blend fleece' tot bevestigd.
+Decoratie: INDICATIE (Tapstitch algemeen, via review ecommerce-platforms.com): voor- en achterkantprint, mouwprint, binnenkraag-print en eigen neklabel; methoden DTG en DTF. Niet bevestigd voor #MW0036 specifiek; printvlak-afmetingen, borduren en kosten onbekend.
 Beschikbare productbeelden en gebruiksrechten: logo VS (mijn-project/brand/logo/), campagneconcept (mijn-project/brand/campaign/). Geen echte productfoto's.
 Goedgekeurde claims en bijbehorende onderbouwing: geen.
 Nog niet vastgesteld: kostprijs incl. logo en verzending, oplage, maten, levertijd.
