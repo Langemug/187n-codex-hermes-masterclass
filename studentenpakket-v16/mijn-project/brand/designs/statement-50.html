@@ -1,0 +1,161 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#07060a}canvas{display:block}</style>
+</head><body>
+<canvas id="c"></canvas>
+<script>
+const P = '#7A1FD1', HOT = '#B14BFF', W = '#f4f1f6';
+const SANS = '"Liberation Sans", Arial, sans-serif', MONO = '"DejaVu Sans Mono", monospace', PIX = 'Unifont, monospace';
+let seed = 1;
+const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+
+// "*" prefix = purple line
+const D = [
+ ['stack',['WOKE UP','*IN THE','SIMULATION.']], ['stack',['BORN IN','*THE WRONG','GALAXY.']],
+ ['eyes',['I COME','*IN PEACE.','MOSTLY.']], ['term',['> reality.exe stopped','*> reboot? [Y/N]','> Y']],
+ ['bar',['DOWNLOADING','*CONFIDENCE'],42], ['stack',['MAIN QUEST','*ONLY.','NO SIDE PLOTS.']],
+ ['glitch',['UN','*PLUGGED.']], ['ufo',['TAKE ME','*TO MY','GOALS.']],
+ ['badge',['CERTIFIED','*GLITCH.']], ['stack',['THE MATRIX','*CAN\'T','HOLD ME.']],
+ ['term',['> ctrl+z excuses','*> undo: successful','> build: on']], ['pill',['BLUE PILLS','*ARE FOR','SPECTATORS.']],
+ ['stack',['TOO WEIRD','*FOR','EARTH.']], ['bar',['LEVEL UP','*IN PROGRESS'],73],
+ ['glitch',['SYSTEM','*ERROR:','ME.']], ['stack',['ALIEN','*BY CHOICE.']],
+ ['eye',['I SEE','*THE CODE.']], ['term',['> while (alive) {','*>   build();','> }']],
+ ['badge',['NOT BETA.','*FULL RELEASE.']], ['stack',['PROGRAMMED','*TO','WIN.']],
+ ['stack',['THEY TRIED','*TO RESTART','ME.']], ['bar',['UPLOADING','*VISION'],99],
+ ['glitch',['OFF','*GRID.']], ['ufo',['BEAM ME UP,','*AMBITION.']],
+ ['stack',['EARTH IS','*JUST THE','TUTORIAL.']], ['term',['> sleep.exe','*> not found','> keep going']],
+ ['badge',['ESCAPED','*THE LOOP.']], ['stack',['DREAM','*IN','CODE.']],
+ ['eyes',['WE\'RE NOT','*ALONE.','WE\'RE EARLY.']], ['stack',['FREQUENCY:','*UNKNOWN.']],
+ ['bar',['BUFFERING','*GREATNESS...'],64], ['glitch',['REALITY','*IS A DRAFT.']],
+ ['stack',['HACK','*THE','SYSTEM.']], ['term',['> install discipline','*> success','> excuses: removed']],
+ ['pill',['ONE PILL.','*NO RETURN.']], ['stack',['LOGGED OUT','*OF','AVERAGE.']],
+ ['badge',['VERIFIED','*ANOMALY.']], ['stack',['SEE YOU IN','*THE NEXT','DIMENSION.']],
+ ['bar',['PLAYER 1','*READY.'],100], ['glitch',['CORRUPTED','*BY AMBITION.']],
+ ['stack',['NO SIGNAL.','*ONLY','VISION.']], ['eye',['THIRD EYE','*ON THE','GOAL.']],
+ ['term',['> whoami','*> the anomaly']], ['stack',['NOT LOST.','*JUST','OFFLINE.']],
+ ['badge',['ROOT','*ACCESS.']], ['stack',['STARS DON\'T','*ASK FOR','PERMISSION.']],
+ ['ufo',['ABDUCTED.','*NEVER','RETURNED.']], ['bar',['NEW WORLD','*LOADING...'],12],
+ ['glitch',['SIGNAL','*FOUND.']], ['stack',['FROM ANOTHER','*PLANET.','SAME GRIND.']],
+];
+
+const col = s => s.startsWith('*') ? [s.slice(1), HOT] : [s, W];
+
+function fitLine(x, text, y, maxH, color, opt = {}) {
+  const { maxW = 780, squeeze = .68, style = 'plain' } = opt;
+  x.save();
+  x.font = `900 ${maxH}px ${SANS}`;
+  const k = Math.min(1, maxW / (x.measureText(text).width * squeeze));
+  x.translate(450, y); x.scale(squeeze * k, k);
+  if (style === 'bar') {
+    const w = x.measureText(text).width;
+    x.fillStyle = HOT; x.fillRect(-w / 2 - 30, -maxH * .82, w + 60, maxH * .98);
+    x.globalCompositeOperation = 'destination-out'; x.fillStyle = '#000'; x.fillText(text, 0, 0);
+  } else {
+    if (style === 'outline') { x.lineJoin = 'round'; x.lineWidth = 22; x.strokeStyle = P; x.strokeText(text, 0, 0); }
+    x.fillStyle = color; x.fillText(text, 0, 0);
+  }
+  x.restore();
+  return maxH * k;
+}
+
+function stackLines(x, lines, top = 150, bottom = 800, maxW = 780) {
+  const n = lines.length, gap = 18;
+  const h = (bottom - top - gap * (n - 1)) / n;
+  let y = top;
+  lines.forEach((l, i) => {
+    const [t, c] = col(l);
+    const r = rnd();
+    const style = c === HOT && r < .3 ? 'bar' : c === W && r < .35 ? 'outline' : 'plain';
+    const used = fitLine(x, t, y + h * .86, h * 1.05, c, { style, maxW });
+    y += Math.max(used * .95, h * .7) + gap;
+  });
+}
+
+const icons = {
+  eyes(x, y) { for (const cx of [330, 570]) { x.save(); x.translate(cx, y); x.rotate(cx < 450 ? .35 : -.35);
+    x.fillStyle = HOT; x.beginPath(); x.ellipse(0, 0, 95, 48, 0, 0, 7); x.fill();
+    x.fillStyle = W; x.beginPath(); x.arc(cx < 450 ? 24 : -24, -4, 11, 0, 7); x.fill(); x.restore(); } },
+  eye(x, y) { x.save(); x.strokeStyle = HOT; x.lineWidth = 14;
+    x.beginPath(); x.moveTo(300, y); x.quadraticCurveTo(450, y - 120, 600, y); x.quadraticCurveTo(450, y + 120, 300, y); x.stroke();
+    x.fillStyle = HOT; x.beginPath(); x.arc(450, y, 44, 0, 7); x.fill(); x.fillStyle = W; x.beginPath(); x.arc(462, y - 10, 12, 0, 7); x.fill();
+    for (let i = 0; i < 9; i++) { const a = Math.PI + .25 + i * .33; x.strokeStyle = W; x.lineWidth = 6; x.beginPath();
+      x.moveTo(450 + Math.cos(a) * 140, y + Math.sin(a) * 120); x.lineTo(450 + Math.cos(a) * 185, y + Math.sin(a) * 160); x.stroke(); } x.restore(); },
+  ufo(x, y) { x.fillStyle = 'rgba(177,75,255,.5)'; x.beginPath(); x.moveTo(410, y + 20); x.lineTo(490, y + 20); x.lineTo(590, y + 170); x.lineTo(310, y + 170); x.fill();
+    x.fillStyle = HOT; x.beginPath(); x.ellipse(450, y - 20, 70, 55, 0, Math.PI, 0); x.fill();
+    x.fillStyle = W; x.beginPath(); x.ellipse(450, y, 175, 42, 0, 0, 7); x.fill();
+    x.fillStyle = HOT; for (let i = -2; i <= 2; i++) { x.beginPath(); x.arc(450 + i * 60, y + 4, 10, 0, 7); x.fill(); } },
+  pill(x, y) { x.save(); x.translate(450, y); x.rotate(-.3);
+    x.fillStyle = W; x.beginPath(); x.roundRect(-150, -48, 150, 96, [48, 0, 0, 48]); x.fill();
+    x.fillStyle = HOT; x.beginPath(); x.roundRect(0, -48, 150, 96, [0, 48, 48, 0]); x.fill(); x.restore(); },
+};
+
+const draw = {
+  stack: (x, d) => stackLines(x, d[1]),
+  eyes: (x, d) => { icons.eyes(x, 170); stackLines(x, d[1], 280, 820); },
+  eye: (x, d) => { icons.eye(x, 210); stackLines(x, d[1], 360, 820); },
+  ufo: (x, d) => { icons.ufo(x, 150); stackLines(x, d[1], 360, 830); },
+  pill: (x, d) => { stackLines(x, d[1], 120, 640); icons.pill(x, 760); },
+  badge: (x, d) => { x.strokeStyle = W; x.lineWidth = 16; x.strokeRect(80, 140, 740, 620);
+    x.strokeStyle = HOT; x.lineWidth = 6; x.strokeRect(108, 168, 684, 564);
+    x.fillStyle = HOT; x.font = `700 34px ${MONO}`; x.textAlign = 'center'; x.fillText('VISIONAIR SOCIETY · ISSUED', 450, 820);
+    stackLines(x, d[1], 240, 680, 600); },
+  term: (x, d) => { x.textAlign = 'left'; x.font = `700 52px ${MONO}`;
+    d[1].forEach((l, i) => { const [t, c] = col(l); x.fillStyle = c; x.fillText(t, 90, 330 + i * 110); });
+    x.fillStyle = HOT; x.fillRect(90, 330 + d[1].length * 110 - 50, 34, 62); x.textAlign = 'center'; },
+  bar: (x, d) => { const pct = d[2];
+    x.strokeStyle = W; x.lineWidth = 12; x.strokeRect(110, 200, 680, 150);
+    const n = 10, fill = Math.round(pct / 10);
+    for (let i = 0; i < fill; i++) { x.fillStyle = HOT; x.fillRect(136 + i * 64, 226, 50, 98); }
+    x.fillStyle = W; x.font = `400 64px ${PIX}`; x.fillText(pct + '%', 450, 440);
+    d[1].forEach((l, i) => { const [t, c] = col(l); x.fillStyle = c; x.font = `400 96px ${PIX}`;
+      const k = Math.min(1, 760 / x.measureText(t).width); x.save(); x.translate(450, 600 + i * 130); x.scale(k, k); x.fillText(t, 0, 0); x.restore(); }); },
+  glitch: (x, d) => {
+    x.save(); x.translate(-16, 6); x.globalAlpha = .9; stackLines(x, d[1].map(l => '*' + l.replace('*', '')), 180, 760); x.restore();
+    seed -= 7; x.save(); stackLines(x, d[1].map(l => l.replace('*', '')), 180, 760); x.restore();
+    for (let i = 0; i < 9; i++) { const y = 150 + rnd() * 620, h = 6 + rnd() * 30;
+      const s = x.getImageData(0, y, 900, h); x.clearRect(0, y, 900, h); x.putImageData(s, (rnd() - .5) * 110, y); }
+  },
+};
+
+function grunge(x) {
+  const img = x.getImageData(0, 0, 900, 900), d = img.data;
+  for (let i = 0; i < d.length; i += 4) { if (!d[i + 3]) continue; const r = rnd();
+    if (r < .07) d[i + 3] = 0; else if (r < .11) d[i + 3] *= .35; }
+  x.putImageData(img, 0, 0);
+  x.save(); x.globalCompositeOperation = 'destination-out';
+  for (let b = 0; b < 14; b++) { const cx = rnd() * 900, cy = rnd() * 900;
+    for (let s = 0; s < 40; s++) { x.globalAlpha = .4 + rnd() * .6; x.beginPath();
+      x.arc(cx + (rnd() - .5) * 120, cy + (rnd() - .5) * 60, 1 + rnd() * 6, 0, 7); x.fill(); } }
+  for (let i = 0; i < 30; i++) { x.lineWidth = 1 + rnd() * 4; x.globalAlpha = .6 + rnd() * .4;
+    const sx = rnd() * 900, sy = rnd() * 900; x.beginPath(); x.moveTo(sx, sy); x.lineTo(sx + (rnd() - .5) * 300, sy + (rnd() - .5) * 40); x.stroke(); }
+  x.restore();
+}
+
+function tile(i) {
+  const t = document.createElement('canvas'); t.width = t.height = 900;
+  const x = t.getContext('2d', { willReadFrequently: true });
+  x.textAlign = 'center'; seed = 1000 + i * 97;
+  draw[D[i][0]](x, D[i]); grunge(x);
+  return t;
+}
+
+window.sheet = (n) => {
+  const c = document.getElementById('c'); c.width = 1500; c.height = 3620;
+  const g = c.getContext('2d');
+  g.fillStyle = '#07060a'; g.fillRect(0, 0, c.width, c.height); g.textAlign = 'center';
+  g.fillStyle = W; g.font = `700 40px ${MONO}`; g.letterSpacing = '12px';
+  g.fillText(`VISIONAIR SOCIETY · DESIGNS ${String(n * 10 + 1).padStart(2, '0')}–${String(n * 10 + 10).padStart(2, '0')}`, 750, 90);
+  g.letterSpacing = '0px';
+  for (let k = 0; k < 10; k++) {
+    const i = n * 10 + k, cx = k % 2, ry = Math.floor(k / 2);
+    const x0 = 70 + cx * 700, y0 = 150 + ry * 690;
+    g.fillStyle = '#000'; g.fillRect(x0, y0 + 60, 660, 600);
+    g.drawImage(tile(i), x0 + 30, y0 + 60, 600, 600);
+    g.fillStyle = HOT; g.font = `900 46px ${SANS}`; g.fillText(String(i + 1).padStart(2, '0'), x0 + 330, y0 + 46);
+  }
+  return true;
+};
+window.single = (i) => { const c = document.getElementById('c'); c.width = c.height = 900;
+  const g = c.getContext('2d'); g.clearRect(0, 0, 900, 900); g.drawImage(tile(i), 0, 0); return true; };
+</script>
+</body></html>
