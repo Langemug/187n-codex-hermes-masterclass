@@ -43,6 +43,14 @@
     {%- endform -%}
 
     {%- if product.description != blank -%}<div class="desc">{{ product.description }}</div>{%- endif -%}
+    {%- assign mf = product.metafields.custom -%}
+    {%- if mf.story != blank or mf.print_info != blank -%}
+    <div class="story">
+      {%- if mf.design_number != blank -%}<div class="kicker">◆ DESIGN Nº {{ mf.design_number }}</div>{%- endif -%}
+      {%- if mf.story != blank -%}<p>{{ mf.story | newline_to_br }}</p>{%- endif -%}
+      {%- if mf.print_info != blank -%}<div class="lbl">PRINT · {{ mf.print_info }}</div>{%- endif -%}
+    </div>
+    {%- endif -%}
     {%- if section.settings.show_size_guide and product.tags contains 'size-ut0268' -%}{% render 'size-guide' %}{%- endif -%}
 
     {%- if section.blocks.size > 0 -%}
