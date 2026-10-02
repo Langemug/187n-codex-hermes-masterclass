@@ -44,3 +44,9 @@ Bron: `mijn-project/storefront/` (goedgekeurd in 2.3/N11). Doel: `shopify/theme/
 - Product "The Founding Member Hoodie" aangemaakt als **DRAFT** (niet zichtbaar voor klanten): id `gid://shopify/Product/16222167826757`, handle `founding-member-hoodie`, templateSuffix `founding-member`, tags `size-ut0268, drop-001, founding-member, concept`, varianten S–2XL à €64,95, SKU VS-FMH-*.
 - Geen afbeeldingen: upload via deze sessie kan alleen met publieke URL. Student uploadt `mijn-project/storefront/assets/img/founding-member-hoodie-*.jpg` zelf in de admin.
 - Voorraad niet gevolgd (untracked); product staat niet in een verkoopkanaal-publicatie gecontroleerd.
+
+## 150 concept-hoodies (Draft)
+- 6 smart collections (tag-regel `vs-<collectie>`): simulation, abducted, classified, awake, build-mode, the-society — 25 hoodies elk.
+- Handles `vs-NNN-hoodie`, SKU `VS-NNN-<maat>`, S–2XL €64,95, status DRAFT, tags `concept`, `size-ut0268`, `design-NNN`.
+- Nog géén productfoto's: upload per product `assets/img/collections/vs-NNN.jpg` (zie `hoodies-150.csv`).
+- Niets gepubliceerd; live theme ongewijzigd.
