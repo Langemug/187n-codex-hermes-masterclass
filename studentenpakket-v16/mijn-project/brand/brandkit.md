@@ -26,8 +26,17 @@ Single source for colors, typography, and button styles. All previews and conten
 - Padding: `20px 36px`. Font 14px, letterspacing 0.25em, uppercase, weight 900.
 
 ## Logo
-- Primary master: `mijn-project/brand/logo/vs-mark-transparent.png` — V+S monogram in circle, white on transparent (use on any background).
-- Alternatives: `vs-mark-square.png` (white on black), `vs-wordmark-white.png` (wider canvas).
+Definitive versions (lesson 5.1), all 2048×2048 PNG in `mijn-project/brand/logo/`:
+
+| File | Color | Use on |
+|------|-------|--------|
+| `vs-mark-transparent.png` | White | Black / dark — **primary** |
+| `vs-mark-square.png` | White on black square | Avatars, app icons |
+| `vs-mark-purple.png` | Purple `#7A1FD1` | White / light only (2.9:1 on black, too weak) |
+| `vs-mark-purple-hot.png` | Purple hot `#B14BFF` | Black / dark (5.3:1) |
+| `vs-mark-purple-outline.png` | Purple `#7A1FD1` + white outline | Black / dark, photos; on white the outline disappears |
+
+Retired: `vs-wordmark-white.png` (phone screenshot, do not use).
 - Minimum on-screen height: 32px.
 - Clearspace: at least half the logo height.
 - Never place purple-on-purple; always on a dark surface.
