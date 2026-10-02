@@ -6,4 +6,4 @@
 | 2.2 | 2026-10-02-01 | outputs/2.2/2026-10-02-01/brand/design-preview/ + context/DESIGN.md | Stylepreview bekeken, koopknop vastgelegd | completed | — |
 | 5.2 | 2026-10-02-01 | outputs/5.2/2026-10-02-01/content/productbeelden/ | Beelden + crops + 3 characters + productpagina (concept) | completed | Les 026 |
 | 2.3 | 2026-10-02-01 | outputs/2.3/2026-10-02-01/storefront/ | Storefront + 6 collectiepagina's + 500 mockups + demo-cart (concept) | completed | Les 027 |
-| N10 | 2026-10-02-01 | outputs/N10/2026-10-02-01/sessieoverdracht.md | — | in_progress | Kies onderdeel |
+| N10 | 2026-10-02-01 | outputs/N10/2026-10-02-01/sessieoverdracht.md | Nieuwe sessie vond onjuist vinkje, FAQ-oefening onderdeel 1–2 | completed | Les 028 |
