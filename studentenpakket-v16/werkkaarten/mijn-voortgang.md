@@ -14,3 +14,4 @@
 | 3.2a | 2026-10-02-01 | outputs/3.2a/2026-10-02-01/shopify/editor-controle.md | Bewerkbare hero/benefits/FAQ, metafields, campagnepagina; render wacht op foto's + activatie | concept | Les 033 |
 | 3.2b | 2026-10-02-01 | outputs/3.2b/2026-10-02-01/shopify/aankooproute.md | Aankooproute in code gecontroleerd, testplan + releasecheck; testorder niet uitgevoerd | concept | Les 034 |
 | 3.6 | 2026-10-02-01 | outputs/3.6/2026-10-02-01/shopify/experiment.md | Knoptekst-experiment A/B, Basic-route, herstelplan; niet geactiveerd | concept | Les 035 |
+| 5.3 | 2026-10-02-01 | outputs/5.3/2026-10-02-01/content/video-feedback/ | Video-feedback → tijdcodes, v2 edit, 2 vaste voorkeuren getest op clip 2 | completed | Les 036 |
