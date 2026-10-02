@@ -1,7 +1,7 @@
 {
   "handle": "hoodie-01",
-  "title": "THE VISIONAIR HOODIE 01",
-  "title_html": "THE VISIONAIR<br>HOODIE 01",
+  "title": "THE FOUNDING MEMBER HOODIE",
+  "title_html": "THE FOUNDING<br>MEMBER HOODIE",
   "collection": "DROP 001 · THE SOCIETY",
   "price": "€64,95",
   "price_note": "NL · INCL. VAT",
@@ -9,7 +9,7 @@
   "description": "A statement on your back. Own the number. Your hoodie number is your member number.",
   "sticker": "FOUNDING MEMBER",
   "images": [
-    {"src": "assets/img/hoodie-01-back.jpg", "alt": "Visionair Hoodie 01, back: The Matrix can't hold me."},
+    {"src": "assets/img/hoodie-01-back.jpg", "alt": "Founding Member Hoodie, back: The Matrix can't hold me."},
     {"src": "assets/img/hoodie-01-detail.jpg", "alt": "Back print detail"},
     {"src": "assets/img/hoodie-01-worn.jpg", "alt": "Worn, back view"},
     {"src": "assets/img/hoodie-01-front.jpg", "alt": "Front, VS logo left chest"}
@@ -21,7 +21,7 @@
   "size_in": [["S","24.02","23.03","22.44","18.90"],["M","24.80","23.82","23.23","19.29"],["L","25.59","24.61","24.02","19.68"],["XL","26.38","25.39","24.80","20.08"],["2XL","27.17","26.18","25.59","20.47"]],
   "cta": "JOIN THE SOCIETY",
   "specs": [
-    ["YOU GET", "Hoodie 01 with the design and its own number"],
+    ["YOU GET", "The hoodie with the design and its own number"],
     ["MEMBERSHIP", "Founding Member access included"],
     ["FIT", "Boxy oversized, black · S–2XL"],
     ["MATERIAL", "Heavyweight fleece, 500 gsm"],

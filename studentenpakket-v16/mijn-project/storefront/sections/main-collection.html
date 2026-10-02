@@ -4,4 +4,4 @@
 <nav class="cnav" aria-label="Collections">{% for c in collections.collections %}<a href="{{ c.url }}"{% if c.id == coll.id %} aria-current="page"{% endif %}>{{ c.label }}<b>{{ c.name }}</b></a>{% endfor %}</nav>
 <div class="cgrid cgrid-all">{% for it in coll.all %}<figure class="ccard"><div class="cimg"><img src="{{ it.image }}" alt="Hoodie mockup, design {{ it.no }}: {{ it.title }}" loading="lazy" width="600" height="750"></div><figcaption><span>Nº {{ it.no }}</span><span class="ct">{{ it.title }}</span><span class="soon">SOON</span></figcaption></figure>{% endfor %}</div>
 <p class="ph cnote">{{ collections.note }}</p>
-<div class="cback"><a class="btn p" href="product.html">JOIN THE SOCIETY · HOODIE 01</a><a class="btn" href="index.html#collections">ALL COLLECTIONS</a></div></div>
+<div class="cback"><a class="btn p" href="product.html">JOIN THE SOCIETY · €64,95</a><a class="btn" href="index.html#collections">ALL COLLECTIONS</a></div></div>
