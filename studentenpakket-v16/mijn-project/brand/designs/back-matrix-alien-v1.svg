@@ -1,0 +1,2927 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3600 4800" width="3600" height="4800">
+<defs><clipPath id="head"><path d="M1800,1180 C2330,1180 2620,1540 2620,2020 C2620,2460 2330,2820 2060,3140 C1960,3260 1890,3340 1800,3340 C1710,3340 1640,3260 1540,3140 C1270,2820 980,2460 980,2020 C980,1540 1270,1180 1800,1180 Z"/></clipPath></defs>
+<g font-family="Courier New, monospace" font-size="72" font-weight="700" text-anchor="middle">
+<g><text x="60" y="1400" fill="#ffffff" fill-opacity="0.75">Λ</text>
+<text x="60" y="1312" fill="#7A1FD1" fill-opacity="0.53">Ψ</text>
+<text x="60" y="1224" fill="#7A1FD1" fill-opacity="0.52">V</text>
+<text x="60" y="1136" fill="#7A1FD1" fill-opacity="0.50">+</text>
+<text x="60" y="1048" fill="#7A1FD1" fill-opacity="0.48">=</text>
+<text x="60" y="960" fill="#7A1FD1" fill-opacity="0.46">+</text>
+<text x="60" y="872" fill="#7A1FD1" fill-opacity="0.45">3</text>
+
+
+
+
+
+<text x="60" y="344" fill="#7A1FD1" fill-opacity="0.34">/</text>
+
+
+<text x="156" y="3669" fill="#7A1FD1" fill-opacity="0.52">=</text>
+<text x="156" y="3581" fill="#7A1FD1" fill-opacity="0.50">Ψ</text>
+<text x="156" y="3493" fill="#7A1FD1" fill-opacity="0.48">Ω</text>
+<text x="156" y="3405" fill="#7A1FD1" fill-opacity="0.47">;</text>
+<text x="156" y="3317" fill="#7A1FD1" fill-opacity="0.45">V</text>
+<text x="156" y="3229" fill="#7A1FD1" fill-opacity="0.43">&lt;</text>
+<text x="156" y="3141" fill="#7A1FD1" fill-opacity="0.42">0</text>
+<text x="156" y="3053" fill="#7A1FD1" fill-opacity="0.40">0</text>
+<text x="156" y="2965" fill="#7A1FD1" fill-opacity="0.38">0</text>
+<text x="156" y="2877" fill="#7A1FD1" fill-opacity="0.37">3</text>
+<text x="156" y="2789" fill="#7A1FD1" fill-opacity="0.35">:</text>
+<text x="156" y="2701" fill="#7A1FD1" fill-opacity="0.33">0</text>
+<text x="156" y="2613" fill="#7A1FD1" fill-opacity="0.32">/</text>
+<text x="156" y="2525" fill="#7A1FD1" fill-opacity="0.30">4</text>
+<text x="156" y="2437" fill="#7A1FD1" fill-opacity="0.28">∆</text>
+<text x="156" y="2349" fill="#7A1FD1" fill-opacity="0.27">\</text>
+<text x="156" y="2261" fill="#7A1FD1" fill-opacity="0.25">0</text>
+<text x="156" y="2173" fill="#7A1FD1" fill-opacity="0.23">*</text>
+<text x="156" y="2085" fill="#7A1FD1" fill-opacity="0.22">Ω</text>
+<text x="156" y="1997" fill="#7A1FD1" fill-opacity="0.20">=</text>
+<text x="156" y="1909" fill="#7A1FD1" fill-opacity="0.18">+</text>
+<text x="156" y="1821" fill="#7A1FD1" fill-opacity="0.17">:</text>
+<text x="156" y="1733" fill="#7A1FD1" fill-opacity="0.15">Ω</text>
+<text x="156" y="1645" fill="#7A1FD1" fill-opacity="0.13">&gt;</text>
+<text x="156" y="1557" fill="#7A1FD1" fill-opacity="0.12">Ω</text>
+<text x="156" y="1469" fill="#7A1FD1" fill-opacity="0.10">4</text>
+<text x="156" y="1381" fill="#7A1FD1" fill-opacity="0.08">Ω</text>
+<text x="156" y="1293" fill="#7A1FD1" fill-opacity="0.07">=</text>
+<text x="156" y="1205" fill="#7A1FD1" fill-opacity="0.05">#</text>
+<text x="156" y="1117" fill="#7A1FD1" fill-opacity="0.03">0</text>
+<text x="156" y="1029" fill="#7A1FD1" fill-opacity="0.02">\</text>
+<text x="252" y="1119" fill="#ffffff" fill-opacity="0.75">3</text>
+<text x="252" y="1031" fill="#7A1FD1" fill-opacity="0.52">#</text>
+<text x="252" y="943" fill="#7A1FD1" fill-opacity="0.49">V</text>
+<text x="252" y="855" fill="#7A1FD1" fill-opacity="0.46">&lt;</text>
+
+
+
+
+
+<text x="252" y="327" fill="#7A1FD1" fill-opacity="0.29">∆</text>
+<text x="348" y="2785" fill="#ffffff" fill-opacity="0.75">;</text>
+<text x="348" y="2697" fill="#7A1FD1" fill-opacity="0.53">+</text>
+<text x="348" y="2609" fill="#7A1FD1" fill-opacity="0.50">*</text>
+<text x="348" y="2521" fill="#7A1FD1" fill-opacity="0.48">/</text>
+<text x="348" y="2433" fill="#7A1FD1" fill-opacity="0.45">;</text>
+<text x="348" y="2345" fill="#7A1FD1" fill-opacity="0.43">1</text>
+<text x="348" y="2257" fill="#7A1FD1" fill-opacity="0.41">+</text>
+<text x="348" y="2169" fill="#7A1FD1" fill-opacity="0.38">Ω</text>
+<text x="348" y="2081" fill="#7A1FD1" fill-opacity="0.36">/</text>
+<text x="348" y="1993" fill="#7A1FD1" fill-opacity="0.33">\</text>
+<text x="348" y="1905" fill="#7A1FD1" fill-opacity="0.31">4</text>
+<text x="348" y="1817" fill="#7A1FD1" fill-opacity="0.29">Ξ</text>
+<text x="348" y="1729" fill="#7A1FD1" fill-opacity="0.26">&gt;</text>
+<text x="348" y="1641" fill="#7A1FD1" fill-opacity="0.24">:</text>
+<text x="348" y="1553" fill="#7A1FD1" fill-opacity="0.22">9</text>
+<text x="348" y="1465" fill="#7A1FD1" fill-opacity="0.19">4</text>
+<text x="348" y="1377" fill="#7A1FD1" fill-opacity="0.17">&gt;</text>
+<text x="348" y="1289" fill="#7A1FD1" fill-opacity="0.14">Λ</text>
+<text x="348" y="1201" fill="#7A1FD1" fill-opacity="0.12">=</text>
+<text x="348" y="1113" fill="#7A1FD1" fill-opacity="0.10">4</text>
+<text x="348" y="1025" fill="#7A1FD1" fill-opacity="0.07">*</text>
+<text x="348" y="937" fill="#7A1FD1" fill-opacity="0.05">V</text>
+<text x="348" y="849" fill="#7A1FD1" fill-opacity="0.02">Ξ</text>
+<text x="444" y="3521" fill="#ffffff" fill-opacity="0.75">+</text>
+<text x="444" y="3433" fill="#7A1FD1" fill-opacity="0.53">0</text>
+<text x="444" y="3345" fill="#7A1FD1" fill-opacity="0.51">+</text>
+<text x="444" y="3257" fill="#7A1FD1" fill-opacity="0.48">1</text>
+<text x="444" y="3169" fill="#7A1FD1" fill-opacity="0.46">#</text>
+<text x="444" y="3081" fill="#7A1FD1" fill-opacity="0.44">9</text>
+<text x="444" y="2993" fill="#7A1FD1" fill-opacity="0.42">7</text>
+<text x="444" y="2905" fill="#7A1FD1" fill-opacity="0.40">;</text>
+<text x="444" y="2817" fill="#7A1FD1" fill-opacity="0.37">;</text>
+<text x="444" y="2729" fill="#7A1FD1" fill-opacity="0.35">/</text>
+<text x="444" y="2641" fill="#7A1FD1" fill-opacity="0.33">3</text>
+<text x="444" y="2553" fill="#7A1FD1" fill-opacity="0.31">Ξ</text>
+<text x="444" y="2465" fill="#7A1FD1" fill-opacity="0.29">Ξ</text>
+<text x="444" y="2377" fill="#7A1FD1" fill-opacity="0.26">*</text>
+<text x="444" y="2289" fill="#7A1FD1" fill-opacity="0.24">Ω</text>
+<text x="444" y="2201" fill="#7A1FD1" fill-opacity="0.22">0</text>
+<text x="444" y="2113" fill="#7A1FD1" fill-opacity="0.20">∆</text>
+<text x="444" y="2025" fill="#7A1FD1" fill-opacity="0.18">:</text>
+<text x="444" y="1937" fill="#7A1FD1" fill-opacity="0.15">:</text>
+<text x="444" y="1849" fill="#7A1FD1" fill-opacity="0.13">Ω</text>
+<text x="444" y="1761" fill="#7A1FD1" fill-opacity="0.11">/</text>
+<text x="444" y="1673" fill="#7A1FD1" fill-opacity="0.09">*</text>
+<text x="444" y="1585" fill="#7A1FD1" fill-opacity="0.07">&gt;</text>
+<text x="444" y="1497" fill="#7A1FD1" fill-opacity="0.04">;</text>
+<text x="444" y="1409" fill="#7A1FD1" fill-opacity="0.02">&gt;</text>
+
+
+
+
+
+<text x="540" y="3621" fill="#7A1FD1" fill-opacity="0.43">*</text>
+<text x="540" y="3533" fill="#7A1FD1" fill-opacity="0.40">S</text>
+<text x="540" y="3445" fill="#7A1FD1" fill-opacity="0.38">*</text>
+<text x="540" y="3357" fill="#7A1FD1" fill-opacity="0.35">:</text>
+<text x="540" y="3269" fill="#7A1FD1" fill-opacity="0.32">∆</text>
+<text x="540" y="3181" fill="#7A1FD1" fill-opacity="0.30">\</text>
+<text x="540" y="3093" fill="#7A1FD1" fill-opacity="0.28">1</text>
+<text x="540" y="3005" fill="#7A1FD1" fill-opacity="0.25">+</text>
+<text x="540" y="2917" fill="#7A1FD1" fill-opacity="0.23">&gt;</text>
+<text x="540" y="2829" fill="#7A1FD1" fill-opacity="0.20">;</text>
+<text x="540" y="2741" fill="#7A1FD1" fill-opacity="0.18">:</text>
+<text x="540" y="2653" fill="#7A1FD1" fill-opacity="0.15">∆</text>
+<text x="540" y="2565" fill="#7A1FD1" fill-opacity="0.13">*</text>
+<text x="540" y="2477" fill="#7A1FD1" fill-opacity="0.10">\</text>
+<text x="540" y="2389" fill="#7A1FD1" fill-opacity="0.07">+</text>
+<text x="540" y="2301" fill="#7A1FD1" fill-opacity="0.05">&gt;</text>
+<text x="540" y="2213" fill="#7A1FD1" fill-opacity="0.02">\</text>
+<text x="636" y="3135" fill="#ffffff" fill-opacity="0.75">:</text>
+<text x="636" y="3047" fill="#7A1FD1" fill-opacity="0.51">:</text>
+<text x="636" y="2959" fill="#7A1FD1" fill-opacity="0.47">7</text>
+<text x="636" y="2871" fill="#7A1FD1" fill-opacity="0.43">7</text>
+<text x="636" y="2783" fill="#7A1FD1" fill-opacity="0.39">&lt;</text>
+<text x="636" y="2695" fill="#7A1FD1" fill-opacity="0.35">=</text>
+<text x="636" y="2607" fill="#7A1FD1" fill-opacity="0.31">7</text>
+<text x="636" y="2519" fill="#7A1FD1" fill-opacity="0.28">0</text>
+<text x="636" y="2431" fill="#7A1FD1" fill-opacity="0.24">Ω</text>
+<text x="636" y="2343" fill="#7A1FD1" fill-opacity="0.20">3</text>
+<text x="636" y="2255" fill="#7A1FD1" fill-opacity="0.16">Ξ</text>
+<text x="636" y="2167" fill="#7A1FD1" fill-opacity="0.12">:</text>
+<text x="636" y="2079" fill="#7A1FD1" fill-opacity="0.08">;</text>
+<text x="636" y="1991" fill="#7A1FD1" fill-opacity="0.04">Ξ</text>
+<text x="732" y="1050" fill="#ffffff" fill-opacity="0.75">Ψ</text>
+<text x="732" y="962" fill="#7A1FD1" fill-opacity="0.53">1</text>
+<text x="732" y="874" fill="#7A1FD1" fill-opacity="0.51">4</text>
+
+
+
+
+
+<text x="732" y="346" fill="#7A1FD1" fill-opacity="0.41">Ψ</text>
+<text x="828" y="2344" fill="#ffffff" fill-opacity="0.75">V</text>
+<text x="828" y="2256" fill="#7A1FD1" fill-opacity="0.53">7</text>
+<text x="828" y="2168" fill="#7A1FD1" fill-opacity="0.50">Ξ</text>
+<text x="828" y="2080" fill="#7A1FD1" fill-opacity="0.48">&gt;</text>
+<text x="828" y="1992" fill="#7A1FD1" fill-opacity="0.45">#</text>
+<text x="828" y="1904" fill="#7A1FD1" fill-opacity="0.43">Λ</text>
+<text x="828" y="1816" fill="#7A1FD1" fill-opacity="0.40">Ξ</text>
+<text x="828" y="1728" fill="#7A1FD1" fill-opacity="0.38">Ξ</text>
+<text x="828" y="1640" fill="#7A1FD1" fill-opacity="0.35">Ψ</text>
+<text x="828" y="1552" fill="#7A1FD1" fill-opacity="0.32">*</text>
+<text x="828" y="1464" fill="#7A1FD1" fill-opacity="0.30">Ξ</text>
+<text x="828" y="1376" fill="#7A1FD1" fill-opacity="0.28">4</text>
+<text x="828" y="1288" fill="#7A1FD1" fill-opacity="0.25">Ψ</text>
+<text x="828" y="1200" fill="#7A1FD1" fill-opacity="0.23">3</text>
+<text x="828" y="1112" fill="#7A1FD1" fill-opacity="0.20">9</text>
+<text x="828" y="1024" fill="#7A1FD1" fill-opacity="0.18">#</text>
+<text x="828" y="936" fill="#7A1FD1" fill-opacity="0.15">=</text>
+<text x="828" y="848" fill="#7A1FD1" fill-opacity="0.13">9</text>
+
+
+
+
+
+
+<text x="924" y="317" fill="#7A1FD1" fill-opacity="0.50">\</text>
+<text x="1020" y="1840" fill="#ffffff" fill-opacity="0.75">V</text>
+<text x="1020" y="1752" fill="#7A1FD1" fill-opacity="0.53">Ψ</text>
+<text x="1020" y="1664" fill="#7A1FD1" fill-opacity="0.50">*</text>
+<text x="1020" y="1576" fill="#7A1FD1" fill-opacity="0.48">∆</text>
+<text x="1020" y="1488" fill="#7A1FD1" fill-opacity="0.45">7</text>
+<text x="1020" y="1400" fill="#7A1FD1" fill-opacity="0.43">\</text>
+<text x="1020" y="1312" fill="#7A1FD1" fill-opacity="0.40">0</text>
+<text x="1020" y="1224" fill="#7A1FD1" fill-opacity="0.38">Ω</text>
+<text x="1020" y="1136" fill="#7A1FD1" fill-opacity="0.35">0</text>
+<text x="1020" y="1048" fill="#7A1FD1" fill-opacity="0.32">/</text>
+<text x="1020" y="960" fill="#7A1FD1" fill-opacity="0.30">S</text>
+<text x="1020" y="872" fill="#7A1FD1" fill-opacity="0.28">1</text>
+
+
+
+
+
+<text x="1020" y="344" fill="#7A1FD1" fill-opacity="0.13">\</text>
+<text x="1116" y="2107" fill="#ffffff" fill-opacity="0.75">9</text>
+<text x="1116" y="2019" fill="#7A1FD1" fill-opacity="0.53">*</text>
+<text x="1116" y="1931" fill="#7A1FD1" fill-opacity="0.52">=</text>
+<text x="1116" y="1843" fill="#7A1FD1" fill-opacity="0.50">Ω</text>
+<text x="1116" y="1755" fill="#7A1FD1" fill-opacity="0.49">*</text>
+<text x="1116" y="1667" fill="#7A1FD1" fill-opacity="0.47">3</text>
+<text x="1116" y="1579" fill="#7A1FD1" fill-opacity="0.45">0</text>
+<text x="1116" y="1491" fill="#7A1FD1" fill-opacity="0.44">/</text>
+<text x="1116" y="1403" fill="#7A1FD1" fill-opacity="0.42">4</text>
+<text x="1116" y="1315" fill="#7A1FD1" fill-opacity="0.40">;</text>
+<text x="1116" y="1227" fill="#7A1FD1" fill-opacity="0.39">&lt;</text>
+<text x="1116" y="1139" fill="#7A1FD1" fill-opacity="0.37">4</text>
+<text x="1116" y="1051" fill="#7A1FD1" fill-opacity="0.36">3</text>
+<text x="1116" y="963" fill="#7A1FD1" fill-opacity="0.34">\</text>
+<text x="1116" y="875" fill="#7A1FD1" fill-opacity="0.32">1</text>
+
+
+
+
+
+<text x="1116" y="347" fill="#7A1FD1" fill-opacity="0.23">Λ</text>
+<text x="1212" y="926" fill="#ffffff" fill-opacity="0.75">#</text>
+<text x="1212" y="838" fill="#7A1FD1" fill-opacity="0.53">Ξ</text>
+
+
+
+
+
+<text x="1212" y="310" fill="#7A1FD1" fill-opacity="0.38">:</text>
+
+
+
+<text x="1308" y="346" fill="#7A1FD1" fill-opacity="0.50">Ξ</text>
+
+
+
+<text x="1404" y="342" fill="#7A1FD1" fill-opacity="0.49">∆</text>
+
+
+<text x="1500" y="3670" fill="#7A1FD1" fill-opacity="0.52">V</text>
+<text x="1500" y="3582" fill="#7A1FD1" fill-opacity="0.50">4</text>
+<text x="1500" y="3494" fill="#7A1FD1" fill-opacity="0.48">/</text>
+<text x="1500" y="3406" fill="#7A1FD1" fill-opacity="0.46">#</text>
+<text x="1500" y="3318" fill="#7A1FD1" fill-opacity="0.45">*</text>
+<text x="1500" y="3230" fill="#7A1FD1" fill-opacity="0.43">+</text>
+<text x="1500" y="3142" fill="#7A1FD1" fill-opacity="0.41">0</text>
+<text x="1500" y="3054" fill="#7A1FD1" fill-opacity="0.40">&lt;</text>
+<text x="1500" y="2966" fill="#7A1FD1" fill-opacity="0.38">7</text>
+<text x="1500" y="2878" fill="#7A1FD1" fill-opacity="0.36">/</text>
+<text x="1500" y="2790" fill="#7A1FD1" fill-opacity="0.34">#</text>
+<text x="1500" y="2702" fill="#7A1FD1" fill-opacity="0.33">0</text>
+<text x="1500" y="2614" fill="#7A1FD1" fill-opacity="0.31">Ξ</text>
+<text x="1500" y="2526" fill="#7A1FD1" fill-opacity="0.29">∆</text>
+<text x="1500" y="2438" fill="#7A1FD1" fill-opacity="0.28">&lt;</text>
+<text x="1500" y="2350" fill="#7A1FD1" fill-opacity="0.26">;</text>
+<text x="1500" y="2262" fill="#7A1FD1" fill-opacity="0.24">S</text>
+<text x="1500" y="2174" fill="#7A1FD1" fill-opacity="0.22">&lt;</text>
+<text x="1500" y="2086" fill="#7A1FD1" fill-opacity="0.21">\</text>
+<text x="1500" y="1998" fill="#7A1FD1" fill-opacity="0.19">∆</text>
+<text x="1500" y="1910" fill="#7A1FD1" fill-opacity="0.17">Ψ</text>
+<text x="1500" y="1822" fill="#7A1FD1" fill-opacity="0.15">4</text>
+<text x="1500" y="1734" fill="#7A1FD1" fill-opacity="0.14">V</text>
+<text x="1500" y="1646" fill="#7A1FD1" fill-opacity="0.12">/</text>
+<text x="1500" y="1558" fill="#7A1FD1" fill-opacity="0.10">:</text>
+<text x="1500" y="1470" fill="#7A1FD1" fill-opacity="0.09">&gt;</text>
+<text x="1500" y="1382" fill="#7A1FD1" fill-opacity="0.07">4</text>
+<text x="1500" y="1294" fill="#7A1FD1" fill-opacity="0.05">:</text>
+<text x="1500" y="1206" fill="#7A1FD1" fill-opacity="0.03">+</text>
+<text x="1500" y="1118" fill="#7A1FD1" fill-opacity="0.02">:</text>
+<text x="1596" y="2222" fill="#ffffff" fill-opacity="0.75">1</text>
+<text x="1596" y="2134" fill="#7A1FD1" fill-opacity="0.52">Λ</text>
+<text x="1596" y="2046" fill="#7A1FD1" fill-opacity="0.48">S</text>
+<text x="1596" y="1958" fill="#7A1FD1" fill-opacity="0.45">Ξ</text>
+<text x="1596" y="1870" fill="#7A1FD1" fill-opacity="0.41">Ξ</text>
+<text x="1596" y="1782" fill="#7A1FD1" fill-opacity="0.38">:</text>
+<text x="1596" y="1694" fill="#7A1FD1" fill-opacity="0.34">∆</text>
+<text x="1596" y="1606" fill="#7A1FD1" fill-opacity="0.31">Ψ</text>
+<text x="1596" y="1518" fill="#7A1FD1" fill-opacity="0.28">&lt;</text>
+<text x="1596" y="1430" fill="#7A1FD1" fill-opacity="0.24">7</text>
+<text x="1596" y="1342" fill="#7A1FD1" fill-opacity="0.21">*</text>
+<text x="1596" y="1254" fill="#7A1FD1" fill-opacity="0.17">Ψ</text>
+<text x="1596" y="1166" fill="#7A1FD1" fill-opacity="0.14">&gt;</text>
+<text x="1596" y="1078" fill="#7A1FD1" fill-opacity="0.10">&lt;</text>
+<text x="1596" y="990" fill="#7A1FD1" fill-opacity="0.07">&lt;</text>
+<text x="1596" y="902" fill="#7A1FD1" fill-opacity="0.03">V</text>
+<text x="1692" y="2685" fill="#ffffff" fill-opacity="0.75">7</text>
+<text x="1692" y="2597" fill="#7A1FD1" fill-opacity="0.52">9</text>
+<text x="1692" y="2509" fill="#7A1FD1" fill-opacity="0.50">+</text>
+<text x="1692" y="2421" fill="#7A1FD1" fill-opacity="0.47">S</text>
+<text x="1692" y="2333" fill="#7A1FD1" fill-opacity="0.45">;</text>
+<text x="1692" y="2245" fill="#7A1FD1" fill-opacity="0.42">:</text>
+<text x="1692" y="2157" fill="#7A1FD1" fill-opacity="0.39">V</text>
+<text x="1692" y="2069" fill="#7A1FD1" fill-opacity="0.37">&lt;</text>
+<text x="1692" y="1981" fill="#7A1FD1" fill-opacity="0.34">1</text>
+<text x="1692" y="1893" fill="#7A1FD1" fill-opacity="0.31">\</text>
+<text x="1692" y="1805" fill="#7A1FD1" fill-opacity="0.29">Λ</text>
+<text x="1692" y="1717" fill="#7A1FD1" fill-opacity="0.26">/</text>
+<text x="1692" y="1629" fill="#7A1FD1" fill-opacity="0.24">S</text>
+<text x="1692" y="1541" fill="#7A1FD1" fill-opacity="0.21">S</text>
+<text x="1692" y="1453" fill="#7A1FD1" fill-opacity="0.18">&lt;</text>
+<text x="1692" y="1365" fill="#7A1FD1" fill-opacity="0.16">V</text>
+<text x="1692" y="1277" fill="#7A1FD1" fill-opacity="0.13">7</text>
+<text x="1692" y="1189" fill="#7A1FD1" fill-opacity="0.10">;</text>
+<text x="1692" y="1101" fill="#7A1FD1" fill-opacity="0.08">/</text>
+<text x="1692" y="1013" fill="#7A1FD1" fill-opacity="0.05">Λ</text>
+<text x="1692" y="925" fill="#7A1FD1" fill-opacity="0.03">;</text>
+<text x="1788" y="2132" fill="#ffffff" fill-opacity="0.75">Λ</text>
+<text x="1788" y="2044" fill="#7A1FD1" fill-opacity="0.53">Ψ</text>
+<text x="1788" y="1956" fill="#7A1FD1" fill-opacity="0.52">&gt;</text>
+<text x="1788" y="1868" fill="#7A1FD1" fill-opacity="0.50">#</text>
+<text x="1788" y="1780" fill="#7A1FD1" fill-opacity="0.48">;</text>
+<text x="1788" y="1692" fill="#7A1FD1" fill-opacity="0.46">:</text>
+<text x="1788" y="1604" fill="#7A1FD1" fill-opacity="0.45">V</text>
+<text x="1788" y="1516" fill="#7A1FD1" fill-opacity="0.43">=</text>
+<text x="1788" y="1428" fill="#7A1FD1" fill-opacity="0.41">Ψ</text>
+<text x="1788" y="1340" fill="#7A1FD1" fill-opacity="0.40">V</text>
+<text x="1788" y="1252" fill="#7A1FD1" fill-opacity="0.38">1</text>
+<text x="1788" y="1164" fill="#7A1FD1" fill-opacity="0.36">#</text>
+<text x="1788" y="1076" fill="#7A1FD1" fill-opacity="0.34">0</text>
+<text x="1788" y="988" fill="#7A1FD1" fill-opacity="0.33">7</text>
+<text x="1788" y="900" fill="#7A1FD1" fill-opacity="0.31">4</text>
+<text x="1788" y="812" fill="#7A1FD1" fill-opacity="0.29">0</text>
+
+
+
+
+
+<text x="1884" y="2263" fill="#ffffff" fill-opacity="0.75">\</text>
+<text x="1884" y="2175" fill="#7A1FD1" fill-opacity="0.53">Ξ</text>
+<text x="1884" y="2087" fill="#7A1FD1" fill-opacity="0.52">V</text>
+<text x="1884" y="1999" fill="#7A1FD1" fill-opacity="0.50">=</text>
+<text x="1884" y="1911" fill="#7A1FD1" fill-opacity="0.48">Ξ</text>
+<text x="1884" y="1823" fill="#7A1FD1" fill-opacity="0.46">4</text>
+<text x="1884" y="1735" fill="#7A1FD1" fill-opacity="0.45">Ω</text>
+<text x="1884" y="1647" fill="#7A1FD1" fill-opacity="0.43">Ξ</text>
+<text x="1884" y="1559" fill="#7A1FD1" fill-opacity="0.41">V</text>
+<text x="1884" y="1471" fill="#7A1FD1" fill-opacity="0.40">\</text>
+<text x="1884" y="1383" fill="#7A1FD1" fill-opacity="0.38">/</text>
+<text x="1884" y="1295" fill="#7A1FD1" fill-opacity="0.36">:</text>
+<text x="1884" y="1207" fill="#7A1FD1" fill-opacity="0.34">#</text>
+<text x="1884" y="1119" fill="#7A1FD1" fill-opacity="0.33">:</text>
+<text x="1884" y="1031" fill="#7A1FD1" fill-opacity="0.31">Ψ</text>
+<text x="1884" y="943" fill="#7A1FD1" fill-opacity="0.29">9</text>
+<text x="1884" y="855" fill="#7A1FD1" fill-opacity="0.28">+</text>
+
+
+
+
+
+<text x="1884" y="327" fill="#7A1FD1" fill-opacity="0.17">1</text>
+
+
+<text x="1980" y="347" fill="#7A1FD1" fill-opacity="0.47">&lt;</text>
+
+
+
+
+<text x="2076" y="3633" fill="#7A1FD1" fill-opacity="0.47">&lt;</text>
+<text x="2076" y="3545" fill="#7A1FD1" fill-opacity="0.44">7</text>
+<text x="2076" y="3457" fill="#7A1FD1" fill-opacity="0.42">=</text>
+<text x="2076" y="3369" fill="#7A1FD1" fill-opacity="0.40">V</text>
+<text x="2076" y="3281" fill="#7A1FD1" fill-opacity="0.38">Ψ</text>
+<text x="2076" y="3193" fill="#7A1FD1" fill-opacity="0.36">∆</text>
+<text x="2076" y="3105" fill="#7A1FD1" fill-opacity="0.34">7</text>
+<text x="2076" y="3017" fill="#7A1FD1" fill-opacity="0.32">:</text>
+<text x="2076" y="2929" fill="#7A1FD1" fill-opacity="0.30">9</text>
+<text x="2076" y="2841" fill="#7A1FD1" fill-opacity="0.28">+</text>
+<text x="2076" y="2753" fill="#7A1FD1" fill-opacity="0.25">4</text>
+<text x="2076" y="2665" fill="#7A1FD1" fill-opacity="0.23">&gt;</text>
+<text x="2076" y="2577" fill="#7A1FD1" fill-opacity="0.21">Ψ</text>
+<text x="2076" y="2489" fill="#7A1FD1" fill-opacity="0.19">Ξ</text>
+<text x="2076" y="2401" fill="#7A1FD1" fill-opacity="0.17">:</text>
+<text x="2076" y="2313" fill="#7A1FD1" fill-opacity="0.15">∆</text>
+<text x="2076" y="2225" fill="#7A1FD1" fill-opacity="0.13">#</text>
+<text x="2076" y="2137" fill="#7A1FD1" fill-opacity="0.11">∆</text>
+<text x="2076" y="2049" fill="#7A1FD1" fill-opacity="0.08">Ω</text>
+<text x="2076" y="1961" fill="#7A1FD1" fill-opacity="0.06">&gt;</text>
+<text x="2076" y="1873" fill="#7A1FD1" fill-opacity="0.04">Λ</text>
+<text x="2076" y="1785" fill="#7A1FD1" fill-opacity="0.02">Ψ</text>
+<text x="2172" y="1032" fill="#ffffff" fill-opacity="0.75">Λ</text>
+<text x="2172" y="944" fill="#7A1FD1" fill-opacity="0.53">3</text>
+<text x="2172" y="856" fill="#7A1FD1" fill-opacity="0.51">;</text>
+
+
+
+
+
+<text x="2172" y="328" fill="#7A1FD1" fill-opacity="0.39">1</text>
+<text x="2268" y="2980" fill="#ffffff" fill-opacity="0.75">&lt;</text>
+<text x="2268" y="2892" fill="#7A1FD1" fill-opacity="0.52">;</text>
+<text x="2268" y="2804" fill="#7A1FD1" fill-opacity="0.49">#</text>
+<text x="2268" y="2716" fill="#7A1FD1" fill-opacity="0.46">Ω</text>
+<text x="2268" y="2628" fill="#7A1FD1" fill-opacity="0.43">&lt;</text>
+<text x="2268" y="2540" fill="#7A1FD1" fill-opacity="0.41">V</text>
+<text x="2268" y="2452" fill="#7A1FD1" fill-opacity="0.38">:</text>
+<text x="2268" y="2364" fill="#7A1FD1" fill-opacity="0.35">7</text>
+<text x="2268" y="2276" fill="#7A1FD1" fill-opacity="0.32">;</text>
+<text x="2268" y="2188" fill="#7A1FD1" fill-opacity="0.29">7</text>
+<text x="2268" y="2100" fill="#7A1FD1" fill-opacity="0.26">Λ</text>
+<text x="2268" y="2012" fill="#7A1FD1" fill-opacity="0.23">Ω</text>
+<text x="2268" y="1924" fill="#7A1FD1" fill-opacity="0.20">Ω</text>
+<text x="2268" y="1836" fill="#7A1FD1" fill-opacity="0.17">0</text>
+<text x="2268" y="1748" fill="#7A1FD1" fill-opacity="0.14">Ω</text>
+<text x="2268" y="1660" fill="#7A1FD1" fill-opacity="0.12">/</text>
+<text x="2268" y="1572" fill="#7A1FD1" fill-opacity="0.09">Λ</text>
+<text x="2268" y="1484" fill="#7A1FD1" fill-opacity="0.06">Ψ</text>
+<text x="2268" y="1396" fill="#7A1FD1" fill-opacity="0.03">:</text>
+<text x="2364" y="880" fill="#ffffff" fill-opacity="0.75">0</text>
+
+
+
+
+
+<text x="2364" y="352" fill="#7A1FD1" fill-opacity="0.34">+</text>
+<text x="2460" y="1563" fill="#ffffff" fill-opacity="0.75">*</text>
+<text x="2460" y="1475" fill="#7A1FD1" fill-opacity="0.52">&lt;</text>
+<text x="2460" y="1387" fill="#7A1FD1" fill-opacity="0.49">Λ</text>
+<text x="2460" y="1299" fill="#7A1FD1" fill-opacity="0.45">*</text>
+<text x="2460" y="1211" fill="#7A1FD1" fill-opacity="0.42">4</text>
+<text x="2460" y="1123" fill="#7A1FD1" fill-opacity="0.39">Ξ</text>
+<text x="2460" y="1035" fill="#7A1FD1" fill-opacity="0.36">Ξ</text>
+<text x="2460" y="947" fill="#7A1FD1" fill-opacity="0.32">S</text>
+<text x="2460" y="859" fill="#7A1FD1" fill-opacity="0.29">S</text>
+
+
+
+
+
+<text x="2460" y="331" fill="#7A1FD1" fill-opacity="0.10">7</text>
+<text x="2556" y="2704" fill="#ffffff" fill-opacity="0.75">∆</text>
+<text x="2556" y="2616" fill="#7A1FD1" fill-opacity="0.52">S</text>
+<text x="2556" y="2528" fill="#7A1FD1" fill-opacity="0.49">:</text>
+<text x="2556" y="2440" fill="#7A1FD1" fill-opacity="0.46">1</text>
+<text x="2556" y="2352" fill="#7A1FD1" fill-opacity="0.43">&lt;</text>
+<text x="2556" y="2264" fill="#7A1FD1" fill-opacity="0.40">7</text>
+<text x="2556" y="2176" fill="#7A1FD1" fill-opacity="0.37">4</text>
+<text x="2556" y="2088" fill="#7A1FD1" fill-opacity="0.34">:</text>
+<text x="2556" y="2000" fill="#7A1FD1" fill-opacity="0.31">9</text>
+<text x="2556" y="1912" fill="#7A1FD1" fill-opacity="0.28">∆</text>
+<text x="2556" y="1824" fill="#7A1FD1" fill-opacity="0.24">Ξ</text>
+<text x="2556" y="1736" fill="#7A1FD1" fill-opacity="0.21">#</text>
+<text x="2556" y="1648" fill="#7A1FD1" fill-opacity="0.18">\</text>
+<text x="2556" y="1560" fill="#7A1FD1" fill-opacity="0.15">:</text>
+<text x="2556" y="1472" fill="#7A1FD1" fill-opacity="0.12">Ξ</text>
+<text x="2556" y="1384" fill="#7A1FD1" fill-opacity="0.09">1</text>
+<text x="2556" y="1296" fill="#7A1FD1" fill-opacity="0.06">9</text>
+<text x="2556" y="1208" fill="#7A1FD1" fill-opacity="0.03">4</text>
+<text x="2652" y="2325" fill="#ffffff" fill-opacity="0.75">Λ</text>
+<text x="2652" y="2237" fill="#7A1FD1" fill-opacity="0.53">4</text>
+<text x="2652" y="2149" fill="#7A1FD1" fill-opacity="0.50">=</text>
+<text x="2652" y="2061" fill="#7A1FD1" fill-opacity="0.48">\</text>
+<text x="2652" y="1973" fill="#7A1FD1" fill-opacity="0.45">:</text>
+<text x="2652" y="1885" fill="#7A1FD1" fill-opacity="0.43">Ψ</text>
+<text x="2652" y="1797" fill="#7A1FD1" fill-opacity="0.40">:</text>
+<text x="2652" y="1709" fill="#7A1FD1" fill-opacity="0.38">=</text>
+<text x="2652" y="1621" fill="#7A1FD1" fill-opacity="0.35">:</text>
+<text x="2652" y="1533" fill="#7A1FD1" fill-opacity="0.32">=</text>
+<text x="2652" y="1445" fill="#7A1FD1" fill-opacity="0.30">0</text>
+<text x="2652" y="1357" fill="#7A1FD1" fill-opacity="0.28">/</text>
+<text x="2652" y="1269" fill="#7A1FD1" fill-opacity="0.25">&lt;</text>
+<text x="2652" y="1181" fill="#7A1FD1" fill-opacity="0.23">Ξ</text>
+<text x="2652" y="1093" fill="#7A1FD1" fill-opacity="0.20">Ψ</text>
+<text x="2652" y="1005" fill="#7A1FD1" fill-opacity="0.18">+</text>
+<text x="2652" y="917" fill="#7A1FD1" fill-opacity="0.15">0</text>
+<text x="2652" y="829" fill="#7A1FD1" fill-opacity="0.13">3</text>
+
+
+
+
+<text x="2748" y="3207" fill="#ffffff" fill-opacity="0.75">S</text>
+<text x="2748" y="3119" fill="#7A1FD1" fill-opacity="0.53">;</text>
+<text x="2748" y="3031" fill="#7A1FD1" fill-opacity="0.52">S</text>
+<text x="2748" y="2943" fill="#7A1FD1" fill-opacity="0.50">S</text>
+<text x="2748" y="2855" fill="#7A1FD1" fill-opacity="0.48">Ψ</text>
+<text x="2748" y="2767" fill="#7A1FD1" fill-opacity="0.46">Ψ</text>
+<text x="2748" y="2679" fill="#7A1FD1" fill-opacity="0.45">/</text>
+<text x="2748" y="2591" fill="#7A1FD1" fill-opacity="0.43">;</text>
+<text x="2748" y="2503" fill="#7A1FD1" fill-opacity="0.41">/</text>
+<text x="2748" y="2415" fill="#7A1FD1" fill-opacity="0.40">Ξ</text>
+<text x="2748" y="2327" fill="#7A1FD1" fill-opacity="0.38">7</text>
+<text x="2748" y="2239" fill="#7A1FD1" fill-opacity="0.36">Λ</text>
+<text x="2748" y="2151" fill="#7A1FD1" fill-opacity="0.34">Ω</text>
+<text x="2748" y="2063" fill="#7A1FD1" fill-opacity="0.33">+</text>
+<text x="2748" y="1975" fill="#7A1FD1" fill-opacity="0.31">0</text>
+<text x="2748" y="1887" fill="#7A1FD1" fill-opacity="0.29">Ξ</text>
+<text x="2748" y="1799" fill="#7A1FD1" fill-opacity="0.28">*</text>
+<text x="2748" y="1711" fill="#7A1FD1" fill-opacity="0.26">&lt;</text>
+<text x="2748" y="1623" fill="#7A1FD1" fill-opacity="0.24">*</text>
+<text x="2748" y="1535" fill="#7A1FD1" fill-opacity="0.22">3</text>
+<text x="2748" y="1447" fill="#7A1FD1" fill-opacity="0.21">=</text>
+<text x="2748" y="1359" fill="#7A1FD1" fill-opacity="0.19">4</text>
+<text x="2748" y="1271" fill="#7A1FD1" fill-opacity="0.17">3</text>
+<text x="2748" y="1183" fill="#7A1FD1" fill-opacity="0.15">Ω</text>
+<text x="2748" y="1095" fill="#7A1FD1" fill-opacity="0.14">Ω</text>
+<text x="2748" y="1007" fill="#7A1FD1" fill-opacity="0.12">&lt;</text>
+<text x="2748" y="919" fill="#7A1FD1" fill-opacity="0.10">+</text>
+<text x="2748" y="831" fill="#7A1FD1" fill-opacity="0.09">4</text>
+
+
+
+
+<text x="2844" y="3060" fill="#ffffff" fill-opacity="0.75">7</text>
+<text x="2844" y="2972" fill="#7A1FD1" fill-opacity="0.53">3</text>
+<text x="2844" y="2884" fill="#7A1FD1" fill-opacity="0.51">Ψ</text>
+<text x="2844" y="2796" fill="#7A1FD1" fill-opacity="0.50">3</text>
+<text x="2844" y="2708" fill="#7A1FD1" fill-opacity="0.48">Ω</text>
+<text x="2844" y="2620" fill="#7A1FD1" fill-opacity="0.46">1</text>
+<text x="2844" y="2532" fill="#7A1FD1" fill-opacity="0.44">Λ</text>
+<text x="2844" y="2444" fill="#7A1FD1" fill-opacity="0.43">*</text>
+<text x="2844" y="2356" fill="#7A1FD1" fill-opacity="0.41">3</text>
+<text x="2844" y="2268" fill="#7A1FD1" fill-opacity="0.39">&gt;</text>
+<text x="2844" y="2180" fill="#7A1FD1" fill-opacity="0.37">Ξ</text>
+<text x="2844" y="2092" fill="#7A1FD1" fill-opacity="0.35">*</text>
+<text x="2844" y="2004" fill="#7A1FD1" fill-opacity="0.34">∆</text>
+<text x="2844" y="1916" fill="#7A1FD1" fill-opacity="0.32">#</text>
+<text x="2844" y="1828" fill="#7A1FD1" fill-opacity="0.30">#</text>
+<text x="2844" y="1740" fill="#7A1FD1" fill-opacity="0.28">9</text>
+<text x="2844" y="1652" fill="#7A1FD1" fill-opacity="0.27">#</text>
+<text x="2844" y="1564" fill="#7A1FD1" fill-opacity="0.25">:</text>
+<text x="2844" y="1476" fill="#7A1FD1" fill-opacity="0.23">&gt;</text>
+<text x="2844" y="1388" fill="#7A1FD1" fill-opacity="0.21">Ξ</text>
+<text x="2844" y="1300" fill="#7A1FD1" fill-opacity="0.20">9</text>
+<text x="2844" y="1212" fill="#7A1FD1" fill-opacity="0.18">9</text>
+<text x="2844" y="1124" fill="#7A1FD1" fill-opacity="0.16">=</text>
+<text x="2844" y="1036" fill="#7A1FD1" fill-opacity="0.14">7</text>
+<text x="2844" y="948" fill="#7A1FD1" fill-opacity="0.12">Λ</text>
+<text x="2844" y="860" fill="#7A1FD1" fill-opacity="0.11">V</text>
+
+
+
+
+
+<text x="2940" y="1576" fill="#ffffff" fill-opacity="0.75">\</text>
+<text x="2940" y="1488" fill="#7A1FD1" fill-opacity="0.53">∆</text>
+<text x="2940" y="1400" fill="#7A1FD1" fill-opacity="0.50">;</text>
+<text x="2940" y="1312" fill="#7A1FD1" fill-opacity="0.48">1</text>
+<text x="2940" y="1224" fill="#7A1FD1" fill-opacity="0.45">+</text>
+<text x="2940" y="1136" fill="#7A1FD1" fill-opacity="0.43">4</text>
+<text x="2940" y="1048" fill="#7A1FD1" fill-opacity="0.40">/</text>
+<text x="2940" y="960" fill="#7A1FD1" fill-opacity="0.38">9</text>
+<text x="2940" y="872" fill="#7A1FD1" fill-opacity="0.35">3</text>
+
+
+
+
+
+<text x="2940" y="344" fill="#7A1FD1" fill-opacity="0.20">1</text>
+<text x="3036" y="1040" fill="#ffffff" fill-opacity="0.75">3</text>
+<text x="3036" y="952" fill="#7A1FD1" fill-opacity="0.53">V</text>
+<text x="3036" y="864" fill="#7A1FD1" fill-opacity="0.50">Ψ</text>
+
+
+
+
+
+<text x="3036" y="336" fill="#7A1FD1" fill-opacity="0.35">9</text>
+<text x="3132" y="971" fill="#ffffff" fill-opacity="0.75">Ω</text>
+<text x="3132" y="883" fill="#7A1FD1" fill-opacity="0.53">/</text>
+
+
+
+
+
+<text x="3132" y="355" fill="#7A1FD1" fill-opacity="0.41">S</text>
+
+
+
+
+
+
+
+<text x="3228" y="3681" fill="#7A1FD1" fill-opacity="0.36">#</text>
+<text x="3228" y="3593" fill="#7A1FD1" fill-opacity="0.33">Ψ</text>
+<text x="3228" y="3505" fill="#7A1FD1" fill-opacity="0.30">Ω</text>
+<text x="3228" y="3417" fill="#7A1FD1" fill-opacity="0.28">/</text>
+<text x="3228" y="3329" fill="#7A1FD1" fill-opacity="0.25">:</text>
+<text x="3228" y="3241" fill="#7A1FD1" fill-opacity="0.22">0</text>
+<text x="3228" y="3153" fill="#7A1FD1" fill-opacity="0.19">∆</text>
+<text x="3228" y="3065" fill="#7A1FD1" fill-opacity="0.17">*</text>
+<text x="3228" y="2977" fill="#7A1FD1" fill-opacity="0.14">=</text>
+<text x="3228" y="2889" fill="#7A1FD1" fill-opacity="0.11">;</text>
+<text x="3228" y="2801" fill="#7A1FD1" fill-opacity="0.08">0</text>
+<text x="3228" y="2713" fill="#7A1FD1" fill-opacity="0.05">0</text>
+<text x="3228" y="2625" fill="#7A1FD1" fill-opacity="0.03">3</text>
+<text x="3324" y="2284" fill="#ffffff" fill-opacity="0.75">∆</text>
+<text x="3324" y="2196" fill="#7A1FD1" fill-opacity="0.53">Ξ</text>
+<text x="3324" y="2108" fill="#7A1FD1" fill-opacity="0.50">#</text>
+<text x="3324" y="2020" fill="#7A1FD1" fill-opacity="0.48">S</text>
+<text x="3324" y="1932" fill="#7A1FD1" fill-opacity="0.45">:</text>
+<text x="3324" y="1844" fill="#7A1FD1" fill-opacity="0.43">∆</text>
+<text x="3324" y="1756" fill="#7A1FD1" fill-opacity="0.40">Ψ</text>
+<text x="3324" y="1668" fill="#7A1FD1" fill-opacity="0.38">#</text>
+<text x="3324" y="1580" fill="#7A1FD1" fill-opacity="0.35">;</text>
+<text x="3324" y="1492" fill="#7A1FD1" fill-opacity="0.32">Ψ</text>
+<text x="3324" y="1404" fill="#7A1FD1" fill-opacity="0.30">4</text>
+<text x="3324" y="1316" fill="#7A1FD1" fill-opacity="0.28">=</text>
+<text x="3324" y="1228" fill="#7A1FD1" fill-opacity="0.25">Ξ</text>
+<text x="3324" y="1140" fill="#7A1FD1" fill-opacity="0.23">:</text>
+<text x="3324" y="1052" fill="#7A1FD1" fill-opacity="0.20">&gt;</text>
+<text x="3324" y="964" fill="#7A1FD1" fill-opacity="0.18">+</text>
+<text x="3324" y="876" fill="#7A1FD1" fill-opacity="0.15">\</text>
+
+
+
+
+
+<text x="3420" y="2626" fill="#ffffff" fill-opacity="0.75">0</text>
+<text x="3420" y="2538" fill="#7A1FD1" fill-opacity="0.52">V</text>
+<text x="3420" y="2450" fill="#7A1FD1" fill-opacity="0.49">;</text>
+<text x="3420" y="2362" fill="#7A1FD1" fill-opacity="0.45">0</text>
+<text x="3420" y="2274" fill="#7A1FD1" fill-opacity="0.42">:</text>
+<text x="3420" y="2186" fill="#7A1FD1" fill-opacity="0.39">#</text>
+<text x="3420" y="2098" fill="#7A1FD1" fill-opacity="0.36">4</text>
+<text x="3420" y="2010" fill="#7A1FD1" fill-opacity="0.32">3</text>
+<text x="3420" y="1922" fill="#7A1FD1" fill-opacity="0.29">S</text>
+<text x="3420" y="1834" fill="#7A1FD1" fill-opacity="0.26">Λ</text>
+<text x="3420" y="1746" fill="#7A1FD1" fill-opacity="0.23">*</text>
+<text x="3420" y="1658" fill="#7A1FD1" fill-opacity="0.19">&gt;</text>
+<text x="3420" y="1570" fill="#7A1FD1" fill-opacity="0.16">;</text>
+<text x="3420" y="1482" fill="#7A1FD1" fill-opacity="0.13">#</text>
+<text x="3420" y="1394" fill="#7A1FD1" fill-opacity="0.10">\</text>
+<text x="3420" y="1306" fill="#7A1FD1" fill-opacity="0.06">*</text>
+<text x="3420" y="1218" fill="#7A1FD1" fill-opacity="0.03">4</text>
+<text x="3516" y="3223" fill="#ffffff" fill-opacity="0.75">&lt;</text>
+<text x="3516" y="3135" fill="#7A1FD1" fill-opacity="0.53">0</text>
+<text x="3516" y="3047" fill="#7A1FD1" fill-opacity="0.51">V</text>
+<text x="3516" y="2959" fill="#7A1FD1" fill-opacity="0.50">=</text>
+<text x="3516" y="2871" fill="#7A1FD1" fill-opacity="0.48">9</text>
+<text x="3516" y="2783" fill="#7A1FD1" fill-opacity="0.46">=</text>
+<text x="3516" y="2695" fill="#7A1FD1" fill-opacity="0.44">&gt;</text>
+<text x="3516" y="2607" fill="#7A1FD1" fill-opacity="0.42">#</text>
+<text x="3516" y="2519" fill="#7A1FD1" fill-opacity="0.40">:</text>
+<text x="3516" y="2431" fill="#7A1FD1" fill-opacity="0.39">/</text>
+<text x="3516" y="2343" fill="#7A1FD1" fill-opacity="0.37">&lt;</text>
+<text x="3516" y="2255" fill="#7A1FD1" fill-opacity="0.35">4</text>
+<text x="3516" y="2167" fill="#7A1FD1" fill-opacity="0.33">;</text>
+<text x="3516" y="2079" fill="#7A1FD1" fill-opacity="0.31">+</text>
+<text x="3516" y="1991" fill="#7A1FD1" fill-opacity="0.29">V</text>
+<text x="3516" y="1903" fill="#7A1FD1" fill-opacity="0.28">3</text>
+<text x="3516" y="1815" fill="#7A1FD1" fill-opacity="0.26">/</text>
+<text x="3516" y="1727" fill="#7A1FD1" fill-opacity="0.24">/</text>
+<text x="3516" y="1639" fill="#7A1FD1" fill-opacity="0.22">∆</text>
+<text x="3516" y="1551" fill="#7A1FD1" fill-opacity="0.20">:</text>
+<text x="3516" y="1463" fill="#7A1FD1" fill-opacity="0.18">0</text>
+<text x="3516" y="1375" fill="#7A1FD1" fill-opacity="0.17">Ψ</text>
+<text x="3516" y="1287" fill="#7A1FD1" fill-opacity="0.15">3</text>
+<text x="3516" y="1199" fill="#7A1FD1" fill-opacity="0.13">7</text>
+<text x="3516" y="1111" fill="#7A1FD1" fill-opacity="0.11">*</text>
+<text x="3516" y="1023" fill="#7A1FD1" fill-opacity="0.09">∆</text>
+<text x="3516" y="935" fill="#7A1FD1" fill-opacity="0.07">=</text>
+<text x="3516" y="847" fill="#7A1FD1" fill-opacity="0.05">7</text>
+
+</g>
+<g clip-path="url(#head)"><text x="60" y="1200" fill="#B14BFF" fill-opacity="0.69">7</text>
+<text x="60" y="1288" fill="#B14BFF" fill-opacity="0.86">∆</text>
+<text x="60" y="1376" fill="#B14BFF" fill-opacity="0.66">Ξ</text>
+<text x="60" y="1464" fill="#B14BFF" fill-opacity="0.53">Λ</text>
+<text x="60" y="1552" fill="#B14BFF" fill-opacity="0.88">1</text>
+<text x="60" y="1640" fill="#B14BFF" fill-opacity="0.59">7</text>
+<text x="60" y="1728" fill="#B14BFF" fill-opacity="0.72">Ξ</text>
+<text x="60" y="1816" fill="#B14BFF" fill-opacity="0.85">Λ</text>
+<text x="60" y="1904" fill="#ffffff" fill-opacity="1">∆</text>
+<text x="60" y="1992" fill="#B14BFF" fill-opacity="0.71">7</text>
+<text x="60" y="2080" fill="#B14BFF" fill-opacity="0.7">∆</text>
+<text x="60" y="2168" fill="#B14BFF" fill-opacity="0.73">3</text>
+<text x="60" y="2256" fill="#ffffff" fill-opacity="1">Λ</text>
+<text x="60" y="2344" fill="#B14BFF" fill-opacity="0.52">9</text>
+<text x="60" y="2432" fill="#B14BFF" fill-opacity="0.85">Ψ</text>
+<text x="60" y="2520" fill="#B14BFF" fill-opacity="0.49">#</text>
+<text x="60" y="2608" fill="#ffffff" fill-opacity="1">V</text>
+<text x="60" y="2696" fill="#B14BFF" fill-opacity="0.86">*</text>
+<text x="60" y="2784" fill="#ffffff" fill-opacity="1">0</text>
+<text x="60" y="2872" fill="#B14BFF" fill-opacity="0.35">∆</text>
+<text x="60" y="2960" fill="#B14BFF" fill-opacity="0.38">*</text>
+<text x="60" y="3048" fill="#B14BFF" fill-opacity="0.59">Λ</text>
+<text x="60" y="3136" fill="#B14BFF" fill-opacity="0.47">Ψ</text>
+<text x="60" y="3224" fill="#B14BFF" fill-opacity="0.54">0</text>
+<text x="60" y="3312" fill="#B14BFF" fill-opacity="0.8">V</text>
+<text x="156" y="1200" fill="#B14BFF" fill-opacity="0.77">0</text>
+<text x="156" y="1288" fill="#ffffff" fill-opacity="1">3</text>
+<text x="156" y="1376" fill="#B14BFF" fill-opacity="0.69">7</text>
+<text x="156" y="1464" fill="#B14BFF" fill-opacity="0.94">S</text>
+<text x="156" y="1552" fill="#B14BFF" fill-opacity="0.58">*</text>
+<text x="156" y="1640" fill="#B14BFF" fill-opacity="0.48">Ψ</text>
+<text x="156" y="1728" fill="#B14BFF" fill-opacity="0.93">#</text>
+<text x="156" y="1816" fill="#B14BFF" fill-opacity="0.36">Ξ</text>
+<text x="156" y="1904" fill="#B14BFF" fill-opacity="0.86">V</text>
+<text x="156" y="1992" fill="#ffffff" fill-opacity="1">S</text>
+<text x="156" y="2080" fill="#B14BFF" fill-opacity="0.5">=</text>
+<text x="156" y="2168" fill="#B14BFF" fill-opacity="0.58">Λ</text>
+<text x="156" y="2256" fill="#B14BFF" fill-opacity="0.7">Ω</text>
+<text x="156" y="2344" fill="#ffffff" fill-opacity="1">+</text>
+<text x="156" y="2432" fill="#B14BFF" fill-opacity="0.62">3</text>
+<text x="156" y="2520" fill="#B14BFF" fill-opacity="0.43">*</text>
+<text x="156" y="2608" fill="#B14BFF" fill-opacity="0.44">Ω</text>
+<text x="156" y="2696" fill="#B14BFF" fill-opacity="0.5">∆</text>
+<text x="156" y="2784" fill="#B14BFF" fill-opacity="0.73">9</text>
+<text x="156" y="2872" fill="#B14BFF" fill-opacity="0.92">3</text>
+<text x="156" y="2960" fill="#B14BFF" fill-opacity="0.6">V</text>
+<text x="156" y="3048" fill="#B14BFF" fill-opacity="0.66">Ψ</text>
+<text x="156" y="3136" fill="#B14BFF" fill-opacity="0.77">Ψ</text>
+<text x="156" y="3224" fill="#B14BFF" fill-opacity="0.89">3</text>
+<text x="156" y="3312" fill="#B14BFF" fill-opacity="0.46">Λ</text>
+<text x="252" y="1200" fill="#B14BFF" fill-opacity="0.64">Λ</text>
+<text x="252" y="1288" fill="#B14BFF" fill-opacity="0.9">∆</text>
+<text x="252" y="1376" fill="#B14BFF" fill-opacity="0.39">:</text>
+<text x="252" y="1464" fill="#B14BFF" fill-opacity="0.39">Ξ</text>
+<text x="252" y="1552" fill="#B14BFF" fill-opacity="0.67">S</text>
+<text x="252" y="1640" fill="#B14BFF" fill-opacity="0.43">7</text>
+<text x="252" y="1728" fill="#B14BFF" fill-opacity="0.74">4</text>
+<text x="252" y="1816" fill="#B14BFF" fill-opacity="0.43">1</text>
+<text x="252" y="1904" fill="#B14BFF" fill-opacity="0.63">+</text>
+<text x="252" y="1992" fill="#B14BFF" fill-opacity="0.93">0</text>
+<text x="252" y="2080" fill="#B14BFF" fill-opacity="0.39">Λ</text>
+<text x="252" y="2168" fill="#B14BFF" fill-opacity="0.54">Λ</text>
+<text x="252" y="2256" fill="#ffffff" fill-opacity="1">9</text>
+<text x="252" y="2344" fill="#B14BFF" fill-opacity="0.38">S</text>
+<text x="252" y="2432" fill="#B14BFF" fill-opacity="0.9">+</text>
+<text x="252" y="2520" fill="#B14BFF" fill-opacity="0.63">Λ</text>
+<text x="252" y="2608" fill="#B14BFF" fill-opacity="0.6">0</text>
+<text x="252" y="2696" fill="#B14BFF" fill-opacity="0.69">*</text>
+<text x="252" y="2784" fill="#B14BFF" fill-opacity="0.36">Λ</text>
+<text x="252" y="2872" fill="#B14BFF" fill-opacity="0.73">Ψ</text>
+<text x="252" y="2960" fill="#B14BFF" fill-opacity="0.79">*</text>
+<text x="252" y="3048" fill="#B14BFF" fill-opacity="0.77">7</text>
+<text x="252" y="3136" fill="#B14BFF" fill-opacity="0.85">Λ</text>
+<text x="252" y="3224" fill="#B14BFF" fill-opacity="0.66">#</text>
+<text x="252" y="3312" fill="#B14BFF" fill-opacity="0.64">Ω</text>
+<text x="348" y="1200" fill="#B14BFF" fill-opacity="0.42">3</text>
+<text x="348" y="1288" fill="#B14BFF" fill-opacity="0.36">#</text>
+<text x="348" y="1376" fill="#B14BFF" fill-opacity="0.72">4</text>
+<text x="348" y="1464" fill="#B14BFF" fill-opacity="0.89">7</text>
+<text x="348" y="1552" fill="#B14BFF" fill-opacity="0.49">*</text>
+<text x="348" y="1640" fill="#B14BFF" fill-opacity="0.47">:</text>
+<text x="348" y="1728" fill="#B14BFF" fill-opacity="0.8">∆</text>
+<text x="348" y="1816" fill="#B14BFF" fill-opacity="0.58">=</text>
+<text x="348" y="1904" fill="#B14BFF" fill-opacity="0.43">+</text>
+<text x="348" y="1992" fill="#B14BFF" fill-opacity="0.86">Λ</text>
+<text x="348" y="2080" fill="#B14BFF" fill-opacity="0.52">Ξ</text>
+<text x="348" y="2168" fill="#B14BFF" fill-opacity="0.63">∆</text>
+<text x="348" y="2256" fill="#B14BFF" fill-opacity="0.58">4</text>
+<text x="348" y="2344" fill="#B14BFF" fill-opacity="0.54">7</text>
+<text x="348" y="2432" fill="#B14BFF" fill-opacity="0.85">Ψ</text>
+<text x="348" y="2520" fill="#B14BFF" fill-opacity="0.37">Ψ</text>
+<text x="348" y="2608" fill="#B14BFF" fill-opacity="0.54">0</text>
+<text x="348" y="2696" fill="#B14BFF" fill-opacity="0.59">∆</text>
+<text x="348" y="2784" fill="#ffffff" fill-opacity="1">Ψ</text>
+<text x="348" y="2872" fill="#B14BFF" fill-opacity="0.43">1</text>
+<text x="348" y="2960" fill="#B14BFF" fill-opacity="0.42">V</text>
+<text x="348" y="3048" fill="#B14BFF" fill-opacity="0.74">+</text>
+<text x="348" y="3136" fill="#B14BFF" fill-opacity="0.76">∆</text>
+<text x="348" y="3224" fill="#B14BFF" fill-opacity="0.5">0</text>
+<text x="348" y="3312" fill="#B14BFF" fill-opacity="0.67">1</text>
+<text x="444" y="1200" fill="#B14BFF" fill-opacity="0.51">+</text>
+<text x="444" y="1288" fill="#B14BFF" fill-opacity="0.92">4</text>
+<text x="444" y="1376" fill="#B14BFF" fill-opacity="0.8">*</text>
+<text x="444" y="1464" fill="#B14BFF" fill-opacity="0.77">Ω</text>
+<text x="444" y="1552" fill="#B14BFF" fill-opacity="0.91">*</text>
+<text x="444" y="1640" fill="#B14BFF" fill-opacity="0.62">0</text>
+<text x="444" y="1728" fill="#B14BFF" fill-opacity="0.69">4</text>
+<text x="444" y="1816" fill="#B14BFF" fill-opacity="0.92">7</text>
+<text x="444" y="1904" fill="#B14BFF" fill-opacity="0.94">V</text>
+<text x="444" y="1992" fill="#B14BFF" fill-opacity="0.84">V</text>
+<text x="444" y="2080" fill="#B14BFF" fill-opacity="0.89">Λ</text>
+<text x="444" y="2168" fill="#B14BFF" fill-opacity="0.67">=</text>
+<text x="444" y="2256" fill="#B14BFF" fill-opacity="0.78">0</text>
+<text x="444" y="2344" fill="#B14BFF" fill-opacity="0.4">7</text>
+<text x="444" y="2432" fill="#B14BFF" fill-opacity="0.6">Ψ</text>
+<text x="444" y="2520" fill="#B14BFF" fill-opacity="0.37">Λ</text>
+<text x="444" y="2608" fill="#B14BFF" fill-opacity="0.37">9</text>
+<text x="444" y="2696" fill="#B14BFF" fill-opacity="0.82">S</text>
+<text x="444" y="2784" fill="#B14BFF" fill-opacity="0.95">4</text>
+<text x="444" y="2872" fill="#B14BFF" fill-opacity="0.76">3</text>
+<text x="444" y="2960" fill="#B14BFF" fill-opacity="0.76">Ω</text>
+<text x="444" y="3048" fill="#B14BFF" fill-opacity="0.69">9</text>
+<text x="444" y="3136" fill="#B14BFF" fill-opacity="0.66">9</text>
+<text x="444" y="3224" fill="#B14BFF" fill-opacity="0.75">∆</text>
+<text x="444" y="3312" fill="#B14BFF" fill-opacity="0.43">9</text>
+<text x="540" y="1200" fill="#B14BFF" fill-opacity="0.69">∆</text>
+<text x="540" y="1288" fill="#B14BFF" fill-opacity="0.42">0</text>
+<text x="540" y="1376" fill="#B14BFF" fill-opacity="0.37">1</text>
+<text x="540" y="1464" fill="#B14BFF" fill-opacity="0.59">V</text>
+<text x="540" y="1552" fill="#B14BFF" fill-opacity="0.76">Λ</text>
+<text x="540" y="1640" fill="#B14BFF" fill-opacity="0.63">*</text>
+<text x="540" y="1728" fill="#B14BFF" fill-opacity="0.63">S</text>
+<text x="540" y="1816" fill="#B14BFF" fill-opacity="0.89">3</text>
+<text x="540" y="1904" fill="#B14BFF" fill-opacity="0.42">:</text>
+<text x="540" y="1992" fill="#B14BFF" fill-opacity="0.91">S</text>
+<text x="540" y="2080" fill="#B14BFF" fill-opacity="0.94">1</text>
+<text x="540" y="2168" fill="#B14BFF" fill-opacity="0.49">#</text>
+<text x="540" y="2256" fill="#B14BFF" fill-opacity="0.56">3</text>
+<text x="540" y="2344" fill="#B14BFF" fill-opacity="0.79">V</text>
+<text x="540" y="2432" fill="#B14BFF" fill-opacity="0.72">∆</text>
+<text x="540" y="2520" fill="#B14BFF" fill-opacity="0.88">0</text>
+<text x="540" y="2608" fill="#B14BFF" fill-opacity="0.6">4</text>
+<text x="540" y="2696" fill="#B14BFF" fill-opacity="0.67">9</text>
+<text x="540" y="2784" fill="#B14BFF" fill-opacity="0.67">9</text>
+<text x="540" y="2872" fill="#B14BFF" fill-opacity="0.86">Ω</text>
+<text x="540" y="2960" fill="#B14BFF" fill-opacity="0.73">+</text>
+<text x="540" y="3048" fill="#B14BFF" fill-opacity="0.54">=</text>
+<text x="540" y="3136" fill="#B14BFF" fill-opacity="0.47">∆</text>
+<text x="540" y="3224" fill="#B14BFF" fill-opacity="0.43">Ω</text>
+<text x="540" y="3312" fill="#B14BFF" fill-opacity="0.4">*</text>
+<text x="636" y="1200" fill="#B14BFF" fill-opacity="0.85">:</text>
+<text x="636" y="1288" fill="#B14BFF" fill-opacity="0.77">∆</text>
+<text x="636" y="1376" fill="#B14BFF" fill-opacity="0.76">0</text>
+<text x="636" y="1464" fill="#B14BFF" fill-opacity="0.69">+</text>
+<text x="636" y="1552" fill="#B14BFF" fill-opacity="0.93">V</text>
+<text x="636" y="1640" fill="#B14BFF" fill-opacity="0.73">=</text>
+<text x="636" y="1728" fill="#B14BFF" fill-opacity="0.76">∆</text>
+<text x="636" y="1816" fill="#B14BFF" fill-opacity="0.64">0</text>
+<text x="636" y="1904" fill="#ffffff" fill-opacity="1">9</text>
+<text x="636" y="1992" fill="#B14BFF" fill-opacity="0.89">3</text>
+<text x="636" y="2080" fill="#B14BFF" fill-opacity="0.46">∆</text>
+<text x="636" y="2168" fill="#B14BFF" fill-opacity="0.44">#</text>
+<text x="636" y="2256" fill="#B14BFF" fill-opacity="0.41">1</text>
+<text x="636" y="2344" fill="#B14BFF" fill-opacity="0.76">Λ</text>
+<text x="636" y="2432" fill="#B14BFF" fill-opacity="0.55">7</text>
+<text x="636" y="2520" fill="#B14BFF" fill-opacity="0.56">∆</text>
+<text x="636" y="2608" fill="#B14BFF" fill-opacity="0.36">1</text>
+<text x="636" y="2696" fill="#B14BFF" fill-opacity="0.46">7</text>
+<text x="636" y="2784" fill="#B14BFF" fill-opacity="0.57">∆</text>
+<text x="636" y="2872" fill="#B14BFF" fill-opacity="0.41">0</text>
+<text x="636" y="2960" fill="#B14BFF" fill-opacity="0.4">*</text>
+<text x="636" y="3048" fill="#B14BFF" fill-opacity="0.46">=</text>
+<text x="636" y="3136" fill="#B14BFF" fill-opacity="0.5">V</text>
+<text x="636" y="3224" fill="#B14BFF" fill-opacity="0.82">*</text>
+<text x="636" y="3312" fill="#B14BFF" fill-opacity="0.55">9</text>
+<text x="732" y="1200" fill="#B14BFF" fill-opacity="0.81">Ξ</text>
+<text x="732" y="1288" fill="#B14BFF" fill-opacity="0.78">Λ</text>
+<text x="732" y="1376" fill="#B14BFF" fill-opacity="0.53">V</text>
+<text x="732" y="1464" fill="#ffffff" fill-opacity="1">+</text>
+<text x="732" y="1552" fill="#B14BFF" fill-opacity="0.89">1</text>
+<text x="732" y="1640" fill="#B14BFF" fill-opacity="0.92">#</text>
+<text x="732" y="1728" fill="#B14BFF" fill-opacity="0.75">Ξ</text>
+<text x="732" y="1816" fill="#B14BFF" fill-opacity="0.58">3</text>
+<text x="732" y="1904" fill="#B14BFF" fill-opacity="0.77">*</text>
+<text x="732" y="1992" fill="#B14BFF" fill-opacity="0.36">V</text>
+<text x="732" y="2080" fill="#B14BFF" fill-opacity="0.5">*</text>
+<text x="732" y="2168" fill="#B14BFF" fill-opacity="0.81">*</text>
+<text x="732" y="2256" fill="#ffffff" fill-opacity="1">Ψ</text>
+<text x="732" y="2344" fill="#B14BFF" fill-opacity="0.89">9</text>
+<text x="732" y="2432" fill="#B14BFF" fill-opacity="0.6">4</text>
+<text x="732" y="2520" fill="#B14BFF" fill-opacity="0.95">7</text>
+<text x="732" y="2608" fill="#B14BFF" fill-opacity="0.4">1</text>
+<text x="732" y="2696" fill="#B14BFF" fill-opacity="0.91">*</text>
+<text x="732" y="2784" fill="#B14BFF" fill-opacity="0.45">3</text>
+<text x="732" y="2872" fill="#B14BFF" fill-opacity="0.71">:</text>
+<text x="732" y="2960" fill="#B14BFF" fill-opacity="0.6">4</text>
+<text x="732" y="3048" fill="#B14BFF" fill-opacity="0.54">4</text>
+<text x="732" y="3136" fill="#B14BFF" fill-opacity="0.74">9</text>
+<text x="732" y="3224" fill="#B14BFF" fill-opacity="0.75">#</text>
+<text x="732" y="3312" fill="#ffffff" fill-opacity="1">Ω</text>
+<text x="828" y="1200" fill="#B14BFF" fill-opacity="0.73">:</text>
+<text x="828" y="1288" fill="#B14BFF" fill-opacity="0.58">=</text>
+<text x="828" y="1376" fill="#B14BFF" fill-opacity="0.38">=</text>
+<text x="828" y="1464" fill="#ffffff" fill-opacity="1">Ω</text>
+<text x="828" y="1552" fill="#B14BFF" fill-opacity="0.64">Ω</text>
+<text x="828" y="1640" fill="#ffffff" fill-opacity="1">V</text>
+<text x="828" y="1728" fill="#B14BFF" fill-opacity="0.78">7</text>
+<text x="828" y="1816" fill="#B14BFF" fill-opacity="0.93">Ω</text>
+<text x="828" y="1904" fill="#B14BFF" fill-opacity="0.42">:</text>
+<text x="828" y="1992" fill="#B14BFF" fill-opacity="0.47">1</text>
+<text x="828" y="2080" fill="#B14BFF" fill-opacity="0.44">+</text>
+<text x="828" y="2168" fill="#B14BFF" fill-opacity="0.75">7</text>
+<text x="828" y="2256" fill="#B14BFF" fill-opacity="0.73">:</text>
+<text x="828" y="2344" fill="#B14BFF" fill-opacity="0.8">S</text>
+<text x="828" y="2432" fill="#B14BFF" fill-opacity="0.79">Ω</text>
+<text x="828" y="2520" fill="#B14BFF" fill-opacity="0.65">#</text>
+<text x="828" y="2608" fill="#B14BFF" fill-opacity="0.72">+</text>
+<text x="828" y="2696" fill="#B14BFF" fill-opacity="0.72">∆</text>
+<text x="828" y="2784" fill="#B14BFF" fill-opacity="0.8">∆</text>
+<text x="828" y="2872" fill="#B14BFF" fill-opacity="0.65">∆</text>
+<text x="828" y="2960" fill="#B14BFF" fill-opacity="0.37">1</text>
+<text x="828" y="3048" fill="#ffffff" fill-opacity="1">Ψ</text>
+<text x="828" y="3136" fill="#B14BFF" fill-opacity="0.72">V</text>
+<text x="828" y="3224" fill="#B14BFF" fill-opacity="0.52">Λ</text>
+<text x="828" y="3312" fill="#B14BFF" fill-opacity="0.45">Ω</text>
+<text x="924" y="1200" fill="#B14BFF" fill-opacity="0.57">3</text>
+<text x="924" y="1288" fill="#B14BFF" fill-opacity="0.55">3</text>
+<text x="924" y="1376" fill="#B14BFF" fill-opacity="0.85">Λ</text>
+<text x="924" y="1464" fill="#B14BFF" fill-opacity="0.62">∆</text>
+<text x="924" y="1552" fill="#B14BFF" fill-opacity="0.8">*</text>
+<text x="924" y="1640" fill="#B14BFF" fill-opacity="0.57">=</text>
+<text x="924" y="1728" fill="#B14BFF" fill-opacity="0.81">Ξ</text>
+<text x="924" y="1816" fill="#B14BFF" fill-opacity="0.57">V</text>
+<text x="924" y="1904" fill="#B14BFF" fill-opacity="0.54">9</text>
+<text x="924" y="1992" fill="#B14BFF" fill-opacity="0.69">3</text>
+<text x="924" y="2080" fill="#B14BFF" fill-opacity="0.63">0</text>
+<text x="924" y="2168" fill="#ffffff" fill-opacity="1">∆</text>
+<text x="924" y="2256" fill="#B14BFF" fill-opacity="0.71">#</text>
+<text x="924" y="2344" fill="#B14BFF" fill-opacity="0.81">=</text>
+<text x="924" y="2432" fill="#B14BFF" fill-opacity="0.44">+</text>
+<text x="924" y="2520" fill="#B14BFF" fill-opacity="0.55">V</text>
+<text x="924" y="2608" fill="#B14BFF" fill-opacity="0.61">Ψ</text>
+<text x="924" y="2696" fill="#B14BFF" fill-opacity="0.83">#</text>
+<text x="924" y="2784" fill="#B14BFF" fill-opacity="0.48">4</text>
+<text x="924" y="2872" fill="#B14BFF" fill-opacity="0.57">+</text>
+<text x="924" y="2960" fill="#ffffff" fill-opacity="1">*</text>
+<text x="924" y="3048" fill="#B14BFF" fill-opacity="0.83">+</text>
+<text x="924" y="3136" fill="#B14BFF" fill-opacity="0.67">Ξ</text>
+<text x="924" y="3224" fill="#B14BFF" fill-opacity="0.81">#</text>
+<text x="924" y="3312" fill="#B14BFF" fill-opacity="0.48">1</text>
+<text x="1020" y="1200" fill="#B14BFF" fill-opacity="0.69">0</text>
+<text x="1020" y="1288" fill="#B14BFF" fill-opacity="0.83">Λ</text>
+<text x="1020" y="1376" fill="#B14BFF" fill-opacity="0.53">9</text>
+<text x="1020" y="1464" fill="#B14BFF" fill-opacity="0.4">V</text>
+<text x="1020" y="1552" fill="#B14BFF" fill-opacity="0.4">S</text>
+<text x="1020" y="1640" fill="#B14BFF" fill-opacity="0.84">:</text>
+<text x="1020" y="1728" fill="#B14BFF" fill-opacity="0.48">4</text>
+<text x="1020" y="1816" fill="#B14BFF" fill-opacity="0.63">+</text>
+<text x="1020" y="1904" fill="#B14BFF" fill-opacity="0.93">S</text>
+<text x="1020" y="1992" fill="#B14BFF" fill-opacity="0.67">Λ</text>
+<text x="1020" y="2080" fill="#B14BFF" fill-opacity="0.9">:</text>
+<text x="1020" y="2168" fill="#B14BFF" fill-opacity="0.94">+</text>
+<text x="1020" y="2256" fill="#B14BFF" fill-opacity="0.83">Λ</text>
+<text x="1020" y="2344" fill="#B14BFF" fill-opacity="0.92">0</text>
+<text x="1020" y="2432" fill="#B14BFF" fill-opacity="0.78">V</text>
+<text x="1020" y="2520" fill="#B14BFF" fill-opacity="0.6">S</text>
+<text x="1020" y="2608" fill="#B14BFF" fill-opacity="0.45">*</text>
+<text x="1020" y="2696" fill="#B14BFF" fill-opacity="0.54">*</text>
+<text x="1020" y="2784" fill="#B14BFF" fill-opacity="0.53">1</text>
+<text x="1020" y="2872" fill="#B14BFF" fill-opacity="0.79">#</text>
+<text x="1020" y="2960" fill="#B14BFF" fill-opacity="0.82">Ξ</text>
+<text x="1020" y="3048" fill="#B14BFF" fill-opacity="0.8">0</text>
+<text x="1020" y="3136" fill="#B14BFF" fill-opacity="0.9">1</text>
+<text x="1020" y="3224" fill="#B14BFF" fill-opacity="0.47">+</text>
+<text x="1020" y="3312" fill="#B14BFF" fill-opacity="0.49">3</text>
+<text x="1116" y="1200" fill="#B14BFF" fill-opacity="0.48">Ξ</text>
+<text x="1116" y="1288" fill="#B14BFF" fill-opacity="0.59">#</text>
+<text x="1116" y="1376" fill="#B14BFF" fill-opacity="0.92">9</text>
+<text x="1116" y="1464" fill="#B14BFF" fill-opacity="0.51">*</text>
+<text x="1116" y="1552" fill="#B14BFF" fill-opacity="0.56">9</text>
+<text x="1116" y="1640" fill="#B14BFF" fill-opacity="0.41">Ω</text>
+<text x="1116" y="1728" fill="#B14BFF" fill-opacity="0.48">S</text>
+<text x="1116" y="1816" fill="#B14BFF" fill-opacity="0.58">4</text>
+<text x="1116" y="1904" fill="#B14BFF" fill-opacity="0.81">1</text>
+<text x="1116" y="1992" fill="#B14BFF" fill-opacity="0.49">0</text>
+<text x="1116" y="2080" fill="#B14BFF" fill-opacity="0.89">7</text>
+<text x="1116" y="2168" fill="#B14BFF" fill-opacity="0.78">Ξ</text>
+<text x="1116" y="2256" fill="#B14BFF" fill-opacity="0.81">S</text>
+<text x="1116" y="2344" fill="#B14BFF" fill-opacity="0.87">4</text>
+<text x="1116" y="2432" fill="#B14BFF" fill-opacity="0.8">Ψ</text>
+<text x="1116" y="2520" fill="#B14BFF" fill-opacity="0.38">Ξ</text>
+<text x="1116" y="2608" fill="#ffffff" fill-opacity="1">S</text>
+<text x="1116" y="2696" fill="#B14BFF" fill-opacity="0.4">Ψ</text>
+<text x="1116" y="2784" fill="#B14BFF" fill-opacity="0.67">3</text>
+<text x="1116" y="2872" fill="#B14BFF" fill-opacity="0.4">9</text>
+<text x="1116" y="2960" fill="#B14BFF" fill-opacity="0.53">∆</text>
+<text x="1116" y="3048" fill="#B14BFF" fill-opacity="0.9">Λ</text>
+<text x="1116" y="3136" fill="#B14BFF" fill-opacity="0.61">1</text>
+<text x="1116" y="3224" fill="#B14BFF" fill-opacity="0.67">Ξ</text>
+<text x="1116" y="3312" fill="#B14BFF" fill-opacity="0.93">=</text>
+<text x="1212" y="1200" fill="#B14BFF" fill-opacity="0.4">#</text>
+<text x="1212" y="1288" fill="#B14BFF" fill-opacity="0.75">Λ</text>
+<text x="1212" y="1376" fill="#B14BFF" fill-opacity="0.76">V</text>
+<text x="1212" y="1464" fill="#B14BFF" fill-opacity="0.76">V</text>
+<text x="1212" y="1552" fill="#B14BFF" fill-opacity="0.36">*</text>
+<text x="1212" y="1640" fill="#B14BFF" fill-opacity="0.64">#</text>
+<text x="1212" y="1728" fill="#B14BFF" fill-opacity="0.62">0</text>
+<text x="1212" y="1816" fill="#B14BFF" fill-opacity="0.86">∆</text>
+<text x="1212" y="1904" fill="#B14BFF" fill-opacity="0.44">*</text>
+<text x="1212" y="1992" fill="#B14BFF" fill-opacity="0.8">=</text>
+<text x="1212" y="2080" fill="#B14BFF" fill-opacity="0.68">Λ</text>
+<text x="1212" y="2168" fill="#B14BFF" fill-opacity="0.47">V</text>
+<text x="1212" y="2256" fill="#B14BFF" fill-opacity="0.92">3</text>
+<text x="1212" y="2344" fill="#B14BFF" fill-opacity="0.55">*</text>
+<text x="1212" y="2432" fill="#B14BFF" fill-opacity="0.43">V</text>
+<text x="1212" y="2520" fill="#B14BFF" fill-opacity="0.73">Ξ</text>
+<text x="1212" y="2608" fill="#B14BFF" fill-opacity="0.59">7</text>
+<text x="1212" y="2696" fill="#B14BFF" fill-opacity="0.4">Ω</text>
+<text x="1212" y="2784" fill="#ffffff" fill-opacity="1">V</text>
+<text x="1212" y="2872" fill="#B14BFF" fill-opacity="0.81">=</text>
+<text x="1212" y="2960" fill="#B14BFF" fill-opacity="0.61">4</text>
+<text x="1212" y="3048" fill="#B14BFF" fill-opacity="0.47">S</text>
+<text x="1212" y="3136" fill="#B14BFF" fill-opacity="0.58">=</text>
+<text x="1212" y="3224" fill="#B14BFF" fill-opacity="0.72">*</text>
+<text x="1212" y="3312" fill="#B14BFF" fill-opacity="0.54">Ω</text>
+<text x="1308" y="1200" fill="#B14BFF" fill-opacity="0.72">0</text>
+<text x="1308" y="1288" fill="#B14BFF" fill-opacity="0.46">#</text>
+<text x="1308" y="1376" fill="#B14BFF" fill-opacity="0.41">*</text>
+<text x="1308" y="1464" fill="#B14BFF" fill-opacity="0.55">#</text>
+<text x="1308" y="1552" fill="#B14BFF" fill-opacity="0.72">Ξ</text>
+<text x="1308" y="1640" fill="#B14BFF" fill-opacity="0.67">#</text>
+<text x="1308" y="1728" fill="#B14BFF" fill-opacity="0.56">4</text>
+<text x="1308" y="1816" fill="#B14BFF" fill-opacity="0.69">∆</text>
+<text x="1308" y="1904" fill="#B14BFF" fill-opacity="0.66">∆</text>
+<text x="1308" y="1992" fill="#B14BFF" fill-opacity="0.37">∆</text>
+<text x="1308" y="2080" fill="#B14BFF" fill-opacity="0.43">3</text>
+<text x="1308" y="2168" fill="#B14BFF" fill-opacity="0.77">=</text>
+<text x="1308" y="2256" fill="#B14BFF" fill-opacity="0.87">Ψ</text>
+<text x="1308" y="2344" fill="#B14BFF" fill-opacity="0.42">S</text>
+<text x="1308" y="2432" fill="#B14BFF" fill-opacity="0.69">9</text>
+<text x="1308" y="2520" fill="#B14BFF" fill-opacity="0.69">Ψ</text>
+<text x="1308" y="2608" fill="#B14BFF" fill-opacity="0.8">=</text>
+<text x="1308" y="2696" fill="#B14BFF" fill-opacity="0.42">0</text>
+<text x="1308" y="2784" fill="#B14BFF" fill-opacity="0.89">Ω</text>
+<text x="1308" y="2872" fill="#B14BFF" fill-opacity="0.57">Ξ</text>
+<text x="1308" y="2960" fill="#B14BFF" fill-opacity="0.68">Λ</text>
+<text x="1308" y="3048" fill="#B14BFF" fill-opacity="0.59">S</text>
+<text x="1308" y="3136" fill="#B14BFF" fill-opacity="0.75">*</text>
+<text x="1308" y="3224" fill="#B14BFF" fill-opacity="0.73">0</text>
+<text x="1308" y="3312" fill="#B14BFF" fill-opacity="0.6">1</text>
+<text x="1404" y="1200" fill="#B14BFF" fill-opacity="0.58">*</text>
+<text x="1404" y="1288" fill="#B14BFF" fill-opacity="0.66">Ψ</text>
+<text x="1404" y="1376" fill="#B14BFF" fill-opacity="0.91">1</text>
+<text x="1404" y="1464" fill="#B14BFF" fill-opacity="0.37">S</text>
+<text x="1404" y="1552" fill="#B14BFF" fill-opacity="0.65">V</text>
+<text x="1404" y="1640" fill="#B14BFF" fill-opacity="0.6">:</text>
+<text x="1404" y="1728" fill="#B14BFF" fill-opacity="0.64">7</text>
+<text x="1404" y="1816" fill="#B14BFF" fill-opacity="0.86">:</text>
+<text x="1404" y="1904" fill="#B14BFF" fill-opacity="0.42">V</text>
+<text x="1404" y="1992" fill="#B14BFF" fill-opacity="0.67">4</text>
+<text x="1404" y="2080" fill="#B14BFF" fill-opacity="0.6">0</text>
+<text x="1404" y="2168" fill="#B14BFF" fill-opacity="0.38">:</text>
+<text x="1404" y="2256" fill="#B14BFF" fill-opacity="0.71">#</text>
+<text x="1404" y="2344" fill="#B14BFF" fill-opacity="0.88">Ω</text>
+<text x="1404" y="2432" fill="#B14BFF" fill-opacity="0.62">4</text>
+<text x="1404" y="2520" fill="#B14BFF" fill-opacity="0.93">3</text>
+<text x="1404" y="2608" fill="#B14BFF" fill-opacity="0.67">Ω</text>
+<text x="1404" y="2696" fill="#B14BFF" fill-opacity="0.74">Ω</text>
+<text x="1404" y="2784" fill="#B14BFF" fill-opacity="0.95">+</text>
+<text x="1404" y="2872" fill="#B14BFF" fill-opacity="0.6">Ξ</text>
+<text x="1404" y="2960" fill="#B14BFF" fill-opacity="0.8">V</text>
+<text x="1404" y="3048" fill="#B14BFF" fill-opacity="0.41">S</text>
+<text x="1404" y="3136" fill="#B14BFF" fill-opacity="0.67">7</text>
+<text x="1404" y="3224" fill="#ffffff" fill-opacity="1">Ω</text>
+<text x="1404" y="3312" fill="#B14BFF" fill-opacity="0.36">Ξ</text>
+<text x="1500" y="1200" fill="#ffffff" fill-opacity="1">7</text>
+<text x="1500" y="1288" fill="#B14BFF" fill-opacity="0.59">+</text>
+<text x="1500" y="1376" fill="#B14BFF" fill-opacity="0.49">#</text>
+<text x="1500" y="1464" fill="#ffffff" fill-opacity="1">=</text>
+<text x="1500" y="1552" fill="#B14BFF" fill-opacity="0.65">3</text>
+<text x="1500" y="1640" fill="#B14BFF" fill-opacity="0.47">1</text>
+<text x="1500" y="1728" fill="#B14BFF" fill-opacity="0.85">+</text>
+<text x="1500" y="1816" fill="#B14BFF" fill-opacity="0.36">9</text>
+<text x="1500" y="1904" fill="#B14BFF" fill-opacity="0.73">∆</text>
+<text x="1500" y="1992" fill="#B14BFF" fill-opacity="0.94">V</text>
+<text x="1500" y="2080" fill="#B14BFF" fill-opacity="0.84">Ψ</text>
+<text x="1500" y="2168" fill="#B14BFF" fill-opacity="0.78">S</text>
+<text x="1500" y="2256" fill="#B14BFF" fill-opacity="0.92">7</text>
+<text x="1500" y="2344" fill="#B14BFF" fill-opacity="0.45">#</text>
+<text x="1500" y="2432" fill="#B14BFF" fill-opacity="0.76">Ψ</text>
+<text x="1500" y="2520" fill="#B14BFF" fill-opacity="0.49">#</text>
+<text x="1500" y="2608" fill="#B14BFF" fill-opacity="0.57">4</text>
+<text x="1500" y="2696" fill="#B14BFF" fill-opacity="0.7">Ω</text>
+<text x="1500" y="2784" fill="#B14BFF" fill-opacity="0.89">Ξ</text>
+<text x="1500" y="2872" fill="#B14BFF" fill-opacity="0.52">Λ</text>
+<text x="1500" y="2960" fill="#B14BFF" fill-opacity="0.4">4</text>
+<text x="1500" y="3048" fill="#ffffff" fill-opacity="1">1</text>
+<text x="1500" y="3136" fill="#ffffff" fill-opacity="1">#</text>
+<text x="1500" y="3224" fill="#B14BFF" fill-opacity="0.6">Λ</text>
+<text x="1500" y="3312" fill="#B14BFF" fill-opacity="0.94">∆</text>
+<text x="1596" y="1200" fill="#B14BFF" fill-opacity="0.52">9</text>
+<text x="1596" y="1288" fill="#ffffff" fill-opacity="1">S</text>
+<text x="1596" y="1376" fill="#B14BFF" fill-opacity="0.37">7</text>
+<text x="1596" y="1464" fill="#B14BFF" fill-opacity="0.7">0</text>
+<text x="1596" y="1552" fill="#B14BFF" fill-opacity="0.65">Ξ</text>
+<text x="1596" y="1640" fill="#ffffff" fill-opacity="1">+</text>
+<text x="1596" y="1728" fill="#B14BFF" fill-opacity="0.64">1</text>
+<text x="1596" y="1816" fill="#B14BFF" fill-opacity="0.65">4</text>
+<text x="1596" y="1904" fill="#B14BFF" fill-opacity="0.67">Ξ</text>
+<text x="1596" y="1992" fill="#B14BFF" fill-opacity="0.61">7</text>
+<text x="1596" y="2080" fill="#B14BFF" fill-opacity="0.5">Ω</text>
+<text x="1596" y="2168" fill="#B14BFF" fill-opacity="0.68">3</text>
+<text x="1596" y="2256" fill="#B14BFF" fill-opacity="0.47">1</text>
+<text x="1596" y="2344" fill="#B14BFF" fill-opacity="0.87">Ξ</text>
+<text x="1596" y="2432" fill="#B14BFF" fill-opacity="0.71">3</text>
+<text x="1596" y="2520" fill="#B14BFF" fill-opacity="0.65">Ψ</text>
+<text x="1596" y="2608" fill="#B14BFF" fill-opacity="0.37">V</text>
+<text x="1596" y="2696" fill="#B14BFF" fill-opacity="0.69">9</text>
+<text x="1596" y="2784" fill="#B14BFF" fill-opacity="0.78">S</text>
+<text x="1596" y="2872" fill="#ffffff" fill-opacity="1">:</text>
+<text x="1596" y="2960" fill="#ffffff" fill-opacity="1">=</text>
+<text x="1596" y="3048" fill="#B14BFF" fill-opacity="0.79">Ψ</text>
+<text x="1596" y="3136" fill="#B14BFF" fill-opacity="0.65">4</text>
+<text x="1596" y="3224" fill="#B14BFF" fill-opacity="0.5">Ξ</text>
+<text x="1596" y="3312" fill="#B14BFF" fill-opacity="0.75">7</text>
+<text x="1692" y="1200" fill="#ffffff" fill-opacity="1">:</text>
+<text x="1692" y="1288" fill="#B14BFF" fill-opacity="0.77">1</text>
+<text x="1692" y="1376" fill="#B14BFF" fill-opacity="0.8">S</text>
+<text x="1692" y="1464" fill="#B14BFF" fill-opacity="0.62">1</text>
+<text x="1692" y="1552" fill="#ffffff" fill-opacity="1">:</text>
+<text x="1692" y="1640" fill="#B14BFF" fill-opacity="0.43">*</text>
+<text x="1692" y="1728" fill="#B14BFF" fill-opacity="0.63">Λ</text>
+<text x="1692" y="1816" fill="#B14BFF" fill-opacity="0.76">Ω</text>
+<text x="1692" y="1904" fill="#B14BFF" fill-opacity="0.42">Ω</text>
+<text x="1692" y="1992" fill="#B14BFF" fill-opacity="0.4">Ω</text>
+<text x="1692" y="2080" fill="#B14BFF" fill-opacity="0.55">∆</text>
+<text x="1692" y="2168" fill="#ffffff" fill-opacity="1">*</text>
+<text x="1692" y="2256" fill="#B14BFF" fill-opacity="0.95">=</text>
+<text x="1692" y="2344" fill="#B14BFF" fill-opacity="0.9">Ξ</text>
+<text x="1692" y="2432" fill="#B14BFF" fill-opacity="0.59">∆</text>
+<text x="1692" y="2520" fill="#B14BFF" fill-opacity="0.82">∆</text>
+<text x="1692" y="2608" fill="#B14BFF" fill-opacity="0.5">9</text>
+<text x="1692" y="2696" fill="#B14BFF" fill-opacity="0.64">*</text>
+<text x="1692" y="2784" fill="#B14BFF" fill-opacity="0.63">#</text>
+<text x="1692" y="2872" fill="#B14BFF" fill-opacity="0.64">Ξ</text>
+<text x="1692" y="2960" fill="#B14BFF" fill-opacity="0.47">*</text>
+<text x="1692" y="3048" fill="#B14BFF" fill-opacity="0.38">Ψ</text>
+<text x="1692" y="3136" fill="#B14BFF" fill-opacity="0.51">0</text>
+<text x="1692" y="3224" fill="#B14BFF" fill-opacity="0.79">4</text>
+<text x="1692" y="3312" fill="#B14BFF" fill-opacity="0.9">∆</text>
+<text x="1788" y="1200" fill="#B14BFF" fill-opacity="0.57">S</text>
+<text x="1788" y="1288" fill="#B14BFF" fill-opacity="0.82">S</text>
+<text x="1788" y="1376" fill="#B14BFF" fill-opacity="0.78">V</text>
+<text x="1788" y="1464" fill="#ffffff" fill-opacity="1">=</text>
+<text x="1788" y="1552" fill="#B14BFF" fill-opacity="0.62">*</text>
+<text x="1788" y="1640" fill="#B14BFF" fill-opacity="0.81">4</text>
+<text x="1788" y="1728" fill="#B14BFF" fill-opacity="0.53">Ω</text>
+<text x="1788" y="1816" fill="#B14BFF" fill-opacity="0.46">4</text>
+<text x="1788" y="1904" fill="#B14BFF" fill-opacity="0.37">#</text>
+<text x="1788" y="1992" fill="#B14BFF" fill-opacity="0.64">S</text>
+<text x="1788" y="2080" fill="#B14BFF" fill-opacity="0.68">=</text>
+<text x="1788" y="2168" fill="#B14BFF" fill-opacity="0.75">S</text>
+<text x="1788" y="2256" fill="#B14BFF" fill-opacity="0.85">9</text>
+<text x="1788" y="2344" fill="#B14BFF" fill-opacity="0.59">*</text>
+<text x="1788" y="2432" fill="#B14BFF" fill-opacity="0.56">V</text>
+<text x="1788" y="2520" fill="#B14BFF" fill-opacity="0.56">∆</text>
+<text x="1788" y="2608" fill="#B14BFF" fill-opacity="0.86">3</text>
+<text x="1788" y="2696" fill="#B14BFF" fill-opacity="0.84">#</text>
+<text x="1788" y="2784" fill="#B14BFF" fill-opacity="0.39">∆</text>
+<text x="1788" y="2872" fill="#B14BFF" fill-opacity="0.56">V</text>
+<text x="1788" y="2960" fill="#B14BFF" fill-opacity="0.87">Ω</text>
+<text x="1788" y="3048" fill="#B14BFF" fill-opacity="0.51">:</text>
+<text x="1788" y="3136" fill="#B14BFF" fill-opacity="0.65">3</text>
+<text x="1788" y="3224" fill="#B14BFF" fill-opacity="0.55">3</text>
+<text x="1788" y="3312" fill="#B14BFF" fill-opacity="0.48">*</text>
+<text x="1884" y="1200" fill="#B14BFF" fill-opacity="0.81">+</text>
+<text x="1884" y="1288" fill="#B14BFF" fill-opacity="0.49">Λ</text>
+<text x="1884" y="1376" fill="#B14BFF" fill-opacity="0.89">S</text>
+<text x="1884" y="1464" fill="#B14BFF" fill-opacity="0.5">9</text>
+<text x="1884" y="1552" fill="#B14BFF" fill-opacity="0.9">*</text>
+<text x="1884" y="1640" fill="#B14BFF" fill-opacity="0.9">*</text>
+<text x="1884" y="1728" fill="#B14BFF" fill-opacity="0.58">#</text>
+<text x="1884" y="1816" fill="#B14BFF" fill-opacity="0.55">Ψ</text>
+<text x="1884" y="1904" fill="#ffffff" fill-opacity="1">1</text>
+<text x="1884" y="1992" fill="#B14BFF" fill-opacity="0.89">#</text>
+<text x="1884" y="2080" fill="#B14BFF" fill-opacity="0.75">Ξ</text>
+<text x="1884" y="2168" fill="#B14BFF" fill-opacity="0.58">=</text>
+<text x="1884" y="2256" fill="#B14BFF" fill-opacity="0.57">∆</text>
+<text x="1884" y="2344" fill="#B14BFF" fill-opacity="0.73">9</text>
+<text x="1884" y="2432" fill="#B14BFF" fill-opacity="0.6">Ψ</text>
+<text x="1884" y="2520" fill="#ffffff" fill-opacity="1">7</text>
+<text x="1884" y="2608" fill="#B14BFF" fill-opacity="0.58">*</text>
+<text x="1884" y="2696" fill="#ffffff" fill-opacity="1">S</text>
+<text x="1884" y="2784" fill="#B14BFF" fill-opacity="0.51">3</text>
+<text x="1884" y="2872" fill="#B14BFF" fill-opacity="0.94">S</text>
+<text x="1884" y="2960" fill="#B14BFF" fill-opacity="0.51">Ψ</text>
+<text x="1884" y="3048" fill="#B14BFF" fill-opacity="0.49">0</text>
+<text x="1884" y="3136" fill="#B14BFF" fill-opacity="0.94">0</text>
+<text x="1884" y="3224" fill="#B14BFF" fill-opacity="0.65">9</text>
+<text x="1884" y="3312" fill="#ffffff" fill-opacity="1">9</text>
+<text x="1980" y="1200" fill="#B14BFF" fill-opacity="0.76">=</text>
+<text x="1980" y="1288" fill="#B14BFF" fill-opacity="0.41">0</text>
+<text x="1980" y="1376" fill="#B14BFF" fill-opacity="0.78">*</text>
+<text x="1980" y="1464" fill="#B14BFF" fill-opacity="0.93">Ξ</text>
+<text x="1980" y="1552" fill="#B14BFF" fill-opacity="0.72">3</text>
+<text x="1980" y="1640" fill="#B14BFF" fill-opacity="0.53">:</text>
+<text x="1980" y="1728" fill="#B14BFF" fill-opacity="0.8">9</text>
+<text x="1980" y="1816" fill="#B14BFF" fill-opacity="0.74">+</text>
+<text x="1980" y="1904" fill="#B14BFF" fill-opacity="0.46">4</text>
+<text x="1980" y="1992" fill="#B14BFF" fill-opacity="0.88">Λ</text>
+<text x="1980" y="2080" fill="#B14BFF" fill-opacity="0.88">#</text>
+<text x="1980" y="2168" fill="#B14BFF" fill-opacity="0.62">3</text>
+<text x="1980" y="2256" fill="#ffffff" fill-opacity="1">:</text>
+<text x="1980" y="2344" fill="#B14BFF" fill-opacity="0.38">Ψ</text>
+<text x="1980" y="2432" fill="#B14BFF" fill-opacity="0.79">*</text>
+<text x="1980" y="2520" fill="#B14BFF" fill-opacity="0.73">+</text>
+<text x="1980" y="2608" fill="#B14BFF" fill-opacity="0.55">=</text>
+<text x="1980" y="2696" fill="#B14BFF" fill-opacity="0.47">S</text>
+<text x="1980" y="2784" fill="#B14BFF" fill-opacity="0.6">S</text>
+<text x="1980" y="2872" fill="#B14BFF" fill-opacity="0.85">Ξ</text>
+<text x="1980" y="2960" fill="#B14BFF" fill-opacity="0.58">#</text>
+<text x="1980" y="3048" fill="#B14BFF" fill-opacity="0.46">0</text>
+<text x="1980" y="3136" fill="#B14BFF" fill-opacity="0.77">S</text>
+<text x="1980" y="3224" fill="#B14BFF" fill-opacity="0.51">Ψ</text>
+<text x="1980" y="3312" fill="#B14BFF" fill-opacity="0.59">S</text>
+<text x="2076" y="1200" fill="#ffffff" fill-opacity="1">V</text>
+<text x="2076" y="1288" fill="#B14BFF" fill-opacity="0.47">+</text>
+<text x="2076" y="1376" fill="#B14BFF" fill-opacity="0.95">V</text>
+<text x="2076" y="1464" fill="#B14BFF" fill-opacity="0.89">9</text>
+<text x="2076" y="1552" fill="#B14BFF" fill-opacity="0.45">Λ</text>
+<text x="2076" y="1640" fill="#B14BFF" fill-opacity="0.83">#</text>
+<text x="2076" y="1728" fill="#B14BFF" fill-opacity="0.78">:</text>
+<text x="2076" y="1816" fill="#B14BFF" fill-opacity="0.94">*</text>
+<text x="2076" y="1904" fill="#B14BFF" fill-opacity="0.48">#</text>
+<text x="2076" y="1992" fill="#B14BFF" fill-opacity="0.44">Ξ</text>
+<text x="2076" y="2080" fill="#B14BFF" fill-opacity="0.68">Ψ</text>
+<text x="2076" y="2168" fill="#B14BFF" fill-opacity="0.61">S</text>
+<text x="2076" y="2256" fill="#B14BFF" fill-opacity="0.36">S</text>
+<text x="2076" y="2344" fill="#B14BFF" fill-opacity="0.59">=</text>
+<text x="2076" y="2432" fill="#B14BFF" fill-opacity="0.64">+</text>
+<text x="2076" y="2520" fill="#B14BFF" fill-opacity="0.69">S</text>
+<text x="2076" y="2608" fill="#ffffff" fill-opacity="1">#</text>
+<text x="2076" y="2696" fill="#B14BFF" fill-opacity="0.35">=</text>
+<text x="2076" y="2784" fill="#B14BFF" fill-opacity="0.95">∆</text>
+<text x="2076" y="2872" fill="#B14BFF" fill-opacity="0.6">1</text>
+<text x="2076" y="2960" fill="#B14BFF" fill-opacity="0.83">*</text>
+<text x="2076" y="3048" fill="#B14BFF" fill-opacity="0.48">Ψ</text>
+<text x="2076" y="3136" fill="#B14BFF" fill-opacity="0.91">Ω</text>
+<text x="2076" y="3224" fill="#B14BFF" fill-opacity="0.62">1</text>
+<text x="2076" y="3312" fill="#B14BFF" fill-opacity="0.37">Ξ</text>
+<text x="2172" y="1200" fill="#B14BFF" fill-opacity="0.75">Ψ</text>
+<text x="2172" y="1288" fill="#B14BFF" fill-opacity="0.8">#</text>
+<text x="2172" y="1376" fill="#ffffff" fill-opacity="1">7</text>
+<text x="2172" y="1464" fill="#ffffff" fill-opacity="1">∆</text>
+<text x="2172" y="1552" fill="#ffffff" fill-opacity="1">+</text>
+<text x="2172" y="1640" fill="#ffffff" fill-opacity="1">4</text>
+<text x="2172" y="1728" fill="#B14BFF" fill-opacity="0.5">3</text>
+<text x="2172" y="1816" fill="#B14BFF" fill-opacity="0.83">V</text>
+<text x="2172" y="1904" fill="#B14BFF" fill-opacity="0.64">:</text>
+<text x="2172" y="1992" fill="#B14BFF" fill-opacity="0.9">0</text>
+<text x="2172" y="2080" fill="#ffffff" fill-opacity="1">S</text>
+<text x="2172" y="2168" fill="#B14BFF" fill-opacity="0.58">+</text>
+<text x="2172" y="2256" fill="#B14BFF" fill-opacity="0.52">+</text>
+<text x="2172" y="2344" fill="#B14BFF" fill-opacity="0.62">#</text>
+<text x="2172" y="2432" fill="#B14BFF" fill-opacity="0.89">=</text>
+<text x="2172" y="2520" fill="#B14BFF" fill-opacity="0.51">∆</text>
+<text x="2172" y="2608" fill="#B14BFF" fill-opacity="0.48">S</text>
+<text x="2172" y="2696" fill="#B14BFF" fill-opacity="0.76">Ξ</text>
+<text x="2172" y="2784" fill="#B14BFF" fill-opacity="0.44">+</text>
+<text x="2172" y="2872" fill="#B14BFF" fill-opacity="0.61">0</text>
+<text x="2172" y="2960" fill="#B14BFF" fill-opacity="0.38">V</text>
+<text x="2172" y="3048" fill="#B14BFF" fill-opacity="0.67">∆</text>
+<text x="2172" y="3136" fill="#ffffff" fill-opacity="1">Ξ</text>
+<text x="2172" y="3224" fill="#B14BFF" fill-opacity="0.8">V</text>
+<text x="2172" y="3312" fill="#B14BFF" fill-opacity="0.54">3</text>
+<text x="2268" y="1200" fill="#B14BFF" fill-opacity="0.48">:</text>
+<text x="2268" y="1288" fill="#B14BFF" fill-opacity="0.88">Ψ</text>
+<text x="2268" y="1376" fill="#ffffff" fill-opacity="1">*</text>
+<text x="2268" y="1464" fill="#B14BFF" fill-opacity="0.54">Ξ</text>
+<text x="2268" y="1552" fill="#B14BFF" fill-opacity="0.67">0</text>
+<text x="2268" y="1640" fill="#B14BFF" fill-opacity="0.73">*</text>
+<text x="2268" y="1728" fill="#B14BFF" fill-opacity="0.38">+</text>
+<text x="2268" y="1816" fill="#B14BFF" fill-opacity="0.86">:</text>
+<text x="2268" y="1904" fill="#B14BFF" fill-opacity="0.69">V</text>
+<text x="2268" y="1992" fill="#B14BFF" fill-opacity="0.79">7</text>
+<text x="2268" y="2080" fill="#B14BFF" fill-opacity="0.63">*</text>
+<text x="2268" y="2168" fill="#B14BFF" fill-opacity="0.58">9</text>
+<text x="2268" y="2256" fill="#B14BFF" fill-opacity="0.66">1</text>
+<text x="2268" y="2344" fill="#B14BFF" fill-opacity="0.62">#</text>
+<text x="2268" y="2432" fill="#B14BFF" fill-opacity="0.71">=</text>
+<text x="2268" y="2520" fill="#B14BFF" fill-opacity="0.63">Ψ</text>
+<text x="2268" y="2608" fill="#B14BFF" fill-opacity="0.54">3</text>
+<text x="2268" y="2696" fill="#B14BFF" fill-opacity="0.59">S</text>
+<text x="2268" y="2784" fill="#B14BFF" fill-opacity="0.89">V</text>
+<text x="2268" y="2872" fill="#B14BFF" fill-opacity="0.85">S</text>
+<text x="2268" y="2960" fill="#B14BFF" fill-opacity="0.83">4</text>
+<text x="2268" y="3048" fill="#B14BFF" fill-opacity="0.51">Ξ</text>
+<text x="2268" y="3136" fill="#B14BFF" fill-opacity="0.78">Ψ</text>
+<text x="2268" y="3224" fill="#B14BFF" fill-opacity="0.56">∆</text>
+<text x="2268" y="3312" fill="#B14BFF" fill-opacity="0.87">∆</text>
+<text x="2364" y="1200" fill="#B14BFF" fill-opacity="0.93">Ω</text>
+<text x="2364" y="1288" fill="#ffffff" fill-opacity="1">9</text>
+<text x="2364" y="1376" fill="#B14BFF" fill-opacity="0.8">Ω</text>
+<text x="2364" y="1464" fill="#ffffff" fill-opacity="1">3</text>
+<text x="2364" y="1552" fill="#B14BFF" fill-opacity="0.81">9</text>
+<text x="2364" y="1640" fill="#B14BFF" fill-opacity="0.39">S</text>
+<text x="2364" y="1728" fill="#B14BFF" fill-opacity="0.46">=</text>
+<text x="2364" y="1816" fill="#ffffff" fill-opacity="1">+</text>
+<text x="2364" y="1904" fill="#B14BFF" fill-opacity="0.48">#</text>
+<text x="2364" y="1992" fill="#B14BFF" fill-opacity="0.46">*</text>
+<text x="2364" y="2080" fill="#ffffff" fill-opacity="1">7</text>
+<text x="2364" y="2168" fill="#B14BFF" fill-opacity="0.39">∆</text>
+<text x="2364" y="2256" fill="#B14BFF" fill-opacity="0.54">∆</text>
+<text x="2364" y="2344" fill="#B14BFF" fill-opacity="0.95">*</text>
+<text x="2364" y="2432" fill="#ffffff" fill-opacity="1">=</text>
+<text x="2364" y="2520" fill="#B14BFF" fill-opacity="0.86">Ψ</text>
+<text x="2364" y="2608" fill="#B14BFF" fill-opacity="0.48">∆</text>
+<text x="2364" y="2696" fill="#B14BFF" fill-opacity="0.43">7</text>
+<text x="2364" y="2784" fill="#ffffff" fill-opacity="1">Ψ</text>
+<text x="2364" y="2872" fill="#B14BFF" fill-opacity="0.91">+</text>
+<text x="2364" y="2960" fill="#B14BFF" fill-opacity="0.35">Λ</text>
+<text x="2364" y="3048" fill="#B14BFF" fill-opacity="0.79">+</text>
+<text x="2364" y="3136" fill="#B14BFF" fill-opacity="0.81">∆</text>
+<text x="2364" y="3224" fill="#B14BFF" fill-opacity="0.73">:</text>
+<text x="2364" y="3312" fill="#B14BFF" fill-opacity="0.72">Ψ</text>
+<text x="2460" y="1200" fill="#B14BFF" fill-opacity="0.65">V</text>
+<text x="2460" y="1288" fill="#B14BFF" fill-opacity="0.77">Ω</text>
+<text x="2460" y="1376" fill="#B14BFF" fill-opacity="0.42">V</text>
+<text x="2460" y="1464" fill="#B14BFF" fill-opacity="0.52">Λ</text>
+<text x="2460" y="1552" fill="#B14BFF" fill-opacity="0.62">3</text>
+<text x="2460" y="1640" fill="#B14BFF" fill-opacity="0.8">Ω</text>
+<text x="2460" y="1728" fill="#B14BFF" fill-opacity="0.39">:</text>
+<text x="2460" y="1816" fill="#B14BFF" fill-opacity="0.7">Ψ</text>
+<text x="2460" y="1904" fill="#B14BFF" fill-opacity="0.77">Ω</text>
+<text x="2460" y="1992" fill="#ffffff" fill-opacity="1">+</text>
+<text x="2460" y="2080" fill="#B14BFF" fill-opacity="0.89">Ψ</text>
+<text x="2460" y="2168" fill="#B14BFF" fill-opacity="0.52">V</text>
+<text x="2460" y="2256" fill="#B14BFF" fill-opacity="0.86">V</text>
+<text x="2460" y="2344" fill="#B14BFF" fill-opacity="0.41">∆</text>
+<text x="2460" y="2432" fill="#B14BFF" fill-opacity="0.57">+</text>
+<text x="2460" y="2520" fill="#ffffff" fill-opacity="1">+</text>
+<text x="2460" y="2608" fill="#B14BFF" fill-opacity="0.84">0</text>
+<text x="2460" y="2696" fill="#B14BFF" fill-opacity="0.44">Λ</text>
+<text x="2460" y="2784" fill="#B14BFF" fill-opacity="0.63">=</text>
+<text x="2460" y="2872" fill="#B14BFF" fill-opacity="0.74">1</text>
+<text x="2460" y="2960" fill="#B14BFF" fill-opacity="0.94">*</text>
+<text x="2460" y="3048" fill="#B14BFF" fill-opacity="0.49">9</text>
+<text x="2460" y="3136" fill="#B14BFF" fill-opacity="0.95">Λ</text>
+<text x="2460" y="3224" fill="#B14BFF" fill-opacity="0.74">∆</text>
+<text x="2460" y="3312" fill="#B14BFF" fill-opacity="0.7">3</text>
+<text x="2556" y="1200" fill="#B14BFF" fill-opacity="0.44">*</text>
+<text x="2556" y="1288" fill="#B14BFF" fill-opacity="0.83">0</text>
+<text x="2556" y="1376" fill="#B14BFF" fill-opacity="0.74">Ψ</text>
+<text x="2556" y="1464" fill="#B14BFF" fill-opacity="0.93">3</text>
+<text x="2556" y="1552" fill="#B14BFF" fill-opacity="0.42">7</text>
+<text x="2556" y="1640" fill="#B14BFF" fill-opacity="0.57">+</text>
+<text x="2556" y="1728" fill="#B14BFF" fill-opacity="0.89">0</text>
+<text x="2556" y="1816" fill="#B14BFF" fill-opacity="0.6">9</text>
+<text x="2556" y="1904" fill="#B14BFF" fill-opacity="0.42">V</text>
+<text x="2556" y="1992" fill="#B14BFF" fill-opacity="0.65">V</text>
+<text x="2556" y="2080" fill="#ffffff" fill-opacity="1">Ω</text>
+<text x="2556" y="2168" fill="#B14BFF" fill-opacity="0.4">4</text>
+<text x="2556" y="2256" fill="#B14BFF" fill-opacity="0.56">Ω</text>
+<text x="2556" y="2344" fill="#B14BFF" fill-opacity="0.6">1</text>
+<text x="2556" y="2432" fill="#B14BFF" fill-opacity="0.7">Ξ</text>
+<text x="2556" y="2520" fill="#B14BFF" fill-opacity="0.63">V</text>
+<text x="2556" y="2608" fill="#B14BFF" fill-opacity="0.65">S</text>
+<text x="2556" y="2696" fill="#B14BFF" fill-opacity="0.66">:</text>
+<text x="2556" y="2784" fill="#B14BFF" fill-opacity="0.93">V</text>
+<text x="2556" y="2872" fill="#B14BFF" fill-opacity="0.36">S</text>
+<text x="2556" y="2960" fill="#B14BFF" fill-opacity="0.42">*</text>
+<text x="2556" y="3048" fill="#B14BFF" fill-opacity="0.67">0</text>
+<text x="2556" y="3136" fill="#B14BFF" fill-opacity="0.65">9</text>
+<text x="2556" y="3224" fill="#B14BFF" fill-opacity="0.86">1</text>
+<text x="2556" y="3312" fill="#B14BFF" fill-opacity="0.53">∆</text>
+<text x="2652" y="1200" fill="#B14BFF" fill-opacity="0.42">:</text>
+<text x="2652" y="1288" fill="#B14BFF" fill-opacity="0.64">9</text>
+<text x="2652" y="1376" fill="#B14BFF" fill-opacity="0.69">4</text>
+<text x="2652" y="1464" fill="#B14BFF" fill-opacity="0.41">#</text>
+<text x="2652" y="1552" fill="#B14BFF" fill-opacity="0.71">Ω</text>
+<text x="2652" y="1640" fill="#B14BFF" fill-opacity="0.61">3</text>
+<text x="2652" y="1728" fill="#B14BFF" fill-opacity="0.74">=</text>
+<text x="2652" y="1816" fill="#B14BFF" fill-opacity="0.38">4</text>
+<text x="2652" y="1904" fill="#ffffff" fill-opacity="1">4</text>
+<text x="2652" y="1992" fill="#B14BFF" fill-opacity="0.54">Ω</text>
+<text x="2652" y="2080" fill="#B14BFF" fill-opacity="0.78">1</text>
+<text x="2652" y="2168" fill="#B14BFF" fill-opacity="0.64">Ω</text>
+<text x="2652" y="2256" fill="#B14BFF" fill-opacity="0.67">0</text>
+<text x="2652" y="2344" fill="#B14BFF" fill-opacity="0.71">V</text>
+<text x="2652" y="2432" fill="#ffffff" fill-opacity="1">+</text>
+<text x="2652" y="2520" fill="#B14BFF" fill-opacity="0.57">+</text>
+<text x="2652" y="2608" fill="#B14BFF" fill-opacity="0.48">1</text>
+<text x="2652" y="2696" fill="#B14BFF" fill-opacity="0.65">4</text>
+<text x="2652" y="2784" fill="#B14BFF" fill-opacity="0.56">Λ</text>
+<text x="2652" y="2872" fill="#B14BFF" fill-opacity="0.7">:</text>
+<text x="2652" y="2960" fill="#B14BFF" fill-opacity="0.57">Λ</text>
+<text x="2652" y="3048" fill="#B14BFF" fill-opacity="0.76">Λ</text>
+<text x="2652" y="3136" fill="#B14BFF" fill-opacity="0.49">Ψ</text>
+<text x="2652" y="3224" fill="#B14BFF" fill-opacity="0.54">S</text>
+<text x="2652" y="3312" fill="#B14BFF" fill-opacity="0.74">1</text>
+<text x="2748" y="1200" fill="#B14BFF" fill-opacity="0.64">*</text>
+<text x="2748" y="1288" fill="#B14BFF" fill-opacity="0.68">=</text>
+<text x="2748" y="1376" fill="#B14BFF" fill-opacity="0.36">∆</text>
+<text x="2748" y="1464" fill="#B14BFF" fill-opacity="0.35">3</text>
+<text x="2748" y="1552" fill="#B14BFF" fill-opacity="0.76">Λ</text>
+<text x="2748" y="1640" fill="#B14BFF" fill-opacity="0.4">S</text>
+<text x="2748" y="1728" fill="#B14BFF" fill-opacity="0.62">:</text>
+<text x="2748" y="1816" fill="#B14BFF" fill-opacity="0.62">Λ</text>
+<text x="2748" y="1904" fill="#B14BFF" fill-opacity="0.92">+</text>
+<text x="2748" y="1992" fill="#B14BFF" fill-opacity="0.68">V</text>
+<text x="2748" y="2080" fill="#B14BFF" fill-opacity="0.59">9</text>
+<text x="2748" y="2168" fill="#B14BFF" fill-opacity="0.87">V</text>
+<text x="2748" y="2256" fill="#B14BFF" fill-opacity="0.67">V</text>
+<text x="2748" y="2344" fill="#B14BFF" fill-opacity="0.51">:</text>
+<text x="2748" y="2432" fill="#ffffff" fill-opacity="1">:</text>
+<text x="2748" y="2520" fill="#B14BFF" fill-opacity="0.47">3</text>
+<text x="2748" y="2608" fill="#B14BFF" fill-opacity="0.76">*</text>
+<text x="2748" y="2696" fill="#B14BFF" fill-opacity="0.64">9</text>
+<text x="2748" y="2784" fill="#B14BFF" fill-opacity="0.45">=</text>
+<text x="2748" y="2872" fill="#B14BFF" fill-opacity="0.56">Ξ</text>
+<text x="2748" y="2960" fill="#B14BFF" fill-opacity="0.58">4</text>
+<text x="2748" y="3048" fill="#B14BFF" fill-opacity="0.62">7</text>
+<text x="2748" y="3136" fill="#B14BFF" fill-opacity="0.7">3</text>
+<text x="2748" y="3224" fill="#B14BFF" fill-opacity="0.59">Λ</text>
+<text x="2748" y="3312" fill="#B14BFF" fill-opacity="0.49">Ψ</text>
+<text x="2844" y="1200" fill="#B14BFF" fill-opacity="0.6">1</text>
+<text x="2844" y="1288" fill="#B14BFF" fill-opacity="0.39">Ψ</text>
+<text x="2844" y="1376" fill="#B14BFF" fill-opacity="0.78">:</text>
+<text x="2844" y="1464" fill="#B14BFF" fill-opacity="0.39">Ξ</text>
+<text x="2844" y="1552" fill="#B14BFF" fill-opacity="0.9">7</text>
+<text x="2844" y="1640" fill="#B14BFF" fill-opacity="0.42">Ξ</text>
+<text x="2844" y="1728" fill="#B14BFF" fill-opacity="0.41">#</text>
+<text x="2844" y="1816" fill="#B14BFF" fill-opacity="0.44">+</text>
+<text x="2844" y="1904" fill="#B14BFF" fill-opacity="0.68">=</text>
+<text x="2844" y="1992" fill="#B14BFF" fill-opacity="0.62">+</text>
+<text x="2844" y="2080" fill="#B14BFF" fill-opacity="0.41">S</text>
+<text x="2844" y="2168" fill="#B14BFF" fill-opacity="0.47">9</text>
+<text x="2844" y="2256" fill="#B14BFF" fill-opacity="0.56">Ξ</text>
+<text x="2844" y="2344" fill="#B14BFF" fill-opacity="0.7">+</text>
+<text x="2844" y="2432" fill="#B14BFF" fill-opacity="0.57">#</text>
+<text x="2844" y="2520" fill="#B14BFF" fill-opacity="0.85">Ψ</text>
+<text x="2844" y="2608" fill="#B14BFF" fill-opacity="0.56">Ξ</text>
+<text x="2844" y="2696" fill="#B14BFF" fill-opacity="0.5">#</text>
+<text x="2844" y="2784" fill="#B14BFF" fill-opacity="0.69">Ψ</text>
+<text x="2844" y="2872" fill="#B14BFF" fill-opacity="0.51">#</text>
+<text x="2844" y="2960" fill="#B14BFF" fill-opacity="0.92">S</text>
+<text x="2844" y="3048" fill="#B14BFF" fill-opacity="0.45">9</text>
+<text x="2844" y="3136" fill="#B14BFF" fill-opacity="0.72">9</text>
+<text x="2844" y="3224" fill="#B14BFF" fill-opacity="0.45">Ψ</text>
+<text x="2844" y="3312" fill="#B14BFF" fill-opacity="0.61">+</text>
+<text x="2940" y="1200" fill="#B14BFF" fill-opacity="0.68">3</text>
+<text x="2940" y="1288" fill="#B14BFF" fill-opacity="0.57">∆</text>
+<text x="2940" y="1376" fill="#B14BFF" fill-opacity="0.65">+</text>
+<text x="2940" y="1464" fill="#B14BFF" fill-opacity="0.4">9</text>
+<text x="2940" y="1552" fill="#B14BFF" fill-opacity="0.91">Λ</text>
+<text x="2940" y="1640" fill="#B14BFF" fill-opacity="0.35">V</text>
+<text x="2940" y="1728" fill="#B14BFF" fill-opacity="0.57">+</text>
+<text x="2940" y="1816" fill="#B14BFF" fill-opacity="0.39">Λ</text>
+<text x="2940" y="1904" fill="#B14BFF" fill-opacity="0.6">S</text>
+<text x="2940" y="1992" fill="#B14BFF" fill-opacity="0.76">4</text>
+<text x="2940" y="2080" fill="#B14BFF" fill-opacity="0.61">Ξ</text>
+<text x="2940" y="2168" fill="#B14BFF" fill-opacity="0.77">3</text>
+<text x="2940" y="2256" fill="#B14BFF" fill-opacity="0.88">V</text>
+<text x="2940" y="2344" fill="#B14BFF" fill-opacity="0.64">Λ</text>
+<text x="2940" y="2432" fill="#B14BFF" fill-opacity="0.37">9</text>
+<text x="2940" y="2520" fill="#B14BFF" fill-opacity="0.89">Ψ</text>
+<text x="2940" y="2608" fill="#B14BFF" fill-opacity="0.77">S</text>
+<text x="2940" y="2696" fill="#B14BFF" fill-opacity="0.92">S</text>
+<text x="2940" y="2784" fill="#B14BFF" fill-opacity="0.91">0</text>
+<text x="2940" y="2872" fill="#B14BFF" fill-opacity="0.83">=</text>
+<text x="2940" y="2960" fill="#B14BFF" fill-opacity="0.4">4</text>
+<text x="2940" y="3048" fill="#B14BFF" fill-opacity="0.9">V</text>
+<text x="2940" y="3136" fill="#B14BFF" fill-opacity="0.87">0</text>
+<text x="2940" y="3224" fill="#B14BFF" fill-opacity="0.44">Ξ</text>
+<text x="2940" y="3312" fill="#B14BFF" fill-opacity="0.66">Λ</text>
+<text x="3036" y="1200" fill="#ffffff" fill-opacity="1">Λ</text>
+<text x="3036" y="1288" fill="#B14BFF" fill-opacity="0.48">*</text>
+<text x="3036" y="1376" fill="#B14BFF" fill-opacity="0.59">=</text>
+<text x="3036" y="1464" fill="#B14BFF" fill-opacity="0.59">Ω</text>
+<text x="3036" y="1552" fill="#B14BFF" fill-opacity="0.7">4</text>
+<text x="3036" y="1640" fill="#B14BFF" fill-opacity="0.66">+</text>
+<text x="3036" y="1728" fill="#B14BFF" fill-opacity="0.49">:</text>
+<text x="3036" y="1816" fill="#B14BFF" fill-opacity="0.44">Ψ</text>
+<text x="3036" y="1904" fill="#B14BFF" fill-opacity="0.48">=</text>
+<text x="3036" y="1992" fill="#B14BFF" fill-opacity="0.76">Ψ</text>
+<text x="3036" y="2080" fill="#B14BFF" fill-opacity="0.69">0</text>
+<text x="3036" y="2168" fill="#B14BFF" fill-opacity="0.49">#</text>
+<text x="3036" y="2256" fill="#B14BFF" fill-opacity="0.79">∆</text>
+<text x="3036" y="2344" fill="#B14BFF" fill-opacity="0.82">9</text>
+<text x="3036" y="2432" fill="#B14BFF" fill-opacity="0.76">4</text>
+<text x="3036" y="2520" fill="#B14BFF" fill-opacity="0.48">:</text>
+<text x="3036" y="2608" fill="#B14BFF" fill-opacity="0.43">+</text>
+<text x="3036" y="2696" fill="#ffffff" fill-opacity="1">Λ</text>
+<text x="3036" y="2784" fill="#B14BFF" fill-opacity="0.58">S</text>
+<text x="3036" y="2872" fill="#B14BFF" fill-opacity="0.75">Ω</text>
+<text x="3036" y="2960" fill="#B14BFF" fill-opacity="0.82">*</text>
+<text x="3036" y="3048" fill="#B14BFF" fill-opacity="0.69">Λ</text>
+<text x="3036" y="3136" fill="#B14BFF" fill-opacity="0.84">0</text>
+<text x="3036" y="3224" fill="#ffffff" fill-opacity="1">1</text>
+<text x="3036" y="3312" fill="#B14BFF" fill-opacity="0.39">Ξ</text>
+<text x="3132" y="1200" fill="#B14BFF" fill-opacity="0.47">3</text>
+<text x="3132" y="1288" fill="#B14BFF" fill-opacity="0.91">=</text>
+<text x="3132" y="1376" fill="#B14BFF" fill-opacity="0.43">=</text>
+<text x="3132" y="1464" fill="#B14BFF" fill-opacity="0.47">S</text>
+<text x="3132" y="1552" fill="#B14BFF" fill-opacity="0.49">7</text>
+<text x="3132" y="1640" fill="#B14BFF" fill-opacity="0.79">Ψ</text>
+<text x="3132" y="1728" fill="#B14BFF" fill-opacity="0.87">Ξ</text>
+<text x="3132" y="1816" fill="#B14BFF" fill-opacity="0.76">V</text>
+<text x="3132" y="1904" fill="#B14BFF" fill-opacity="0.46">V</text>
+<text x="3132" y="1992" fill="#B14BFF" fill-opacity="0.66">7</text>
+<text x="3132" y="2080" fill="#B14BFF" fill-opacity="0.67">Λ</text>
+<text x="3132" y="2168" fill="#B14BFF" fill-opacity="0.48">Λ</text>
+<text x="3132" y="2256" fill="#B14BFF" fill-opacity="0.94">4</text>
+<text x="3132" y="2344" fill="#B14BFF" fill-opacity="0.93">V</text>
+<text x="3132" y="2432" fill="#B14BFF" fill-opacity="0.83">7</text>
+<text x="3132" y="2520" fill="#B14BFF" fill-opacity="0.95">3</text>
+<text x="3132" y="2608" fill="#B14BFF" fill-opacity="0.46">3</text>
+<text x="3132" y="2696" fill="#B14BFF" fill-opacity="0.36">*</text>
+<text x="3132" y="2784" fill="#B14BFF" fill-opacity="0.52">1</text>
+<text x="3132" y="2872" fill="#B14BFF" fill-opacity="0.79">∆</text>
+<text x="3132" y="2960" fill="#B14BFF" fill-opacity="0.36">:</text>
+<text x="3132" y="3048" fill="#B14BFF" fill-opacity="0.65">Λ</text>
+<text x="3132" y="3136" fill="#B14BFF" fill-opacity="0.46">0</text>
+<text x="3132" y="3224" fill="#B14BFF" fill-opacity="0.93">=</text>
+<text x="3132" y="3312" fill="#B14BFF" fill-opacity="0.72">+</text>
+<text x="3228" y="1200" fill="#B14BFF" fill-opacity="0.5">=</text>
+<text x="3228" y="1288" fill="#B14BFF" fill-opacity="0.44">:</text>
+<text x="3228" y="1376" fill="#B14BFF" fill-opacity="0.7">Ψ</text>
+<text x="3228" y="1464" fill="#B14BFF" fill-opacity="0.9">Ω</text>
+<text x="3228" y="1552" fill="#B14BFF" fill-opacity="0.72">Ξ</text>
+<text x="3228" y="1640" fill="#B14BFF" fill-opacity="0.69">#</text>
+<text x="3228" y="1728" fill="#B14BFF" fill-opacity="0.91">=</text>
+<text x="3228" y="1816" fill="#B14BFF" fill-opacity="0.7">Ξ</text>
+<text x="3228" y="1904" fill="#B14BFF" fill-opacity="0.55">V</text>
+<text x="3228" y="1992" fill="#B14BFF" fill-opacity="0.35">3</text>
+<text x="3228" y="2080" fill="#B14BFF" fill-opacity="0.65">4</text>
+<text x="3228" y="2168" fill="#B14BFF" fill-opacity="0.76">3</text>
+<text x="3228" y="2256" fill="#B14BFF" fill-opacity="0.65">7</text>
+<text x="3228" y="2344" fill="#ffffff" fill-opacity="1">=</text>
+<text x="3228" y="2432" fill="#B14BFF" fill-opacity="0.64">S</text>
+<text x="3228" y="2520" fill="#B14BFF" fill-opacity="0.52">7</text>
+<text x="3228" y="2608" fill="#ffffff" fill-opacity="1">Ψ</text>
+<text x="3228" y="2696" fill="#B14BFF" fill-opacity="0.49">*</text>
+<text x="3228" y="2784" fill="#B14BFF" fill-opacity="0.5">4</text>
+<text x="3228" y="2872" fill="#B14BFF" fill-opacity="0.56">1</text>
+<text x="3228" y="2960" fill="#B14BFF" fill-opacity="0.64">3</text>
+<text x="3228" y="3048" fill="#B14BFF" fill-opacity="0.54">4</text>
+<text x="3228" y="3136" fill="#B14BFF" fill-opacity="0.91">∆</text>
+<text x="3228" y="3224" fill="#B14BFF" fill-opacity="0.62">#</text>
+<text x="3228" y="3312" fill="#B14BFF" fill-opacity="0.9">Ω</text>
+<text x="3324" y="1200" fill="#B14BFF" fill-opacity="0.78">#</text>
+<text x="3324" y="1288" fill="#B14BFF" fill-opacity="0.46">3</text>
+<text x="3324" y="1376" fill="#B14BFF" fill-opacity="0.5">0</text>
+<text x="3324" y="1464" fill="#B14BFF" fill-opacity="0.74">3</text>
+<text x="3324" y="1552" fill="#B14BFF" fill-opacity="0.72">*</text>
+<text x="3324" y="1640" fill="#B14BFF" fill-opacity="0.74">Λ</text>
+<text x="3324" y="1728" fill="#B14BFF" fill-opacity="0.45">Ψ</text>
+<text x="3324" y="1816" fill="#B14BFF" fill-opacity="0.87">#</text>
+<text x="3324" y="1904" fill="#B14BFF" fill-opacity="0.72">Ψ</text>
+<text x="3324" y="1992" fill="#B14BFF" fill-opacity="0.72">S</text>
+<text x="3324" y="2080" fill="#B14BFF" fill-opacity="0.75">:</text>
+<text x="3324" y="2168" fill="#B14BFF" fill-opacity="0.81">0</text>
+<text x="3324" y="2256" fill="#B14BFF" fill-opacity="0.92">3</text>
+<text x="3324" y="2344" fill="#B14BFF" fill-opacity="0.78">1</text>
+<text x="3324" y="2432" fill="#ffffff" fill-opacity="1">Ξ</text>
+<text x="3324" y="2520" fill="#B14BFF" fill-opacity="0.94">Ω</text>
+<text x="3324" y="2608" fill="#B14BFF" fill-opacity="0.82">S</text>
+<text x="3324" y="2696" fill="#B14BFF" fill-opacity="0.54">Ψ</text>
+<text x="3324" y="2784" fill="#B14BFF" fill-opacity="0.37">Ψ</text>
+<text x="3324" y="2872" fill="#B14BFF" fill-opacity="0.92">=</text>
+<text x="3324" y="2960" fill="#B14BFF" fill-opacity="0.38">0</text>
+<text x="3324" y="3048" fill="#B14BFF" fill-opacity="0.92">#</text>
+<text x="3324" y="3136" fill="#B14BFF" fill-opacity="0.81">=</text>
+<text x="3324" y="3224" fill="#B14BFF" fill-opacity="0.48">3</text>
+<text x="3324" y="3312" fill="#ffffff" fill-opacity="1">V</text>
+<text x="3420" y="1200" fill="#B14BFF" fill-opacity="0.67">3</text>
+<text x="3420" y="1288" fill="#B14BFF" fill-opacity="0.67">#</text>
+<text x="3420" y="1376" fill="#B14BFF" fill-opacity="0.7">Ω</text>
+<text x="3420" y="1464" fill="#B14BFF" fill-opacity="0.59">=</text>
+<text x="3420" y="1552" fill="#ffffff" fill-opacity="1">+</text>
+<text x="3420" y="1640" fill="#B14BFF" fill-opacity="0.87">9</text>
+<text x="3420" y="1728" fill="#B14BFF" fill-opacity="0.59">Ω</text>
+<text x="3420" y="1816" fill="#B14BFF" fill-opacity="0.9">Λ</text>
+<text x="3420" y="1904" fill="#B14BFF" fill-opacity="0.61">:</text>
+<text x="3420" y="1992" fill="#B14BFF" fill-opacity="0.68">4</text>
+<text x="3420" y="2080" fill="#B14BFF" fill-opacity="0.5">9</text>
+<text x="3420" y="2168" fill="#B14BFF" fill-opacity="0.36">Λ</text>
+<text x="3420" y="2256" fill="#B14BFF" fill-opacity="0.81">1</text>
+<text x="3420" y="2344" fill="#B14BFF" fill-opacity="0.46">Ψ</text>
+<text x="3420" y="2432" fill="#B14BFF" fill-opacity="0.7">=</text>
+<text x="3420" y="2520" fill="#B14BFF" fill-opacity="0.83">1</text>
+<text x="3420" y="2608" fill="#B14BFF" fill-opacity="0.62">:</text>
+<text x="3420" y="2696" fill="#B14BFF" fill-opacity="0.92">∆</text>
+<text x="3420" y="2784" fill="#B14BFF" fill-opacity="0.88">1</text>
+<text x="3420" y="2872" fill="#B14BFF" fill-opacity="0.35">7</text>
+<text x="3420" y="2960" fill="#B14BFF" fill-opacity="0.61">S</text>
+<text x="3420" y="3048" fill="#B14BFF" fill-opacity="0.65">Ω</text>
+<text x="3420" y="3136" fill="#B14BFF" fill-opacity="0.74">:</text>
+<text x="3420" y="3224" fill="#ffffff" fill-opacity="1">S</text>
+<text x="3420" y="3312" fill="#B14BFF" fill-opacity="0.69">*</text>
+<text x="3516" y="1200" fill="#ffffff" fill-opacity="1">Λ</text>
+<text x="3516" y="1288" fill="#B14BFF" fill-opacity="0.79">V</text>
+<text x="3516" y="1376" fill="#B14BFF" fill-opacity="0.5">3</text>
+<text x="3516" y="1464" fill="#B14BFF" fill-opacity="0.87">V</text>
+<text x="3516" y="1552" fill="#B14BFF" fill-opacity="0.36">4</text>
+<text x="3516" y="1640" fill="#B14BFF" fill-opacity="0.79">∆</text>
+<text x="3516" y="1728" fill="#B14BFF" fill-opacity="0.82">Ψ</text>
+<text x="3516" y="1816" fill="#B14BFF" fill-opacity="0.57">:</text>
+<text x="3516" y="1904" fill="#B14BFF" fill-opacity="0.61">∆</text>
+<text x="3516" y="1992" fill="#B14BFF" fill-opacity="0.6">#</text>
+<text x="3516" y="2080" fill="#B14BFF" fill-opacity="0.4">3</text>
+<text x="3516" y="2168" fill="#B14BFF" fill-opacity="0.68">*</text>
+<text x="3516" y="2256" fill="#B14BFF" fill-opacity="0.65">*</text>
+<text x="3516" y="2344" fill="#B14BFF" fill-opacity="0.39">Ω</text>
+<text x="3516" y="2432" fill="#B14BFF" fill-opacity="0.78">7</text>
+<text x="3516" y="2520" fill="#B14BFF" fill-opacity="0.74">Ω</text>
+<text x="3516" y="2608" fill="#B14BFF" fill-opacity="0.4">=</text>
+<text x="3516" y="2696" fill="#B14BFF" fill-opacity="0.58">:</text>
+<text x="3516" y="2784" fill="#B14BFF" fill-opacity="0.61">Λ</text>
+<text x="3516" y="2872" fill="#B14BFF" fill-opacity="0.48">*</text>
+<text x="3516" y="2960" fill="#B14BFF" fill-opacity="0.92">:</text>
+<text x="3516" y="3048" fill="#ffffff" fill-opacity="1">1</text>
+<text x="3516" y="3136" fill="#B14BFF" fill-opacity="0.85">*</text>
+<text x="3516" y="3224" fill="#ffffff" fill-opacity="1">=</text>
+<text x="3516" y="3312" fill="#B14BFF" fill-opacity="0.7">Ψ</text>
+
+
+
+
+<text x="60" y="323" fill="#B14BFF" fill-opacity="0.69">Ψ</text>
+<text x="156" y="2038" fill="#ffffff" fill-opacity="1.00">1</text>
+<text x="156" y="1950" fill="#B14BFF" fill-opacity="0.97">;</text>
+<text x="156" y="1862" fill="#B14BFF" fill-opacity="0.94">4</text>
+<text x="156" y="1774" fill="#B14BFF" fill-opacity="0.91">Ξ</text>
+<text x="156" y="1686" fill="#B14BFF" fill-opacity="0.88">\</text>
+<text x="156" y="1598" fill="#B14BFF" fill-opacity="0.85">3</text>
+<text x="156" y="1510" fill="#B14BFF" fill-opacity="0.82">/</text>
+<text x="156" y="1422" fill="#B14BFF" fill-opacity="0.79">*</text>
+<text x="156" y="1334" fill="#B14BFF" fill-opacity="0.76">&gt;</text>
+<text x="156" y="1246" fill="#B14BFF" fill-opacity="0.73">:</text>
+<text x="156" y="1158" fill="#B14BFF" fill-opacity="0.70">=</text>
+<text x="156" y="1070" fill="#B14BFF" fill-opacity="0.67">*</text>
+<text x="156" y="982" fill="#B14BFF" fill-opacity="0.64">Ψ</text>
+<text x="156" y="894" fill="#B14BFF" fill-opacity="0.61">1</text>
+<text x="156" y="806" fill="#B14BFF" fill-opacity="0.58">0</text>
+
+
+
+
+
+<text x="252" y="1647" fill="#ffffff" fill-opacity="1.00">Ξ</text>
+<text x="252" y="1559" fill="#B14BFF" fill-opacity="0.97">Ω</text>
+<text x="252" y="1471" fill="#B14BFF" fill-opacity="0.94">Ω</text>
+<text x="252" y="1383" fill="#B14BFF" fill-opacity="0.90">0</text>
+<text x="252" y="1295" fill="#B14BFF" fill-opacity="0.87">Ξ</text>
+<text x="252" y="1207" fill="#B14BFF" fill-opacity="0.84">&lt;</text>
+<text x="252" y="1119" fill="#B14BFF" fill-opacity="0.81">Ξ</text>
+<text x="252" y="1031" fill="#B14BFF" fill-opacity="0.77">S</text>
+<text x="252" y="943" fill="#B14BFF" fill-opacity="0.74">*</text>
+<text x="252" y="855" fill="#B14BFF" fill-opacity="0.71">*</text>
+
+
+
+
+
+<text x="252" y="327" fill="#B14BFF" fill-opacity="0.52">=</text>
+<text x="348" y="3696" fill="#ffffff" fill-opacity="1.00">&gt;</text>
+<text x="348" y="3608" fill="#B14BFF" fill-opacity="0.97">;</text>
+<text x="348" y="3520" fill="#B14BFF" fill-opacity="0.93">&gt;</text>
+<text x="348" y="3432" fill="#B14BFF" fill-opacity="0.90">&gt;</text>
+<text x="348" y="3344" fill="#B14BFF" fill-opacity="0.87">=</text>
+<text x="348" y="3256" fill="#B14BFF" fill-opacity="0.83">Ξ</text>
+<text x="348" y="3168" fill="#B14BFF" fill-opacity="0.80">/</text>
+<text x="348" y="3080" fill="#B14BFF" fill-opacity="0.77">9</text>
+<text x="348" y="2992" fill="#B14BFF" fill-opacity="0.73">=</text>
+<text x="348" y="2904" fill="#B14BFF" fill-opacity="0.70">3</text>
+<text x="348" y="2816" fill="#B14BFF" fill-opacity="0.67">*</text>
+<text x="348" y="2728" fill="#B14BFF" fill-opacity="0.63">Ω</text>
+<text x="348" y="2640" fill="#B14BFF" fill-opacity="0.60">+</text>
+<text x="348" y="2552" fill="#B14BFF" fill-opacity="0.57">Ψ</text>
+<text x="348" y="2464" fill="#B14BFF" fill-opacity="0.53">+</text>
+<text x="348" y="2376" fill="#B14BFF" fill-opacity="0.50">*</text>
+<text x="348" y="2288" fill="#B14BFF" fill-opacity="0.47">*</text>
+<text x="348" y="2200" fill="#B14BFF" fill-opacity="0.43">&gt;</text>
+<text x="348" y="2112" fill="#B14BFF" fill-opacity="0.40">4</text>
+<text x="348" y="2024" fill="#B14BFF" fill-opacity="0.37">=</text>
+<text x="348" y="1936" fill="#B14BFF" fill-opacity="0.33">=</text>
+<text x="348" y="1848" fill="#B14BFF" fill-opacity="0.30">&gt;</text>
+<text x="348" y="1760" fill="#B14BFF" fill-opacity="0.27">;</text>
+<text x="348" y="1672" fill="#B14BFF" fill-opacity="0.23">:</text>
+<text x="348" y="1584" fill="#B14BFF" fill-opacity="0.20">=</text>
+<text x="348" y="1496" fill="#B14BFF" fill-opacity="0.17">+</text>
+<text x="348" y="1408" fill="#B14BFF" fill-opacity="0.13">4</text>
+<text x="348" y="1320" fill="#B14BFF" fill-opacity="0.10">Ω</text>
+<text x="348" y="1232" fill="#B14BFF" fill-opacity="0.07">&lt;</text>
+<text x="348" y="1144" fill="#B14BFF" fill-opacity="0.03">9</text>
+<text x="444" y="1660" fill="#ffffff" fill-opacity="1.00">Ψ</text>
+<text x="444" y="1572" fill="#B14BFF" fill-opacity="0.97">+</text>
+<text x="444" y="1484" fill="#B14BFF" fill-opacity="0.94">#</text>
+<text x="444" y="1396" fill="#B14BFF" fill-opacity="0.91">#</text>
+<text x="444" y="1308" fill="#B14BFF" fill-opacity="0.88">9</text>
+<text x="444" y="1220" fill="#B14BFF" fill-opacity="0.85">*</text>
+<text x="444" y="1132" fill="#B14BFF" fill-opacity="0.82">:</text>
+<text x="444" y="1044" fill="#B14BFF" fill-opacity="0.79">*</text>
+<text x="444" y="956" fill="#B14BFF" fill-opacity="0.76">*</text>
+<text x="444" y="868" fill="#B14BFF" fill-opacity="0.73">3</text>
+
+
+
+
+
+<text x="444" y="340" fill="#B14BFF" fill-opacity="0.55">+</text>
+<text x="540" y="3303" fill="#ffffff" fill-opacity="1.00">Λ</text>
+<text x="540" y="3215" fill="#B14BFF" fill-opacity="0.97">&lt;</text>
+<text x="540" y="3127" fill="#B14BFF" fill-opacity="0.94">0</text>
+<text x="540" y="3039" fill="#B14BFF" fill-opacity="0.91">∆</text>
+<text x="540" y="2951" fill="#B14BFF" fill-opacity="0.88">V</text>
+<text x="540" y="2863" fill="#B14BFF" fill-opacity="0.85">1</text>
+<text x="540" y="2775" fill="#B14BFF" fill-opacity="0.82">;</text>
+<text x="540" y="2687" fill="#B14BFF" fill-opacity="0.79">3</text>
+<text x="540" y="2599" fill="#B14BFF" fill-opacity="0.76">1</text>
+<text x="540" y="2511" fill="#B14BFF" fill-opacity="0.73">Ψ</text>
+<text x="540" y="2423" fill="#B14BFF" fill-opacity="0.70">;</text>
+<text x="540" y="2335" fill="#B14BFF" fill-opacity="0.67">Ω</text>
+<text x="540" y="2247" fill="#B14BFF" fill-opacity="0.64">4</text>
+<text x="540" y="2159" fill="#B14BFF" fill-opacity="0.61">V</text>
+<text x="540" y="2071" fill="#B14BFF" fill-opacity="0.58">*</text>
+<text x="540" y="1983" fill="#B14BFF" fill-opacity="0.55">S</text>
+<text x="540" y="1895" fill="#B14BFF" fill-opacity="0.52">Ψ</text>
+<text x="540" y="1807" fill="#B14BFF" fill-opacity="0.48">Ω</text>
+<text x="540" y="1719" fill="#B14BFF" fill-opacity="0.45">∆</text>
+<text x="540" y="1631" fill="#B14BFF" fill-opacity="0.42">1</text>
+<text x="540" y="1543" fill="#B14BFF" fill-opacity="0.39">\</text>
+<text x="540" y="1455" fill="#B14BFF" fill-opacity="0.36">9</text>
+<text x="540" y="1367" fill="#B14BFF" fill-opacity="0.33">1</text>
+<text x="540" y="1279" fill="#B14BFF" fill-opacity="0.30">1</text>
+<text x="540" y="1191" fill="#B14BFF" fill-opacity="0.27">&gt;</text>
+<text x="540" y="1103" fill="#B14BFF" fill-opacity="0.24">&gt;</text>
+<text x="540" y="1015" fill="#B14BFF" fill-opacity="0.21">Ξ</text>
+<text x="540" y="927" fill="#B14BFF" fill-opacity="0.18">Ω</text>
+<text x="540" y="839" fill="#B14BFF" fill-opacity="0.15">4</text>
+
+
+
+
+
+
+<text x="636" y="331" fill="#B14BFF" fill-opacity="0.87">Ψ</text>
+<text x="732" y="1346" fill="#ffffff" fill-opacity="1.00">Ξ</text>
+<text x="732" y="1258" fill="#B14BFF" fill-opacity="0.95">*</text>
+<text x="732" y="1170" fill="#B14BFF" fill-opacity="0.89">9</text>
+<text x="732" y="1082" fill="#B14BFF" fill-opacity="0.84">0</text>
+<text x="732" y="994" fill="#B14BFF" fill-opacity="0.79">/</text>
+<text x="732" y="906" fill="#B14BFF" fill-opacity="0.74">;</text>
+<text x="732" y="818" fill="#B14BFF" fill-opacity="0.68">1</text>
+
+
+
+
+
+<text x="828" y="1226" fill="#ffffff" fill-opacity="1.00">&lt;</text>
+<text x="828" y="1138" fill="#B14BFF" fill-opacity="0.96">+</text>
+<text x="828" y="1050" fill="#B14BFF" fill-opacity="0.91">0</text>
+<text x="828" y="962" fill="#B14BFF" fill-opacity="0.87">#</text>
+<text x="828" y="874" fill="#B14BFF" fill-opacity="0.83">=</text>
+
+
+
+
+
+<text x="828" y="346" fill="#B14BFF" fill-opacity="0.57">7</text>
+<text x="924" y="1557" fill="#ffffff" fill-opacity="1.00">Ω</text>
+<text x="924" y="1469" fill="#B14BFF" fill-opacity="0.97">Λ</text>
+<text x="924" y="1381" fill="#B14BFF" fill-opacity="0.93">4</text>
+<text x="924" y="1293" fill="#B14BFF" fill-opacity="0.90">4</text>
+<text x="924" y="1205" fill="#B14BFF" fill-opacity="0.86">&lt;</text>
+<text x="924" y="1117" fill="#B14BFF" fill-opacity="0.83">V</text>
+<text x="924" y="1029" fill="#B14BFF" fill-opacity="0.79">0</text>
+<text x="924" y="941" fill="#B14BFF" fill-opacity="0.76">=</text>
+<text x="924" y="853" fill="#B14BFF" fill-opacity="0.72">S</text>
+
+
+
+
+
+<text x="924" y="325" fill="#B14BFF" fill-opacity="0.52">&lt;</text>
+<text x="1020" y="1478" fill="#ffffff" fill-opacity="1.00">Ψ</text>
+<text x="1020" y="1390" fill="#B14BFF" fill-opacity="0.96">Ψ</text>
+<text x="1020" y="1302" fill="#B14BFF" fill-opacity="0.92">7</text>
+<text x="1020" y="1214" fill="#B14BFF" fill-opacity="0.88">\</text>
+<text x="1020" y="1126" fill="#B14BFF" fill-opacity="0.83">3</text>
+<text x="1020" y="1038" fill="#B14BFF" fill-opacity="0.79">0</text>
+<text x="1020" y="950" fill="#B14BFF" fill-opacity="0.75">9</text>
+<text x="1020" y="862" fill="#B14BFF" fill-opacity="0.71">:</text>
+
+
+
+
+
+<text x="1020" y="334" fill="#B14BFF" fill-opacity="0.46">S</text>
+<text x="1116" y="1620" fill="#ffffff" fill-opacity="1.00">V</text>
+<text x="1116" y="1532" fill="#B14BFF" fill-opacity="0.95">=</text>
+<text x="1116" y="1444" fill="#B14BFF" fill-opacity="0.89">3</text>
+<text x="1116" y="1356" fill="#B14BFF" fill-opacity="0.84">Ω</text>
+<text x="1116" y="1268" fill="#B14BFF" fill-opacity="0.79">*</text>
+<text x="1116" y="1180" fill="#B14BFF" fill-opacity="0.74">9</text>
+<text x="1116" y="1092" fill="#B14BFF" fill-opacity="0.68">1</text>
+<text x="1116" y="1004" fill="#B14BFF" fill-opacity="0.63">Ω</text>
+<text x="1116" y="916" fill="#B14BFF" fill-opacity="0.58">Ω</text>
+<text x="1116" y="828" fill="#B14BFF" fill-opacity="0.53">9</text>
+
+
+
+
+
+<text x="1116" y="300" fill="#B14BFF" fill-opacity="0.21">Ω</text>
+<text x="1212" y="3247" fill="#ffffff" fill-opacity="1.00">4</text>
+<text x="1212" y="3159" fill="#B14BFF" fill-opacity="0.95">\</text>
+<text x="1212" y="3071" fill="#B14BFF" fill-opacity="0.91">Ψ</text>
+<text x="1212" y="2983" fill="#B14BFF" fill-opacity="0.86">*</text>
+<text x="1212" y="2895" fill="#B14BFF" fill-opacity="0.82">0</text>
+<text x="1212" y="2807" fill="#B14BFF" fill-opacity="0.77">S</text>
+<text x="1212" y="2719" fill="#B14BFF" fill-opacity="0.73">1</text>
+<text x="1212" y="2631" fill="#B14BFF" fill-opacity="0.68">/</text>
+<text x="1212" y="2543" fill="#B14BFF" fill-opacity="0.64">\</text>
+<text x="1212" y="2455" fill="#B14BFF" fill-opacity="0.59">Ξ</text>
+<text x="1212" y="2367" fill="#B14BFF" fill-opacity="0.55">V</text>
+<text x="1212" y="2279" fill="#B14BFF" fill-opacity="0.50">*</text>
+<text x="1212" y="2191" fill="#B14BFF" fill-opacity="0.45">Λ</text>
+<text x="1212" y="2103" fill="#B14BFF" fill-opacity="0.41">Ω</text>
+<text x="1212" y="2015" fill="#B14BFF" fill-opacity="0.36">V</text>
+<text x="1212" y="1927" fill="#B14BFF" fill-opacity="0.32">V</text>
+<text x="1212" y="1839" fill="#B14BFF" fill-opacity="0.27">0</text>
+<text x="1212" y="1751" fill="#B14BFF" fill-opacity="0.23">Ξ</text>
+<text x="1212" y="1663" fill="#B14BFF" fill-opacity="0.18">Ω</text>
+<text x="1212" y="1575" fill="#B14BFF" fill-opacity="0.14">V</text>
+<text x="1212" y="1487" fill="#B14BFF" fill-opacity="0.09">∆</text>
+<text x="1212" y="1399" fill="#B14BFF" fill-opacity="0.05">0</text>
+
+
+
+
+
+<text x="1308" y="3664" fill="#B14BFF" fill-opacity="0.82">4</text>
+<text x="1308" y="3576" fill="#B14BFF" fill-opacity="0.79">∆</text>
+<text x="1308" y="3488" fill="#B14BFF" fill-opacity="0.75">\</text>
+<text x="1308" y="3400" fill="#B14BFF" fill-opacity="0.71">\</text>
+<text x="1308" y="3312" fill="#B14BFF" fill-opacity="0.68">*</text>
+<text x="1308" y="3224" fill="#B14BFF" fill-opacity="0.64">0</text>
+<text x="1308" y="3136" fill="#B14BFF" fill-opacity="0.61">;</text>
+<text x="1308" y="3048" fill="#B14BFF" fill-opacity="0.57">;</text>
+<text x="1308" y="2960" fill="#B14BFF" fill-opacity="0.54">1</text>
+<text x="1308" y="2872" fill="#B14BFF" fill-opacity="0.50">\</text>
+<text x="1308" y="2784" fill="#B14BFF" fill-opacity="0.46">*</text>
+<text x="1308" y="2696" fill="#B14BFF" fill-opacity="0.43">;</text>
+<text x="1308" y="2608" fill="#B14BFF" fill-opacity="0.39">Ξ</text>
+<text x="1308" y="2520" fill="#B14BFF" fill-opacity="0.36">V</text>
+<text x="1308" y="2432" fill="#B14BFF" fill-opacity="0.32">4</text>
+<text x="1308" y="2344" fill="#B14BFF" fill-opacity="0.29">+</text>
+<text x="1308" y="2256" fill="#B14BFF" fill-opacity="0.25">&gt;</text>
+<text x="1308" y="2168" fill="#B14BFF" fill-opacity="0.21">0</text>
+<text x="1308" y="2080" fill="#B14BFF" fill-opacity="0.18">*</text>
+<text x="1308" y="1992" fill="#B14BFF" fill-opacity="0.14">V</text>
+<text x="1308" y="1904" fill="#B14BFF" fill-opacity="0.11">7</text>
+<text x="1308" y="1816" fill="#B14BFF" fill-opacity="0.07">&gt;</text>
+<text x="1308" y="1728" fill="#B14BFF" fill-opacity="0.04">#</text>
+<text x="1404" y="3349" fill="#ffffff" fill-opacity="1.00">0</text>
+<text x="1404" y="3261" fill="#B14BFF" fill-opacity="0.96">4</text>
+<text x="1404" y="3173" fill="#B14BFF" fill-opacity="0.91">\</text>
+<text x="1404" y="3085" fill="#B14BFF" fill-opacity="0.87">V</text>
+<text x="1404" y="2997" fill="#B14BFF" fill-opacity="0.83">V</text>
+<text x="1404" y="2909" fill="#B14BFF" fill-opacity="0.78">#</text>
+<text x="1404" y="2821" fill="#B14BFF" fill-opacity="0.74">∆</text>
+<text x="1404" y="2733" fill="#B14BFF" fill-opacity="0.70">4</text>
+<text x="1404" y="2645" fill="#B14BFF" fill-opacity="0.65">0</text>
+<text x="1404" y="2557" fill="#B14BFF" fill-opacity="0.61">=</text>
+<text x="1404" y="2469" fill="#B14BFF" fill-opacity="0.57">1</text>
+<text x="1404" y="2381" fill="#B14BFF" fill-opacity="0.52">\</text>
+<text x="1404" y="2293" fill="#B14BFF" fill-opacity="0.48">3</text>
+<text x="1404" y="2205" fill="#B14BFF" fill-opacity="0.43">+</text>
+<text x="1404" y="2117" fill="#B14BFF" fill-opacity="0.39">=</text>
+<text x="1404" y="2029" fill="#B14BFF" fill-opacity="0.35">∆</text>
+<text x="1404" y="1941" fill="#B14BFF" fill-opacity="0.30">;</text>
+<text x="1404" y="1853" fill="#B14BFF" fill-opacity="0.26">7</text>
+<text x="1404" y="1765" fill="#B14BFF" fill-opacity="0.22">Λ</text>
+<text x="1404" y="1677" fill="#B14BFF" fill-opacity="0.17">0</text>
+<text x="1404" y="1589" fill="#B14BFF" fill-opacity="0.13">#</text>
+<text x="1404" y="1501" fill="#B14BFF" fill-opacity="0.09">0</text>
+<text x="1404" y="1413" fill="#B14BFF" fill-opacity="0.04">&gt;</text>
+<text x="1500" y="2805" fill="#ffffff" fill-opacity="1.00">Ω</text>
+<text x="1500" y="2717" fill="#B14BFF" fill-opacity="0.94">+</text>
+<text x="1500" y="2629" fill="#B14BFF" fill-opacity="0.88">∆</text>
+<text x="1500" y="2541" fill="#B14BFF" fill-opacity="0.81">V</text>
+<text x="1500" y="2453" fill="#B14BFF" fill-opacity="0.75">;</text>
+<text x="1500" y="2365" fill="#B14BFF" fill-opacity="0.69">&gt;</text>
+<text x="1500" y="2277" fill="#B14BFF" fill-opacity="0.62">/</text>
+<text x="1500" y="2189" fill="#B14BFF" fill-opacity="0.56">9</text>
+<text x="1500" y="2101" fill="#B14BFF" fill-opacity="0.50">=</text>
+<text x="1500" y="2013" fill="#B14BFF" fill-opacity="0.44">S</text>
+<text x="1500" y="1925" fill="#B14BFF" fill-opacity="0.38">&gt;</text>
+<text x="1500" y="1837" fill="#B14BFF" fill-opacity="0.31">/</text>
+<text x="1500" y="1749" fill="#B14BFF" fill-opacity="0.25">V</text>
+<text x="1500" y="1661" fill="#B14BFF" fill-opacity="0.19">Ψ</text>
+<text x="1500" y="1573" fill="#B14BFF" fill-opacity="0.12">V</text>
+<text x="1500" y="1485" fill="#B14BFF" fill-opacity="0.06">V</text>
+<text x="1596" y="959" fill="#ffffff" fill-opacity="1.00">&lt;</text>
+<text x="1596" y="871" fill="#B14BFF" fill-opacity="0.97">3</text>
+
+
+
+
+
+<text x="1596" y="343" fill="#B14BFF" fill-opacity="0.79">7</text>
+
+
+
+
+
+
+<text x="1692" y="3625" fill="#B14BFF" fill-opacity="0.60">&gt;</text>
+<text x="1692" y="3537" fill="#B14BFF" fill-opacity="0.53">Ψ</text>
+<text x="1692" y="3449" fill="#B14BFF" fill-opacity="0.47">+</text>
+<text x="1692" y="3361" fill="#B14BFF" fill-opacity="0.40">*</text>
+<text x="1692" y="3273" fill="#B14BFF" fill-opacity="0.33">+</text>
+<text x="1692" y="3185" fill="#B14BFF" fill-opacity="0.27">\</text>
+<text x="1692" y="3097" fill="#B14BFF" fill-opacity="0.20">+</text>
+<text x="1692" y="3009" fill="#B14BFF" fill-opacity="0.13">4</text>
+<text x="1692" y="2921" fill="#B14BFF" fill-opacity="0.07">#</text>
+<text x="1788" y="3533" fill="#ffffff" fill-opacity="1.00">Ξ</text>
+<text x="1788" y="3445" fill="#B14BFF" fill-opacity="0.95">+</text>
+<text x="1788" y="3357" fill="#B14BFF" fill-opacity="0.90">7</text>
+<text x="1788" y="3269" fill="#B14BFF" fill-opacity="0.86">Ψ</text>
+<text x="1788" y="3181" fill="#B14BFF" fill-opacity="0.81">:</text>
+<text x="1788" y="3093" fill="#B14BFF" fill-opacity="0.76">\</text>
+<text x="1788" y="3005" fill="#B14BFF" fill-opacity="0.71">9</text>
+<text x="1788" y="2917" fill="#B14BFF" fill-opacity="0.67">4</text>
+<text x="1788" y="2829" fill="#B14BFF" fill-opacity="0.62">9</text>
+<text x="1788" y="2741" fill="#B14BFF" fill-opacity="0.57">Λ</text>
+<text x="1788" y="2653" fill="#B14BFF" fill-opacity="0.52">;</text>
+<text x="1788" y="2565" fill="#B14BFF" fill-opacity="0.48">;</text>
+<text x="1788" y="2477" fill="#B14BFF" fill-opacity="0.43">V</text>
+<text x="1788" y="2389" fill="#B14BFF" fill-opacity="0.38">Λ</text>
+<text x="1788" y="2301" fill="#B14BFF" fill-opacity="0.33">&gt;</text>
+<text x="1788" y="2213" fill="#B14BFF" fill-opacity="0.29">Ξ</text>
+<text x="1788" y="2125" fill="#B14BFF" fill-opacity="0.24">:</text>
+<text x="1788" y="2037" fill="#B14BFF" fill-opacity="0.19">S</text>
+<text x="1788" y="1949" fill="#B14BFF" fill-opacity="0.14">\</text>
+<text x="1788" y="1861" fill="#B14BFF" fill-opacity="0.10">Λ</text>
+<text x="1788" y="1773" fill="#B14BFF" fill-opacity="0.05">Λ</text>
+
+
+
+<text x="1884" y="343" fill="#B14BFF" fill-opacity="0.83">9</text>
+<text x="1980" y="2998" fill="#ffffff" fill-opacity="1.00">Ξ</text>
+<text x="1980" y="2910" fill="#B14BFF" fill-opacity="0.96">*</text>
+<text x="1980" y="2822" fill="#B14BFF" fill-opacity="0.93">#</text>
+<text x="1980" y="2734" fill="#B14BFF" fill-opacity="0.89">V</text>
+<text x="1980" y="2646" fill="#B14BFF" fill-opacity="0.86">S</text>
+<text x="1980" y="2558" fill="#B14BFF" fill-opacity="0.82">:</text>
+<text x="1980" y="2470" fill="#B14BFF" fill-opacity="0.79">\</text>
+<text x="1980" y="2382" fill="#B14BFF" fill-opacity="0.75">V</text>
+<text x="1980" y="2294" fill="#B14BFF" fill-opacity="0.71">&lt;</text>
+<text x="1980" y="2206" fill="#B14BFF" fill-opacity="0.68">*</text>
+<text x="1980" y="2118" fill="#B14BFF" fill-opacity="0.64">Ω</text>
+<text x="1980" y="2030" fill="#B14BFF" fill-opacity="0.61">9</text>
+<text x="1980" y="1942" fill="#B14BFF" fill-opacity="0.57">*</text>
+<text x="1980" y="1854" fill="#B14BFF" fill-opacity="0.54">Ψ</text>
+<text x="1980" y="1766" fill="#B14BFF" fill-opacity="0.50">Ξ</text>
+<text x="1980" y="1678" fill="#B14BFF" fill-opacity="0.46">Ξ</text>
+<text x="1980" y="1590" fill="#B14BFF" fill-opacity="0.43">=</text>
+<text x="1980" y="1502" fill="#B14BFF" fill-opacity="0.39">9</text>
+<text x="1980" y="1414" fill="#B14BFF" fill-opacity="0.36">Ω</text>
+<text x="1980" y="1326" fill="#B14BFF" fill-opacity="0.32">/</text>
+<text x="1980" y="1238" fill="#B14BFF" fill-opacity="0.29">&gt;</text>
+<text x="1980" y="1150" fill="#B14BFF" fill-opacity="0.25">;</text>
+<text x="1980" y="1062" fill="#B14BFF" fill-opacity="0.21">S</text>
+<text x="1980" y="974" fill="#B14BFF" fill-opacity="0.18">=</text>
+<text x="1980" y="886" fill="#B14BFF" fill-opacity="0.14">=</text>
+
+
+
+<text x="2076" y="1778" fill="#ffffff" fill-opacity="1.00">*</text>
+<text x="2076" y="1690" fill="#B14BFF" fill-opacity="0.96">1</text>
+<text x="2076" y="1602" fill="#B14BFF" fill-opacity="0.92">+</text>
+<text x="2076" y="1514" fill="#B14BFF" fill-opacity="0.88">Ψ</text>
+<text x="2076" y="1426" fill="#B14BFF" fill-opacity="0.85">/</text>
+<text x="2076" y="1338" fill="#B14BFF" fill-opacity="0.81">Ψ</text>
+<text x="2076" y="1250" fill="#B14BFF" fill-opacity="0.77">9</text>
+<text x="2076" y="1162" fill="#B14BFF" fill-opacity="0.73">\</text>
+<text x="2076" y="1074" fill="#B14BFF" fill-opacity="0.69">9</text>
+<text x="2076" y="986" fill="#B14BFF" fill-opacity="0.65">3</text>
+<text x="2076" y="898" fill="#B14BFF" fill-opacity="0.62">+</text>
+<text x="2076" y="810" fill="#B14BFF" fill-opacity="0.58">&gt;</text>
+
+
+
+
+
+<text x="2172" y="2143" fill="#ffffff" fill-opacity="1.00">7</text>
+<text x="2172" y="2055" fill="#B14BFF" fill-opacity="0.97">∆</text>
+<text x="2172" y="1967" fill="#B14BFF" fill-opacity="0.94">/</text>
+<text x="2172" y="1879" fill="#B14BFF" fill-opacity="0.90">4</text>
+<text x="2172" y="1791" fill="#B14BFF" fill-opacity="0.87">/</text>
+<text x="2172" y="1703" fill="#B14BFF" fill-opacity="0.84">3</text>
+<text x="2172" y="1615" fill="#B14BFF" fill-opacity="0.81">0</text>
+<text x="2172" y="1527" fill="#B14BFF" fill-opacity="0.77">&lt;</text>
+<text x="2172" y="1439" fill="#B14BFF" fill-opacity="0.74">=</text>
+<text x="2172" y="1351" fill="#B14BFF" fill-opacity="0.71">*</text>
+<text x="2172" y="1263" fill="#B14BFF" fill-opacity="0.68">9</text>
+<text x="2172" y="1175" fill="#B14BFF" fill-opacity="0.65">=</text>
+<text x="2172" y="1087" fill="#B14BFF" fill-opacity="0.61">3</text>
+<text x="2172" y="999" fill="#B14BFF" fill-opacity="0.58">Ξ</text>
+<text x="2172" y="911" fill="#B14BFF" fill-opacity="0.55">V</text>
+<text x="2172" y="823" fill="#B14BFF" fill-opacity="0.52">0</text>
+
+
+
+
+
+<text x="2268" y="2065" fill="#ffffff" fill-opacity="1.00">/</text>
+<text x="2268" y="1977" fill="#B14BFF" fill-opacity="0.94">:</text>
+<text x="2268" y="1889" fill="#B14BFF" fill-opacity="0.88">∆</text>
+<text x="2268" y="1801" fill="#B14BFF" fill-opacity="0.82">Ψ</text>
+<text x="2268" y="1713" fill="#B14BFF" fill-opacity="0.76">;</text>
+<text x="2268" y="1625" fill="#B14BFF" fill-opacity="0.71">;</text>
+<text x="2268" y="1537" fill="#B14BFF" fill-opacity="0.65">∆</text>
+<text x="2268" y="1449" fill="#B14BFF" fill-opacity="0.59">+</text>
+<text x="2268" y="1361" fill="#B14BFF" fill-opacity="0.53">7</text>
+<text x="2268" y="1273" fill="#B14BFF" fill-opacity="0.47">S</text>
+<text x="2268" y="1185" fill="#B14BFF" fill-opacity="0.41">0</text>
+<text x="2268" y="1097" fill="#B14BFF" fill-opacity="0.35">7</text>
+<text x="2268" y="1009" fill="#B14BFF" fill-opacity="0.29">4</text>
+<text x="2268" y="921" fill="#B14BFF" fill-opacity="0.24">\</text>
+<text x="2268" y="833" fill="#B14BFF" fill-opacity="0.18">+</text>
+
+
+<text x="2364" y="1721" fill="#ffffff" fill-opacity="1.00">9</text>
+<text x="2364" y="1633" fill="#B14BFF" fill-opacity="0.96">∆</text>
+<text x="2364" y="1545" fill="#B14BFF" fill-opacity="0.93">Λ</text>
+<text x="2364" y="1457" fill="#B14BFF" fill-opacity="0.89">&gt;</text>
+<text x="2364" y="1369" fill="#B14BFF" fill-opacity="0.86">0</text>
+<text x="2364" y="1281" fill="#B14BFF" fill-opacity="0.82">+</text>
+<text x="2364" y="1193" fill="#B14BFF" fill-opacity="0.79">:</text>
+<text x="2364" y="1105" fill="#B14BFF" fill-opacity="0.75">4</text>
+<text x="2364" y="1017" fill="#B14BFF" fill-opacity="0.71">4</text>
+<text x="2364" y="929" fill="#B14BFF" fill-opacity="0.68">Λ</text>
+<text x="2364" y="841" fill="#B14BFF" fill-opacity="0.64">;</text>
+
+
+
+
+
+<text x="2364" y="313" fill="#B14BFF" fill-opacity="0.43">*</text>
+
+
+
+
+
+<text x="2460" y="3630" fill="#B14BFF" fill-opacity="0.64">Ψ</text>
+<text x="2460" y="3542" fill="#B14BFF" fill-opacity="0.57">4</text>
+<text x="2460" y="3454" fill="#B14BFF" fill-opacity="0.50">3</text>
+<text x="2460" y="3366" fill="#B14BFF" fill-opacity="0.43">S</text>
+<text x="2460" y="3278" fill="#B14BFF" fill-opacity="0.36">1</text>
+<text x="2460" y="3190" fill="#B14BFF" fill-opacity="0.29">Ξ</text>
+<text x="2460" y="3102" fill="#B14BFF" fill-opacity="0.21">+</text>
+<text x="2460" y="3014" fill="#B14BFF" fill-opacity="0.14">/</text>
+<text x="2460" y="2926" fill="#B14BFF" fill-opacity="0.07">=</text>
+<text x="2556" y="2715" fill="#ffffff" fill-opacity="1.00">0</text>
+<text x="2556" y="2627" fill="#B14BFF" fill-opacity="0.94">#</text>
+<text x="2556" y="2539" fill="#B14BFF" fill-opacity="0.89">:</text>
+<text x="2556" y="2451" fill="#B14BFF" fill-opacity="0.83">=</text>
+<text x="2556" y="2363" fill="#B14BFF" fill-opacity="0.78">0</text>
+<text x="2556" y="2275" fill="#B14BFF" fill-opacity="0.72">&gt;</text>
+<text x="2556" y="2187" fill="#B14BFF" fill-opacity="0.67">1</text>
+<text x="2556" y="2099" fill="#B14BFF" fill-opacity="0.61">:</text>
+<text x="2556" y="2011" fill="#B14BFF" fill-opacity="0.56">/</text>
+<text x="2556" y="1923" fill="#B14BFF" fill-opacity="0.50">;</text>
+<text x="2556" y="1835" fill="#B14BFF" fill-opacity="0.44">=</text>
+<text x="2556" y="1747" fill="#B14BFF" fill-opacity="0.39">∆</text>
+<text x="2556" y="1659" fill="#B14BFF" fill-opacity="0.33">4</text>
+<text x="2556" y="1571" fill="#B14BFF" fill-opacity="0.28">#</text>
+<text x="2556" y="1483" fill="#B14BFF" fill-opacity="0.22">+</text>
+<text x="2556" y="1395" fill="#B14BFF" fill-opacity="0.17">3</text>
+<text x="2556" y="1307" fill="#B14BFF" fill-opacity="0.11">S</text>
+<text x="2556" y="1219" fill="#B14BFF" fill-opacity="0.06">+</text>
+<text x="2652" y="2779" fill="#ffffff" fill-opacity="1.00">Ψ</text>
+<text x="2652" y="2691" fill="#B14BFF" fill-opacity="0.94">&lt;</text>
+<text x="2652" y="2603" fill="#B14BFF" fill-opacity="0.88">#</text>
+<text x="2652" y="2515" fill="#B14BFF" fill-opacity="0.81">&lt;</text>
+<text x="2652" y="2427" fill="#B14BFF" fill-opacity="0.75">3</text>
+<text x="2652" y="2339" fill="#B14BFF" fill-opacity="0.69">#</text>
+<text x="2652" y="2251" fill="#B14BFF" fill-opacity="0.62">3</text>
+<text x="2652" y="2163" fill="#B14BFF" fill-opacity="0.56">3</text>
+<text x="2652" y="2075" fill="#B14BFF" fill-opacity="0.50">/</text>
+<text x="2652" y="1987" fill="#B14BFF" fill-opacity="0.44">*</text>
+<text x="2652" y="1899" fill="#B14BFF" fill-opacity="0.38">Λ</text>
+<text x="2652" y="1811" fill="#B14BFF" fill-opacity="0.31">*</text>
+<text x="2652" y="1723" fill="#B14BFF" fill-opacity="0.25">3</text>
+<text x="2652" y="1635" fill="#B14BFF" fill-opacity="0.19">∆</text>
+<text x="2652" y="1547" fill="#B14BFF" fill-opacity="0.12">/</text>
+<text x="2652" y="1459" fill="#B14BFF" fill-opacity="0.06">7</text>
+<text x="2748" y="1525" fill="#ffffff" fill-opacity="1.00">3</text>
+<text x="2748" y="1437" fill="#B14BFF" fill-opacity="0.97">Λ</text>
+<text x="2748" y="1349" fill="#B14BFF" fill-opacity="0.93">#</text>
+<text x="2748" y="1261" fill="#B14BFF" fill-opacity="0.90">1</text>
+<text x="2748" y="1173" fill="#B14BFF" fill-opacity="0.87">Ω</text>
+<text x="2748" y="1085" fill="#B14BFF" fill-opacity="0.83">=</text>
+<text x="2748" y="997" fill="#B14BFF" fill-opacity="0.80">:</text>
+<text x="2748" y="909" fill="#B14BFF" fill-opacity="0.77">Ω</text>
+<text x="2748" y="821" fill="#B14BFF" fill-opacity="0.73">*</text>
+
+
+
+
+
+<text x="2844" y="3406" fill="#ffffff" fill-opacity="1.00">∆</text>
+<text x="2844" y="3318" fill="#B14BFF" fill-opacity="0.96">&lt;</text>
+<text x="2844" y="3230" fill="#B14BFF" fill-opacity="0.92">&gt;</text>
+<text x="2844" y="3142" fill="#B14BFF" fill-opacity="0.88">Λ</text>
+<text x="2844" y="3054" fill="#B14BFF" fill-opacity="0.84">&lt;</text>
+<text x="2844" y="2966" fill="#B14BFF" fill-opacity="0.80">=</text>
+<text x="2844" y="2878" fill="#B14BFF" fill-opacity="0.76">&gt;</text>
+<text x="2844" y="2790" fill="#B14BFF" fill-opacity="0.72">Ξ</text>
+<text x="2844" y="2702" fill="#B14BFF" fill-opacity="0.68">+</text>
+<text x="2844" y="2614" fill="#B14BFF" fill-opacity="0.64">=</text>
+<text x="2844" y="2526" fill="#B14BFF" fill-opacity="0.60">#</text>
+<text x="2844" y="2438" fill="#B14BFF" fill-opacity="0.56">=</text>
+<text x="2844" y="2350" fill="#B14BFF" fill-opacity="0.52">S</text>
+<text x="2844" y="2262" fill="#B14BFF" fill-opacity="0.48">9</text>
+<text x="2844" y="2174" fill="#B14BFF" fill-opacity="0.44">=</text>
+<text x="2844" y="2086" fill="#B14BFF" fill-opacity="0.40">3</text>
+<text x="2844" y="1998" fill="#B14BFF" fill-opacity="0.36">∆</text>
+<text x="2844" y="1910" fill="#B14BFF" fill-opacity="0.32">Ψ</text>
+<text x="2844" y="1822" fill="#B14BFF" fill-opacity="0.28">&lt;</text>
+<text x="2844" y="1734" fill="#B14BFF" fill-opacity="0.24">Ξ</text>
+<text x="2844" y="1646" fill="#B14BFF" fill-opacity="0.20">V</text>
+<text x="2844" y="1558" fill="#B14BFF" fill-opacity="0.16">Ω</text>
+<text x="2844" y="1470" fill="#B14BFF" fill-opacity="0.12">+</text>
+<text x="2844" y="1382" fill="#B14BFF" fill-opacity="0.08">∆</text>
+<text x="2844" y="1294" fill="#B14BFF" fill-opacity="0.04">4</text>
+<text x="2940" y="3362" fill="#ffffff" fill-opacity="1.00">&gt;</text>
+<text x="2940" y="3274" fill="#B14BFF" fill-opacity="0.95">S</text>
+<text x="2940" y="3186" fill="#B14BFF" fill-opacity="0.89">S</text>
+<text x="2940" y="3098" fill="#B14BFF" fill-opacity="0.84">Ω</text>
+<text x="2940" y="3010" fill="#B14BFF" fill-opacity="0.79">Ψ</text>
+<text x="2940" y="2922" fill="#B14BFF" fill-opacity="0.74">:</text>
+<text x="2940" y="2834" fill="#B14BFF" fill-opacity="0.68">3</text>
+<text x="2940" y="2746" fill="#B14BFF" fill-opacity="0.63">/</text>
+<text x="2940" y="2658" fill="#B14BFF" fill-opacity="0.58">/</text>
+<text x="2940" y="2570" fill="#B14BFF" fill-opacity="0.53">&lt;</text>
+<text x="2940" y="2482" fill="#B14BFF" fill-opacity="0.47">Ψ</text>
+<text x="2940" y="2394" fill="#B14BFF" fill-opacity="0.42">7</text>
+<text x="2940" y="2306" fill="#B14BFF" fill-opacity="0.37">*</text>
+<text x="2940" y="2218" fill="#B14BFF" fill-opacity="0.32">;</text>
+<text x="2940" y="2130" fill="#B14BFF" fill-opacity="0.26">9</text>
+<text x="2940" y="2042" fill="#B14BFF" fill-opacity="0.21">&lt;</text>
+<text x="2940" y="1954" fill="#B14BFF" fill-opacity="0.16">/</text>
+<text x="2940" y="1866" fill="#B14BFF" fill-opacity="0.11">9</text>
+<text x="2940" y="1778" fill="#B14BFF" fill-opacity="0.05">9</text>
+<text x="3036" y="2688" fill="#ffffff" fill-opacity="1.00">7</text>
+<text x="3036" y="2600" fill="#B14BFF" fill-opacity="0.97">3</text>
+<text x="3036" y="2512" fill="#B14BFF" fill-opacity="0.94">4</text>
+<text x="3036" y="2424" fill="#B14BFF" fill-opacity="0.90">Λ</text>
+<text x="3036" y="2336" fill="#B14BFF" fill-opacity="0.87">&gt;</text>
+<text x="3036" y="2248" fill="#B14BFF" fill-opacity="0.84">#</text>
+<text x="3036" y="2160" fill="#B14BFF" fill-opacity="0.81">/</text>
+<text x="3036" y="2072" fill="#B14BFF" fill-opacity="0.77">+</text>
+<text x="3036" y="1984" fill="#B14BFF" fill-opacity="0.74">Ξ</text>
+<text x="3036" y="1896" fill="#B14BFF" fill-opacity="0.71">Ψ</text>
+<text x="3036" y="1808" fill="#B14BFF" fill-opacity="0.68">&gt;</text>
+<text x="3036" y="1720" fill="#B14BFF" fill-opacity="0.65">=</text>
+<text x="3036" y="1632" fill="#B14BFF" fill-opacity="0.61">+</text>
+<text x="3036" y="1544" fill="#B14BFF" fill-opacity="0.58">Λ</text>
+<text x="3036" y="1456" fill="#B14BFF" fill-opacity="0.55">Ξ</text>
+<text x="3036" y="1368" fill="#B14BFF" fill-opacity="0.52">&lt;</text>
+<text x="3036" y="1280" fill="#B14BFF" fill-opacity="0.48">/</text>
+<text x="3036" y="1192" fill="#B14BFF" fill-opacity="0.45">S</text>
+<text x="3036" y="1104" fill="#B14BFF" fill-opacity="0.42">0</text>
+<text x="3036" y="1016" fill="#B14BFF" fill-opacity="0.39">V</text>
+<text x="3036" y="928" fill="#B14BFF" fill-opacity="0.35">&gt;</text>
+<text x="3036" y="840" fill="#B14BFF" fill-opacity="0.32">Ξ</text>
+
+
+
+
+
+<text x="3036" y="312" fill="#B14BFF" fill-opacity="0.13">:</text>
+<text x="3132" y="2924" fill="#ffffff" fill-opacity="1.00">7</text>
+<text x="3132" y="2836" fill="#B14BFF" fill-opacity="0.95">/</text>
+<text x="3132" y="2748" fill="#B14BFF" fill-opacity="0.90">:</text>
+<text x="3132" y="2660" fill="#B14BFF" fill-opacity="0.86">#</text>
+<text x="3132" y="2572" fill="#B14BFF" fill-opacity="0.81">+</text>
+<text x="3132" y="2484" fill="#B14BFF" fill-opacity="0.76">3</text>
+<text x="3132" y="2396" fill="#B14BFF" fill-opacity="0.71">S</text>
+<text x="3132" y="2308" fill="#B14BFF" fill-opacity="0.67">&gt;</text>
+<text x="3132" y="2220" fill="#B14BFF" fill-opacity="0.62">&lt;</text>
+<text x="3132" y="2132" fill="#B14BFF" fill-opacity="0.57">∆</text>
+<text x="3132" y="2044" fill="#B14BFF" fill-opacity="0.52">+</text>
+<text x="3132" y="1956" fill="#B14BFF" fill-opacity="0.48">V</text>
+<text x="3132" y="1868" fill="#B14BFF" fill-opacity="0.43">S</text>
+<text x="3132" y="1780" fill="#B14BFF" fill-opacity="0.38">∆</text>
+<text x="3132" y="1692" fill="#B14BFF" fill-opacity="0.33">&lt;</text>
+<text x="3132" y="1604" fill="#B14BFF" fill-opacity="0.29">Ψ</text>
+<text x="3132" y="1516" fill="#B14BFF" fill-opacity="0.24">S</text>
+<text x="3132" y="1428" fill="#B14BFF" fill-opacity="0.19">\</text>
+<text x="3132" y="1340" fill="#B14BFF" fill-opacity="0.14">&gt;</text>
+<text x="3132" y="1252" fill="#B14BFF" fill-opacity="0.10">Ψ</text>
+<text x="3132" y="1164" fill="#B14BFF" fill-opacity="0.05">Λ</text>
+<text x="3228" y="3107" fill="#ffffff" fill-opacity="1.00">Ω</text>
+<text x="3228" y="3019" fill="#B14BFF" fill-opacity="0.95">9</text>
+<text x="3228" y="2931" fill="#B14BFF" fill-opacity="0.90">Ω</text>
+<text x="3228" y="2843" fill="#B14BFF" fill-opacity="0.85">7</text>
+<text x="3228" y="2755" fill="#B14BFF" fill-opacity="0.80">1</text>
+<text x="3228" y="2667" fill="#B14BFF" fill-opacity="0.75">&lt;</text>
+<text x="3228" y="2579" fill="#B14BFF" fill-opacity="0.70">&gt;</text>
+<text x="3228" y="2491" fill="#B14BFF" fill-opacity="0.65">3</text>
+<text x="3228" y="2403" fill="#B14BFF" fill-opacity="0.60">7</text>
+<text x="3228" y="2315" fill="#B14BFF" fill-opacity="0.55">1</text>
+<text x="3228" y="2227" fill="#B14BFF" fill-opacity="0.50">S</text>
+<text x="3228" y="2139" fill="#B14BFF" fill-opacity="0.45">Ξ</text>
+<text x="3228" y="2051" fill="#B14BFF" fill-opacity="0.40">Λ</text>
+<text x="3228" y="1963" fill="#B14BFF" fill-opacity="0.35">\</text>
+<text x="3228" y="1875" fill="#B14BFF" fill-opacity="0.30">=</text>
+<text x="3228" y="1787" fill="#B14BFF" fill-opacity="0.25">Ψ</text>
+<text x="3228" y="1699" fill="#B14BFF" fill-opacity="0.20">S</text>
+<text x="3228" y="1611" fill="#B14BFF" fill-opacity="0.15">&lt;</text>
+<text x="3228" y="1523" fill="#B14BFF" fill-opacity="0.10">*</text>
+<text x="3228" y="1435" fill="#B14BFF" fill-opacity="0.05">;</text>
+<text x="3324" y="1253" fill="#ffffff" fill-opacity="1.00">3</text>
+<text x="3324" y="1165" fill="#B14BFF" fill-opacity="0.96">9</text>
+<text x="3324" y="1077" fill="#B14BFF" fill-opacity="0.92">7</text>
+<text x="3324" y="989" fill="#B14BFF" fill-opacity="0.88">/</text>
+<text x="3324" y="901" fill="#B14BFF" fill-opacity="0.83">Ω</text>
+<text x="3324" y="813" fill="#B14BFF" fill-opacity="0.79">1</text>
+
+
+
+
+
+<text x="3420" y="1041" fill="#ffffff" fill-opacity="1.00">*</text>
+<text x="3420" y="953" fill="#B14BFF" fill-opacity="0.97">:</text>
+<text x="3420" y="865" fill="#B14BFF" fill-opacity="0.94">4</text>
+
+
+
+
+
+<text x="3420" y="337" fill="#B14BFF" fill-opacity="0.75">\</text>
+<text x="3516" y="3462" fill="#ffffff" fill-opacity="1.00">=</text>
+<text x="3516" y="3374" fill="#B14BFF" fill-opacity="0.97">1</text>
+<text x="3516" y="3286" fill="#B14BFF" fill-opacity="0.93">V</text>
+<text x="3516" y="3198" fill="#B14BFF" fill-opacity="0.90">=</text>
+<text x="3516" y="3110" fill="#B14BFF" fill-opacity="0.87">;</text>
+<text x="3516" y="3022" fill="#B14BFF" fill-opacity="0.83">S</text>
+<text x="3516" y="2934" fill="#B14BFF" fill-opacity="0.80">V</text>
+<text x="3516" y="2846" fill="#B14BFF" fill-opacity="0.77">4</text>
+<text x="3516" y="2758" fill="#B14BFF" fill-opacity="0.73">*</text>
+<text x="3516" y="2670" fill="#B14BFF" fill-opacity="0.70">Ξ</text>
+<text x="3516" y="2582" fill="#B14BFF" fill-opacity="0.67">Λ</text>
+<text x="3516" y="2494" fill="#B14BFF" fill-opacity="0.63">/</text>
+<text x="3516" y="2406" fill="#B14BFF" fill-opacity="0.60">#</text>
+<text x="3516" y="2318" fill="#B14BFF" fill-opacity="0.57">=</text>
+<text x="3516" y="2230" fill="#B14BFF" fill-opacity="0.53">9</text>
+<text x="3516" y="2142" fill="#B14BFF" fill-opacity="0.50">0</text>
+<text x="3516" y="2054" fill="#B14BFF" fill-opacity="0.47">Ψ</text>
+<text x="3516" y="1966" fill="#B14BFF" fill-opacity="0.43">V</text>
+<text x="3516" y="1878" fill="#B14BFF" fill-opacity="0.40">4</text>
+<text x="3516" y="1790" fill="#B14BFF" fill-opacity="0.37">&gt;</text>
+<text x="3516" y="1702" fill="#B14BFF" fill-opacity="0.33">Ω</text>
+<text x="3516" y="1614" fill="#B14BFF" fill-opacity="0.30">Ξ</text>
+<text x="3516" y="1526" fill="#B14BFF" fill-opacity="0.27">0</text>
+<text x="3516" y="1438" fill="#B14BFF" fill-opacity="0.23">S</text>
+<text x="3516" y="1350" fill="#B14BFF" fill-opacity="0.20">\</text>
+<text x="3516" y="1262" fill="#B14BFF" fill-opacity="0.17">4</text>
+<text x="3516" y="1174" fill="#B14BFF" fill-opacity="0.13">Λ</text>
+<text x="3516" y="1086" fill="#B14BFF" fill-opacity="0.10">&lt;</text>
+<text x="3516" y="998" fill="#B14BFF" fill-opacity="0.07">3</text>
+<text x="3516" y="910" fill="#B14BFF" fill-opacity="0.03">=</text><text x="60" y="2249" fill="#ffffff" fill-opacity="1.00">:</text>
+<text x="60" y="2161" fill="#B14BFF" fill-opacity="0.87">S</text>
+<text x="60" y="2073" fill="#B14BFF" fill-opacity="0.84">&gt;</text>
+<text x="60" y="1985" fill="#B14BFF" fill-opacity="0.82">7</text>
+<text x="60" y="1897" fill="#B14BFF" fill-opacity="0.79">+</text>
+<text x="60" y="1809" fill="#B14BFF" fill-opacity="0.76">3</text>
+<text x="60" y="1721" fill="#B14BFF" fill-opacity="0.73">;</text>
+<text x="60" y="1633" fill="#B14BFF" fill-opacity="0.70">Λ</text>
+<text x="60" y="1545" fill="#B14BFF" fill-opacity="0.68">7</text>
+<text x="60" y="1457" fill="#B14BFF" fill-opacity="0.65">0</text>
+<text x="60" y="1369" fill="#B14BFF" fill-opacity="0.62">+</text>
+<text x="60" y="1281" fill="#B14BFF" fill-opacity="0.59">Ψ</text>
+<text x="60" y="1193" fill="#B14BFF" fill-opacity="0.56">:</text>
+<text x="60" y="1105" fill="#B14BFF" fill-opacity="0.53">Ω</text>
+<text x="60" y="1017" fill="#B14BFF" fill-opacity="0.51">∆</text>
+<text x="60" y="929" fill="#B14BFF" fill-opacity="0.48">9</text>
+<text x="60" y="841" fill="#B14BFF" fill-opacity="0.45">+</text>
+
+
+
+
+
+<text x="60" y="313" fill="#B14BFF" fill-opacity="0.28">S</text>
+<text x="156" y="2199" fill="#ffffff" fill-opacity="1.00">S</text>
+<text x="156" y="2111" fill="#B14BFF" fill-opacity="0.87">*</text>
+<text x="156" y="2023" fill="#B14BFF" fill-opacity="0.85">/</text>
+<text x="156" y="1935" fill="#B14BFF" fill-opacity="0.82">0</text>
+<text x="156" y="1847" fill="#B14BFF" fill-opacity="0.79">4</text>
+<text x="156" y="1759" fill="#B14BFF" fill-opacity="0.77">Λ</text>
+<text x="156" y="1671" fill="#B14BFF" fill-opacity="0.74">Ξ</text>
+<text x="156" y="1583" fill="#B14BFF" fill-opacity="0.71">;</text>
+<text x="156" y="1495" fill="#B14BFF" fill-opacity="0.69">1</text>
+<text x="156" y="1407" fill="#B14BFF" fill-opacity="0.66">#</text>
+<text x="156" y="1319" fill="#B14BFF" fill-opacity="0.64">0</text>
+<text x="156" y="1231" fill="#B14BFF" fill-opacity="0.61">Ψ</text>
+<text x="156" y="1143" fill="#B14BFF" fill-opacity="0.58">+</text>
+<text x="156" y="1055" fill="#B14BFF" fill-opacity="0.56">7</text>
+<text x="156" y="967" fill="#B14BFF" fill-opacity="0.53">/</text>
+<text x="156" y="879" fill="#B14BFF" fill-opacity="0.50">9</text>
+
+
+
+
+
+<text x="156" y="351" fill="#B14BFF" fill-opacity="0.34">&gt;</text>
+<text x="252" y="1098" fill="#ffffff" fill-opacity="1.00">S</text>
+<text x="252" y="1010" fill="#B14BFF" fill-opacity="0.84">+</text>
+<text x="252" y="922" fill="#B14BFF" fill-opacity="0.78">∆</text>
+<text x="252" y="834" fill="#B14BFF" fill-opacity="0.72">Ψ</text>
+
+
+
+
+
+<text x="252" y="306" fill="#B14BFF" fill-opacity="0.36">*</text>
+<text x="348" y="3461" fill="#ffffff" fill-opacity="1.00">&gt;</text>
+<text x="348" y="3373" fill="#B14BFF" fill-opacity="0.87">:</text>
+<text x="348" y="3285" fill="#B14BFF" fill-opacity="0.84">;</text>
+<text x="348" y="3197" fill="#B14BFF" fill-opacity="0.82">\</text>
+<text x="348" y="3109" fill="#B14BFF" fill-opacity="0.79">;</text>
+<text x="348" y="3021" fill="#B14BFF" fill-opacity="0.76">Ω</text>
+<text x="348" y="2933" fill="#B14BFF" fill-opacity="0.73">&lt;</text>
+<text x="348" y="2845" fill="#B14BFF" fill-opacity="0.70">4</text>
+<text x="348" y="2757" fill="#B14BFF" fill-opacity="0.68">0</text>
+<text x="348" y="2669" fill="#B14BFF" fill-opacity="0.65">Ψ</text>
+<text x="348" y="2581" fill="#B14BFF" fill-opacity="0.62">7</text>
+<text x="348" y="2493" fill="#B14BFF" fill-opacity="0.59">4</text>
+<text x="348" y="2405" fill="#B14BFF" fill-opacity="0.56">9</text>
+<text x="348" y="2317" fill="#B14BFF" fill-opacity="0.53">Ξ</text>
+<text x="348" y="2229" fill="#B14BFF" fill-opacity="0.51">9</text>
+<text x="348" y="2141" fill="#B14BFF" fill-opacity="0.48">&lt;</text>
+<text x="348" y="2053" fill="#B14BFF" fill-opacity="0.45">:</text>
+<text x="348" y="1965" fill="#B14BFF" fill-opacity="0.42">;</text>
+<text x="348" y="1877" fill="#B14BFF" fill-opacity="0.39">;</text>
+<text x="348" y="1789" fill="#B14BFF" fill-opacity="0.37">V</text>
+<text x="348" y="1701" fill="#B14BFF" fill-opacity="0.34">9</text>
+<text x="348" y="1613" fill="#B14BFF" fill-opacity="0.31">3</text>
+<text x="348" y="1525" fill="#B14BFF" fill-opacity="0.28">∆</text>
+<text x="348" y="1437" fill="#B14BFF" fill-opacity="0.25">3</text>
+<text x="348" y="1349" fill="#B14BFF" fill-opacity="0.23">;</text>
+<text x="348" y="1261" fill="#B14BFF" fill-opacity="0.20">Ψ</text>
+<text x="348" y="1173" fill="#B14BFF" fill-opacity="0.17">#</text>
+<text x="348" y="1085" fill="#B14BFF" fill-opacity="0.14">V</text>
+<text x="348" y="997" fill="#B14BFF" fill-opacity="0.11">Λ</text>
+<text x="348" y="909" fill="#B14BFF" fill-opacity="0.08">+</text>
+<text x="348" y="821" fill="#B14BFF" fill-opacity="0.06">3</text>
+
+<text x="444" y="1025" fill="#ffffff" fill-opacity="1.00">Λ</text>
+<text x="444" y="937" fill="#B14BFF" fill-opacity="0.86">\</text>
+<text x="444" y="849" fill="#B14BFF" fill-opacity="0.83">S</text>
+
+
+
+
+
+<text x="444" y="321" fill="#B14BFF" fill-opacity="0.61">1</text>
+
+
+
+
+<text x="540" y="316" fill="#B14BFF" fill-opacity="0.76">Ψ</text>
+<text x="636" y="2232" fill="#ffffff" fill-opacity="1.00">#</text>
+<text x="636" y="2144" fill="#B14BFF" fill-opacity="0.84">0</text>
+<text x="636" y="2056" fill="#B14BFF" fill-opacity="0.78">Λ</text>
+<text x="636" y="1968" fill="#B14BFF" fill-opacity="0.72">V</text>
+<text x="636" y="1880" fill="#B14BFF" fill-opacity="0.66">7</text>
+<text x="636" y="1792" fill="#B14BFF" fill-opacity="0.60">:</text>
+<text x="636" y="1704" fill="#B14BFF" fill-opacity="0.54">1</text>
+<text x="636" y="1616" fill="#B14BFF" fill-opacity="0.48">∆</text>
+<text x="636" y="1528" fill="#B14BFF" fill-opacity="0.42">\</text>
+<text x="636" y="1440" fill="#B14BFF" fill-opacity="0.36">#</text>
+<text x="636" y="1352" fill="#B14BFF" fill-opacity="0.30">7</text>
+<text x="636" y="1264" fill="#B14BFF" fill-opacity="0.24">Ψ</text>
+<text x="636" y="1176" fill="#B14BFF" fill-opacity="0.18">S</text>
+<text x="636" y="1088" fill="#B14BFF" fill-opacity="0.12">9</text>
+<text x="636" y="1000" fill="#B14BFF" fill-opacity="0.06">1</text>
+<text x="732" y="3083" fill="#ffffff" fill-opacity="1.00">&gt;</text>
+<text x="732" y="2995" fill="#B14BFF" fill-opacity="0.86">S</text>
+<text x="732" y="2907" fill="#B14BFF" fill-opacity="0.82">/</text>
+<text x="732" y="2819" fill="#B14BFF" fill-opacity="0.79">/</text>
+<text x="732" y="2731" fill="#B14BFF" fill-opacity="0.75">=</text>
+<text x="732" y="2643" fill="#B14BFF" fill-opacity="0.71">*</text>
+<text x="732" y="2555" fill="#B14BFF" fill-opacity="0.68">/</text>
+<text x="732" y="2467" fill="#B14BFF" fill-opacity="0.64">3</text>
+<text x="732" y="2379" fill="#B14BFF" fill-opacity="0.60">7</text>
+<text x="732" y="2291" fill="#B14BFF" fill-opacity="0.56">4</text>
+<text x="732" y="2203" fill="#B14BFF" fill-opacity="0.52">:</text>
+<text x="732" y="2115" fill="#B14BFF" fill-opacity="0.49">V</text>
+<text x="732" y="2027" fill="#B14BFF" fill-opacity="0.45">7</text>
+<text x="732" y="1939" fill="#B14BFF" fill-opacity="0.41">*</text>
+<text x="732" y="1851" fill="#B14BFF" fill-opacity="0.38">Ψ</text>
+<text x="732" y="1763" fill="#B14BFF" fill-opacity="0.34">\</text>
+<text x="732" y="1675" fill="#B14BFF" fill-opacity="0.30">3</text>
+<text x="732" y="1587" fill="#B14BFF" fill-opacity="0.26">9</text>
+<text x="732" y="1499" fill="#B14BFF" fill-opacity="0.23">Ω</text>
+<text x="732" y="1411" fill="#B14BFF" fill-opacity="0.19">#</text>
+<text x="732" y="1323" fill="#B14BFF" fill-opacity="0.15">\</text>
+<text x="732" y="1235" fill="#B14BFF" fill-opacity="0.11">Ψ</text>
+<text x="732" y="1147" fill="#B14BFF" fill-opacity="0.08">*</text>
+<text x="732" y="1059" fill="#B14BFF" fill-opacity="0.04">#</text>
+<text x="828" y="3076" fill="#ffffff" fill-opacity="1.00">\</text>
+<text x="828" y="2988" fill="#B14BFF" fill-opacity="0.84">;</text>
+<text x="828" y="2900" fill="#B14BFF" fill-opacity="0.77">&lt;</text>
+<text x="828" y="2812" fill="#B14BFF" fill-opacity="0.71">0</text>
+<text x="828" y="2724" fill="#B14BFF" fill-opacity="0.64">/</text>
+<text x="828" y="2636" fill="#B14BFF" fill-opacity="0.58">7</text>
+<text x="828" y="2548" fill="#B14BFF" fill-opacity="0.51">;</text>
+<text x="828" y="2460" fill="#B14BFF" fill-opacity="0.45">3</text>
+<text x="828" y="2372" fill="#B14BFF" fill-opacity="0.39">S</text>
+<text x="828" y="2284" fill="#B14BFF" fill-opacity="0.32">1</text>
+<text x="828" y="2196" fill="#B14BFF" fill-opacity="0.26">3</text>
+<text x="828" y="2108" fill="#B14BFF" fill-opacity="0.19">3</text>
+<text x="828" y="2020" fill="#B14BFF" fill-opacity="0.13">&lt;</text>
+<text x="828" y="1932" fill="#B14BFF" fill-opacity="0.06">=</text>
+<text x="924" y="3191" fill="#ffffff" fill-opacity="1.00">7</text>
+<text x="924" y="3103" fill="#B14BFF" fill-opacity="0.86">9</text>
+<text x="924" y="3015" fill="#B14BFF" fill-opacity="0.83">Ψ</text>
+<text x="924" y="2927" fill="#B14BFF" fill-opacity="0.79">+</text>
+<text x="924" y="2839" fill="#B14BFF" fill-opacity="0.76">0</text>
+<text x="924" y="2751" fill="#B14BFF" fill-opacity="0.72">;</text>
+<text x="924" y="2663" fill="#B14BFF" fill-opacity="0.68">1</text>
+<text x="924" y="2575" fill="#B14BFF" fill-opacity="0.65">4</text>
+<text x="924" y="2487" fill="#B14BFF" fill-opacity="0.61">0</text>
+<text x="924" y="2399" fill="#B14BFF" fill-opacity="0.58">&gt;</text>
+<text x="924" y="2311" fill="#B14BFF" fill-opacity="0.54">Ψ</text>
+<text x="924" y="2223" fill="#B14BFF" fill-opacity="0.50">3</text>
+<text x="924" y="2135" fill="#B14BFF" fill-opacity="0.47">=</text>
+<text x="924" y="2047" fill="#B14BFF" fill-opacity="0.43">#</text>
+<text x="924" y="1959" fill="#B14BFF" fill-opacity="0.40">;</text>
+<text x="924" y="1871" fill="#B14BFF" fill-opacity="0.36">7</text>
+<text x="924" y="1783" fill="#B14BFF" fill-opacity="0.32">&lt;</text>
+<text x="924" y="1695" fill="#B14BFF" fill-opacity="0.29">Ξ</text>
+<text x="924" y="1607" fill="#B14BFF" fill-opacity="0.25">&gt;</text>
+<text x="924" y="1519" fill="#B14BFF" fill-opacity="0.22">Ξ</text>
+<text x="924" y="1431" fill="#B14BFF" fill-opacity="0.18">&lt;</text>
+<text x="924" y="1343" fill="#B14BFF" fill-opacity="0.14">&gt;</text>
+<text x="924" y="1255" fill="#B14BFF" fill-opacity="0.11">7</text>
+<text x="924" y="1167" fill="#B14BFF" fill-opacity="0.07">Ψ</text>
+<text x="924" y="1079" fill="#B14BFF" fill-opacity="0.04">#</text>
+<text x="1020" y="3389" fill="#ffffff" fill-opacity="1.00">0</text>
+<text x="1020" y="3301" fill="#B14BFF" fill-opacity="0.85">;</text>
+<text x="1020" y="3213" fill="#B14BFF" fill-opacity="0.79">4</text>
+<text x="1020" y="3125" fill="#B14BFF" fill-opacity="0.74">S</text>
+<text x="1020" y="3037" fill="#B14BFF" fill-opacity="0.69">#</text>
+<text x="1020" y="2949" fill="#B14BFF" fill-opacity="0.64">*</text>
+<text x="1020" y="2861" fill="#B14BFF" fill-opacity="0.58">Ω</text>
+<text x="1020" y="2773" fill="#B14BFF" fill-opacity="0.53">3</text>
+<text x="1020" y="2685" fill="#B14BFF" fill-opacity="0.48">Ψ</text>
+<text x="1020" y="2597" fill="#B14BFF" fill-opacity="0.42">Ω</text>
+<text x="1020" y="2509" fill="#B14BFF" fill-opacity="0.37">&lt;</text>
+<text x="1020" y="2421" fill="#B14BFF" fill-opacity="0.32">Ξ</text>
+<text x="1020" y="2333" fill="#B14BFF" fill-opacity="0.26">4</text>
+<text x="1020" y="2245" fill="#B14BFF" fill-opacity="0.21">\</text>
+<text x="1020" y="2157" fill="#B14BFF" fill-opacity="0.16">3</text>
+<text x="1020" y="2069" fill="#B14BFF" fill-opacity="0.11">9</text>
+<text x="1020" y="1981" fill="#B14BFF" fill-opacity="0.05">V</text>
+<text x="1116" y="1134" fill="#ffffff" fill-opacity="1.00">&lt;</text>
+<text x="1116" y="1046" fill="#B14BFF" fill-opacity="0.87">&lt;</text>
+<text x="1116" y="958" fill="#B14BFF" fill-opacity="0.85">4</text>
+<text x="1116" y="870" fill="#B14BFF" fill-opacity="0.82">Ω</text>
+
+
+
+
+
+<text x="1116" y="342" fill="#B14BFF" fill-opacity="0.65">∆</text>
+
+
+
+
+<text x="1212" y="3643" fill="#B14BFF" fill-opacity="0.74">∆</text>
+<text x="1212" y="3555" fill="#B14BFF" fill-opacity="0.70">&lt;</text>
+<text x="1212" y="3467" fill="#B14BFF" fill-opacity="0.65">;</text>
+<text x="1212" y="3379" fill="#B14BFF" fill-opacity="0.61">Ξ</text>
+<text x="1212" y="3291" fill="#B14BFF" fill-opacity="0.57">Ψ</text>
+<text x="1212" y="3203" fill="#B14BFF" fill-opacity="0.53">&lt;</text>
+<text x="1212" y="3115" fill="#B14BFF" fill-opacity="0.49">3</text>
+<text x="1212" y="3027" fill="#B14BFF" fill-opacity="0.45">Λ</text>
+<text x="1212" y="2939" fill="#B14BFF" fill-opacity="0.41">7</text>
+<text x="1212" y="2851" fill="#B14BFF" fill-opacity="0.37">&gt;</text>
+<text x="1212" y="2763" fill="#B14BFF" fill-opacity="0.33">;</text>
+<text x="1212" y="2675" fill="#B14BFF" fill-opacity="0.29">S</text>
+<text x="1212" y="2587" fill="#B14BFF" fill-opacity="0.25">\</text>
+<text x="1212" y="2499" fill="#B14BFF" fill-opacity="0.20">#</text>
+<text x="1212" y="2411" fill="#B14BFF" fill-opacity="0.16">*</text>
+<text x="1212" y="2323" fill="#B14BFF" fill-opacity="0.12">Ψ</text>
+<text x="1212" y="2235" fill="#B14BFF" fill-opacity="0.08">=</text>
+<text x="1212" y="2147" fill="#B14BFF" fill-opacity="0.04">&gt;</text>
+
+<text x="1308" y="3627" fill="#B14BFF" fill-opacity="0.86">;</text>
+<text x="1308" y="3539" fill="#B14BFF" fill-opacity="0.82">\</text>
+<text x="1308" y="3451" fill="#B14BFF" fill-opacity="0.78">1</text>
+<text x="1308" y="3363" fill="#B14BFF" fill-opacity="0.74">\</text>
+<text x="1308" y="3275" fill="#B14BFF" fill-opacity="0.70">S</text>
+<text x="1308" y="3187" fill="#B14BFF" fill-opacity="0.67">∆</text>
+<text x="1308" y="3099" fill="#B14BFF" fill-opacity="0.63">0</text>
+<text x="1308" y="3011" fill="#B14BFF" fill-opacity="0.59">+</text>
+<text x="1308" y="2923" fill="#B14BFF" fill-opacity="0.55">7</text>
+<text x="1308" y="2835" fill="#B14BFF" fill-opacity="0.51">*</text>
+<text x="1308" y="2747" fill="#B14BFF" fill-opacity="0.47">\</text>
+<text x="1308" y="2659" fill="#B14BFF" fill-opacity="0.43">:</text>
+<text x="1308" y="2571" fill="#B14BFF" fill-opacity="0.39">9</text>
+<text x="1308" y="2483" fill="#B14BFF" fill-opacity="0.35">Ω</text>
+<text x="1308" y="2395" fill="#B14BFF" fill-opacity="0.31">1</text>
+<text x="1308" y="2307" fill="#B14BFF" fill-opacity="0.27">=</text>
+<text x="1308" y="2219" fill="#B14BFF" fill-opacity="0.23">4</text>
+<text x="1308" y="2131" fill="#B14BFF" fill-opacity="0.20">*</text>
+<text x="1308" y="2043" fill="#B14BFF" fill-opacity="0.16">#</text>
+<text x="1308" y="1955" fill="#B14BFF" fill-opacity="0.12">:</text>
+<text x="1308" y="1867" fill="#B14BFF" fill-opacity="0.08">&lt;</text>
+<text x="1308" y="1779" fill="#B14BFF" fill-opacity="0.04">Ω</text>
+<text x="1404" y="857" fill="#ffffff" fill-opacity="1.00">#</text>
+
+
+
+
+
+<text x="1404" y="329" fill="#B14BFF" fill-opacity="0.73">*</text>
+<text x="1500" y="1925" fill="#ffffff" fill-opacity="1.00">;</text>
+<text x="1500" y="1837" fill="#B14BFF" fill-opacity="0.87">1</text>
+<text x="1500" y="1749" fill="#B14BFF" fill-opacity="0.83">0</text>
+<text x="1500" y="1661" fill="#B14BFF" fill-opacity="0.80">+</text>
+<text x="1500" y="1573" fill="#B14BFF" fill-opacity="0.77">V</text>
+<text x="1500" y="1485" fill="#B14BFF" fill-opacity="0.73">Ξ</text>
+<text x="1500" y="1397" fill="#B14BFF" fill-opacity="0.70">*</text>
+<text x="1500" y="1309" fill="#B14BFF" fill-opacity="0.67">#</text>
+<text x="1500" y="1221" fill="#B14BFF" fill-opacity="0.63">Ω</text>
+<text x="1500" y="1133" fill="#B14BFF" fill-opacity="0.60">4</text>
+<text x="1500" y="1045" fill="#B14BFF" fill-opacity="0.57">0</text>
+<text x="1500" y="957" fill="#B14BFF" fill-opacity="0.53">*</text>
+<text x="1500" y="869" fill="#B14BFF" fill-opacity="0.50">:</text>
+
+
+
+
+
+<text x="1500" y="341" fill="#B14BFF" fill-opacity="0.30">S</text>
+<text x="1596" y="2368" fill="#ffffff" fill-opacity="1.00">+</text>
+<text x="1596" y="2280" fill="#B14BFF" fill-opacity="0.87">1</text>
+<text x="1596" y="2192" fill="#B14BFF" fill-opacity="0.84">&gt;</text>
+<text x="1596" y="2104" fill="#B14BFF" fill-opacity="0.81">Ω</text>
+<text x="1596" y="2016" fill="#B14BFF" fill-opacity="0.78">∆</text>
+<text x="1596" y="1928" fill="#B14BFF" fill-opacity="0.75">V</text>
+<text x="1596" y="1840" fill="#B14BFF" fill-opacity="0.73">:</text>
+<text x="1596" y="1752" fill="#B14BFF" fill-opacity="0.70">V</text>
+<text x="1596" y="1664" fill="#B14BFF" fill-opacity="0.67">Ξ</text>
+<text x="1596" y="1576" fill="#B14BFF" fill-opacity="0.64">Ω</text>
+<text x="1596" y="1488" fill="#B14BFF" fill-opacity="0.61">Ψ</text>
+<text x="1596" y="1400" fill="#B14BFF" fill-opacity="0.58">S</text>
+<text x="1596" y="1312" fill="#B14BFF" fill-opacity="0.55">0</text>
+<text x="1596" y="1224" fill="#B14BFF" fill-opacity="0.52">+</text>
+<text x="1596" y="1136" fill="#B14BFF" fill-opacity="0.49">3</text>
+<text x="1596" y="1048" fill="#B14BFF" fill-opacity="0.46">;</text>
+<text x="1596" y="960" fill="#B14BFF" fill-opacity="0.44">/</text>
+<text x="1596" y="872" fill="#B14BFF" fill-opacity="0.41">1</text>
+
+
+
+
+
+<text x="1596" y="344" fill="#B14BFF" fill-opacity="0.23">*</text>
+
+<text x="1692" y="3677" fill="#B14BFF" fill-opacity="0.84">&lt;</text>
+<text x="1692" y="3589" fill="#B14BFF" fill-opacity="0.78">0</text>
+<text x="1692" y="3501" fill="#B14BFF" fill-opacity="0.72">1</text>
+<text x="1692" y="3413" fill="#B14BFF" fill-opacity="0.66">S</text>
+<text x="1692" y="3325" fill="#B14BFF" fill-opacity="0.60">1</text>
+<text x="1692" y="3237" fill="#B14BFF" fill-opacity="0.54">V</text>
+<text x="1692" y="3149" fill="#B14BFF" fill-opacity="0.48">1</text>
+<text x="1692" y="3061" fill="#B14BFF" fill-opacity="0.42">Λ</text>
+<text x="1692" y="2973" fill="#B14BFF" fill-opacity="0.36">+</text>
+<text x="1692" y="2885" fill="#B14BFF" fill-opacity="0.30">1</text>
+<text x="1692" y="2797" fill="#B14BFF" fill-opacity="0.24">9</text>
+<text x="1692" y="2709" fill="#B14BFF" fill-opacity="0.18">Λ</text>
+<text x="1692" y="2621" fill="#B14BFF" fill-opacity="0.12">*</text>
+<text x="1692" y="2533" fill="#B14BFF" fill-opacity="0.06">*</text>
+
+
+
+
+
+
+<text x="1788" y="3698" fill="#B14BFF" fill-opacity="0.64">/</text>
+<text x="1788" y="3610" fill="#B14BFF" fill-opacity="0.60">;</text>
+<text x="1788" y="3522" fill="#B14BFF" fill-opacity="0.56">#</text>
+<text x="1788" y="3434" fill="#B14BFF" fill-opacity="0.52">&gt;</text>
+<text x="1788" y="3346" fill="#B14BFF" fill-opacity="0.49">Ψ</text>
+<text x="1788" y="3258" fill="#B14BFF" fill-opacity="0.45">∆</text>
+<text x="1788" y="3170" fill="#B14BFF" fill-opacity="0.41">&lt;</text>
+<text x="1788" y="3082" fill="#B14BFF" fill-opacity="0.38">\</text>
+<text x="1788" y="2994" fill="#B14BFF" fill-opacity="0.34">V</text>
+<text x="1788" y="2906" fill="#B14BFF" fill-opacity="0.30">S</text>
+<text x="1788" y="2818" fill="#B14BFF" fill-opacity="0.26">:</text>
+<text x="1788" y="2730" fill="#B14BFF" fill-opacity="0.23">0</text>
+<text x="1788" y="2642" fill="#B14BFF" fill-opacity="0.19">9</text>
+<text x="1788" y="2554" fill="#B14BFF" fill-opacity="0.15">/</text>
+<text x="1788" y="2466" fill="#B14BFF" fill-opacity="0.11">Λ</text>
+<text x="1788" y="2378" fill="#B14BFF" fill-opacity="0.08">;</text>
+<text x="1788" y="2290" fill="#B14BFF" fill-opacity="0.04">Ξ</text>
+
+
+
+
+<text x="1980" y="3415" fill="#ffffff" fill-opacity="1.00">1</text>
+<text x="1980" y="3327" fill="#B14BFF" fill-opacity="0.87">7</text>
+<text x="1980" y="3239" fill="#B14BFF" fill-opacity="0.85">\</text>
+<text x="1980" y="3151" fill="#B14BFF" fill-opacity="0.82">1</text>
+<text x="1980" y="3063" fill="#B14BFF" fill-opacity="0.79">&gt;</text>
+<text x="1980" y="2975" fill="#B14BFF" fill-opacity="0.77">3</text>
+<text x="1980" y="2887" fill="#B14BFF" fill-opacity="0.74">+</text>
+<text x="1980" y="2799" fill="#B14BFF" fill-opacity="0.71">9</text>
+<text x="1980" y="2711" fill="#B14BFF" fill-opacity="0.69">&lt;</text>
+<text x="1980" y="2623" fill="#B14BFF" fill-opacity="0.66">\</text>
+<text x="1980" y="2535" fill="#B14BFF" fill-opacity="0.64">9</text>
+<text x="1980" y="2447" fill="#B14BFF" fill-opacity="0.61">\</text>
+<text x="1980" y="2359" fill="#B14BFF" fill-opacity="0.58">=</text>
+<text x="1980" y="2271" fill="#B14BFF" fill-opacity="0.56">0</text>
+<text x="1980" y="2183" fill="#B14BFF" fill-opacity="0.53">Ω</text>
+<text x="1980" y="2095" fill="#B14BFF" fill-opacity="0.50">∆</text>
+<text x="1980" y="2007" fill="#B14BFF" fill-opacity="0.48">:</text>
+<text x="1980" y="1919" fill="#B14BFF" fill-opacity="0.45">Ψ</text>
+<text x="1980" y="1831" fill="#B14BFF" fill-opacity="0.42">9</text>
+<text x="1980" y="1743" fill="#B14BFF" fill-opacity="0.40">;</text>
+<text x="1980" y="1655" fill="#B14BFF" fill-opacity="0.37">Λ</text>
+<text x="1980" y="1567" fill="#B14BFF" fill-opacity="0.34">\</text>
+<text x="1980" y="1479" fill="#B14BFF" fill-opacity="0.32">Ω</text>
+<text x="1980" y="1391" fill="#B14BFF" fill-opacity="0.29">\</text>
+<text x="1980" y="1303" fill="#B14BFF" fill-opacity="0.26">S</text>
+<text x="1980" y="1215" fill="#B14BFF" fill-opacity="0.24">0</text>
+<text x="1980" y="1127" fill="#B14BFF" fill-opacity="0.21">&lt;</text>
+<text x="1980" y="1039" fill="#B14BFF" fill-opacity="0.19">&gt;</text>
+<text x="1980" y="951" fill="#B14BFF" fill-opacity="0.16">:</text>
+<text x="1980" y="863" fill="#B14BFF" fill-opacity="0.13">Ψ</text>
+
+
+
+
+<text x="2076" y="3383" fill="#ffffff" fill-opacity="1.00">&lt;</text>
+<text x="2076" y="3295" fill="#B14BFF" fill-opacity="0.85">;</text>
+<text x="2076" y="3207" fill="#B14BFF" fill-opacity="0.79">:</text>
+<text x="2076" y="3119" fill="#B14BFF" fill-opacity="0.74">V</text>
+<text x="2076" y="3031" fill="#B14BFF" fill-opacity="0.69">;</text>
+<text x="2076" y="2943" fill="#B14BFF" fill-opacity="0.64">9</text>
+<text x="2076" y="2855" fill="#B14BFF" fill-opacity="0.58">0</text>
+<text x="2076" y="2767" fill="#B14BFF" fill-opacity="0.53">+</text>
+<text x="2076" y="2679" fill="#B14BFF" fill-opacity="0.48">S</text>
+<text x="2076" y="2591" fill="#B14BFF" fill-opacity="0.42">Ω</text>
+<text x="2076" y="2503" fill="#B14BFF" fill-opacity="0.37">/</text>
+<text x="2076" y="2415" fill="#B14BFF" fill-opacity="0.32">1</text>
+<text x="2076" y="2327" fill="#B14BFF" fill-opacity="0.26">*</text>
+<text x="2076" y="2239" fill="#B14BFF" fill-opacity="0.21">Λ</text>
+<text x="2076" y="2151" fill="#B14BFF" fill-opacity="0.16">;</text>
+<text x="2076" y="2063" fill="#B14BFF" fill-opacity="0.11">V</text>
+<text x="2076" y="1975" fill="#B14BFF" fill-opacity="0.05">4</text>
+<text x="2172" y="3378" fill="#ffffff" fill-opacity="1.00">0</text>
+<text x="2172" y="3290" fill="#B14BFF" fill-opacity="0.85">&lt;</text>
+<text x="2172" y="3202" fill="#B14BFF" fill-opacity="0.81">V</text>
+<text x="2172" y="3114" fill="#B14BFF" fill-opacity="0.76">0</text>
+<text x="2172" y="3026" fill="#B14BFF" fill-opacity="0.71">V</text>
+<text x="2172" y="2938" fill="#B14BFF" fill-opacity="0.66">4</text>
+<text x="2172" y="2850" fill="#B14BFF" fill-opacity="0.62">+</text>
+<text x="2172" y="2762" fill="#B14BFF" fill-opacity="0.57">9</text>
+<text x="2172" y="2674" fill="#B14BFF" fill-opacity="0.52">#</text>
+<text x="2172" y="2586" fill="#B14BFF" fill-opacity="0.47">;</text>
+<text x="2172" y="2498" fill="#B14BFF" fill-opacity="0.43">#</text>
+<text x="2172" y="2410" fill="#B14BFF" fill-opacity="0.38">Λ</text>
+<text x="2172" y="2322" fill="#B14BFF" fill-opacity="0.33">1</text>
+<text x="2172" y="2234" fill="#B14BFF" fill-opacity="0.28">;</text>
+<text x="2172" y="2146" fill="#B14BFF" fill-opacity="0.24">*</text>
+<text x="2172" y="2058" fill="#B14BFF" fill-opacity="0.19">*</text>
+<text x="2172" y="1970" fill="#B14BFF" fill-opacity="0.14">9</text>
+<text x="2172" y="1882" fill="#B14BFF" fill-opacity="0.09">Ω</text>
+<text x="2172" y="1794" fill="#B14BFF" fill-opacity="0.05">V</text>
+<text x="2268" y="1118" fill="#ffffff" fill-opacity="1.00">1</text>
+<text x="2268" y="1030" fill="#B14BFF" fill-opacity="0.87">:</text>
+<text x="2268" y="942" fill="#B14BFF" fill-opacity="0.84">&lt;</text>
+<text x="2268" y="854" fill="#B14BFF" fill-opacity="0.81">;</text>
+
+
+
+
+
+<text x="2268" y="326" fill="#B14BFF" fill-opacity="0.64">Ω</text>
+
+
+
+
+<text x="2364" y="3668" fill="#B14BFF" fill-opacity="0.79">7</text>
+<text x="2364" y="3580" fill="#B14BFF" fill-opacity="0.76">/</text>
+<text x="2364" y="3492" fill="#B14BFF" fill-opacity="0.74">&gt;</text>
+<text x="2364" y="3404" fill="#B14BFF" fill-opacity="0.71">:</text>
+<text x="2364" y="3316" fill="#B14BFF" fill-opacity="0.68">\</text>
+<text x="2364" y="3228" fill="#B14BFF" fill-opacity="0.65">Λ</text>
+<text x="2364" y="3140" fill="#B14BFF" fill-opacity="0.63">/</text>
+<text x="2364" y="3052" fill="#B14BFF" fill-opacity="0.60">*</text>
+<text x="2364" y="2964" fill="#B14BFF" fill-opacity="0.57">Ω</text>
+<text x="2364" y="2876" fill="#B14BFF" fill-opacity="0.55">\</text>
+<text x="2364" y="2788" fill="#B14BFF" fill-opacity="0.52">Ξ</text>
+<text x="2364" y="2700" fill="#B14BFF" fill-opacity="0.49">\</text>
+<text x="2364" y="2612" fill="#B14BFF" fill-opacity="0.46">9</text>
+<text x="2364" y="2524" fill="#B14BFF" fill-opacity="0.44">;</text>
+<text x="2364" y="2436" fill="#B14BFF" fill-opacity="0.41">;</text>
+<text x="2364" y="2348" fill="#B14BFF" fill-opacity="0.38">4</text>
+<text x="2364" y="2260" fill="#B14BFF" fill-opacity="0.35">*</text>
+<text x="2364" y="2172" fill="#B14BFF" fill-opacity="0.33">4</text>
+<text x="2364" y="2084" fill="#B14BFF" fill-opacity="0.30">+</text>
+<text x="2364" y="1996" fill="#B14BFF" fill-opacity="0.27">S</text>
+<text x="2364" y="1908" fill="#B14BFF" fill-opacity="0.25">3</text>
+<text x="2364" y="1820" fill="#B14BFF" fill-opacity="0.22">/</text>
+<text x="2364" y="1732" fill="#B14BFF" fill-opacity="0.19">S</text>
+<text x="2364" y="1644" fill="#B14BFF" fill-opacity="0.16">Ξ</text>
+<text x="2364" y="1556" fill="#B14BFF" fill-opacity="0.14">V</text>
+<text x="2364" y="1468" fill="#B14BFF" fill-opacity="0.11">+</text>
+<text x="2364" y="1380" fill="#B14BFF" fill-opacity="0.08">+</text>
+<text x="2364" y="1292" fill="#B14BFF" fill-opacity="0.05">9</text>
+<text x="2364" y="1204" fill="#B14BFF" fill-opacity="0.03">*</text>
+
+
+
+<text x="2460" y="3665" fill="#B14BFF" fill-opacity="0.82">∆</text>
+<text x="2460" y="3577" fill="#B14BFF" fill-opacity="0.79">S</text>
+<text x="2460" y="3489" fill="#B14BFF" fill-opacity="0.76">;</text>
+<text x="2460" y="3401" fill="#B14BFF" fill-opacity="0.73">*</text>
+<text x="2460" y="3313" fill="#B14BFF" fill-opacity="0.70">&lt;</text>
+<text x="2460" y="3225" fill="#B14BFF" fill-opacity="0.68">Ω</text>
+<text x="2460" y="3137" fill="#B14BFF" fill-opacity="0.65">9</text>
+<text x="2460" y="3049" fill="#B14BFF" fill-opacity="0.62">:</text>
+<text x="2460" y="2961" fill="#B14BFF" fill-opacity="0.59">#</text>
+<text x="2460" y="2873" fill="#B14BFF" fill-opacity="0.56">4</text>
+<text x="2460" y="2785" fill="#B14BFF" fill-opacity="0.53">9</text>
+<text x="2460" y="2697" fill="#B14BFF" fill-opacity="0.51">\</text>
+<text x="2460" y="2609" fill="#B14BFF" fill-opacity="0.48">7</text>
+<text x="2460" y="2521" fill="#B14BFF" fill-opacity="0.45">;</text>
+<text x="2460" y="2433" fill="#B14BFF" fill-opacity="0.42">;</text>
+<text x="2460" y="2345" fill="#B14BFF" fill-opacity="0.39">Ψ</text>
+<text x="2460" y="2257" fill="#B14BFF" fill-opacity="0.37">∆</text>
+<text x="2460" y="2169" fill="#B14BFF" fill-opacity="0.34">#</text>
+<text x="2460" y="2081" fill="#B14BFF" fill-opacity="0.31">0</text>
+<text x="2460" y="1993" fill="#B14BFF" fill-opacity="0.28">Ψ</text>
+<text x="2460" y="1905" fill="#B14BFF" fill-opacity="0.25">+</text>
+<text x="2460" y="1817" fill="#B14BFF" fill-opacity="0.23">/</text>
+<text x="2460" y="1729" fill="#B14BFF" fill-opacity="0.20">∆</text>
+<text x="2460" y="1641" fill="#B14BFF" fill-opacity="0.17">Ξ</text>
+<text x="2460" y="1553" fill="#B14BFF" fill-opacity="0.14">;</text>
+<text x="2460" y="1465" fill="#B14BFF" fill-opacity="0.11">&gt;</text>
+<text x="2460" y="1377" fill="#B14BFF" fill-opacity="0.08">Ω</text>
+<text x="2460" y="1289" fill="#B14BFF" fill-opacity="0.06">&lt;</text>
+<text x="2460" y="1201" fill="#B14BFF" fill-opacity="0.03">+</text>
+<text x="2556" y="1476" fill="#ffffff" fill-opacity="1.00">9</text>
+<text x="2556" y="1388" fill="#B14BFF" fill-opacity="0.87">+</text>
+<text x="2556" y="1300" fill="#B14BFF" fill-opacity="0.83">9</text>
+<text x="2556" y="1212" fill="#B14BFF" fill-opacity="0.80">7</text>
+<text x="2556" y="1124" fill="#B14BFF" fill-opacity="0.77">∆</text>
+<text x="2556" y="1036" fill="#B14BFF" fill-opacity="0.73">=</text>
+<text x="2556" y="948" fill="#B14BFF" fill-opacity="0.70">;</text>
+<text x="2556" y="860" fill="#B14BFF" fill-opacity="0.67">3</text>
+
+
+
+
+
+<text x="2556" y="332" fill="#B14BFF" fill-opacity="0.47">1</text>
+
+
+
+
+
+<text x="2652" y="3688" fill="#B14BFF" fill-opacity="0.69">∆</text>
+<text x="2652" y="3600" fill="#B14BFF" fill-opacity="0.64">Ψ</text>
+<text x="2652" y="3512" fill="#B14BFF" fill-opacity="0.60">Ω</text>
+<text x="2652" y="3424" fill="#B14BFF" fill-opacity="0.56">∆</text>
+<text x="2652" y="3336" fill="#B14BFF" fill-opacity="0.51">Ψ</text>
+<text x="2652" y="3248" fill="#B14BFF" fill-opacity="0.47">S</text>
+<text x="2652" y="3160" fill="#B14BFF" fill-opacity="0.43">Ξ</text>
+<text x="2652" y="3072" fill="#B14BFF" fill-opacity="0.39">7</text>
+<text x="2652" y="2984" fill="#B14BFF" fill-opacity="0.34">9</text>
+<text x="2652" y="2896" fill="#B14BFF" fill-opacity="0.30">4</text>
+<text x="2652" y="2808" fill="#B14BFF" fill-opacity="0.26">1</text>
+<text x="2652" y="2720" fill="#B14BFF" fill-opacity="0.21">Ψ</text>
+<text x="2652" y="2632" fill="#B14BFF" fill-opacity="0.17">Ξ</text>
+<text x="2652" y="2544" fill="#B14BFF" fill-opacity="0.13">1</text>
+<text x="2652" y="2456" fill="#B14BFF" fill-opacity="0.09">&lt;</text>
+<text x="2652" y="2368" fill="#B14BFF" fill-opacity="0.04">Ξ</text>
+
+<text x="2748" y="3679" fill="#B14BFF" fill-opacity="0.84">V</text>
+<text x="2748" y="3591" fill="#B14BFF" fill-opacity="0.79">Λ</text>
+<text x="2748" y="3503" fill="#B14BFF" fill-opacity="0.73">Ψ</text>
+<text x="2748" y="3415" fill="#B14BFF" fill-opacity="0.68">#</text>
+<text x="2748" y="3327" fill="#B14BFF" fill-opacity="0.62">1</text>
+<text x="2748" y="3239" fill="#B14BFF" fill-opacity="0.56">&gt;</text>
+<text x="2748" y="3151" fill="#B14BFF" fill-opacity="0.51">=</text>
+<text x="2748" y="3063" fill="#B14BFF" fill-opacity="0.45">;</text>
+<text x="2748" y="2975" fill="#B14BFF" fill-opacity="0.39">4</text>
+<text x="2748" y="2887" fill="#B14BFF" fill-opacity="0.34">&lt;</text>
+<text x="2748" y="2799" fill="#B14BFF" fill-opacity="0.28">0</text>
+<text x="2748" y="2711" fill="#B14BFF" fill-opacity="0.23">0</text>
+<text x="2748" y="2623" fill="#B14BFF" fill-opacity="0.17">&lt;</text>
+<text x="2748" y="2535" fill="#B14BFF" fill-opacity="0.11">&lt;</text>
+<text x="2748" y="2447" fill="#B14BFF" fill-opacity="0.06">\</text>
+<text x="2844" y="3410" fill="#ffffff" fill-opacity="1.00">Λ</text>
+<text x="2844" y="3322" fill="#B14BFF" fill-opacity="0.87">∆</text>
+<text x="2844" y="3234" fill="#B14BFF" fill-opacity="0.84">3</text>
+<text x="2844" y="3146" fill="#B14BFF" fill-opacity="0.81">;</text>
+<text x="2844" y="3058" fill="#B14BFF" fill-opacity="0.78">+</text>
+<text x="2844" y="2970" fill="#B14BFF" fill-opacity="0.74">/</text>
+<text x="2844" y="2882" fill="#B14BFF" fill-opacity="0.71">S</text>
+<text x="2844" y="2794" fill="#B14BFF" fill-opacity="0.68">:</text>
+<text x="2844" y="2706" fill="#B14BFF" fill-opacity="0.65">&lt;</text>
+<text x="2844" y="2618" fill="#B14BFF" fill-opacity="0.62">V</text>
+<text x="2844" y="2530" fill="#B14BFF" fill-opacity="0.59">Ψ</text>
+<text x="2844" y="2442" fill="#B14BFF" fill-opacity="0.56">Λ</text>
+<text x="2844" y="2354" fill="#B14BFF" fill-opacity="0.53">4</text>
+<text x="2844" y="2266" fill="#B14BFF" fill-opacity="0.50">\</text>
+<text x="2844" y="2178" fill="#B14BFF" fill-opacity="0.47">V</text>
+<text x="2844" y="2090" fill="#B14BFF" fill-opacity="0.43">=</text>
+<text x="2844" y="2002" fill="#B14BFF" fill-opacity="0.40">*</text>
+<text x="2844" y="1914" fill="#B14BFF" fill-opacity="0.37">Ψ</text>
+<text x="2844" y="1826" fill="#B14BFF" fill-opacity="0.34">V</text>
+<text x="2844" y="1738" fill="#B14BFF" fill-opacity="0.31">*</text>
+<text x="2844" y="1650" fill="#B14BFF" fill-opacity="0.28">9</text>
+<text x="2844" y="1562" fill="#B14BFF" fill-opacity="0.25">&gt;</text>
+<text x="2844" y="1474" fill="#B14BFF" fill-opacity="0.22">4</text>
+<text x="2844" y="1386" fill="#B14BFF" fill-opacity="0.19">&gt;</text>
+<text x="2844" y="1298" fill="#B14BFF" fill-opacity="0.16">=</text>
+<text x="2844" y="1210" fill="#B14BFF" fill-opacity="0.12">#</text>
+<text x="2844" y="1122" fill="#B14BFF" fill-opacity="0.09">4</text>
+<text x="2844" y="1034" fill="#B14BFF" fill-opacity="0.06">4</text>
+<text x="2844" y="946" fill="#B14BFF" fill-opacity="0.03">4</text>
+<text x="2940" y="2475" fill="#ffffff" fill-opacity="1.00">&lt;</text>
+<text x="2940" y="2387" fill="#B14BFF" fill-opacity="0.85">4</text>
+<text x="2940" y="2299" fill="#B14BFF" fill-opacity="0.79">;</text>
+<text x="2940" y="2211" fill="#B14BFF" fill-opacity="0.74">:</text>
+<text x="2940" y="2123" fill="#B14BFF" fill-opacity="0.69">*</text>
+<text x="2940" y="2035" fill="#B14BFF" fill-opacity="0.64">V</text>
+<text x="2940" y="1947" fill="#B14BFF" fill-opacity="0.58">4</text>
+<text x="2940" y="1859" fill="#B14BFF" fill-opacity="0.53">+</text>
+<text x="2940" y="1771" fill="#B14BFF" fill-opacity="0.48">*</text>
+<text x="2940" y="1683" fill="#B14BFF" fill-opacity="0.42">&gt;</text>
+<text x="2940" y="1595" fill="#B14BFF" fill-opacity="0.37">1</text>
+<text x="2940" y="1507" fill="#B14BFF" fill-opacity="0.32">9</text>
+<text x="2940" y="1419" fill="#B14BFF" fill-opacity="0.26">#</text>
+<text x="2940" y="1331" fill="#B14BFF" fill-opacity="0.21">4</text>
+<text x="2940" y="1243" fill="#B14BFF" fill-opacity="0.16">;</text>
+<text x="2940" y="1155" fill="#B14BFF" fill-opacity="0.11">Ξ</text>
+<text x="2940" y="1067" fill="#B14BFF" fill-opacity="0.05">3</text>
+<text x="3036" y="1525" fill="#ffffff" fill-opacity="1.00">&gt;</text>
+<text x="3036" y="1437" fill="#B14BFF" fill-opacity="0.85">3</text>
+<text x="3036" y="1349" fill="#B14BFF" fill-opacity="0.81">=</text>
+<text x="3036" y="1261" fill="#B14BFF" fill-opacity="0.76">V</text>
+<text x="3036" y="1173" fill="#B14BFF" fill-opacity="0.71">V</text>
+<text x="3036" y="1085" fill="#B14BFF" fill-opacity="0.66">:</text>
+<text x="3036" y="997" fill="#B14BFF" fill-opacity="0.62">S</text>
+<text x="3036" y="909" fill="#B14BFF" fill-opacity="0.57">&lt;</text>
+<text x="3036" y="821" fill="#B14BFF" fill-opacity="0.52">3</text>
+
+
+
+
+
+<text x="3132" y="1831" fill="#ffffff" fill-opacity="1.00">+</text>
+<text x="3132" y="1743" fill="#B14BFF" fill-opacity="0.87">#</text>
+<text x="3132" y="1655" fill="#B14BFF" fill-opacity="0.84">Ξ</text>
+<text x="3132" y="1567" fill="#B14BFF" fill-opacity="0.80">9</text>
+<text x="3132" y="1479" fill="#B14BFF" fill-opacity="0.77">Λ</text>
+<text x="3132" y="1391" fill="#B14BFF" fill-opacity="0.74">V</text>
+<text x="3132" y="1303" fill="#B14BFF" fill-opacity="0.71">9</text>
+<text x="3132" y="1215" fill="#B14BFF" fill-opacity="0.68">Ξ</text>
+<text x="3132" y="1127" fill="#B14BFF" fill-opacity="0.64">:</text>
+<text x="3132" y="1039" fill="#B14BFF" fill-opacity="0.61">:</text>
+<text x="3132" y="951" fill="#B14BFF" fill-opacity="0.58">;</text>
+<text x="3132" y="863" fill="#B14BFF" fill-opacity="0.55">/</text>
+
+
+
+
+
+<text x="3132" y="335" fill="#B14BFF" fill-opacity="0.35">1</text>
+<text x="3228" y="1418" fill="#ffffff" fill-opacity="1.00">+</text>
+<text x="3228" y="1330" fill="#B14BFF" fill-opacity="0.84">*</text>
+<text x="3228" y="1242" fill="#B14BFF" fill-opacity="0.78">Ψ</text>
+<text x="3228" y="1154" fill="#B14BFF" fill-opacity="0.72">Ω</text>
+<text x="3228" y="1066" fill="#B14BFF" fill-opacity="0.66">9</text>
+<text x="3228" y="978" fill="#B14BFF" fill-opacity="0.60">*</text>
+<text x="3228" y="890" fill="#B14BFF" fill-opacity="0.54">&gt;</text>
+<text x="3228" y="802" fill="#B14BFF" fill-opacity="0.48">&lt;</text>
+
+
+
+
+
+
+
+
+
+
+
+
+<text x="3324" y="3675" fill="#B14BFF" fill-opacity="0.48">V</text>
+<text x="3324" y="3587" fill="#B14BFF" fill-opacity="0.42">Ξ</text>
+<text x="3324" y="3499" fill="#B14BFF" fill-opacity="0.37">9</text>
+<text x="3324" y="3411" fill="#B14BFF" fill-opacity="0.32">∆</text>
+<text x="3324" y="3323" fill="#B14BFF" fill-opacity="0.26">;</text>
+<text x="3324" y="3235" fill="#B14BFF" fill-opacity="0.21">\</text>
+<text x="3324" y="3147" fill="#B14BFF" fill-opacity="0.16">4</text>
+<text x="3324" y="3059" fill="#B14BFF" fill-opacity="0.11">/</text>
+<text x="3324" y="2971" fill="#B14BFF" fill-opacity="0.05">S</text>
+<text x="3420" y="1499" fill="#ffffff" fill-opacity="1.00">∆</text>
+<text x="3420" y="1411" fill="#B14BFF" fill-opacity="0.87">:</text>
+<text x="3420" y="1323" fill="#B14BFF" fill-opacity="0.83">*</text>
+<text x="3420" y="1235" fill="#B14BFF" fill-opacity="0.80">Ξ</text>
+<text x="3420" y="1147" fill="#B14BFF" fill-opacity="0.76">;</text>
+<text x="3420" y="1059" fill="#B14BFF" fill-opacity="0.73">Ξ</text>
+<text x="3420" y="971" fill="#B14BFF" fill-opacity="0.69">∆</text>
+<text x="3420" y="883" fill="#B14BFF" fill-opacity="0.66">Ψ</text>
+
+
+
+
+
+<text x="3420" y="355" fill="#B14BFF" fill-opacity="0.45">/</text>
+<text x="3516" y="2888" fill="#ffffff" fill-opacity="1.00">;</text>
+<text x="3516" y="2800" fill="#B14BFF" fill-opacity="0.87">#</text>
+<text x="3516" y="2712" fill="#B14BFF" fill-opacity="0.84">3</text>
+<text x="3516" y="2624" fill="#B14BFF" fill-opacity="0.81">+</text>
+<text x="3516" y="2536" fill="#B14BFF" fill-opacity="0.78">*</text>
+<text x="3516" y="2448" fill="#B14BFF" fill-opacity="0.75">4</text>
+<text x="3516" y="2360" fill="#B14BFF" fill-opacity="0.73">9</text>
+<text x="3516" y="2272" fill="#B14BFF" fill-opacity="0.70">#</text>
+<text x="3516" y="2184" fill="#B14BFF" fill-opacity="0.67">4</text>
+<text x="3516" y="2096" fill="#B14BFF" fill-opacity="0.64">+</text>
+<text x="3516" y="2008" fill="#B14BFF" fill-opacity="0.61">0</text>
+<text x="3516" y="1920" fill="#B14BFF" fill-opacity="0.58">7</text>
+<text x="3516" y="1832" fill="#B14BFF" fill-opacity="0.55">∆</text>
+<text x="3516" y="1744" fill="#B14BFF" fill-opacity="0.52">3</text>
+<text x="3516" y="1656" fill="#B14BFF" fill-opacity="0.49">0</text>
+<text x="3516" y="1568" fill="#B14BFF" fill-opacity="0.46">V</text>
+<text x="3516" y="1480" fill="#B14BFF" fill-opacity="0.44">4</text>
+<text x="3516" y="1392" fill="#B14BFF" fill-opacity="0.41">Ω</text>
+<text x="3516" y="1304" fill="#B14BFF" fill-opacity="0.38">+</text>
+<text x="3516" y="1216" fill="#B14BFF" fill-opacity="0.35">Ξ</text>
+<text x="3516" y="1128" fill="#B14BFF" fill-opacity="0.32">*</text>
+<text x="3516" y="1040" fill="#B14BFF" fill-opacity="0.29">3</text>
+<text x="3516" y="952" fill="#B14BFF" fill-opacity="0.26">=</text>
+<text x="3516" y="864" fill="#B14BFF" fill-opacity="0.23">∆</text>
+
+
+
+
+
+<text x="3516" y="336" fill="#B14BFF" fill-opacity="0.06">3</text></g>
+</g>
+
+<path d="M1800,1180 C2330,1180 2620,1540 2620,2020 C2620,2460 2330,2820 2060,3140 C1960,3260 1890,3340 1800,3340 C1710,3340 1640,3260 1540,3140 C1270,2820 980,2460 980,2020 C980,1540 1270,1180 1800,1180 Z" fill="none" stroke="#B14BFF" stroke-width="10"/>
+<path d="M1180,2140 C1310,1930 1600,1930 1720,2160 C1680,2380 1400,2460 1180,2140 Z" fill="#000" stroke="#fff" stroke-width="10"/>
+<path d="M2420,2140 C2290,1930 2000,1930 1880,2160 C1920,2380 2200,2460 2420,2140 Z" fill="#000" stroke="#fff" stroke-width="10"/>
+<circle cx="1440" cy="2120" r="26" fill="#B14BFF"/><circle cx="2160" cy="2120" r="26" fill="#B14BFF"/>
+<g font-family="Helvetica Neue, Arial, sans-serif" font-weight="900" fill="#fff" text-anchor="middle">
+<text x="1800" y="700" font-size="300" letter-spacing="-6">STAND APART.</text>
+<text x="1800" y="4020" font-size="300" letter-spacing="-6" fill="#B14BFF">MOVE TOGETHER.</text>
+<text x="1800" y="4400" font-size="90" letter-spacing="40">VISIONAIR SOCIETY · Nº ____</text>
+</g>
+</svg>
