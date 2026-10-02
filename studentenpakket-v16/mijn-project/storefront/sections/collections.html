@@ -2,7 +2,8 @@
 {% for c in collections.collections %}<input class="ctab" type="radio" name="coll" id="c-{{ c.id }}"{% if c.id == first %} checked{% endif %}>{% endfor %}
 <div class="ctabs" role="tablist">{% for c in collections.collections %}<label for="c-{{ c.id }}" data-c="{{ c.id }}">{{ c.label }}<b>{{ c.name }}</b></label>{% endfor %}</div>
 {% for c in collections.collections %}<div class="cpanel" data-panel="{{ c.id }}">
-<div class="chead"><span>{{ c.label }} · {{ c.name }}</span><span>{{ c.desc }}</span><span>25 / {{ c.total }} DESIGNS</span></div>
+<div class="chead"><span>{{ c.label }} · {{ c.name }}</span><span>{{ c.desc }}</span><a class="call" href="{{ c.url }}">VIEW ALL {{ c.total }} →</a></div>
 <div class="cgrid">{% for it in c.items %}<figure class="ccard"><div class="cimg"><img src="{{ it.image }}" alt="Hoodie mockup, design {{ it.no }}: {{ it.title }}" loading="lazy"></div><figcaption><span>Nº {{ it.no }}</span><span class="ct">{{ it.title }}</span><span class="soon">SOON</span></figcaption></figure>{% endfor %}</div>
+<div class="cmore"><a class="btn" href="{{ c.url }}">VIEW ALL {{ c.total }} {{ c.name }} DESIGNS</a></div>
 </div>{% endfor %}
 <p class="ph cnote">{{ collections.note }}</p></section>

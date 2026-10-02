@@ -68,3 +68,11 @@ for name in ('index', 'product'):
     html = ''.join(render(find(s), ctx) for s in t['sections'])
     (ROOT / f'{name}.html').write_text(render(layout, {**ctx, 'content_for_layout': html}))
     print('built', name + '.html')
+
+# een pagina per collectie
+for coll in collections['collections']:
+    ctx = {'settings': settings, 'product': product, 'collections': collections, 'coll': coll,
+           'page': {'title': coll['name'].title() + ' collection', 'template': 'collection'}}
+    html = render(find('main-collection'), ctx)
+    (ROOT / coll['url']).write_text(render(layout, {**ctx, 'content_for_layout': html}))
+    print('built', coll['url'])
