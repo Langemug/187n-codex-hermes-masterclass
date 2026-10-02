@@ -77,3 +77,6 @@ button.btn[disabled]:hover{background:none;color:var(--fg)}
 .cart-total{display:flex;justify-content:space-between;font-size:12px}
 @media (max-width:900px){.nav{display:none}.menu{display:block}.foot-grid{grid-template-columns:1fr 1fr}.feature-card{grid-column:auto}}
 @media (max-width:560px){.site-head .bar{padding:12px 16px}.site-head .brand{font-size:11px;letter-spacing:.14em}.site-head .brand .sep,.site-head .brand .est{display:none}.head-right{gap:8px}.cart-btn,.menu summary{padding:8px 9px;font-size:10px;letter-spacing:.12em}.foot-grid{grid-template-columns:1fr}.thumbs-4{gap:8px!important}}
+.cart-btn.has{border-color:var(--hot);color:var(--hot)}
+.qty .rm{margin-left:4px;color:var(--dim)}
+.qty .rm:hover{color:var(--hot);border-color:var(--hot)}

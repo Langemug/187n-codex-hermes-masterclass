@@ -1,8 +1,9 @@
 /* UI: ACCESS GRANTED-knop, galerij, mobiel menu en DEMO-winkelmand (alleen localStorage van deze browser). */
 (function(){
   var KEY='vs-demo-cart', reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
-  function read(){try{return JSON.parse(localStorage.getItem(KEY))||[]}catch(e){return []}}
-  function write(c){try{localStorage.setItem(KEY,JSON.stringify(c))}catch(e){}}
+  var mem=null;
+  function read(){try{var v=window.localStorage.getItem(KEY);if(v)return JSON.parse(v)}catch(e){}try{var n=window.name&&JSON.parse(window.name);if(n&&n[KEY])return n[KEY]}catch(e){}return mem||[]}
+  function write(c){mem=c;try{window.localStorage.setItem(KEY,JSON.stringify(c));return}catch(e){}try{var o={};o[KEY]=c;window.name=JSON.stringify(o)}catch(e){}}
   var cart=read();
   function eur(n){return '€'+n.toFixed(2).replace('.',',')}
   function num(p){return parseFloat(String(p).replace(/[^0-9,]/g,'').replace(',','.'))||0}
@@ -14,7 +15,7 @@
     cart.forEach(function(it,i){
       total+=num(it.price)*it.qty;count+=it.qty;
       var el=document.createElement('div');el.className='line';
-      el.innerHTML='<img alt=""><div class="t"></div><div class="qty"><button type="button" aria-label="Less">−</button><span></span><button type="button" aria-label="More">+</button></div>';
+      el.innerHTML='<img alt=""><div class="t"></div><div class="qty"><button type="button" aria-label="Less">−</button><span></span><button type="button" aria-label="More">+</button><button type="button" class="rm" aria-label="Remove">×</button></div>';
       el.querySelector('img').src=it.image;
       el.querySelector('.t').textContent=it.title;
       var sm=document.createElement('small');sm.textContent='SIZE '+it.size+' · '+it.price+' · DEMO';el.querySelector('.t').appendChild(sm);
@@ -22,10 +23,12 @@
       var b=el.querySelectorAll('.qty button');
       b[0].onclick=function(){it.qty--;if(it.qty<1)cart.splice(i,1);save()};
       b[1].onclick=function(){it.qty++;save()};
+      b[2].onclick=function(){cart.splice(i,1);save()};
       box.appendChild(el);
     });
     document.querySelector('[data-cart-total]').textContent=eur(total);
     document.querySelectorAll('[data-cart-count]').forEach(function(n){n.textContent=count});
+    document.querySelectorAll('.cart-btn').forEach(function(b){b.classList.toggle('has',count>0)});
   }
   function save(){write(cart);renderCart()}
   var lastFocus=null;
