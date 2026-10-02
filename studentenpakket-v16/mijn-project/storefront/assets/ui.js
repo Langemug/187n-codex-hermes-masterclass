@@ -68,3 +68,6 @@
   document.querySelectorAll('.nav a,.menu nav a').forEach(function(a){if(a.getAttribute('href')===here)a.setAttribute('aria-current','page');
     a.addEventListener('click',function(){var d=a.closest('details');if(d)d.open=false})});
 })();
+/* collecties: drop-kaart of #c-<id> opent de juiste tab */
+(function(){function pick(){var m=location.hash.match(/^#c-([\w-]+)/);if(!m)return;var r=document.getElementById('c-'+m[1]);if(r){r.checked=true;document.getElementById('collections').scrollIntoView({behavior:'smooth'})}}
+addEventListener('hashchange',pick);pick();})();

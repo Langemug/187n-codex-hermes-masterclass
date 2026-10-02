@@ -23,32 +23,38 @@
     {
       "title": "DROP 01 · SIMULATION",
       "image": "assets/img/drop-01-hoodie.jpg",
-      "tint": "t1"
+      "tint": "t1",
+      "id": "simulation"
     },
     {
       "title": "DROP 02 · ABDUCTED",
       "image": "assets/img/drop-02-hoodie.jpg",
-      "tint": "t2"
+      "tint": "t2",
+      "id": "abducted"
     },
     {
       "title": "DROP 03 · CLASSIFIED",
       "image": "assets/img/drop-03-hoodie.jpg",
-      "tint": "t3"
+      "tint": "t3",
+      "id": "classified"
     },
     {
       "title": "DROP 04 · AWAKE",
       "image": "assets/img/drop-04-hoodie.jpg",
-      "tint": "t1"
+      "tint": "t1",
+      "id": "awake"
     },
     {
       "title": "DROP 05 · BUILD MODE",
       "image": "assets/img/drop-05-hoodie.jpg",
-      "tint": "t2"
+      "tint": "t2",
+      "id": "build-mode"
     },
     {
       "title": "DROP 06 · THE SOCIETY",
       "image": "assets/img/drop-06-hoodie.jpg",
-      "tint": "t3"
+      "tint": "t3",
+      "id": "the-society"
     }
   ]
 }

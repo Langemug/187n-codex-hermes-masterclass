@@ -6,6 +6,7 @@ ROOT = pathlib.Path(__file__).parent
 load = lambda p: json.loads((ROOT / p).read_text())
 settings = load('content/settings.json')
 product = load('content/product-hoodie-01.json')
+collections = load('content/collections.json')
 
 def lookup(ctx, path):
     cur = ctx
@@ -62,7 +63,7 @@ layout = (ROOT / 'layout/theme.html').read_text()
 for name in ('index', 'product'):
     t = load(f'templates/{name}.json')
     data = load('content/' + t['content'])
-    ctx = {'settings': settings, 'product': product, 'section': data, 'dots': range(36),
+    ctx = {'settings': settings, 'product': product, 'section': data, 'dots': range(36), 'collections': collections, 'first': collections['collections'][0]['id'],
            'page': {'title': t['title'], 'template': name}}
     html = ''.join(render(find(s), ctx) for s in t['sections'])
     (ROOT / f'{name}.html').write_text(render(layout, {**ctx, 'content_for_layout': html}))
