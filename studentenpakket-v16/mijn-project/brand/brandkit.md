@@ -23,8 +23,8 @@ Enige bron voor kleuren, typografie en knopstijlen. Alle previews en content ref
 - Padding: `20px 36px`. Font 14px, letterspacing 0.25em, uppercase, weight 900.
 
 ## Logo
-- Primaire master: `mijn-project/brand/logo/vs-mark-square.png` — monogram V+S in cirkel, wit op zwart, vierkant.
-- Alternatief (eerder): `mijn-project/brand/logo/vs-wordmark-white.png` — zelfde logo op bredere achtergrond.
+- Primaire master: `mijn-project/brand/logo/vs-mark-transparent.png` — monogram V+S in cirkel, wit op transparant (gebruiken op elke achtergrond).
+- Alternatieven: `vs-mark-square.png` (wit op zwart), `vs-wordmark-white.png` (bredere achtergrond).
 - Minimale hoogte op scherm: 32px.
 - Rondom: minstens de halve logohoogte wit-ruimte.
 - Op licht/kleurrijk beeld: altijd op donker vlak plaatsen; nooit paars-op-paars.
