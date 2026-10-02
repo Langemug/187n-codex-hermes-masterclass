@@ -1,5 +1,5 @@
 {
-  "handle": "hoodie-01",
+  "handle": "founding-member-hoodie",
   "title": "THE FOUNDING MEMBER HOODIE",
   "title_html": "THE FOUNDING<br>MEMBER HOODIE",
   "collection": "DROP 001 · THE SOCIETY",
@@ -9,10 +9,10 @@
   "description": "A statement on your back. Own the number. Your hoodie number is your member number.",
   "sticker": "FOUNDING MEMBER",
   "images": [
-    {"src": "assets/img/hoodie-01-back.jpg", "alt": "Founding Member Hoodie, back: The Matrix can't hold me."},
-    {"src": "assets/img/hoodie-01-detail.jpg", "alt": "Back print detail"},
-    {"src": "assets/img/hoodie-01-worn.jpg", "alt": "Worn, back view"},
-    {"src": "assets/img/hoodie-01-front.jpg", "alt": "Front, VS logo left chest"}
+    {"src": "assets/img/founding-member-hoodie-back.jpg", "alt": "Founding Member Hoodie, back: The Matrix can't hold me."},
+    {"src": "assets/img/founding-member-hoodie-detail.jpg", "alt": "Back print detail"},
+    {"src": "assets/img/founding-member-hoodie-worn.jpg", "alt": "Worn, back view"},
+    {"src": "assets/img/founding-member-hoodie-front.jpg", "alt": "Front, VS logo left chest"}
   ],
   "image_note": "CONCEPT: DIGITAL MOCKUPS ON TAPSTITCH UT0268 BLANK. NOT A PHOTO OF THE FINAL GARMENT.",
   "sizes": ["S", "M", "L", "XL", "2XL"],

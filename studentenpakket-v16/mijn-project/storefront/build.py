@@ -5,7 +5,7 @@ import json, re, pathlib
 ROOT = pathlib.Path(__file__).parent
 load = lambda p: json.loads((ROOT / p).read_text())
 settings = load('content/settings.json')
-product = load('content/product-hoodie-01.json')
+product = load('content/product-founding-member-hoodie.json')
 collections = load('content/collections.json')
 
 def lookup(ctx, path):
