@@ -10,11 +10,13 @@
 <div class="rule"><s></s><span>∞</span><b></b></div>
 <div class="kicker">◆ {{ product.collection }}</div>
 <h1>{{ product.title_html }}</h1>
+<p class="offer"><b>Nº</b> {{ product.offer_line }} <span>{{ product.offer_sub }}</span></p>
 <div class="price"><b>{{ product.price }}</b><span>{{ product.price_note }}</span><span>{{ product.price_alt }}</span></div>
-<p class="desc">{{ product.description }}</p>
-<fieldset class="sizefield"><legend class="lbl">SIZE</legend><div class="sizes">{% for s in product.sizes %}<input type="radio" name="size" id="size-{{ s }}" value="{{ s }}"{% if s == product.default_size %} checked{% endif %}><label for="size-{{ s }}">{{ s }}</label>{% endfor %}</div></fieldset>
-{% render 'size-guide' %}
+<fieldset class="sizefield"><legend class="lbl">SIZE · <a href="#size-guide" class="sg-link">SIZE GUIDE ↓</a></legend><div class="sizes">{% for s in product.sizes %}<input type="radio" name="size" id="size-{{ s }}" value="{{ s }}"{% if s == product.default_size %} checked{% endif %}><label for="size-{{ s }}">{{ s }}</label>{% endfor %}</div></fieldset>
 <button class="btn p wide" type="submit">{{ product.cta }}</button>
+<ul class="trust" aria-label="Before you join">{% for t in product.cta_trust %}<li>{{ t }}</li>{% endfor %}</ul>
+<p class="desc">{{ product.description }}</p>
+{% render 'size-guide' %}
 <ul class="spec">{% for row in product.specs %}<li><span>{{ row.0 }}</span><span>{{ row.1 }}</span></li>{% endfor %}</ul>
 <div class="ph">{{ product.concept_note }}</div>
 </form></div>

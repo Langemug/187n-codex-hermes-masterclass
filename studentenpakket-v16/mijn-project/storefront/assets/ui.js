@@ -21,9 +21,9 @@
       var sm=document.createElement('small');sm.textContent='SIZE '+it.size+' · '+it.price+' · DEMO';el.querySelector('.t').appendChild(sm);
       el.querySelector('.qty span').textContent=it.qty;
       var b=el.querySelectorAll('.qty button');
-      b[0].onclick=function(){it.qty--;if(it.qty<1)cart.splice(i,1);save()};
-      b[1].onclick=function(){it.qty++;save()};
-      b[2].onclick=function(){cart.splice(i,1);save()};
+      b[0].onclick=function(){it.qty--;if(it.qty<1)cart.splice(i,1);save();refocus(i,0)};
+      b[1].onclick=function(){it.qty++;save();refocus(i,1)};
+      b[2].onclick=function(){cart.splice(i,1);save();refocus(i,2)};
       box.appendChild(el);
     });
     document.querySelector('[data-cart-total]').textContent=eur(total);
@@ -31,22 +31,26 @@
     document.querySelectorAll('.cart-btn').forEach(function(b){b.classList.toggle('has',count>0)});
   }
   function save(){write(cart);renderCart()}
+  function refocus(i,k){var lines=document.querySelectorAll('.cart .line');var ln=lines[Math.min(i,lines.length-1)];var t=ln?ln.querySelectorAll('.qty button')[k]:null;(t||drawer.querySelector('[data-cart-close]')).focus()}
   var lastFocus=null;
   function openCart(){lastFocus=document.activeElement;drawer.hidden=false;shade.hidden=false;drawer.querySelector('[data-cart-close]').focus()}
   function closeCart(){drawer.hidden=true;shade.hidden=true;if(lastFocus)lastFocus.focus()}
   document.querySelectorAll('[data-cart-open]').forEach(function(b){b.onclick=openCart});
   document.querySelectorAll('[data-cart-close]').forEach(function(b){b.onclick=closeCart});
-  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!drawer.hidden)closeCart()});
+  document.addEventListener('keydown',function(e){if(drawer.hidden)return;if(e.key==='Escape')closeCart();
+    if(e.key==='Tab'){var f=[].filter.call(drawer.querySelectorAll('button,a[href]'),function(x){return !x.disabled});if(!f.length)return;var a=f[0],z=f[f.length-1];
+      if(e.shiftKey&&document.activeElement===a){e.preventDefault();z.focus()}else if(!e.shiftKey&&document.activeElement===z){e.preventDefault();a.focus()}}});
   renderCart();
 
+  function announce(m){var l=document.getElementById('live');if(!l){l=document.createElement('div');l.id='live';l.setAttribute('aria-live','polite');l.className='sr';document.body.appendChild(l)}l.textContent=m}
   function grant(btn,done){
     if(btn.classList.contains('granted'))return;
-    var t=btn.innerHTML;btn.style.minWidth=btn.offsetWidth+'px';btn.textContent='> ACCESS GRANTED';btn.classList.add('granted');
-    setTimeout(function(){btn.classList.remove('granted');btn.innerHTML=t;btn.style.minWidth='';done()},reduce?300:1400);
+    var t=btn.innerHTML;btn.style.minWidth=btn.offsetWidth+'px';btn.textContent='> ACCESS GRANTED';announce('Access granted. Added to demo cart.');btn.classList.add('granted');
+    setTimeout(function(){btn.classList.remove('granted');btn.innerHTML=t;btn.style.minWidth='';done()},reduce?150:700);
   }
   // links: JOIN THE SOCIETY -> productpagina
   document.querySelectorAll('a.btn.p').forEach(function(a){a.addEventListener('click',function(e){
-    var h=a.getAttribute('href');if(!h||h.charAt(0)==='#')return;e.preventDefault();grant(a,function(){location.href=h})})});
+    /* links navigeren direct (review N11: geen dubbele wachttijd) */})});
   // productformulier -> DEMO cart
   var form=document.querySelector('[data-product-form]');
   if(form){form.addEventListener('submit',function(e){e.preventDefault();

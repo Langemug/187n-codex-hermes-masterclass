@@ -128,3 +128,20 @@ section[id],.member{scroll-margin-top:80px}
 .cback{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
 @media (max-width:900px){.cnav{grid-template-columns:repeat(3,1fr)}}
 @media (max-width:560px){.cnav{grid-template-columns:repeat(2,1fr)}}
+/* N11 bouwer: aanbod + vertrouwen boven de vouw */
+.offer{border:1px solid var(--hot);padding:10px 12px;font-size:12px;line-height:1.5;color:var(--fg)}
+.offer b{color:var(--hot);margin-right:4px}.offer span{display:block;font-size:10px;color:var(--dim);letter-spacing:.12em;text-transform:uppercase}
+.trust{list-style:none;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:10px;color:var(--dim);letter-spacing:.06em;margin-top:-8px}
+.trust li::before{content:"◆ ";color:var(--hot)}
+@media (max-width:900px){
+ .page .pgrid{gap:16px}.page .crumb{margin-bottom:10px}
+ .page .main{aspect-ratio:auto;height:26vh;padding:3%}.page .main{display:flex;justify-content:center;align-items:center}.page .main img{height:100%;width:100%;object-fit:contain}
+ .page .gallery{gap:6px}.page .gallery .ph{font-size:9px;padding:6px 8px}.page .thumbs-4{grid-template-columns:repeat(4,48px);gap:6px}.page .thumbs-4 button{aspect-ratio:1;height:48px;padding:0}
+ .page .info{gap:12px}.page .info .rule{display:none}
+ .page .info h1{font-size:24px}.page .price b{font-size:24px}.page .price{flex-wrap:wrap;gap:4px 12px}
+ .page .sizes{grid-template-columns:repeat(5,1fr)}.page .sizes label{padding:10px 0}
+}
+.sg-link{color:var(--hot);text-decoration:underline}
+/* review N11 */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.btn:focus-visible,button.btn:focus-visible{outline:2px solid var(--hot)!important;outline-offset:4px}
