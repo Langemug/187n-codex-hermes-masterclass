@@ -28,3 +28,4 @@
 | N27 | 2026-10-02-01 | outputs/N27/2026-10-02-01/campagne-formatpakket.md | H3 in 3 formats; UGC-opname open | completed | Les 047 |
 | N08 | 2026-10-02-01 | outputs/N08/2026-10-02-01/campagne-uit-kennis.md | Campagne A+B uit projectkennis, 3 briefs; Second Brain (N06) ontbreekt | concept | Les 048 |
 | 5.8 | 2026-10-02-01 | outputs/5.8/2026-10-02-01/klantwerk/contentbureau/ | Maandpakket €1.650, levering R1 goedgekeurd | completed | Les 049 |
+| 0.7 | 2026-10-02-01 | outputs/0.7/2026-10-02-01/workflows/composio-campagne.md | Taken + mailconcept voorbereid; Composio niet verbonden | blocked | Composio koppelen, les 049 hervatten |
