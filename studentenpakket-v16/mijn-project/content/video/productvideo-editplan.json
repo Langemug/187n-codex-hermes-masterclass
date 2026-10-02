@@ -1,0 +1,77 @@
+{
+  "status": "UITGEVOERD_LOKAAL_FFMPEG",
+  "route": "lokale ffmpeg (render-v2.sh + concat); Palmier Pro en DaVinci Resolve: NIET_UITGEVOERD (niet beschikbaar bij student)",
+  "format": "1080x1920, 30 fps, AAC 48 kHz",
+  "sources": [
+    {
+      "id": "scherm1",
+      "path": "outputs/5.3/2026-10-02-01/content/video-feedback/v2-bewerkt.mp4"
+    },
+    {
+      "id": "scherm1-crop",
+      "path": "afgeleid: scherm1 crop 390x650+0+65 (header weg)"
+    },
+    {
+      "id": "scherm2",
+      "path": "outputs/5.3/2026-10-02-01/content/video-feedback/clip2-v1-origineel.mp4"
+    },
+    {
+      "id": "audio",
+      "path": "zelf gegenereerd met ffmpeg (55/110 Hz drone + roze ruis + tik op cuts); rechtenvrij, placeholder voor stem/muziek"
+    }
+  ],
+  "clips": [
+    {
+      "part": "hook",
+      "source": "scherm2",
+      "in": 0.3,
+      "out": 2.8,
+      "timeline": [
+        0.0,
+        2.5
+      ],
+      "caption": "HOODIE Nº = MEMBER Nº (vanaf 1,25 s)"
+    },
+    {
+      "part": "product",
+      "source": "scherm1-crop",
+      "in": 2.6,
+      "out": 5.6,
+      "timeline": [
+        2.5,
+        5.5
+      ],
+      "caption": null
+    },
+    {
+      "part": "demo",
+      "source": "scherm2",
+      "in": 5.1,
+      "out": 9.1,
+      "timeline": [
+        5.5,
+        9.5
+      ],
+      "caption": "PICK YOUR SIZE · S–2XL (vanaf 2,0 s)"
+    },
+    {
+      "part": "cta",
+      "source": "scherm1",
+      "in": 7.1,
+      "out": 8.2,
+      "timeline": [
+        9.5,
+        11.8
+      ],
+      "caption": "€64,95 · JOIN THE SOCIETY",
+      "hold": 1.2,
+      "fade_out": 0.3
+    }
+  ],
+  "audio_check": {
+    "mean_dB": -17.4,
+    "max_dB": -9.1,
+    "loudnorm_target_LUFS": -18
+  },
+  "duration_seconds": 11.8
+}
