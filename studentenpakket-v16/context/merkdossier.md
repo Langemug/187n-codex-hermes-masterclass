@@ -19,9 +19,9 @@ Design: Hoodie 01 krijgt een eigen design (o.a. achterkant) plus uniek nummer = 
 Nog niet vastgesteld: design, kostprijs incl. logo en verzending, oplage, maten, levertijd.
 
 ## Aanbod
-Eerste aankoop: Hoodie 01 + Founding Member-toegang · prijs [OPEN] · valuta [OPEN]
+Eerste aankoop: Hoodie 01 + Founding Member-toegang · NL €64,95 incl. 21% btw · UK/US €74,95 (valuta, belasting en invoerkosten [OPEN])
 Vervolglevering: n.v.t.
-Losse aankoop: online restant 7 dagen na de pop-up in Amsterdam, zelfde prijs
+Losse aankoop: online restant 7 dagen na de pop-up in Amsterdam, prijs per markt zoals hierboven
 Verzend- en retourbeleid: [OPEN]
 Abonnementsvoorwaarden en opzegroute: n.v.t.
 
