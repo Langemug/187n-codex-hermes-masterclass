@@ -1,8 +1,8 @@
 # Mijn bedrijf en werkcontext
-Naam en rol:
-Doel van deze cursus:
+Naam en rol: (nog in te vullen)
+Doel van deze cursus: Visionair Society — hoodiemerk opzetten en de eerste hoodie lanceren.
 Website indien aanwezig:
-Gewenste eerste teamopdracht:
+Gewenste eerste teamopdracht: Eerste hoodie van Visionair Society lanceren.
 Ervaring en uitlegvoorkeur:
 Beschikbare accounts:
 Budget per opdracht en maand:
