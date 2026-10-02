@@ -22,7 +22,7 @@
   "drops": [
     {
       "title": "DROP 01 · SIMULATION",
-      "image": "assets/img/drop-01-hoodie.jpg",
+      "image": "assets/img/collections/vs-001.jpg",
       "tint": "t1",
       "id": "simulation",
       "url": "collection-simulation.html",
@@ -30,7 +30,7 @@
     },
     {
       "title": "DROP 02 · ABDUCTED",
-      "image": "assets/img/drop-02-hoodie.jpg",
+      "image": "assets/img/collections/vs-002.jpg",
       "tint": "t2",
       "id": "abducted",
       "url": "collection-abducted.html",
@@ -38,7 +38,7 @@
     },
     {
       "title": "DROP 03 · CLASSIFIED",
-      "image": "assets/img/drop-03-hoodie.jpg",
+      "image": "assets/img/collections/vs-009.jpg",
       "tint": "t3",
       "id": "classified",
       "url": "collection-classified.html",
@@ -46,7 +46,7 @@
     },
     {
       "title": "DROP 04 · AWAKE",
-      "image": "assets/img/drop-04-hoodie.jpg",
+      "image": "assets/img/collections/vs-012.jpg",
       "tint": "t1",
       "id": "awake",
       "url": "collection-awake.html",
@@ -54,7 +54,7 @@
     },
     {
       "title": "DROP 05 · BUILD MODE",
-      "image": "assets/img/drop-05-hoodie.jpg",
+      "image": "assets/img/collections/vs-006.jpg",
       "tint": "t2",
       "id": "build-mode",
       "url": "collection-build-mode.html",
@@ -62,7 +62,7 @@
     },
     {
       "title": "DROP 06 · THE SOCIETY",
-      "image": "assets/img/drop-06-hoodie.jpg",
+      "image": "assets/img/collections/vs-053.jpg",
       "tint": "t3",
       "id": "the-society",
       "url": "collection-the-society.html",

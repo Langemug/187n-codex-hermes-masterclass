@@ -20,7 +20,8 @@ a{color:inherit;text-decoration:none}
 .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden}
 .face img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 30px 60px rgba(0,0,0,.6))}
 .back{transform:rotateY(180deg)}
-.back .print{position:absolute;inset:0;opacity:var(--pr,0)}
+.back .print{position:absolute;inset:0;opacity:var(--pr,0);clip-path:inset(0 0 calc((1 - var(--pr,0))*100%) 0)}
+.back .hood,.back .hshadow{position:absolute;inset:0;transform-origin:50% 0;transform:translateY(calc(var(--hd,0)*-9%)) scaleY(calc(1 - var(--hd,0)*.12));opacity:calc(1 - var(--hd,0))}
 .back .g1,.back .g2{position:absolute;inset:0;mix-blend-mode:screen;opacity:var(--gl,0)}
 .back .g1{clip-path:inset(18% 0 58% 0);transform:translateX(calc(var(--gl,0)*-10px));filter:hue-rotate(40deg) saturate(2)}
 .back .g2{clip-path:inset(52% 0 26% 0);transform:translateX(calc(var(--gl,0)*12px))}
@@ -64,14 +65,14 @@ footer{border-top:1px solid var(--line);padding:32px 24px;font-size:10px;color:v
     <span class="corner c1"></span><span class="corner c2"></span><span class="corner c3"></span><span class="corner c4"></span>
     <div class="card">
       <div class="face front"><img src="assets/front.webp" alt="" width="760" height="658"></div>
-      <div class="face back"><img src="assets/back-blank.webp" alt="" width="760" height="658" loading="lazy"><img class="print" src="assets/back-print.webp" alt="" loading="lazy"><img class="g1" src="assets/print-only.webp" alt="" loading="lazy"><img class="g2" src="assets/print-only.webp" alt="" loading="lazy"></div>
+      <div class="face back"><img src="assets/back-blank.webp" alt="" width="760" height="658"><img class="print" src="assets/print-layer.webp" alt=""><img class="g1" src="assets/print-layer.webp" alt=""><img class="g2" src="assets/print-layer.webp" alt=""><img class="hshadow" src="assets/hood-shadow.webp" alt=""><img class="hood" src="assets/hood.webp" alt=""></div>
     </div>
     <div class="zoom"><img src="assets/detail.webp" alt="" loading="lazy"></div>
   </div>
   <div class="copy">
     <section class="scene on" id="scene-1"><img class="pic" src="assets/front.webp" alt="Front: small white VS logo on the left chest" loading="lazy"><div class="k">01 · FRONT</div><h2>Quiet on<br>the <em>front.</em></h2><p>Black boxy hoodie, 500 gsm heavyweight fleece. One small VS mark on the left chest. Nothing else.</p></section>
     <section class="scene" id="scene-2"><img class="pic" src="assets/back-blank.webp" alt="Back of the black hoodie, still blank" loading="lazy"><div class="k">02 · TURN AROUND</div><h2>The back is<br>where you <em>speak.</em></h2><p>Most people only see you leave. Make it count.</p></section>
-    <section class="scene" id="scene-3"><img class="pic" src="assets/back-print.webp" alt="Back print: The Matrix can't hold me." loading="lazy"><div class="k">03 · THE STATEMENT</div><h2>The Matrix<br>can't <em>hold me.</em></h2><p>Design 010 from Drop 01 · Simulation. Printed big across the back.</p></section>
+    <section class="scene" id="scene-3"><img class="pic" src="assets/back-final.webp" alt="Back print: The Matrix can't hold me." loading="lazy"><div class="k">03 · THE STATEMENT</div><h2>The Matrix<br>can't <em>hold me.</em></h2><p>Design 010 from Drop 01 · Simulation. Printed across the back, right under the hood.</p></section>
     <section class="scene" id="scene-4"><img class="pic" src="assets/detail.webp" alt="Close-up of the back print" loading="lazy"><div class="k">04 · YOURS</div><h2>Wear what<br>you <em>stand for.</em></h2><p>Your hoodie number is your member number. Founding Member access included.</p>
       <div class="row"><a class="btn" href="../product.html">JOIN THE SOCIETY · €64,95</a><a class="btn g" href="../index.html#collections">SEE ALL 500 DESIGNS</a></div>
       <div class="trust">14-day withdrawal (EU) · No restock · Pop-up in Europe first · Shipping: to be confirmed</div>
@@ -95,11 +96,11 @@ footer{border-top:1px solid var(--line);padding:32px 24px;font-size:10px;color:v
     var seg=p*4,i=Math.min(3,Math.floor(seg)),t=seg-i;
     // scene 1->2: rotate 0->180 ; 2->3: print appears with glitch ; 3->4: zoom
     var ry=180*ease(cl((seg-0.55)/0.9));
-    var pr=cl((seg-1.7)/0.7), gl=(seg>1.6&&seg<2.6)?Math.abs(Math.sin(seg*40))*(1-Math.abs(seg-2.1)*2):0;
+    var pr=ease(cl((seg-1.7)/0.6)), hd=1-ease(cl((seg-2.05)/0.4)), gl=(seg>1.6&&seg<2.6)?Math.abs(Math.sin(seg*40))*(1-Math.abs(seg-2.1)*2):0;
     var zo=ease(cl((seg-2.75)/0.6));
     card.style.setProperty('--ry',ry+'deg');card.style.setProperty('--sc',1+zo*.15);card.style.setProperty('--ty',(-zo*20)+'px');
     card.style.opacity=1-zo;
-    card.style.setProperty('--pr',pr);card.style.setProperty('--gl',Math.max(0,gl).toFixed(2));
+    card.style.setProperty('--pr',pr);card.style.setProperty('--hd',seg<1.7?1:hd);card.style.setProperty('--gl',Math.max(0,gl).toFixed(2));
     zoom.style.setProperty('--zo',zo);stage.style.setProperty('--s',p);
     if(i!==cur){cur=i;scenes.forEach(function(s,k){s.classList.toggle('on',k===i);s.setAttribute('aria-hidden',k!==i)});dots.forEach(function(d,k){d.classList.toggle('on',k===i)})}
   }
