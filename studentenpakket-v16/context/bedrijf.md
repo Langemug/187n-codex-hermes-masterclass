@@ -11,7 +11,7 @@ Owner of external decisions:
 Product and brand facts live only in context/merkdossier.md. Push changes there; don't copy them into fifteen profiles.
 
 ## Offer (first launch)
-One oversized black hoodie, premium heavyweight cotton.
+One oversized black hoodie, heavyweight cotton-blend fleece (Tapstitch #MW0036, composition to be confirmed).
 
 ## Audience
 18–28, active on TikTok and Instagram, dream of their own business and real impact.
