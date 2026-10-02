@@ -20,3 +20,6 @@ Vraag/dag: **onbekend** (geen bevestigde verkoopdata) → dekking in dagen niet 
 
 ## Afzonderlijke externe acties (NIET uitgevoerd)
 Refunds, inkooporder (TEST-L1 bevestigen), verzending/labels en maatwissel in Shopify zijn aparte handelingen met eigen opdracht. Niets uitgevoerd.
+
+## Beslissing student (2026-10-02)
+M → **SOLD OUT** (past bij 'no restock'). TEST-L1 niet bevestigen. In echte winkel: variant M op 0 / uitverkocht zetten = aparte actie met opdracht (niet uitgevoerd).

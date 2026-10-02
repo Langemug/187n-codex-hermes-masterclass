@@ -30,3 +30,4 @@
 | 5.8 | 2026-10-02-01 | outputs/5.8/2026-10-02-01/klantwerk/contentbureau/ | Maandpakket €1.650, levering R1 goedgekeurd | completed | Les 049 |
 | 0.7 | 2026-10-02-01 | outputs/0.7/2026-10-02-01/workflows/composio-campagne.md | Taken + mailconcept voorbereid; Composio niet verbonden | blocked | Composio koppelen, les 049 hervatten |
 | 3.3 | 2026-10-02-01 | outputs/3.3/2026-10-02-01/workflows/email/ | 4 e-mailflows lokaal + oefenevent-test | concept | Les 051 |
+| 3.4 | 2026-10-02-01 | outputs/3.4/2026-10-02-01/workflows/support-operations/ | Support + operations op TEST-data; M sold out | completed | Les 052 |
