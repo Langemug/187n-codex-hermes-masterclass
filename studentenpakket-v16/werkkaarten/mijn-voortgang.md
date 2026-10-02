@@ -18,3 +18,4 @@
 | N19 | 2026-10-02-01 | outputs/N19/2026-10-02-01/montageplan.json | Reel 20 s montageplan, scherm-ID's + camerascript; camera nog op te nemen | concept | Les 037 |
 | N20 | 2026-10-02-01 | outputs/N20/2026-10-02-01/sectie-review.md | 3 secties v1→v2, stijl vastgelegd; camera/audio ontbreekt | completed | Les 038 |
 | N21 | 2026-10-02-01 | outputs/N21/2026-10-02-01/volledige-video-review.md | Reel 12,7 s uit 3 secties, bronnenlijst + aansluitingscheck | completed | Les 039 |
+| N22 | 2026-10-02-01 | outputs/N22/2026-10-02-01/clipselectie.md | 3 Reels-clips met eigen context, proefexports | completed | Les 040 |
