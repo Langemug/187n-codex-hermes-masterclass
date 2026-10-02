@@ -19,5 +19,8 @@ One oversized black hoodie, premium heavyweight cotton.
 ## Difference
 The story. You wear what you stand for — Visionair Society is an identity, not clothing.
 
+## Launch format
+First drop paired with a physical pop-up in Amsterdam (location, date, quantity and budget TBD).
+
 ## Tagline
 Stand apart. Move together.
