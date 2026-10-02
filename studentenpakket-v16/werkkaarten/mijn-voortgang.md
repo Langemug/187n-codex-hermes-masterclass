@@ -27,3 +27,4 @@
 | 5.7 | 2026-10-02-01 | outputs/5.7/2026-10-02-01/content/ads/ | 3 ads + variantregister + testvoorstel; P2 favoriet | completed | Les 046 |
 | N27 | 2026-10-02-01 | outputs/N27/2026-10-02-01/campagne-formatpakket.md | H3 in 3 formats; UGC-opname open | completed | Les 047 |
 | N08 | 2026-10-02-01 | outputs/N08/2026-10-02-01/campagne-uit-kennis.md | Campagne A+B uit projectkennis, 3 briefs; Second Brain (N06) ontbreekt | concept | Les 048 |
+| 5.8 | 2026-10-02-01 | outputs/5.8/2026-10-02-01/klantwerk/contentbureau/ | Maandpakket €1.650, levering R1 goedgekeurd | completed | Les 049 |
