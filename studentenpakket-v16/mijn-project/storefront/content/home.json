@@ -1,0 +1,24 @@
+{
+  "boot": "> SIGNAL ACQUIRED",
+  "heading_html": "STAND <em>APART.</em>",
+  "text": "Not a brand. A movement. For the 1% who build while the rest talk. Your hoodie number is your member number.",
+  "cta_primary": {"title": "JOIN THE SOCIETY", "url": "product.html"},
+  "cta_secondary": {"title": "VIEW THE DROPS", "url": "#drops"},
+  "feature": {
+    "heading": "DROP 001",
+    "meta": "ONE HOODIE · NUMBERED · NO RESTOCK",
+    "card_heading": "YOUR NUMBER IS<br>YOUR MEMBERSHIP.",
+    "card_text": "Opens at the pop-up in Amsterdam. Online seven days later. Boxy oversized, black, 500 gsm heavyweight fleece.",
+    "card_cta": "JOIN THE SOCIETY · €64,95"
+  },
+  "drops_heading": "THE DROPS",
+  "drops_meta": "06 COLLECTIONS · 500 DESIGNS",
+  "drops": [
+    {"title": "DROP 01 · SIMULATION", "image": "assets/img/drop-01.png", "tint": "t1"},
+    {"title": "DROP 02 · ABDUCTED", "image": "assets/img/drop-02.png", "tint": "t2"},
+    {"title": "DROP 03 · CLASSIFIED", "image": "assets/img/drop-03.png", "tint": "t3"},
+    {"title": "DROP 04 · AWAKE", "image": "assets/img/drop-04.png", "tint": "t1"},
+    {"title": "DROP 05 · BUILD MODE", "image": "assets/img/drop-05.png", "tint": "t2"},
+    {"title": "DROP 06 · THE SOCIETY", "image": "assets/img/drop-06.png", "tint": "t3"}
+  ]
+}
