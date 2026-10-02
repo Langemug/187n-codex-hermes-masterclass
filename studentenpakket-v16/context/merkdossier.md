@@ -15,7 +15,7 @@ Materiaal / samenstelling: INDICATIE uit zoekresultaat 2026-10-02, niet op produ
 Decoratie: INDICATIE (Tapstitch algemeen, via review ecommerce-platforms.com): voor- en achterkantprint, mouwprint, binnenkraag-print en eigen neklabel; methoden DTG en DTF. Niet bevestigd voor #MW0036 specifiek; printvlak-afmetingen, borduren en kosten onbekend.
 Beschikbare productbeelden en gebruiksrechten: logo VS (mijn-project/brand/logo/), campagneconcept (mijn-project/brand/campaign/). Geen echte productfoto's.
 Goedgekeurde claims en bijbehorende onderbouwing: geen.
-Design: Hoodie 01 krijgt een eigen design (o.a. achterkant) plus uniek nummer = lidnummer. Concept achterkant v1 "Matrix / Alien": mijn-project/brand/designs/back-matrix-alien-v1.svg (niet goedgekeurd, nog niet printklaar).
+Design: Hoodie 01 krijgt een eigen design (o.a. achterkant) plus uniek nummer = lidnummer. Concepten achterkant (niet goedgekeurd): "Matrix / Alien" v2 en "UFO-straal" v1, rasterprints 3600×4800 px PNG met transparante achtergrond in mijn-project/brand/designs/ (bron: render.html). Vector-v1 vervangen.
 Nog niet vastgesteld: design, kostprijs incl. logo en verzending, oplage, maten, levertijd.
 
 ## Aanbod

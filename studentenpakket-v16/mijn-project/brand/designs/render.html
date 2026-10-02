@@ -1,0 +1,168 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:transparent}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="3600" height="4800"></canvas>
+<img id="logo" src="../logo/vs-mark-transparent.png" style="display:none">
+<script>
+const W = 3600, H = 4800;
+const c = document.getElementById('c');
+const x = c.getContext('2d');
+const P = '#7A1FD1', HOT = '#B14BFF', WHITE = '#ffffff';
+const GL = '01ΛVSΞΔΩΨ#=+*:7349<>'.split('');
+let seed = 7;
+const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+const pick = a => a[Math.floor(rnd() * a.length)];
+
+function rain({ x0 = 0, x1 = W, y0 = 0, y1 = H, step = 96, size = 72, color = P, maxA = .6, clip = null, density = 1 }) {
+  x.save();
+  if (clip) clip();
+  x.font = `700 ${size}px "Courier New", monospace`;
+  x.textAlign = 'center';
+  for (let cx = x0 + step / 2; cx < x1; cx += step) {
+    if (rnd() > density) continue;
+    const head = y0 + rnd() * (y1 - y0 + 1200);
+    const len = 12 + Math.floor(rnd() * 28);
+    for (let i = 0; i < len; i++) {
+      const y = head - i * size * 1.2;
+      if (y < y0 || y > y1) continue;
+      const a = maxA * (1 - i / len);
+      if (i === 0) { x.shadowColor = HOT; x.shadowBlur = 30; x.fillStyle = WHITE; x.globalAlpha = Math.min(1, maxA + .3); }
+      else { x.shadowColor = color; x.shadowBlur = 14; x.fillStyle = color; x.globalAlpha = a; }
+      x.fillText(pick(GL), cx, y);
+    }
+  }
+  x.restore();
+}
+
+function glowText(t, cx, y, size, fill, glow, track = -6) {
+  x.save();
+  x.font = `900 ${size}px "Helvetica Neue", Arial, sans-serif`;
+  x.textAlign = 'center';
+  x.letterSpacing = track + 'px';
+  for (const [b, a] of [[60, .55], [24, .7]]) {
+    x.shadowColor = glow; x.shadowBlur = b; x.globalAlpha = a; x.fillStyle = fill; x.fillText(t, cx, y);
+  }
+  x.shadowBlur = 0; x.globalAlpha = 1; x.fillStyle = fill; x.fillText(t, cx, y);
+  x.restore();
+}
+
+function smallLabel(t, cx, y) {
+  x.save();
+  x.font = '700 92px "Helvetica Neue", Arial, sans-serif';
+  x.textAlign = 'center'; x.letterSpacing = '40px';
+  x.fillStyle = WHITE; x.globalAlpha = .92; x.fillText(t, cx, y);
+  x.restore();
+}
+
+function alienPath() {
+  const p = new Path2D('M1800,1180 C2330,1180 2620,1540 2620,2020 C2620,2460 2330,2820 2060,3140 C1960,3260 1890,3340 1800,3340 C1710,3340 1640,3260 1540,3140 C1270,2820 980,2460 980,2020 C980,1540 1270,1180 1800,1180 Z');
+  return p;
+}
+const eyeL = new Path2D('M1180,2140 C1310,1930 1600,1930 1720,2160 C1680,2380 1400,2460 1180,2140 Z');
+const eyeR = new Path2D('M2420,2140 C2290,1930 2000,1930 1880,2160 C1920,2380 2200,2460 2420,2140 Z');
+
+function designA() {
+  const head = alienPath();
+  // background rain, kept out of the text bands
+  rain({ y0: 900, y1: 3600, maxA: .5 });
+  // aura behind head
+  x.save();
+  const g = x.createRadialGradient(1800, 2200, 200, 1800, 2200, 1300);
+  g.addColorStop(0, 'rgba(177,75,255,.45)'); g.addColorStop(1, 'rgba(122,31,209,0)');
+  x.fillStyle = g; x.fillRect(400, 900, 2800, 2800);
+  x.restore();
+  // dense glowing code inside the head
+  x.save(); x.clip(head);
+  x.globalAlpha = .9;
+  const hg = x.createLinearGradient(0, 1180, 0, 3340);
+  hg.addColorStop(0, 'rgba(122,31,209,.55)'); hg.addColorStop(1, 'rgba(40,8,70,.35)');
+  x.fillStyle = hg; x.fill(head);
+  x.restore();
+  rain({ x0: 980, x1: 2620, y0: 1150, y1: 3400, step: 64, size: 58, color: HOT, maxA: 1, density: 1, clip: () => x.clip(head) });
+  rain({ x0: 1012, x1: 2620, y0: 1150, y1: 3400, step: 64, size: 58, color: HOT, maxA: .9, density: 1, clip: () => x.clip(head) });
+  // outline glow
+  x.save();
+  x.strokeStyle = HOT; x.lineWidth = 14;
+  for (const b of [80, 30, 0]) { x.shadowColor = HOT; x.shadowBlur = b; x.stroke(head); }
+  x.restore();
+  // eyes: deep purple to transparent, white rim, glowing pupils
+  for (const [eye, px] of [[eyeL, 1440], [eyeR, 2160]]) {
+    x.save(); x.clip(eye);
+    const eg = x.createRadialGradient(px, 2130, 10, px, 2130, 300);
+    eg.addColorStop(0, 'rgba(177,75,255,.9)'); eg.addColorStop(.35, 'rgba(60,10,110,.95)'); eg.addColorStop(1, 'rgba(10,0,20,1)');
+    x.fillStyle = eg; x.fillRect(px - 400, 1900, 800, 500);
+    x.restore();
+    x.save(); x.strokeStyle = WHITE; x.lineWidth = 12; x.shadowColor = WHITE; x.shadowBlur = 24; x.stroke(eye); x.restore();
+    x.save(); x.fillStyle = WHITE; x.shadowColor = HOT; x.shadowBlur = 60;
+    x.beginPath(); x.arc(px, 2120, 30, 0, 7); x.fill(); x.restore();
+  }
+  glowText('STAND APART.', 1800, 700, 300, WHITE, HOT);
+  glowText('MOVE TOGETHER.', 1800, 4020, 300, HOT, P);
+  smallLabel('VISIONAIR SOCIETY · Nº ____', 1800, 4400);
+}
+
+function designB() {
+  const logo = document.getElementById('logo');
+  const top = 1150;
+  // beam
+  const beam = new Path2D(`M1500,${top} L2100,${top} L3200,3900 L400,3900 Z`);
+  x.save();
+  const bg = x.createLinearGradient(0, top, 0, 3900);
+  bg.addColorStop(0, 'rgba(177,75,255,.85)'); bg.addColorStop(.5, 'rgba(122,31,209,.45)'); bg.addColorStop(1, 'rgba(122,31,209,0)');
+  x.fillStyle = bg; x.fill(beam);
+  x.restore();
+  // light streaks in beam
+  x.save(); x.clip(beam);
+  for (let i = 0; i < 40; i++) {
+    const sx = 1500 + rnd() * 600, ex = 400 + (sx - 1500) / 600 * 2800;
+    x.strokeStyle = `rgba(255,255,255,${.04 + rnd() * .1})`; x.lineWidth = 6 + rnd() * 22;
+    x.beginPath(); x.moveTo(sx, top); x.lineTo(ex, 3900); x.stroke();
+  }
+  x.restore();
+  rain({ x0: 400, x1: 3200, y0: top + 100, y1: 3800, step: 80, size: 62, color: WHITE, maxA: .75, clip: () => x.clip(beam) });
+  // rising VS logo
+  x.save(); x.shadowColor = HOT; x.shadowBlur = 120; x.globalAlpha = 1;
+  x.drawImage(logo, 1350, 2050, 900, 900);
+  x.shadowBlur = 40; x.drawImage(logo, 1350, 2050, 900, 900);
+  x.restore();
+  // saucer
+  x.save();
+  const dome = x.createRadialGradient(1800, 820, 40, 1800, 900, 420);
+  dome.addColorStop(0, '#f3e9ff'); dome.addColorStop(.4, '#b14bff'); dome.addColorStop(1, 'rgba(60,10,110,.9)');
+  x.fillStyle = dome; x.shadowColor = HOT; x.shadowBlur = 80;
+  x.beginPath(); x.ellipse(1800, 960, 400, 300, 0, Math.PI, 0); x.fill();
+  const body = x.createLinearGradient(0, 900, 0, 1200);
+  body.addColorStop(0, '#d9d4e0'); body.addColorStop(.45, '#6d6677'); body.addColorStop(1, '#1b1820');
+  x.fillStyle = body; x.shadowBlur = 50;
+  x.beginPath(); x.ellipse(1800, 1050, 1050, 190, 0, 0, 7); x.fill();
+  x.fillStyle = '#2a2531'; x.shadowBlur = 0;
+  x.beginPath(); x.ellipse(1800, 1110, 620, 90, 0, 0, Math.PI); x.fill();
+  for (let i = -4; i <= 4; i++) {
+    const lx = 1800 + i * 210, ly = 1080 + Math.abs(i) * -8;
+    x.fillStyle = i % 2 ? WHITE : HOT; x.shadowColor = HOT; x.shadowBlur = 50;
+    x.beginPath(); x.arc(lx, ly, 26, 0, 7); x.fill();
+  }
+  x.restore();
+  glowText('STAND APART.', 1800, 520, 300, WHITE, HOT);
+  glowText('MOVE TOGETHER.', 1800, 4180, 300, HOT, P);
+  smallLabel('VISIONAIR SOCIETY · Nº ____', 1800, 4520);
+}
+
+function grain() {
+  const img = x.getImageData(0, 0, W, H), d = img.data;
+  for (let i = 0; i < d.length; i += 4) {
+    if (d[i + 3] === 0) continue;
+    const r = rnd();
+    if (r < .045) { d[i + 3] = 0; continue; }          // worn specks
+    const n = (r - .5) * 36;
+    d[i] = Math.max(0, Math.min(255, d[i] + n));
+    d[i + 1] = Math.max(0, Math.min(255, d[i + 1] + n));
+    d[i + 2] = Math.max(0, Math.min(255, d[i + 2] + n));
+  }
+  x.putImageData(img, 0, 0);
+}
+
+window.draw = (which) => { x.clearRect(0, 0, W, H); seed = 7; (which === 'b' ? designB : designA)(); grain(); return true; };
+</script>
+</body></html>
