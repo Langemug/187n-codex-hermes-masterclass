@@ -38,3 +38,4 @@
 | 6.1 | 2026-10-02-01 | outputs/6.1/2026-10-02-01/seo/kansen.md | Zoekvragen (HYPOTHESE) geclusterd; top 3: product, fit-gids, drop 001; fit-gids eerst | concept | Les 057 |
 | 6.2 | 2026-10-02-01 | outputs/6.2/2026-10-02-01/seo/publicatie/ | Fit-gids: brief, pagina, lokale preview + verborgen Shopify-artikel (Article/752802332997, unpublished); feitencheck, 3 blokkades | concept | Les 058 |
 | 6.3 | 2026-10-02-01 | outputs/6.3/2026-10-02-01/seo/maanddienst/ | Nulmeting-opzet, maandrapport M0 (geen cijfers), V1 link maattabel→gids in unpublished theme, Hermes-routine 3e werkdag (niet geactiveerd) | concept | Les 059 |
+| 4.1 | 2026-10-02-01 | outputs/4.1/2026-10-02-01/skills-kandidaten/foto-mockup/ | Kandidaat-skill foto-mockup (v2 met invoercontroles), acceptatieproef + bronreview, proef design 009 goedgekeurd; SkillSpector ontbreekt → BLOCKED voor laden | geblokkeerd | Les 060 |
