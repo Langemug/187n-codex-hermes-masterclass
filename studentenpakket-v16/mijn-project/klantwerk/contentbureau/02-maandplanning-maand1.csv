@@ -1,0 +1,16 @@
+week,id,format,campagne,hook,assets,status
+1,BRIEF,brief,A+B+H3,—,campagne-uit-kennis.md + formatpakket N27,KLAAR
+2,R1,Reel,A,"Not at the pop-up? You're still in.",foto-mockups + productpagina-demo,GELEVERD (levering 1)
+2,R2,Reel,H3,"Your hoodie number is your member number.",P2-H3a-reel.mp4,KLAAR (5.7)
+2,R3,Reel,H1,"No quotes on your back. A design and a number.",foto-mockups,TE MAKEN
+2,R4,Reel,collectie,"Most hoodies say nothing. This one speaks.",ugc-hook3.mp4,KLAAR (5.6)
+2,C1,Carrousel,collectie,150 designs 6 drops,carrousel slide-1..6,KLAAR (5.5)
+2,C2,Carrousel,A,"Pop-up first → online 7 days later",foto-mockups,TE MAKEN
+2,S1-S4,Static ads,H1/H3/A3/A,4 koppen,beeld-H3 · P1 · ad-A3 · nieuw A,3 KLAAR · 1 TE MAKEN
+2,FB1,feedbackronde 1,—,—,—,WACHT
+3,R5-R8,Reel,B + drops,"Drop 001 won't come back." + 3 drops,foto-mockups vs-NNN,TE MAKEN
+3,C3-C4,Carrousel,B + Abducted,—,collectie-mockups,TE MAKEN
+3,S5-S8,Static ads,B + b-hooks,—,—,TE MAKEN
+3,FB2,feedbackronde 2,—,—,—,WACHT
+4,P1-P5,Productbeelden,—,—,klantwerk/productcontent/definitief,KLAAR (5.6)
+4,EXPORT,overdracht,—,—,variantregister + index,TE MAKEN
