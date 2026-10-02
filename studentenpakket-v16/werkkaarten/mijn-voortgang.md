@@ -10,4 +10,4 @@
 | N11 | 2026-10-02-01 | outputs/N11/2026-10-02-01/team-build-review.md | 3 agents, conflicten opgelost, fixes in storefront getest | completed | Les 029 |
 | 2.4 | 2026-10-02-01 | outputs/2.4/2026-10-02-01/storefront/product-experience/ | 4 scènes, autoplay, lite-variant, meting | completed | Les 030 |
 | 2.5 | 2026-10-02-01 | outputs/2.5/2026-10-02-01/release/oplevering.md | Klantreis OK, privé preview, release a974d60 | completed | Les 031 |
-| 3.2 | 2026-10-02-01 | outputs/3.2/2026-10-02-01/shopify/theme/ | — | in_progress | Kies winkel/theme |
+| 3.2 | 2026-10-02-01 | outputs/3.2/2026-10-02-01/shopify/theme/ | Ongepubliceerd theme + Founding Member Hoodie + 6 collecties + 150 Draft hoodies | completed | Les 032 |
