@@ -1,0 +1,5 @@
+bron_id,eigen_lokaal_pad,type,duur_seconden,formaat,rechten,status
+scherm1,outputs/5.3/2026-10-02-01/content/video-feedback/v2-bewerkt.mp4,schermopname (productanimatie),8.50,390x844 30fps geen audio,eigen werk,AANWEZIG
+scherm2,outputs/5.3/2026-10-02-01/content/video-feedback/clip2-v1-origineel.mp4,schermopname (home→product),11.23,390x844 30fps geen audio,eigen werk,AANWEZIG
+camera,,camera + stem,,9:16 aanbevolen,eigen opname,EIGEN_OPNAME_NODIG
+transcript,,tekst van camera,,,afgeleid van camera,WACHT_OP_CAMERA

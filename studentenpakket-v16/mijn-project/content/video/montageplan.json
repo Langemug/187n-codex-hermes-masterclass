@@ -1,0 +1,138 @@
+{
+  "status": "CONCEPT_WACHT_OP_CAMERA",
+  "format": {
+    "type": "Reel",
+    "ratio": "9:16",
+    "resolution": "1080x1920",
+    "target_seconds": 20
+  },
+  "voorkeuren": "mijn-project/content/video-voorkeuren.md (1 tekst tegelijk; eindbeeld <=1,5 s + fade 0,3 s)",
+  "sources": {
+    "scherm1": {
+      "path": "outputs/5.3/2026-10-02-01/content/video-feedback/v2-bewerkt.mp4",
+      "duration": 8.5,
+      "audio": false
+    },
+    "scherm2": {
+      "path": "outputs/5.3/2026-10-02-01/content/video-feedback/clip2-v1-origineel.mp4",
+      "duration": 11.23,
+      "audio": false
+    },
+    "camera": null,
+    "transcript": null
+  },
+  "sections": [
+    {
+      "id": "hook",
+      "timeline": [
+        0.0,
+        3.0
+      ],
+      "source": "camera",
+      "start": null,
+      "end": null,
+      "fallback": {
+        "source": "scherm2",
+        "start": 0.0,
+        "end": 3.0,
+        "note": "logo-boot"
+      },
+      "script": "Your hoodie number is your member number.",
+      "captions": [
+        "YOUR HOODIE NUMBER",
+        "IS YOUR MEMBER NUMBER."
+      ],
+      "reason": "Kernbelofte in de eerste 3 s; gezicht + stem bouwt vertrouwen.",
+      "review": "NOT_RUN"
+    },
+    {
+      "id": "product",
+      "timeline": [
+        3.0,
+        8.5
+      ],
+      "source": "scherm1",
+      "start": 0.0,
+      "end": 5.5,
+      "voiceover": "camera",
+      "script": "Quiet on the front. The back is where you speak.",
+      "captions": [
+        "QUIET ON THE FRONT.",
+        "THE BACK IS WHERE YOU SPEAK."
+      ],
+      "reason": "Voorkant -> draai -> print-reveal laat het product zien.",
+      "review": "NOT_RUN"
+    },
+    {
+      "id": "demo",
+      "timeline": [
+        8.5,
+        13.0
+      ],
+      "source": "scherm2",
+      "start": 3.5,
+      "end": 8.0,
+      "voiceover": "camera",
+      "script": "Pick your size. Join the society.",
+      "captions": [
+        "PICK YOUR SIZE.",
+        "JOIN THE SOCIETY."
+      ],
+      "reason": "Toont de echte route: knop -> productpagina met maten en prijs.",
+      "check": "Knopklik zit rond 4,5 s in scherm2; prijs + maten zichtbaar vanaf 5,0 s.",
+      "review": "NOT_RUN"
+    },
+    {
+      "id": "facts",
+      "timeline": [
+        13.0,
+        17.0
+      ],
+      "source": "camera",
+      "start": null,
+      "end": null,
+      "fallback": {
+        "source": "scherm2",
+        "start": 5.0,
+        "end": 9.0,
+        "note": "productpagina"
+      },
+      "script": "500 gsm. No restock. Pop-up in Europe first, online seven days later.",
+      "captions": [
+        "500 GSM · NO RESTOCK",
+        "POP-UP IN EUROPE FIRST"
+      ],
+      "reason": "Vaste feiten uit productdata; geen verzonnen claims.",
+      "review": "NOT_RUN"
+    },
+    {
+      "id": "end",
+      "timeline": [
+        17.0,
+        20.0
+      ],
+      "source": "scherm1",
+      "start": 6.7,
+      "end": 8.2,
+      "hold_last_frame": 1.2,
+      "fade_out": 0.3,
+      "script": "",
+      "captions": [
+        "€64,95 · JOIN THE SOCIETY"
+      ],
+      "reason": "Print-close-up + CTA; eindbeeld volgens voorkeur kort.",
+      "review": "NOT_RUN"
+    }
+  ],
+  "opnameacties": [
+    "Camera 9:16, ~20 s, rustige achtergrond, hoodie aan (achterkant kort tonen).",
+    "Spreek script per sectie in, met 1 s stilte ervoor en erna.",
+    "Lever bestand aan -> transcript met tijdcodes -> bron-ID 'camera' invullen."
+  ],
+  "bronnen_feiten": "mijn-project/storefront/content/product-founding-member-hoodie.json",
+  "student_review": {
+    "datum": "2026-10-02",
+    "hook": "akkoord",
+    "demo_zichtbaarheid": "akkoord"
+  }
+}
