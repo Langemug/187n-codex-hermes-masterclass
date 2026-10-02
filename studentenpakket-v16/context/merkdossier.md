@@ -9,11 +9,11 @@ Positionering: Not a brand. A movement. Wear what you stand for. Tagline: Stand 
 Bronnen voor bovenstaande keuzes: outputs/1.1/2026-10-02-01/research/markt.md, outputs/1.3/2026-10-02-01/brand/offerbrief.md
 
 ## Productwaarheid
-Productnaam en SKU: The Visionair Hoodie 01 · leverancier Tapstitch, model #MW0036 (Oversized Heavyweight Fleece Hoodie)
-Goedgekeurde productomschrijving en bron: nog niet. Volgens zoekresultaat 460 GSM, nog niet op productpagina of in account geverifieerd.
-Materiaal / samenstelling: INDICATIE uit zoekresultaat 2026-10-02, niet op productpagina geverifieerd: 85% katoen / 15% polyester, 460 GSM fleece, losse pasvorm met drop shoulders, maten XS–4XL, 4 kleuren. Gevolg: niet 'premium heavyweight cotton' noemen maar bijv. 'heavyweight cotton-blend fleece' tot bevestigd.
-Decoratie: INDICATIE (Tapstitch algemeen, via review ecommerce-platforms.com): voor- en achterkantprint, mouwprint, binnenkraag-print en eigen neklabel; methoden DTG en DTF. Niet bevestigd voor #MW0036 specifiek; printvlak-afmetingen, borduren en kosten onbekend.
-Beschikbare productbeelden en gebruiksrechten: logo VS (mijn-project/brand/logo/), campagneconcept (mijn-project/brand/campaign/). Geen echte productfoto's.
+Productnaam en SKU: The Visionair Hoodie 01 · leverancier Tapstitch, model UT0268-C001-V2 · Unisex Heavyweight Fleece Boxy Hoodie, kleur Black (besluit student, les 5.2; vervangt #MW0036)
+Goedgekeurde productomschrijving en bron: nog niet. Volgens screenshot productpagina Tapstitch (student, 2026-10-02): 500 gsm / 14.7 oz, unisex, S–2XL, 5 kleuren, prijs Black €27,21 per stuk (blank, zonder print/verzending). Samenstelling niet zichtbaar in screenshot.
+Materiaal / samenstelling (oud, gold voor #MW0036): INDICATIE uit zoekresultaat 2026-10-02, niet op productpagina geverifieerd: 85% katoen / 15% polyester, 460 GSM fleece, losse pasvorm met drop shoulders, maten XS–4XL, 4 kleuren. Gevolg: niet 'premium heavyweight cotton' noemen maar bijv. 'heavyweight cotton-blend fleece' tot bevestigd.
+Decoratie: INDICATIE (Tapstitch algemeen, via review ecommerce-platforms.com): voor- en achterkantprint, mouwprint, binnenkraag-print en eigen neklabel; methoden DTG en DTF. Niet bevestigd voor UT0268 specifiek; printvlak-afmetingen, borduren en kosten onbekend.
+Beschikbare productbeelden en gebruiksrechten: logo VS (mijn-project/brand/logo/), campagneconcept (mijn-project/brand/campaign/). Tapstitch-productbeelden UT0268 (zwart voor/achter, mijn-project/brand/references/product/); gebruiksrecht in store nog bevestigen. Geen eigen foto's van een sample.
 Goedgekeurde claims en bijbehorende onderbouwing: geen.
 Design: Hoodie 01 krijgt een eigen design (o.a. achterkant) plus uniek nummer = lidnummer. Concepten achterkant (niet goedgekeurd): "Matrix / Alien" v2 en "UFO-straal" v1, rasterprints 3600×4800 px PNG met transparante achtergrond in mijn-project/brand/designs/ (bron: render.html). Vector-v1 vervangen.
 Nog niet vastgesteld: design, kostprijs incl. logo en verzending, oplage, maten, levertijd.
