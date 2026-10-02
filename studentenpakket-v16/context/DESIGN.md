@@ -2,7 +2,7 @@
 Status: CONCEPT v1 (les 2.2). Afgeleid van de gekozen richting A · Terminal (les 2.1) en het brandbook (les 5.1).
 
 ## Doel en doelgroep
-Een store die voelt als een systeem waar je toegang toe krijgt: hard, technisch, rustig. Voor 18–28, builders, TikTok/Instagram. Eén hoofdproduct (Hoodie 01) + zes drops.
+Een store die voelt als een systeem waar je toegang toe krijgt: hard, technisch, rustig. Voor 18–28, builders, TikTok/Instagram. Eén hoofdproduct (The Founding Member Hoodie) + zes drops.
 
 ## Gekozen ontwerprichting en waarom
 **A · Terminal.** Zwart, paarse code-regen over de hele pagina, mono-typografie, hoekframes, statusbalk. Student: "meer mijn brand voice". Bron: `outputs/2.1/2026-10-02-01/brand/referenceboard.md`.
