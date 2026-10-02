@@ -5,7 +5,7 @@
   "logo_small": "assets/img/logo-purple-outline.png",
   "system_line": [
     "DROP 001",
-    "POP-UP AMSTERDAM",
+    "POP-UP EUROPE",
     "DATE: TBA"
   ],
   "status_left": "SYSTEM.ACTIVE · DROP 001 · V1.0",
@@ -53,7 +53,7 @@
           "url": "product.html#member"
         },
         {
-          "title": "Pop-up Amsterdam · date TBA",
+          "title": "Pop-up Europe · date TBA",
           "url": "index.html#drop"
         }
       ]
