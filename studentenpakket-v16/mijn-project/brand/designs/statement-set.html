@@ -1,0 +1,147 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#07060a}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="2400" height="4300"></canvas>
+<script>
+const P = '#7A1FD1', HOT = '#B14BFF', W = '#f4f1f6';
+const SANS = '"Liberation Sans", Arial, sans-serif';
+const MONO = '"DejaVu Sans Mono", monospace';
+const PIX = 'Unifont, monospace';
+let seed = 3;
+const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+
+function tile(draw) {
+  const t = document.createElement('canvas'); t.width = 900; t.height = 900;
+  const x = t.getContext('2d', { willReadFrequently: true });
+  x.textAlign = 'center'; x.textBaseline = 'alphabetic';
+  draw(x);
+  grunge(x, 900, 900);
+  return t;
+}
+
+// condensed heavy line: horizontally squeezed bold sans, auto-fit to width
+function line(x, text, y, size, color, { maxW = 760, squeeze = .7, stroke = null, font = SANS, weight = 900 } = {}) {
+  x.save();
+  x.font = `${weight} ${size}px ${font}`;
+  const w = x.measureText(text).width * squeeze;
+  const k = Math.min(1, maxW / w);
+  x.translate(450, y); x.scale(squeeze * k, 1);
+  if (stroke) { x.lineWidth = stroke[1]; x.strokeStyle = stroke[0]; x.lineJoin = 'round'; x.strokeText(text, 0, 0); }
+  x.fillStyle = color; x.fillText(text, 0, 0);
+  x.restore();
+}
+
+function grunge(x, w, h) {
+  const img = x.getImageData(0, 0, w, h), d = img.data;
+  for (let i = 0; i < d.length; i += 4) {
+    if (!d[i + 3]) continue;
+    const r = rnd();
+    if (r < .06) { d[i + 3] = 0; continue; }
+    if (r < .09) d[i + 3] = d[i + 3] * .4;
+  }
+  // scratches
+  x.putImageData(img, 0, 0);
+  x.save(); x.globalCompositeOperation = 'destination-out';
+  for (let i = 0; i < 26; i++) {
+    x.lineWidth = 1 + rnd() * 3; x.globalAlpha = .5 + rnd() * .5;
+    const sx = rnd() * w, sy = rnd() * h;
+    x.beginPath(); x.moveTo(sx, sy); x.lineTo(sx + (rnd() - .5) * 260, sy + (rnd() - .5) * 60); x.stroke();
+  }
+  x.restore();
+}
+
+const designs = [
+  ['J', x => { // purple pill
+    line(x, 'I TOOK', 230, 210, W);
+    line(x, 'THE PURPLE', 430, 210, HOT);
+    line(x, 'PILL.', 640, 230, W);
+    x.save(); x.translate(450, 760); x.rotate(-.35);
+    x.fillStyle = W; x.beginPath(); x.roundRect(-170, -55, 170, 110, [55, 0, 0, 55]); x.fill();
+    x.fillStyle = HOT; x.beginPath(); x.roundRect(0, -55, 170, 110, [0, 55, 55, 0]); x.fill();
+    x.restore();
+  }],
+  ['K', x => { // not an NPC
+    line(x, 'NOT AN', 300, 230, W);
+    line(x, 'NPC.', 560, 330, HOT);
+    x.font = `700 46px ${MONO}`; x.fillStyle = W;
+    x.fillText('[ main quest only ]', 450, 690);
+  }],
+  ['L', x => { // glitch
+    for (const [dx, c] of [[-14, '#00e5ff'], [14, HOT], [0, W]]) {
+      x.save(); x.translate(dx, 0); x.globalAlpha = c === W ? 1 : .85;
+      line(x, 'GLITCH', 360, 260, c);
+      line(x, 'IN THE', 520, 170, c);
+      line(x, 'SYSTEM.', 730, 250, c);
+      x.restore();
+    }
+    for (let i = 0; i < 7; i++) {
+      const y = 150 + rnd() * 600, hgt = 8 + rnd() * 26;
+      const s = x.getImageData(0, y, 900, hgt); x.putImageData(s, (rnd() - .5) * 90, y);
+    }
+  }],
+  ['M', x => { // loading ambition
+    x.strokeStyle = W; x.lineWidth = 12; x.strokeRect(120, 300, 660, 150);
+    for (let i = 0; i < 9; i++) { x.fillStyle = HOT; x.fillRect(146 + i * 66, 326, 50, 98); }
+    x.font = `400 74px ${PIX}`; x.fillStyle = W;
+    x.fillText('LOADING AMBITION', 450, 560);
+    x.fillStyle = HOT; x.fillText('87% · DO NOT TURN OFF', 450, 650);
+  }],
+  ['N', x => { // abducted by ambition
+    x.fillStyle = 'rgba(177,75,255,.55)';
+    x.beginPath(); x.moveTo(400, 230); x.lineTo(500, 230); x.lineTo(640, 470); x.lineTo(260, 470); x.fill();
+    x.fillStyle = W; x.beginPath(); x.ellipse(450, 210, 190, 46, 0, 0, 7); x.fill();
+    x.fillStyle = HOT; x.beginPath(); x.ellipse(450, 170, 80, 60, 0, Math.PI, 0); x.fill();
+    line(x, 'ABDUCTED BY', 610, 150, W);
+    line(x, 'AMBITION.', 800, 230, HOT);
+  }],
+  ['O', x => { // not from here + eyes
+    const eye = (cx) => { x.save(); x.translate(cx, 250); x.rotate(cx < 450 ? .35 : -.35);
+      x.fillStyle = HOT; x.beginPath(); x.ellipse(0, 0, 120, 62, 0, 0, 7); x.fill();
+      x.fillStyle = W; x.beginPath(); x.arc(cx < 450 ? 30 : -30, -6, 14, 0, 7); x.fill(); x.restore(); };
+    eye(300); eye(600);
+    line(x, 'NOT FROM', 540, 220, W);
+    line(x, 'HERE.', 780, 280, HOT);
+  }],
+  ['P', x => { // terminal override
+    x.textAlign = 'left'; x.font = `700 50px ${MONO}`;
+    const L = [['> sudo override reality', W], ['> mode: BUILD', HOT], ['> excuses: 0', W], ['> sleep: optional', W], ['> status: RUNNING', HOT]];
+    L.forEach(([t, c], i) => { x.fillStyle = c; x.fillText(t, 110, 260 + i * 100); });
+    x.fillStyle = HOT; x.fillRect(110, 760, 40, 60);
+  }],
+  ['Q', x => { // limits not found
+    x.font = `400 150px ${PIX}`; x.fillStyle = HOT; x.fillText('ERROR:', 450, 330);
+    line(x, 'LIMITS', 560, 230, W);
+    line(x, 'NOT FOUND.', 760, 200, W, { stroke: [P, 18] });
+  }],
+  ['R', x => { // wake up build repeat
+    line(x, 'WAKE UP.', 280, 210, W);
+    line(x, 'BUILD.', 510, 250, HOT);
+    line(x, 'REPEAT.', 740, 210, W);
+    x.strokeStyle = HOT; x.lineWidth = 10;
+    x.beginPath(); x.arc(450, 820, 40, .3, 5.6); x.stroke();
+  }],
+];
+
+const c = document.getElementById('c'), g = c.getContext('2d');
+g.fillStyle = '#07060a'; g.fillRect(0, 0, 2400, 4300);
+g.textAlign = 'center';
+g.fillStyle = W; g.font = `700 54px ${MONO}`; g.letterSpacing = '18px';
+g.fillText('MORE HOODIE DIRECTIONS', 1200, 150);
+g.letterSpacing = '0px';
+const hd = (t, y, col) => { g.save(); g.font = `900 300px ${SANS}`; g.translate(1200, y); g.scale(.72, 1); g.fillStyle = col; g.fillText(t, 0, 0); g.restore(); };
+hd('WHICH ONE', 470, W); hd('WOULD YOU WEAR?', 760, HOT);
+designs.forEach(([k, fn], i) => {
+  const col = i % 3, row = Math.floor(i / 3);
+  const x0 = 120 + col * 740, y0 = 900 + row * 1020;
+  g.fillStyle = HOT; g.font = `900 80px ${SANS}`; g.fillText(k, x0 + 320, y0 + 70);
+  g.fillStyle = '#000'; g.fillRect(x0, y0 + 110, 640, 640);
+  g.drawImage(tile(fn), x0, y0 + 110, 640, 640);
+});
+g.fillStyle = W; g.font = `900 140px ${SANS}`;
+g.save(); g.translate(1200, 4060); g.scale(.75, 1); g.fillText('DM J–R OR NONE', 0, 0); g.restore();
+g.font = `700 46px ${MONO}`; g.letterSpacing = '14px'; g.fillStyle = W;
+g.fillText('STAND APART. MOVE TOGETHER.', 1200, 4200);
+window.done = true;
+</script>
+</body></html>
