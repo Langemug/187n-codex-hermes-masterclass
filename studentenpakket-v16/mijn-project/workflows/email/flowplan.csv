@@ -1,0 +1,8 @@
+flow,mail,trigger,wacht,uitsluiten/stoppen,onderwerp,cta,bestemming
+welcome,W1,Bevestigde marketinginschrijving (double opt-in),0 u,afgemeld · al ingeschreven (dubbel event) · al klant krijgt W1 wel maar niet W2,"You're on the list.",SEE THE HOODIE,productpagina founding-member-hoodie
+welcome,W2,na W1,3 dagen,afgemeld · heeft gekocht sinds W1,"What your number means.",JOIN THE SOCIETY,productpagina
+abandoned_checkout,C1,Checkout gestart zonder order,1 u,order geplaatst tijdens wachttijd · afgemeld · geen marketingtoestemming · al C1 ontvangen voor deze checkout,"Your number is still waiting.",FINISH CHECKOUT,checkout-herstel-URL
+abandoned_checkout,C2,na C1,23 u,idem + na C1 gekocht,"Last call for this checkout.",FINISH CHECKOUT,checkout-herstel-URL
+post_purchase,P1,Order betaald (niet: orderbevestiging zelf — dat is Shopify-transactiemail),2 dagen,refund/annulering · dubbele order-event,"Welcome, Founding Member.",(geen verkoop) READ HOW IT WORKS,FAQ-pagina
+post_purchase,P2,na P1,7 dagen na levering (zodra leverdatum bekend; tot dan OPEN),refund/annulering · klacht open,"How's the fit?",SIZE GUIDE / REPLY,maattabel
+winback,B1,Laatste aankoop > 120 dagen én Drop 002 aangekondigd,0,recente aankoop < 120 d · afgemeld · open order,"Drop 002 is close.",SEE DROP 002,collectiepagina (pas als bestaat)
