@@ -37,3 +37,4 @@
 | N29 | 2026-10-02-01 | outputs/N29/2026-10-02-01/media-buyer-testplan.md | Ratio's fictieve export + echte campagne read-only; 3 tests; brief T3 | concept | Les 056 |
 | 6.1 | 2026-10-02-01 | outputs/6.1/2026-10-02-01/seo/kansen.md | Zoekvragen (HYPOTHESE) geclusterd; top 3: product, fit-gids, drop 001; fit-gids eerst | concept | Les 057 |
 | 6.2 | 2026-10-02-01 | outputs/6.2/2026-10-02-01/seo/publicatie/ | Fit-gids: brief, pagina, lokale preview + verborgen Shopify-artikel (Article/752802332997, unpublished); feitencheck, 3 blokkades | concept | Les 058 |
+| 6.3 | 2026-10-02-01 | outputs/6.3/2026-10-02-01/seo/maanddienst/ | Nulmeting-opzet, maandrapport M0 (geen cijfers), V1 link maattabel→gids in unpublished theme, Hermes-routine 3e werkdag (niet geactiveerd) | concept | Les 059 |
