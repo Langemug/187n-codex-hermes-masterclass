@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "s1": { "type": "spec", "settings": { "label": "YOU GET", "value": "The hoodie with the design and its own number" } },
+        "s2": { "type": "spec", "settings": { "label": "MEMBERSHIP", "value": "Founding Member access included" } },
+        "s3": { "type": "spec", "settings": { "label": "RESTOCK", "value": "No restock" } },
+        "s4": { "type": "spec", "settings": { "label": "RETURNS", "value": "14-day right of withdrawal (EU)" } }
+      },
+      "block_order": ["s1", "s2", "s3", "s4"],
+      "settings": {}
+    }
+  },
+  "order": ["main"]
+}

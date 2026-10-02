@@ -1,0 +1,33 @@
+<section class="wrap" id="drops"><div class="sec-head"><h2>{{ section.settings.heading }}</h2><span>{{ section.settings.meta }}</span></div>
+<div class="grid">
+  {%- for block in section.blocks -%}
+    {%- assign c = block.settings.collection -%}
+    {%- if c != blank -%}
+    <a class="card {% cycle 't1','t2','t3' %}" href="{{ c.url }}" {{ block.shopify_attributes }}>
+      <div class="art art-photo">
+        {%- assign img = block.settings.image | default: c.featured_image -%}
+        {%- if img -%}{{ img | image_url: width: 800 | image_tag: loading: 'lazy', alt: c.title }}{%- endif -%}
+      </div>
+      <div class="meta"><span>{{ block.settings.label | default: c.title | upcase }}</span><span>VIEW ALL {{ c.products_count }} →</span></div>
+    </a>
+    {%- endif -%}
+  {%- endfor -%}
+</div></section>
+{% schema %}
+{
+  "name": "Collection list",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "THE DROPS" },
+    { "type": "text", "id": "meta", "label": "Meta line", "default": "COLLECTIONS" }
+  ],
+  "blocks": [
+    { "type": "collection", "name": "Collection", "settings": [
+      { "type": "collection", "id": "collection", "label": "Collection" },
+      { "type": "text", "id": "label", "label": "Label (optional)" },
+      { "type": "image_picker", "id": "image", "label": "Image (optional, else collection image)" }
+    ]}
+  ],
+  "max_blocks": 12,
+  "presets": [ { "name": "Collection list" } ]
+}
+{% endschema %}

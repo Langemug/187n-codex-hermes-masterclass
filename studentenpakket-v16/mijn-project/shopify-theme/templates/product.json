@@ -1,0 +1,9 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": { "sticker": "", "kicker": "", "offer_line": "", "offer_sub": "", "image_note": "", "concept_note": "", "member_heading": "", "trust": "Shipping and taxes calculated at checkout." }
+    }
+  },
+  "order": ["main"]
+}

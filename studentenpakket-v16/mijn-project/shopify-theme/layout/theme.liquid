@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="{{ request.locale.iso_code }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page_title }}{% unless page_title contains shop.name %} · {{ shop.name }}{% endunless %}</title>
+  {% if page_description %}<meta name="description" content="{{ page_description | escape }}">{% endif %}
+  <link rel="canonical" href="{{ canonical_url }}">
+  {{ 'base.css' | asset_url | stylesheet_tag }}
+  {{ 'storefront.css' | asset_url | stylesheet_tag }}
+  {{ content_for_header }}
+</head>
+<body class="tpl-{{ template.name }}">
+  <a class="skip" href="#main">Skip to content</a>
+  <canvas id="rain" aria-hidden="true"></canvas>
+  {% section 'header' %}
+  <main id="main">{{ content_for_layout }}</main>
+  {% section 'footer' %}
+  {% render 'cart-drawer' %}
+  <script src="{{ 'rain.js' | asset_url }}" defer></script>
+  <script src="{{ 'theme.js' | asset_url }}" defer></script>
+</body>
+</html>

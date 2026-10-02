@@ -1,0 +1,23 @@
+<div class="page cpage"><div class="crumb"><a href="{{ routes.root_url }}">HOME</a> / <a href="{{ routes.collections_url }}">COLLECTIONS</a> / {{ collection.title | upcase }}</div>
+<div class="chero"><div class="rule"><s></s><span>{{ section.settings.kicker }}</span><b></b></div>
+<h1>{{ collection.title | upcase }}</h1>{% if collection.description != blank %}<div class="cdesc">{{ collection.description }}</div>{% endif %}
+<div class="cstat"><span>{{ collection.products_count }} PRODUCTS</span></div></div>
+{%- paginate collection.products by section.settings.per_page -%}
+<div class="cgrid cgrid-all">
+  {%- for p in collection.products -%}
+  <a class="ccard" href="{{ p.url | within: collection }}">
+    <div class="cimg">{%- if p.featured_media -%}{{ p.featured_media | image_url: width: 600 | image_tag: loading: 'lazy', alt: p.featured_media.alt | default: p.title }}{%- endif -%}</div>
+    <div class="cap"><span class="ct">{{ p.title }}</span><span>{{ p.price | money }}{% unless p.available %} · SOLD OUT{% endunless %}</span></div>
+  </a>
+  {%- else -%}<p>No products in this collection yet.</p>
+  {%- endfor -%}
+</div>
+{%- if paginate.pages > 1 -%}<nav class="pager" aria-label="Pages">{{ paginate | default_pagination: next: 'NEXT →', previous: '← PREV' }}</nav>{%- endif -%}
+{%- endpaginate -%}
+</div>
+{% schema %}
+{ "name": "Collection · main", "settings": [
+  { "type": "text", "id": "kicker", "label": "Kicker", "default": "DROP" },
+  { "type": "range", "id": "per_page", "label": "Products per page", "min": 8, "max": 48, "step": 4, "default": 24 }
+]}
+{% endschema %}
