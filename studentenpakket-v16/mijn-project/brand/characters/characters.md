@@ -1,13 +1,13 @@
 # Vaste characters · Visionair Society (les 5.2)
-Status: CONCEPT. Alle drie zijn **fictieve, AI-gegenereerde personen** uit de eigen conceptbeelden van de student (`mijn-project/brand/references/lifestyle/`). Geen echte klanten of leden; nooit presenteren als review, klant of "member". Werktitels, namen nog te kiezen.
+Status: CONCEPT. Alle drie zijn **fictieve, AI-gegenereerde personen** uit de eigen conceptbeelden van de student (`mijn-project/brand/references/lifestyle/`). Geen echte klanten of leden; nooit presenteren als review, klant of "member". Namen voorlopig gekozen door student (les 5.2): CIPHER, SIGNAL, ANOMALY. Content-format: `> user: CIPHER · status: online`.
 
 Vaste regels voor alle drie: zwarte UT0268 boxy hoodie, VS-logo wit op linkerborst, zwarte broek, schemering / beton / skyline, paars-oranje lucht, geen glimlach naar camera, kijkt weg.
 
 | Code | Uiterlijk (vast) | Houding | Referentie |
 |---|---|---|---|
-| NODE-01 | Man, donkere huid, schouderlange locs, smalle sik | Leunt tegen betonmuur, handen in buidel, kin iets omhoog | c1-front.png |
-| NODE-02 | Vrouw, getinte huid, donker krullend haar in losse knot | Leunt tegen reling, kijkt over schouder weg | c2-front.png |
-| NODE-03 | Man, licht, donker warrig haar tot ogen | Rug naar camera, hoofd licht gebogen | c3-back.png |
+| CIPHER (NODE-01) | Man, donkere huid, schouderlange locs, smalle sik | Leunt tegen betonmuur, handen in buidel, kin iets omhoog | c1-front.png |
+| SIGNAL (NODE-02) | Vrouw, getinte huid, donker krullend haar in losse knot | Leunt tegen reling, kijkt over schouder weg | c2-front.png |
+| ANOMALY (NODE-03) | Man, licht, donker warrig haar tot ogen | Rug naar camera, hoofd licht gebogen | c3-back.png |
 
 Let op: de rugbeelden c1-back en c2-back tonen ander haar (korte afro, lang steil) dan de voorbeelden. Voor consistentie gelden de beschrijvingen hierboven; c1-back/c2-back alleen als pose-referentie.
 
