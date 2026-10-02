@@ -21,3 +21,4 @@
 | N22 | 2026-10-02-01 | outputs/N22/2026-10-02-01/clipselectie.md | 3 Reels-clips met eigen context, proefexports | completed | Les 040 |
 | N23 | 2026-10-02-01 | outputs/N23/2026-10-02-01/video-analyse-vergelijking.md | Clip 2 geanalyseerd, v2 (crop + prijs later), waarneming vs hypothese | completed | Les 041 |
 | 5.4 | 2026-10-02-01 | outputs/5.4/2026-10-02-01/content/productvideo/ | Productvideo 11,8 s (lokale route), editors niet uitgevoerd | completed | Les 042 |
+| 5.5 | 2026-10-02-01 | outputs/5.5/2026-10-02-01/content/batch/ | Contentbatch + carrousel/ad beelden + productfoto-mockups | completed | Les 043 |
