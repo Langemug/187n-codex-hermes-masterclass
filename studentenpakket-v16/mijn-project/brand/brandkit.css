@@ -1,0 +1,11 @@
+/* Visionair Society · brandkit v0.1 — enige bron voor kleur en typografie */
+:root {
+  --vs-bg: #000000;
+  --vs-fg: #ffffff;
+  --vs-accent: #7a1fd1;
+  --vs-accent-hot: #b14bff;
+  --vs-muted: #6a6a6a;
+  --vs-font: "Helvetica Neue", Arial, sans-serif;
+  --vs-weight-head: 900;
+  --vs-weight-body: 800;
+}
