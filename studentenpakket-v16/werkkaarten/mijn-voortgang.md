@@ -42,3 +42,4 @@
 | N24 | 2026-10-02-01 | outputs/N24/2026-10-02-01/editstijl.md | Editstijl uit R1 + v2-clip2; toegepast op clip 2 → v3 (2 fouten) → v3b; v3b = nieuwe clip 2 | completed | Les 061 |
 | 4.2 | 2026-10-02-01 | outputs/4.2/2026-10-02-01/skills-kandidaten/tutorial-workflow/ | Tutorial Shopify SEO (geplakt) → vertaling, voorbeeld hoodie (12/12 check), kandidaat-skill; teksten in DRAFT-product gezet | concept | Les 062 |
 | 4.3 | 2026-10-02-01 | outputs/4.3/2026-10-02-01/klantwerk/build-oplevering.md | Lancering design 009: mockups, SEO 12/12, DRAFT-product vs-009-hoodie, review + herstel, preview; logo voorkant bevestigd | concept | Les 063 |
+| 4.4 | 2026-10-02-01 | outputs/4.4/2026-10-02-01/github/reviewbesluit.md | awesome-gpt-image-2 + cloudflare/security-audit-skill op exacte commit opgehaald, bronreview; scan ontbreekt → niet geïnstalleerd; style-library.md als naslag | geblokkeerd | Les 064 |
