@@ -62,3 +62,4 @@
 | 7.2 | 2026-10-02-01 | outputs/7.2/2026-10-02-01/sales/prioriteiten.md | Top 5 voorbereid zonder CRM-check; Composio niet verbonden → wachten (keuze student) | blocked | Composio koppelen; daarna 076 hervatten |
 | 7.3 | 2026-10-02-01 | outputs/7.3/2026-10-02-01/sales/berichten/STATUS.md | Wacht op CRM (076); geen concepten | blocked | Na Composio: 076 en 077 hervatten |
 | 7.4 | — | — | Wacht op echte reacties uit 077 (CRM/Composio) | blocked | Na 077 hervatten |
+| 2.6 | 2026-10-02-01 | outputs/2.6/2026-10-02-01/klantwerk/creative-workspace/ | Pilot creative workspace (productinput, campagnes, assetreview, versies, goedkeuring, logboek, CSV-export); generatie gesimuleerd+gelabeld; getest | completed | Les 080 |
