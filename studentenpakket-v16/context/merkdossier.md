@@ -21,7 +21,7 @@ Nog niet vastgesteld: design, kostprijs incl. logo en verzending, oplage, maten,
 ## Aanbod
 Eerste aankoop: The Founding Member Hoodie + Founding Member-toegang · NL €64,95 incl. 21% btw · UK/US €74,95 (valuta, belasting en invoerkosten [OPEN])
 Vervolglevering: n.v.t.
-Losse aankoop: online restant 7 dagen na de pop-up in Amsterdam, prijs per markt zoals hierboven
+Losse aankoop: online restant 7 dagen na de pop-up in Europe (stad nog open; besluit student 2026-10-03, vervangt "Amsterdam"), prijs per markt zoals hierboven
 Verzend- en retourbeleid: [OPEN]
 Abonnementsvoorwaarden en opzegroute: n.v.t.
 
