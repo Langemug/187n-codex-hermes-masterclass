@@ -33,7 +33,7 @@
 | 3.4 | 2026-10-02-01 | outputs/3.4/2026-10-02-01/workflows/support-operations/ | Support + operations op TEST-data; M sold out | completed | Les 052 |
 | 3.5 | 2026-10-02-01 | outputs/3.5/2026-10-02-01/workflows/analytics/ | Omzet/refund/marge op testdata, dashboard, 3 acties | completed | Les 053 |
 | N13 | 2026-10-02-01 | outputs/N13/2026-10-02-01/ochtendbriefing.md | Ochtendbriefing op testdata + tweede run | completed | Les 054 |
-| N28 | 2026-10-02-01 | outputs/N28/2026-10-02-01/campagne-oplevering.md | Campagnepakket + Meta-account gelezen; niets aangemaakt | concept | Les 055 |
+| N28 | 2026-10-02-01 | outputs/N28/2026-10-02-01/campagne-oplevering.md | Campagnepakket + Meta-account gelezen; niets aangemaakt | concept | Herkansing 2026-10-03: startset = 8.4 v2 (NL-only), A1–A3 wachten op B10; blokkers 1–4 |
 | N29 | 2026-10-02-01 | outputs/N29/2026-10-02-01/media-buyer-testplan.md | Ratio's fictieve export + echte campagne read-only; 3 tests; brief T3 | completed | Goedgekeurd 2026-10-03 (review 9); T2 eerst, T3-S na besluit 5 |
 | 6.1 | 2026-10-02-01 | outputs/6.1/2026-10-02-01/seo/kansen.md | Zoekvragen (HYPOTHESE) geclusterd; top 3: product, fit-gids, drop 001; fit-gids eerst | concept | Les 057 |
 | 6.2 | 2026-10-02-01 | outputs/6.2/2026-10-02-01/seo/publicatie/ | Fit-gids: brief, pagina, lokale preview + verborgen Shopify-artikel (Article/752802332997, unpublished); feitencheck, 3 blokkades | concept | Les 058 |
