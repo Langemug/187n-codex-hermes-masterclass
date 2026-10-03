@@ -49,3 +49,13 @@ Status: LOKAAL CONCEPT — niet in platform, niets geactiveerd.
 
 ## Open vóór live
 Leverdata/verzending (P2 timing) · Founding Member-kanaal (W2/P1 "access details") · Drop 002 bestaat (B1) · afzendadres + footer (bedrijfsgegevens, afmelden).
+
+## Fallback zonder nummer (gebruiken als Tapstitch nummering per hoodie NIET bevestigt — checklist B10)
+| Mail | Hoofdtekst (met nummer) | Fallback |
+|---|---|---|
+| W1 | "Your hoodie number is your member number." | "Every hoodie makes you a Founding Member." |
+| W2 onderwerp | "What your number means." | "What Founding Member means." |
+| W2 | "Every Founding Member Hoodie carries its own number. That number is your membership: …" | "Your hoodie is your membership: …" |
+| C1 onderwerp | "Your number is still waiting." | "Your hoodie is still waiting." |
+| P1 | "Your order is in. Your number is yours." | "Your order is in. You're a Founding Member." |
+Wisselen: alleen deze 5 regels vervangen; rest van de copy blijft gelijk.
