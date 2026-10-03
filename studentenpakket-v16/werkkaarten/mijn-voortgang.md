@@ -81,3 +81,4 @@
 | 8.7 | 2026-10-02-01 | outputs/8.7/2026-10-02-01/hermes/routines/ | Routines dagbrief (ma–vr 08:45) + contentbatch (ma 09:10) met invoercontrole; 5 handmatige runs incl. BLOCKED + herstel; overschrijf-bug gefixt; niet geactiveerd | concept | Tijdzone bevestigen; les 098 |
 | N16 | 2026-10-02-01 | outputs/N16/2026-10-02-01/herstelrapport.md | Idempotente contentbatch (run-ID, log, DONE, retry 1): fout → herstel, zelfde run-ID = SKIP, retry-limiet stopt | completed | Les 099 |
 | 8.8 | 2026-10-02-01 | outputs/8.8/2026-10-02-01/hermes/remote-en-backup.md | Telegram-route niet uitgevoerd (Hermes lokaal); dagoverzicht echte status; backup zonder secrets + herstel identiek (123 bestanden) + vault-query OK | concept | Les 100 |
+| N14 | 2026-10-02-01 | outputs/N14/2026-10-02-01/telefoon-opdracht.md | Niet uitgevoerd: geen Hermes-gateway; alternatieve route overgeslagen door student | blocked | Hermes gateway lokaal; daarna 100 hervatten |
