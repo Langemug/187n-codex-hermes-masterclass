@@ -58,7 +58,7 @@
 | 10.3 | 2026-10-02-01 | outputs/10.3/2026-10-02-01/klantwerk/demo-voorstel/ | Kapper-demo met klikbare boekflow (DEMO-FUNCTIE, getest 390px, sticky-fix), voorstel volgens template, invulbare prijsberekening (getest); 1 feedbackronde | completed | Les 073 |
 | 10.4 | 2026-10-02-01 | outputs/10.4/2026-10-02-01/klantwerk/prijsmodel/ | Calculator (invoer.csv + bereken.py), 12 u × €50, marge 15 %: basis €701,50 / meerwerk €172,50 / beheer €63,25 p/m — oefenwaarden | completed | Les 074 |
 | 7.1 | 2026-10-02-01 | outputs/7.1/2026-10-02-01/sales/prospects.csv | 10 fictieve prospects met bron, koopsignaal, probleem, demo, fit; contact ONBEKEND; afgemelde uitgesloten | completed | Les 075 |
-| N30 | 2026-10-02-01 | outputs/N30/2026-10-02-01/kansenonderzoek.md | 8 Shopify-community-bronnen via zoekmachine (niet te openen: proxy), 3 thema's; probleem B productpagina-inhoud + 8 toetsvragen | concept | Les 076 |
+| N30 | 2026-10-02-01 | outputs/N30/2026-10-02-01/kansenonderzoek.md | 8 Shopify-community-bronnen via zoekmachine (niet te openen: proxy), 3 thema's; probleem B productpagina-inhoud + 8 toetsvragen | completed | Goedgekeurd 2026-10-03 (review 18) als onderzoeksopzet; 5 toetsgesprekken = klantdienst, na livegang |
 | 7.2 | 2026-10-02-01 | outputs/7.2/2026-10-02-01/sales/prioriteiten.md | Top 5 voorbereid zonder CRM-check; Composio niet verbonden → wachten (keuze student) | blocked | Composio koppelen; daarna 076 hervatten |
 | 7.3 | 2026-10-02-01 | outputs/7.3/2026-10-02-01/sales/berichten/STATUS.md | Wacht op CRM (076); geen concepten | blocked | Na Composio: 076 en 077 hervatten |
 | 7.4 | — | — | Wacht op echte reacties uit 077 (CRM/Composio) | blocked | Na 077 hervatten |
