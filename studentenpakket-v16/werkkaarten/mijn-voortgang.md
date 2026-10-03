@@ -69,3 +69,4 @@
 | N32 | 2026-10-02-01 | outputs/N32/2026-10-02-01/chatassistent-review.md | Aanvraagchat (landing + content): vragen uitvragen, concept met bron-prijzen of OPEN, status + voortgang bewaard; 4 tests OK; geen koppeling | completed | Les 084 |
 | N33 | — | — | Wacht op les 081 (CRM/Composio); Calendly-route bewust niet gekozen | blocked | Na 081 hervatten |
 | 10.8 | 2026-10-02-01 | outputs/10.8/2026-10-02-01/klantwerk/training/ | Workshop "Van print naar productpagina" (audit, leerdoelen, live builds A+B, prompts, eindopdracht, antwoordsleutel), implementatieplan + opvolgmoment; seo-check v0.1.2 (meta 70–160); OpenMAIC niet gebruikt (niet gescand) | completed | Les 086 |
+| 10.9 | 2026-10-02-01 | outputs/10.9/2026-10-02-01/klantwerk/white-label/ | White-label POD-lancering: aanbod (RACI, input, rechten, oefenprijs €115/product), schone bronbestanden, walkthrough getest in lege map | concept | Les 087 |
