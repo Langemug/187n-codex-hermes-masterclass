@@ -30,5 +30,5 @@ Bron: orders.csv r6; VS-KB-05 ruilbeleid OPEN → **voorstel** aan eigenaar, gee
 ## TT6 · TEST-K5 · dispute + restock-vraag → ESCALATIE dispute
 Match ✔ · betaalstatus open.
 Geen inhoudelijk antwoord over de betaling. Wel standaard deel:
-> Thanks for reaching out. A team member will contact you about the payment. About sizes: Drop 001 has no restock; members get first access to Drop 002.
+> Thanks for reaching out. A team member will contact you about the payment. About sizes: The black Founding Member edition won't come back; members get first access to Drop 002.
 Bron: VS-KB-02. Escalatie: dispute/chargeback → mens.

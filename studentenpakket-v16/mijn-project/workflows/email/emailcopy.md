@@ -13,7 +13,7 @@ Status: LOKAAL CONCEPT — niet in platform, niets geactiveerd.
 **W2 · "What your number means."** (+3 dagen)
 > Every Founding Member Hoodie carries its own number.
 > That number is your membership: Founding Member access, first access to Drop 002, an invite to the pop-up.
-> No restock. When Drop 001 is gone, it's gone.
+> The black Founding Member edition won't come back.
 > **[JOIN THE SOCIETY]**
 
 ## 2 · Abandoned checkout
@@ -25,7 +25,7 @@ Status: LOKAAL CONCEPT — niet in platform, niets geactiveerd.
 
 **C2 · "Last call for this checkout."** (+24 u na start)
 > Quick one: your checkout is still open.
-> No restock on Drop 001.
+> This edition won't come back.
 > **[FINISH CHECKOUT]**
 (Geen "only X left", geen timer.)
 

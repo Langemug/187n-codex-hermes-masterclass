@@ -27,3 +27,5 @@
 
 ## Ontbrekende databronnen
 - Echte Shopify-orders (winkel nog niet live) · verzendstatus Tapstitch (geen koppeling) · kosten (verzend/betaal/Shopify/ads) · ad- en e-maildata
+
+> Noot 2026-10-03: "no restock" hierboven is vervangen door besluit 5b (zwarte Founding Member-editie komt niet terug; design mag in andere kleur terug). Historische run, niet aangepast.

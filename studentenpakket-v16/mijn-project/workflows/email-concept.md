@@ -4,7 +4,7 @@ Onderwerp: [OEFEN] Campagne A+B · taken en planning
 
 Hoi,
 
-Campagne "Not at the pop-up? You're still in." (fase A) en "Drop 001 won't come back." (fase B) staan klaar als concept.
+Campagne "Not at the pop-up? You're still in." (fase A) en "This edition won't come back." (fase B) staan klaar als concept.
 
 Klaar: Reel R1 (goedgekeurd).
 Deze week: carrousel A, productpagina-blok + FAQ, Reel B, UGC-opname.

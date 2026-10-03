@@ -10,7 +10,7 @@
 - Hook: "This isn't a hoodie. It's a membership."
 - Probleem: "Ambition gets lonely."
 - Oplossing + bewijs: "Your hoodie number is your member number. Private channel, first access to Drop 002, invite to the pop-up."
-- Aanbod + CTA: "No restock. Join the society."
+- Aanbod + CTA: "No restock of this edition. Join the society."
 - Controle: privékanaal moet bestaan vóór deze ad draait.
 
 ## A3 · K4 "Worth it" · hooktype: Power Question · statisch 4:5

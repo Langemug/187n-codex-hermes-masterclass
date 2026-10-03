@@ -12,7 +12,7 @@ Aanbod (= productpagina): The Founding Member Hoodie · €64,95 NL / €74,95 U
 ## 3 producties (1 per angle)
 ### P1 · H1a · statische ad 1080×1350
 Beeld: achter-model design 010 (klantwerk/definitief/02). Headline: "No quotes on your back. A design and a number." Sub: "Founding Member Hoodie · 500 gsm · €64,95". CTA: Join the society.
-Primary text: "No motivational quote. One design on the back. Your own member number. Founding Member access included. No restock."
+Primary text: "No motivational quote. One design on the back. Your own member number. Founding Member access included. No restock of this edition."
 
 ### P2 · H3a · Reel 9:16 (~10 s)
 | Tijd | Shot | Caption |
@@ -21,7 +21,7 @@ Primary text: "No motivational quote. One design on the back. Your own member nu
 | 2–5 s | Achter-model design 010 (zoom) | > NOT JUST A DROP |
 | 5–8 s | Productpagina-demo (offerregel + maten) | > FOUNDING MEMBER ACCESS INCLUDED |
 | 8–10 s | CTA-eindbeeld | > €64,95 · JOIN THE SOCIETY |
-Primary text: "Most drops sell you a hoodie. This one gets you a seat. Black, 500 gsm, boxy. No restock."
+Primary text: "Most drops sell you a hoodie. This one gets you a seat. Black, 500 gsm, boxy. No restock of this edition."
 
 ### P3 · H2a · motion-variant 1080×1350 (CONCEPT — niet live tot privékanaal + pop-up-datum bestaan)
 Animatie (tekst typt uit, terminal-stijl): "> THIS IS WHAT JOINING GETS YOU" → "[1] PRIVATE CHANNEL" → "[2] FIRST ACCESS · DROP 002" → "[3] POP-UP INVITE" → hoodie + "€64,95 · JOIN THE SOCIETY".

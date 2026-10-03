@@ -23,3 +23,5 @@ Refunds, inkooporder (TEST-L1 bevestigen), verzending/labels en maatwissel in Sh
 
 ## Beslissing student (2026-10-02)
 M → **SOLD OUT** (past bij 'no restock'). TEST-L1 niet bevestigen. In echte winkel: variant M op 0 / uitverkocht zetten = aparte actie met opdracht (niet uitgevoerd).
+
+> Noot 2026-10-03: "no restock" hierboven is vervangen door besluit 5b (zwarte Founding Member-editie komt niet terug; design mag in andere kleur terug). Historische run, niet aangepast.

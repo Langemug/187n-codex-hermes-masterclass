@@ -15,7 +15,7 @@ Status: **CONCEPT — niets aangemaakt of gewijzigd in Meta.** Accountdata allee
 ## Pakket (assets ↔ copy ↔ bestemming)
 | Ad | Asset | Primary text | Headline | CTA | Bestemming |
 |---|---|---|---|---|---|
-| A1 H3 Reel | outputs/5.7/.../P2/P2-H3a-reel.mp4 | Most drops sell you a hoodie. This one gets you a seat. Black, 500 gsm, boxy. No restock. | Your hoodie number is your member number. | Shop now | /products/founding-member-hoodie |
+| A1 H3 Reel | outputs/5.7/.../P2/P2-H3a-reel.mp4 | Most drops sell you a hoodie. This one gets you a seat. Black, 500 gsm, boxy. No restock of this edition. | Your hoodie number is your member number. | Shop now | /products/founding-member-hoodie |
 | A2 H3 Beeld | outputs/N27/.../beeld-H3-static.png | Founding Member access included. 500 gsm. €64,95. | Your hoodie number is your member number. | Shop now | idem |
 | A3 Campagne A Reel | outputs/5.8/.../levering-1/R1-campagneA-reel.mp4 | Pop-up in Europe first. Online 7 days later. Same Founding Member access, your own number. | Not at the pop-up? You're still in. | Shop now | idem |
 UTM: `?utm_source=meta&utm_medium=paid&utm_campaign=fmh_launch&utm_content=<A1|A2|A3>`

@@ -14,7 +14,7 @@
     "featured": { "type": "featured-product", "settings": {
       "product": "vs-002-hoodie",
       "heading": "DROP 02",
-      "meta": "ABDUCTED · NO RESTOCK",
+      "meta": "ABDUCTED · THIS EDITION WON'T COME BACK",
       "sticker": "DROP 02",
       "card_heading": "BORN IN THE WRONG GALAXY.",
       "card_text": "Design Nº 002 from Drop 02 · Abducted.",
@@ -28,13 +28,13 @@
       "blocks": {
         "b1": { "type": "benefit", "settings": { "code": "01", "title": "25 designs", "text": "One collection, 25 back prints." } },
         "b2": { "type": "benefit", "settings": { "code": "02", "title": "Heavyweight 500 gsm", "text": "Boxy oversized fit in black, S–2XL." } },
-        "b3": { "type": "benefit", "settings": { "code": "03", "title": "No restock", "text": "When a design is gone, it stays gone." } }
+        "b3": { "type": "benefit", "settings": { "code": "03", "title": "No restock of this edition", "text": "When an edition is gone, it stays gone." } }
       },
       "block_order": ["b1", "b2", "b3"]
     },
     "faq": { "type": "faq", "settings": { "heading": "> FAQ" },
       "blocks": {
-        "q1": { "type": "question", "settings": { "question": "Will these designs come back?", "answer": "<p>No. There is no restock.</p>" } },
+        "q1": { "type": "question", "settings": { "question": "Will these designs come back?", "answer": "<p>No. This edition won't come back. A design may return later in another colour.</p>" } },
         "q2": { "type": "question", "settings": { "question": "Can I return it?", "answer": "<p>Yes, you have a 14-day right of withdrawal (EU).</p>" } }
       },
       "block_order": ["q1", "q2"]

@@ -34,3 +34,5 @@
 Wijziging: tracking binnen voor TEST-VS-003 (testdata-wijziging/). Run 2 (`ochtendbriefing-run2.md`): "zonder tracking" → geen · open escalaties 4 → 3 · actie 3 verschuift naar "productiestatus checken TEST-VS-002/006". Diff: `run1-vs-run2.diff`. Generator: `briefing.py` (periode en datum als parameters).
 
 Student-oordeel (2026-10-02): volgorde acties akkoord.
+
+> Noot 2026-10-03: "no restock" hierboven is vervangen door besluit 5b (zwarte Founding Member-editie komt niet terug; design mag in andere kleur terug). Historische run, niet aangepast.
