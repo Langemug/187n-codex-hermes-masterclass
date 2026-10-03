@@ -83,3 +83,15 @@
 | 8.8 | 2026-10-02-01 | outputs/8.8/2026-10-02-01/hermes/remote-en-backup.md | Telegram-route niet uitgevoerd (Hermes lokaal); dagoverzicht echte status; backup zonder secrets + herstel identiek (123 bestanden) + vault-query OK | concept | Les 100 |
 | N14 | 2026-10-02-01 | outputs/N14/2026-10-02-01/telefoon-opdracht.md | Niet uitgevoerd: geen Hermes-gateway; alternatieve route overgeslagen door student | blocked | Hermes gateway lokaal; daarna 100 hervatten |
 | 11.1 | 2026-10-02-01 | outputs/11.1/2026-10-02-01/volgende-stap.md | Uitvoerplan: merkdoel livegang FMH (7 blokkades), dienst en routine geparkeerd; eerstvolgende oplevering = besluitenblad + livegang-checklist | completed | Besluitenblad invullen; les 102 |
+| B7 | 2026-10-03-01 | — | Bonus God's Eye overgeslagen: externe repo, geen SkillSpector-scan; niets opgehaald of uitgevoerd | blocked | Scan lokaal; daarna les 102 hervatten |
+| B8 | 2026-10-03-01 | — | Bonus Archify overgeslagen: externe repo, geen SkillSpector-scan; niets opgehaald of uitgevoerd | blocked | Scan lokaal; daarna les 103 hervatten |
+| B9 | 2026-10-03-01 | — | Bonus Hyperframes overgeslagen: externe repo, geen SkillSpector-scan; niets opgehaald of uitgevoerd | blocked | Scan lokaal; daarna les 104 hervatten |
+| B10 | 2026-10-03-01 | — | Bonus VoiceStudio overgeslagen: externe repo, geen SkillSpector-scan; niets opgehaald of uitgevoerd | blocked | Scan lokaal; daarna les 105 hervatten |
+| B11 | 2026-10-03-01 | — | Bonus open-seo overgeslagen: externe repo, geen SkillSpector-scan; niets opgehaald of uitgevoerd | blocked | Scan lokaal; daarna les 106 hervatten |
+| B12 | 2026-10-03-01 | — | Bonus OpenMAIC overgeslagen: externe repo, geen SkillSpector-scan; niets opgehaald of uitgevoerd | blocked | Scan lokaal; daarna les 107 hervatten |
+| B1 | 2026-10-03-01 | — | Bonus WeKnora overgeslagen: externe repo, geen SkillSpector-scan; niets opgehaald of uitgevoerd | blocked | Scan lokaal; daarna les 108 hervatten |
+| B2 | 2026-10-03-01 | — | Bonus BrowserSkill overgeslagen: externe repo, geen SkillSpector-scan; niets opgehaald of uitgevoerd | blocked | Scan lokaal; daarna les 109 hervatten |
+| B3 | 2026-10-03-01 | — | Bonus diagram-design overgeslagen: externe repo, geen SkillSpector-scan; niets opgehaald of uitgevoerd | blocked | Scan lokaal; daarna les 110 hervatten |
+| B4 | 2026-10-03-01 | — | Bonus awesome-gpt-image-2 overgeslagen: externe repo, geen SkillSpector-scan; niets opgehaald of uitgevoerd | blocked | Scan lokaal; daarna les 111 hervatten |
+| B5 | 2026-10-03-01 | — | Bonus timesfm overgeslagen: externe repo, geen SkillSpector-scan; niets opgehaald of uitgevoerd | blocked | Scan lokaal; daarna les 112 hervatten |
+| B6 | 2026-10-03-01 | — | Bonus security-audit-skill overgeslagen: externe repo, geen SkillSpector-scan; niets opgehaald of uitgevoerd | blocked | Scan lokaal; daarna les 113 hervatten |
