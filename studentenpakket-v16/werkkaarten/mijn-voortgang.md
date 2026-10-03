@@ -65,3 +65,4 @@
 | 2.6 | 2026-10-02-01 | outputs/2.6/2026-10-02-01/klantwerk/creative-workspace/ | Pilot creative workspace (productinput, campagnes, assetreview, versies, goedkeuring, logboek, CSV-export); generatie gesimuleerd+gelabeld; getest | completed | Les 080 |
 | N31 | 2026-10-02-01 | outputs/N31/2026-10-02-01/prototype-review.md | Prototype Productpagina-check (landing + lokale check); tests normaal 9/9, ontbrekende input, 2 niet-ondersteunde vragen OK; geen onbewezen claims | completed | Les 081 |
 | 10.6 | — | — | Vereist Composio-CRM (049) en les 078 | blocked | Na Composio hervatten |
+| 10.7 | 2026-10-02-01 | outputs/10.7/2026-10-02-01/klantwerk/supportbot/ | Regelgebaseerde supportbot op eigen KB + TEST-orders; 9 tests (product, order, ontbrekend, overdracht) OK; bronvermelding; bewerkbare KB + updateprocedure; geen live ordertoegang | completed | Les 083 |
