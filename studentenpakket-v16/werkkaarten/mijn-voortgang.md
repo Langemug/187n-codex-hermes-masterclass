@@ -13,7 +13,7 @@
 | 3.2 | 2026-10-02-01 | outputs/3.2/2026-10-02-01/shopify/theme/ | Ongepubliceerd theme + Founding Member Hoodie + 6 collecties + 150 Draft hoodies | completed | Les 032 |
 | 3.2a | 2026-10-02-01 | outputs/3.2a/2026-10-02-01/shopify/editor-controle.md | Bewerkbare hero/benefits/FAQ, metafields, campagnepagina; render wacht op foto's + activatie | concept | Les 033 |
 | 3.2b | 2026-10-02-01 | outputs/3.2b/2026-10-02-01/shopify/aankooproute.md | Aankooproute in code gecontroleerd, testplan + releasecheck; testorder niet uitgevoerd | concept | Les 034 |
-| 3.6 | 2026-10-02-01 | outputs/3.6/2026-10-02-01/shopify/experiment.md | Knoptekst-experiment A/B, Basic-route, herstelplan; niet geactiveerd | concept | Les 035 |
+| 3.6 | 2026-10-02-01 | outputs/3.6/2026-10-02-01/shopify/experiment.md | Knoptekst-experiment A/B (B = variantprijs, niet vast €64,95), Basic-route, herstelplan; niet geactiveerd | completed | Goedgekeurd 2026-10-03 (review 4); activeren = aparte autorisatie |
 | 5.3 | 2026-10-02-01 | outputs/5.3/2026-10-02-01/content/video-feedback/ | Video-feedback → tijdcodes, v2 edit, 2 vaste voorkeuren getest op clip 2 | completed | Les 036 |
 | N19 | 2026-10-02-01 | outputs/N19/2026-10-02-01/montageplan.json | Reel 20 s montageplan, scherm-ID's + camerascript; camera nog op te nemen | concept | Les 037 |
 | N20 | 2026-10-02-01 | outputs/N20/2026-10-02-01/sectie-review.md | 3 secties v1→v2, stijl vastgelegd; camera/audio ontbreekt | completed | Les 038 |
