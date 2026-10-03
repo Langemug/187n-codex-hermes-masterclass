@@ -79,3 +79,4 @@
 | N17 | 2026-10-02-01 | outputs/N17/2026-10-02-01/skillvergelijking.md | Correctie onbevestigde hook-belofte → regel 5a in skillkopie; 4 runs oud/nieuw × 2 producten; gekozen v3 (+BLOCKED bij ontbrekende productfeiten); niet geladen (scan) | concept | Les 096 |
 | N18 | 2026-10-02-01 | outputs/N18/2026-10-02-01/model-en-contextmeting.csv | 3 taken × 3 routes (Haiku/Sonnet relevant, Sonnet volledig), 9/9 geslaagd; tijd/tokens gemeten, kosten onbekend, lokaal niet getest | completed | Les 097 |
 | 8.7 | 2026-10-02-01 | outputs/8.7/2026-10-02-01/hermes/routines/ | Routines dagbrief (ma–vr 08:45) + contentbatch (ma 09:10) met invoercontrole; 5 handmatige runs incl. BLOCKED + herstel; overschrijf-bug gefixt; niet geactiveerd | concept | Tijdzone bevestigen; les 098 |
+| N16 | 2026-10-02-01 | outputs/N16/2026-10-02-01/herstelrapport.md | Idempotente contentbatch (run-ID, log, DONE, retry 1): fout → herstel, zelfde run-ID = SKIP, retry-limiet stopt | completed | Les 099 |
