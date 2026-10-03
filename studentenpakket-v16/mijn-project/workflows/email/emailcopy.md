@@ -19,7 +19,7 @@ Status: LOKAAL CONCEPT — niet in platform, niets geactiveerd.
 ## 2 · Abandoned checkout
 **C1 · "Your number is still waiting."** (+1 u)
 > You started checkout and stopped.
-> The Founding Member Hoodie · €64,95 · size {{ maat }}.
+> The Founding Member Hoodie · {{ prijs }} · size {{ maat }}.
 > Your cart is saved. Finish when you're ready.
 > **[FINISH CHECKOUT]**
 
