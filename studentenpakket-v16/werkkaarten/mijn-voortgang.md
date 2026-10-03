@@ -29,7 +29,7 @@
 | N08 | 2026-10-02-01 | outputs/N08/2026-10-02-01/campagne-uit-kennis.md | Campagne A+B uit projectkennis, 3 briefs; fase A + offerregel zonder lidnummerbelofte (review 6), fase B wacht op besluit 5; Second Brain (N06) ontbreekt | concept | Les 048 |
 | 5.8 | 2026-10-02-01 | outputs/5.8/2026-10-02-01/klantwerk/contentbureau/ | Maandpakket €1.650, levering R1 goedgekeurd | completed | Les 049 |
 | 0.7 | 2026-10-02-01 | outputs/0.7/2026-10-02-01/workflows/composio-campagne.md | Taken + mailconcept voorbereid; Composio niet verbonden | blocked | Composio koppelen, les 049 hervatten |
-| 3.3 | 2026-10-02-01 | outputs/3.3/2026-10-02-01/workflows/email/ | 4 e-mailflows lokaal + oefenevent-test | concept | Les 051 |
+| 3.3 | 2026-10-02-01 | outputs/3.3/2026-10-02-01/workflows/email/ | 4 e-mailflows lokaal + oefenevent-test | completed | Herkansing 2026-10-03: C1 prijs per markt, restock 5b, nummer-fallback; open punten = B12 |
 | 3.4 | 2026-10-02-01 | outputs/3.4/2026-10-02-01/workflows/support-operations/ | Support + operations op TEST-data; M sold out | completed | Les 052 |
 | 3.5 | 2026-10-02-01 | outputs/3.5/2026-10-02-01/workflows/analytics/ | Omzet/refund/marge op testdata, dashboard, 3 acties | completed | Les 053 |
 | N13 | 2026-10-02-01 | outputs/N13/2026-10-02-01/ochtendbriefing.md | Ochtendbriefing op testdata + tweede run | completed | Les 054 |
