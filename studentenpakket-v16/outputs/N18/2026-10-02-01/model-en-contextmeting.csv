@@ -1,0 +1,11 @@
+route,taak,model,context,hardware,seconden_route_totaal,tokens_route_totaal,toolcalls,kostenbasis,kosten,correcties,geslaagd,opmerking
+r1,T1 productgegevens,Haiku (subagent),relevant (merkdossier r12-24),cloud,47,59660,13,abonnement Claude-sessie,onbekend,0,ja,maten uitgesplitst per maat; prijs_nl zonder "incl. btw"
+r1,T2 campagnebrief,Haiku (subagent),relevant (offerbrief),cloud,47,59660,13,abonnement,onbekend,0,ja,83 woorden; CTA exact; 0 verboden claims
+r1,T3 buildaanpassing,Haiku (subagent),relevant,cloud,47,59660,13,abonnement,onbekend,0,ja,alleen compare_note gewijzigd; build OK
+r2,T1 productgegevens,Sonnet (subagent),relevant,cloud,19,72301,4,abonnement,onbekend,0,ja,"S–2XL" als tekst; btw-noot NL + open punt UK/US
+r2,T2 campagnebrief,Sonnet (subagent),relevant,cloud,19,72301,4,abonnement,onbekend,0,ja,111 woorden; verboden termen alleen in "do not"-regel
+r2,T3 buildaanpassing,Sonnet (subagent),relevant,cloud,19,72301,4,abonnement,onbekend,0,ja,alleen compare_note gewijzigd; build OK
+r3,T1 productgegevens,Sonnet (subagent),volledig (6 bestanden),cloud,22,81522,11,abonnement,onbekend,0,ja,zelfde inhoud als r2
+r3,T2 campagnebrief,Sonnet (subagent),volledig,cloud,22,81522,11,abonnement,onbekend,0,ja,104 woorden; verboden termen alleen in "niet noemen"
+r3,T3 buildaanpassing,Sonnet (subagent),volledig,cloud,22,81522,11,abonnement,onbekend,0,ja,alleen compare_note gewijzigd; build OK
+lokaal model,alle,—,—,lokale hardware,,,,,,,NIET_GETEST,geen lokale route beschikbaar

@@ -1,0 +1,2 @@
+sed -i 's|"compare_note": "[^"]*"|"compare_note": "Details marked TBA are not decided yet."|' build-r2/content/home.json
+cd build-r2 && python3 build.py

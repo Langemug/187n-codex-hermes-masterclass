@@ -1,0 +1,7 @@
+[
+ {"id":"fmh-prijs-1","project":"vs-fmh","date":"2026-10-02","key":"prijs","value":"NL €64,95 incl. 21% btw · UK/US €74,95","status":"confirmed","source":"context/merkdossier.md r22"},
+ {"id":"fmh-achterkant-1","project":"vs-fmh","date":"2026-10-02","key":"achterkant","value":"design 010 THE MATRIX CAN'T HOLD ME.","status":"confirmed","source":"context/merkdossier.md r18 (les 5.2)"},
+ {"id":"fmh-popup-1","project":"vs-fmh","date":"2026-10-02","key":"popup-locatie","value":"Amsterdam","status":"confirmed","source":"context/merkdossier.md r24 (oude versie)"},
+ {"id":"fmh-popup-2","project":"vs-fmh","date":"2026-10-03","key":"popup-locatie","value":"in Europe, stad nog open","status":"confirmed","source":"besluit student les 008; merkdossier r24 aangepast","supersedes":["fmh-popup-1"]},
+ {"id":"fmh-restock-1","project":"vs-fmh","date":"2026-10-02","key":"restock","value":"geen restock","status":"idea","source":"sessie-samenvatting; niet in merkdossier"}
+]

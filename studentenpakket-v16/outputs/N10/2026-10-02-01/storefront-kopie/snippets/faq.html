@@ -1,0 +1,4 @@
+<section class="faq" id="faq" aria-labelledby="faq-heading">
+<h2 class="faq-heading" id="faq-heading">{{ faq.heading }}</h2>
+{% for item in faq.items %}<details class="faq-item"><summary>{{ item.q }}</summary><p>{{ item.a }}</p></details>
+{% endfor %}</section>

@@ -1,0 +1,26 @@
+desktop OK  home laadt
+desktop OK  drop-kaart → collectiepagina
+desktop OK  collectie → JOIN → product
+desktop OK  CTA boven de vouw
+desktop OK  maat XL + JOIN → mandje
+desktop OK  mandje + → €129,90
+desktop OK  mandje × → leeg
+desktop OK  Escape sluit mandje
+desktop OK  checkout is uitgeschakeld
+desktop OK  labels CONCEPT/DEMO aanwezig
+desktop OK  experience-pagina laadt
+desktop OK  geen horizontale scroll (alle pagina's)
+desktop JS-fouten: 0
+mobiel OK  home laadt
+mobiel OK  drop-kaart → collectiepagina
+mobiel OK  collectie → JOIN → product
+mobiel OK  CTA boven de vouw
+mobiel OK  maat XL + JOIN → mandje
+mobiel OK  mandje + → €129,90
+mobiel OK  mandje × → leeg
+mobiel OK  Escape sluit mandje
+mobiel OK  checkout is uitgeschakeld
+mobiel OK  labels CONCEPT/DEMO aanwezig
+mobiel OK  experience-pagina laadt
+mobiel OK  geen horizontale scroll (alle pagina's)
+mobiel JS-fouten: 0

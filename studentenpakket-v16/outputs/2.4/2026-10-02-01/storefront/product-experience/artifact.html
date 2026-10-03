@@ -1,0 +1,128 @@
+<title>The Founding Member Hoodie · Experience</title><style>
+:root{--bg:#000;--fg:#fff;--dim:rgba(255,255,255,.6);--line:rgba(255,255,255,.2);--hot:#B14BFF;--mono:ui-monospace,Menlo,"DejaVu Sans Mono",monospace;--sans:"Helvetica Neue",Arial,sans-serif}
+*{box-sizing:border-box;margin:0}
+html,body{background:var(--bg);color:var(--fg)}
+body{font:13px/1.6 var(--mono);letter-spacing:.06em;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.top{position:fixed;inset:0 0 auto;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:14px 24px;border-bottom:1px solid var(--line);background:rgba(0,0,0,.55);backdrop-filter:blur(8px);font-size:11px;text-transform:uppercase}
+.top .b{display:flex;gap:10px;align-items:center;font-weight:700;letter-spacing:.2em}.top img{width:28px}
+.prog{position:fixed;left:0;top:0;height:2px;background:var(--hot);width:calc(var(--p,0)*100%);z-index:6}
+/* scroll stage: 4 scenes x 100vh, sticky stage */
+.exp{position:relative;height:440vh}
+.stage{position:sticky;top:0;height:100vh;display:grid;grid-template-columns:1.1fr 1fr;align-items:center;gap:4vw;padding:80px 6vw 40px;overflow:hidden}
+.stage::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 30% 55%,rgba(122,31,209,calc(.15 + var(--s,0)*.25)),transparent 60%);pointer-events:none}
+.obj{position:relative;perspective:1400px;height:min(72vh,640px);display:grid;place-items:center}
+.card{position:relative;width:min(100%,560px);aspect-ratio:760/658;transform-style:preserve-3d;transform:translateY(calc(var(--ty,0px) + var(--bob,0px))) rotateZ(var(--sw,0deg)) rotateY(var(--ry,0deg)) rotateX(var(--rx,0deg)) scale(var(--sc,1));transform-origin:50% 8%;will-change:transform}
+.sweep{position:absolute;inset:0;pointer-events:none;mix-blend-mode:soft-light;background:linear-gradient(100deg,transparent calc(var(--sx,-30%) - 18%),rgba(255,255,255,.55) var(--sx,-30%),transparent calc(var(--sx,-30%) + 18%));-webkit-mask:var(--m) center/contain no-repeat;mask:var(--m) center/contain no-repeat;opacity:var(--so,0)}
+.floor{position:absolute;left:50%;bottom:4%;width:60%;height:26px;transform:translateX(-50%) scaleX(var(--fs,1));background:radial-gradient(closest-side,rgba(0,0,0,.7),rgba(0,0,0,.25) 60%,transparent);opacity:.8;will-change:transform}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.face img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 30px 60px rgba(0,0,0,.6))}
+.back{transform:rotateY(180deg)}
+.back .print{position:absolute;inset:0;opacity:var(--pr,0);clip-path:inset(0 0 calc((1 - var(--pr,0))*100%) 0)}
+.back .hood,.back .hshadow{position:absolute;inset:0;transform-origin:50% 0;transform:translateY(calc(var(--hd,0)*-9%)) scaleY(calc(1 - var(--hd,0)*.12));opacity:calc(1 - var(--hd,0))}
+.back .g1,.back .g2{position:absolute;inset:0;mix-blend-mode:screen;opacity:var(--gl,0)}
+.back .g1{clip-path:inset(18% 0 58% 0);transform:translateX(calc(var(--gl,0)*-10px));filter:hue-rotate(40deg) saturate(2)}
+.back .g2{clip-path:inset(52% 0 26% 0);transform:translateX(calc(var(--gl,0)*12px))}
+.zoom{position:absolute;inset:4% 0;display:grid;place-items:center;opacity:var(--zo,0);pointer-events:none}
+.zoom img{width:min(100%,560px);aspect-ratio:1;object-fit:cover;border:1px solid var(--line);clip-path:inset(calc((1 - var(--zo,0))*30%) round 0)}
+.corner{position:absolute;width:30px;height:30px;border:0 solid rgba(255,255,255,.35)}
+.c1{top:0;left:0;border-top-width:2px;border-left-width:2px}.c2{top:0;right:0;border-top-width:2px;border-right-width:2px}.c3{bottom:0;left:0;border-bottom-width:2px;border-left-width:2px}.c4{bottom:0;right:0;border-bottom-width:2px;border-right-width:2px}
+.copy{position:relative;min-height:320px}
+.scene{position:absolute;inset:0;display:grid;align-content:center;gap:16px;opacity:0;transform:translateY(24px);transition:opacity .35s,transform .35s}
+.scene.on{opacity:1;transform:none}
+.k{font-size:10px;color:var(--hot);letter-spacing:.3em}
+.scene h2{font:900 clamp(34px,5vw,72px)/.92 var(--sans);letter-spacing:-.02em;text-transform:uppercase}
+.scene h2 em{font-style:normal;color:var(--hot)}
+.scene p{color:#cfcfcf;max-width:44ch;letter-spacing:.02em}
+.btn{display:inline-block;padding:14px 22px;border:1px solid var(--hot);color:var(--hot);font:500 12px var(--mono);letter-spacing:.18em;text-transform:uppercase;transition:.2s}
+.btn:hover{background:var(--hot);color:#000}.btn:focus-visible{outline:2px solid var(--hot);outline-offset:4px}
+.btn.g{border-color:var(--fg);color:var(--fg)}.btn.g:hover{background:var(--fg);color:#000}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.trust{font-size:10px;color:var(--dim)}
+.dots{position:absolute;right:24px;top:50%;transform:translateY(-50%);display:grid;gap:10px;z-index:3}
+.dots i{width:6px;height:6px;border:1px solid var(--dim)}.dots i.on{background:var(--hot);border-color:var(--hot)}
+.playbtn{font:500 10px var(--mono);letter-spacing:.16em;color:var(--hot);background:none;border:1px solid var(--hot);padding:7px 10px;cursor:pointer}.playbtn:focus-visible{outline:2px solid var(--hot);outline-offset:3px}
+.note{border:1px dashed var(--hot);color:var(--hot);padding:8px 10px;font-size:10px;max-width:48ch}
+/* light variant: reduced motion OR ?lite OR small screen without enough height -> stacked static scenes */
+.lite .exp{height:auto}
+.lite .stage{position:static;height:auto;display:block;padding:80px 16px 0}
+.lite .obj,.lite .dots{display:none}
+.lite .copy{min-height:0;display:grid;gap:48px;padding-bottom:64px}
+.lite .scene{position:static;opacity:1;transform:none}
+.lite .scene .pic{display:block}
+.pic{display:none;width:100%;max-width:520px;border:1px solid var(--line);margin-bottom:6px}
+@media (max-width:760px){.stage{grid-template-columns:1fr;grid-template-rows:44vh auto;padding:64px 16px 24px;gap:8px}.obj{height:42vh}.copy{min-height:260px}.scene h2{font-size:clamp(30px,9vw,44px)}.dots{display:none}.top{padding:12px 16px}}
+foot{display:block}
+footer{border-top:1px solid var(--line);padding:32px 24px;font-size:10px;color:var(--dim);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+</style>
+<div class="prog" aria-hidden="true"></div>
+<header class="top"><a class="b" href="#"><img src="assets/logo.png" alt="">VISIONAIR SOCIETY</a><span style="display:flex;gap:10px;align-items:center"><button id="play" type="button" class="playbtn">▶ PLAY</button><a href="#scene-4">€64,95 · JOIN</a></span></header>
+<main class="exp" id="exp">
+<div class="stage">
+  <div class="obj" aria-hidden="true">
+    <span class="corner c1"></span><span class="corner c2"></span><span class="corner c3"></span><span class="corner c4"></span>
+    <span class="floor"></span><div class="card">
+      <div class="face front"><img src="assets/front.webp" alt="" width="760" height="658"><span class="sweep" style="--m:url(assets/front.webp)"></span></div>
+      <div class="face back"><img src="assets/back-blank.webp" alt="" width="760" height="658"><img class="print" src="assets/print-layer.webp" alt=""><img class="g1" src="assets/print-layer.webp" alt=""><img class="g2" src="assets/print-layer.webp" alt=""><img class="hshadow" src="assets/hood-shadow.webp" alt=""><img class="hood" src="assets/hood.webp" alt=""><span class="sweep" style="--m:url(assets/back-final.webp)"></span></div>
+    </div>
+    <div class="zoom"><img src="assets/detail.webp" alt="" loading="lazy"></div>
+  </div>
+  <div class="copy">
+    <section class="scene on" id="scene-1"><img class="pic" src="assets/front.webp" alt="Front: small white VS logo on the left chest" loading="lazy"><div class="k">01 · FRONT</div><h2>Quiet on<br>the <em>front.</em></h2><p>Black boxy hoodie, 500 gsm heavyweight fleece. One small VS mark on the left chest. Nothing else.</p></section>
+    <section class="scene" id="scene-2"><img class="pic" src="assets/back-blank.webp" alt="Back of the black hoodie, still blank" loading="lazy"><div class="k">02 · TURN AROUND</div><h2>The back is<br>where you <em>speak.</em></h2><p>Most people only see you leave. Make it count.</p></section>
+    <section class="scene" id="scene-3"><img class="pic" src="assets/back-final.webp" alt="Back print: The Matrix can't hold me." loading="lazy"><div class="k">03 · THE STATEMENT</div><h2>The Matrix<br>can't <em>hold me.</em></h2><p>Design 010 from Drop 01 · Simulation. Printed across the back, right under the hood.</p></section>
+    <section class="scene" id="scene-4"><img class="pic" src="assets/detail.webp" alt="Close-up of the back print" loading="lazy"><div class="k">04 · YOURS</div><h2>Wear what<br>you <em>stand for.</em></h2><p>Your hoodie number is your member number. Founding Member access included.</p>
+      <div class="row"><a class="btn" href="https://claude.ai/artifact/JpPFeQLJMh1z7RP9eHXAkH" target="_top">JOIN THE SOCIETY · €64,95</a><a class="btn g" href="https://claude.ai/artifact/JpPFeQLJMh1z7RP9eHXAkH" target="_top">SEE ALL 500 DESIGNS</a></div>
+      <div class="trust">14-day withdrawal (EU) · No restock · Pop-up in Europe first · Shipping: to be confirmed</div>
+      <div class="note">CONCEPT: DIGITAL MOCKUPS ON A TAPSTITCH UT0268 BLANK. NUMBERING NOT YET CONFIRMED.</div></section>
+  </div>
+  <div class="dots" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i></div>
+</div>
+</main>
+<footer><span>VISIONAIR SOCIETY · STAND APART. MOVE TOGETHER.</span><span>CONCEPT, NOT LIVE</span></footer>
+<script>
+(function(){
+  var root=document.documentElement,exp=document.getElementById('exp'),card=document.querySelector('.card');
+  var lite=(matchMedia('(prefers-reduced-motion: reduce)').matches&&!/[?&]full\b/.test(location.search))||/[?&]lite\b/.test(location.search);
+  if(lite){document.body.classList.add('lite');var pb=document.getElementById('play');pb.textContent='▶ PLAY ANIMATION';pb.onclick=function(){document.body.classList.remove('lite');pb.onclick=null;full()};return}
+  full();
+  function full(){
+  var scenes=[].slice.call(document.querySelectorAll('.scene')),dots=[].slice.call(document.querySelectorAll('.dots i')),cur=-1,stage=document.querySelector('.stage'),zoom=document.querySelector('.zoom');
+  function cl(x){return Math.max(0,Math.min(1,x))}
+  function ease(x){return x<.5?2*x*x:1-Math.pow(-2*x+2,2)/2}
+  function back(x){var c1=1.7,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)}
+  var auto=null,sweeps=[].slice.call(document.querySelectorAll('.sweep')),printEl=document.querySelector('.back .print');
+  function frame(forced){
+    var r=exp.getBoundingClientRect(),total=exp.offsetHeight-innerHeight,p=(forced!=null)?forced:cl(-r.top/total);
+    root.style.setProperty('--p',p);
+    var seg=p*4,i=Math.min(3,Math.floor(seg)),t=seg-i;
+    // scene 1->2: rotate 0->180 ; 2->3: print appears with glitch ; 3->4: zoom
+    var ry=180*ease(cl((seg-0.55)/0.9));
+    var pr=ease(cl((seg-1.7)/0.6)), hd=1-back(cl((seg-2.05)/0.45)), gl=(seg>1.6&&seg<2.6)?Math.abs(Math.sin(seg*40))*(1-Math.abs(seg-2.1)*2):0;
+    var zo=ease(cl((seg-2.75)/0.6));
+    var rr=ry*Math.PI/180,c=Math.abs(Math.cos(rr));
+    card.style.setProperty('--ry',ry+'deg');card.style.filter=c<.995?'brightness('+(.55+.45*c).toFixed(3)+')':'';
+    card.style.setProperty('--rx',(Math.sin(rr)*4).toFixed(2)+'deg');
+    card.style.setProperty('--sx',(-30+160*cl((seg-0.55)/0.9))+'%');var so=Math.sin(Math.PI*cl((seg-0.55)/0.9))*.9;card.style.setProperty('--so',so.toFixed(2));sweeps.forEach(function(e){e.style.display=so>.01?'block':'none'});
+    document.querySelector('.floor').style.setProperty('--fs',(.55+.45*c).toFixed(3));card.style.setProperty('--sc',1+zo*.15);card.style.setProperty('--ty',(-zo*20)+'px');
+    card.style.opacity=1-zo;
+    card.style.setProperty('--pr',pr);printEl.style.filter=(pr>0&&pr<1)?'blur('+((1-pr)*5).toFixed(2)+'px)':'';card.style.setProperty('--hd',seg<1.7?1:hd);card.style.setProperty('--gl',Math.max(0,gl).toFixed(2));
+    zoom.style.setProperty('--zo',zo);stage.style.setProperty('--s',p);
+    if(i!==cur){cur=i;scenes.forEach(function(s,k){s.classList.toggle('on',k===i);s.setAttribute('aria-hidden',k!==i)});dots.forEach(function(d,k){d.classList.toggle('on',k===i)})}
+  }
+  (function idle(t){var a=t/1000;card.style.setProperty('--sw',(Math.sin(a*1.1)*0.9).toFixed(3)+'deg');card.style.setProperty('--bob',(Math.sin(a*1.6)*3).toFixed(2)+'px');requestAnimationFrame(idle)})(0);
+  var ticking=false;addEventListener('scroll',function(){if(playing)return;if(!ticking){ticking=true;requestAnimationFrame(function(){frame();ticking=false})}},{passive:true});
+  addEventListener('resize',function(){frame()});frame();
+  var playing=false,t0=0,DUR=9000,btn=document.getElementById('play');
+  function tick(t){if(!playing)return;var x=((t-t0)%(DUR+1500))/DUR;frame(Math.min(1,x));auto=requestAnimationFrame(tick)}
+  function play(){playing=true;t0=performance.now();btn.textContent='❚❚ PAUSE';cancelAnimationFrame(auto);auto=requestAnimationFrame(tick)}
+  function stop(){playing=false;cancelAnimationFrame(auto);btn.textContent='▶ PLAY';}
+  btn.addEventListener('click',function(){playing?stop():play()});
+  addEventListener('wheel',function(){if(playing){stop();frame()}},{passive:true});
+  addEventListener('touchmove',function(){if(playing){stop();frame()}},{passive:true});
+  if(scrollY<10)play();
+  // anker naar scene-4 scrollt naar eind van de stage
+  document.querySelector('a[href="#scene-4"]').addEventListener('click',function(e){e.preventDefault();scrollTo({top:exp.offsetTop+exp.offsetHeight-innerHeight,behavior:'smooth'})});
+}
+})();
+</script>

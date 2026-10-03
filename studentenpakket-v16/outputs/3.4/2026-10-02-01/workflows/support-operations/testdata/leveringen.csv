@@ -1,0 +1,3 @@
+levering_id,sku,aantal,verwachte_datum,status
+TEST-L1,FMH-BLK-M,20,2026-10-28,onbevestigd
+TEST-L2,FMH-BLK-L,15,2026-10-24,bevestigd

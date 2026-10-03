@@ -1,0 +1,13 @@
+<div class="hero"><div class="stars" aria-hidden="true"></div>
+<span class="corner c1"></span><span class="corner c2"></span><span class="corner c3"></span><span class="corner c4"></span>
+<div class="content"><div class="box">
+<div class="vs" aria-hidden="true"><img class="vs-base" src="assets/img/logo-white.png" alt=""><img class="vs-g vs-g1" src="assets/img/logo-hot.png" alt=""><img class="vs-g vs-g2" src="assets/img/logo-white.png" alt=""><span class="vs-scan"></span></div>
+<div class="boot">{{ section.boot }}<span>_</span></div>
+<div class="rule"><s></s><span>∞</span><b></b></div>
+<h1>{{ section.heading_html }}</h1>
+<div class="dots" aria-hidden="true">{% for i in dots %}<i></i>{% endfor %}</div>
+<p>{{ section.text }}</p>
+<div class="btns"><a class="btn p" href="{{ section.cta_primary.url }}">{{ section.cta_primary.title }}</a><a class="btn" href="{{ section.cta_secondary.url }}">{{ section.cta_secondary.title }}</a></div>
+<div class="foot"><span>∞</span><b></b><span>MOVE.TOGETHER</span></div>
+</div></div>
+{% render 'status' %}</div>

@@ -1,0 +1,23 @@
+<div class="page"><div class="crumb"><a href="index.html">HOME</a> / DROP 001 / {{ product.title }}</div>
+<div class="pgrid">
+<div class="gallery">
+<div class="main main-photo"><span class="corner c1"></span><span class="corner c2"></span><span class="corner c3"></span><span class="corner c4"></span>
+<span class="sticker">{{ product.sticker }}</span><img data-main src="{{ product.images.0.src }}" alt="{{ product.images.0.alt }}"></div>
+<div class="thumbs thumbs-4">{% for img in product.images %}<button type="button" data-thumb="{{ img.src }}" data-alt="{{ img.alt }}" aria-label="Show: {{ img.alt }}"><img src="{{ img.src }}" alt="" loading="lazy"></button>{% endfor %}</div>
+<div class="ph">{{ product.image_note }}</div>
+</div>
+<form class="info" data-product-form data-title="{{ product.title }}" data-price="{{ product.price }}" data-image="{{ product.images.0.src }}">
+<div class="rule"><s></s><span>∞</span><b></b></div>
+<div class="kicker">◆ {{ product.collection }}</div>
+<h1>{{ product.title_html }}</h1>
+<div class="price"><b>{{ product.price }}</b><span>{{ product.price_note }}</span><span>{{ product.price_alt }}</span></div>
+<p class="desc">{{ product.description }}</p>
+<fieldset class="sizefield"><legend class="lbl">SIZE</legend><div class="sizes">{% for s in product.sizes %}<input type="radio" name="size" id="size-{{ s }}" value="{{ s }}"{% if s == product.default_size %} checked{% endif %}><label for="size-{{ s }}">{{ s }}</label>{% endfor %}</div></fieldset>
+{% render 'size-guide' %}
+<button class="btn p wide" type="submit">{{ product.cta }}</button>
+<ul class="spec">{% for row in product.specs %}<li><span>{{ row.0 }}</span><span>{{ row.1 }}</span></li>{% endfor %}</ul>
+<div class="ph">{{ product.concept_note }}</div>
+</form></div>
+<div class="member" id="member"><div class="rule"><s></s><span>Nº</span><b></b></div>
+<h2>{{ product.member_heading }}</h2><p>{{ product.member_text }}</p>
+<div><a class="btn" href="index.html#drops">BACK TO THE DROPS</a></div></div></div>

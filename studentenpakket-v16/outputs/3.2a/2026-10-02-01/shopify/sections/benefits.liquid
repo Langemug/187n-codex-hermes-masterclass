@@ -1,0 +1,38 @@
+<section class="vs-benefits" id="benefits-{{ section.id }}">
+  {%- if section.settings.heading != blank -%}<h2 class="vs-h2">{{ section.settings.heading }}</h2>{%- endif -%}
+  <div class="vs-benefits__grid">
+    {%- for block in section.blocks -%}
+      <div class="vs-benefit" {{ block.shopify_attributes }}>
+        <span class="vs-benefit__code">{{ block.settings.code }}</span>
+        <h3>{{ block.settings.title }}</h3>
+        <p>{{ block.settings.text }}</p>
+      </div>
+    {%- endfor -%}
+  </div>
+</section>
+<style>
+.vs-benefits{max-width:1100px;margin:0 auto;padding:64px 16px}
+.vs-h2{font-family:inherit;letter-spacing:.08em;margin:0 0 24px}
+.vs-benefits__grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.vs-benefit{border:1px solid rgba(255,255,255,.15);padding:20px}
+.vs-benefit__code{color:#a855f7;font-size:12px;letter-spacing:.1em}
+.vs-benefit h3{margin:8px 0;font-size:16px}
+.vs-benefit p{margin:0;opacity:.75;font-size:14px}
+</style>
+{% schema %}
+{
+  "name": "Benefits",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "> WHY THE SOCIETY" }
+  ],
+  "blocks": [
+    { "type": "benefit", "name": "Benefit", "settings": [
+      { "type": "text", "id": "code", "label": "Code", "default": "01" },
+      { "type": "text", "id": "title", "label": "Title", "default": "Numbered piece" },
+      { "type": "textarea", "id": "text", "label": "Text", "default": "Every hoodie carries its own number." }
+    ] }
+  ],
+  "max_blocks": 8,
+  "presets": [ { "name": "Benefits", "blocks": [ { "type": "benefit" }, { "type": "benefit" }, { "type": "benefit" } ] } ]
+}
+{% endschema %}

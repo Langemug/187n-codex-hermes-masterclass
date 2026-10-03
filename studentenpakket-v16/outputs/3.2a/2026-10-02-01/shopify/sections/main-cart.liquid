@@ -1,0 +1,13 @@
+<div class="page textpage"><div class="chero"><h1>CART</h1></div>
+{%- if cart.item_count > 0 -%}
+<form action="{{ routes.cart_url }}" method="post" class="cartpage">
+  {%- for item in cart.items -%}
+  <div class="line">{% if item.image %}{{ item.image | image_url: width: 160 | image_tag: alt: '' }}{% endif %}<div class="t">{{ item.product.title }}<small>{{ item.variant.title }} · {{ item.final_price | money }}</small></div>
+  <input type="number" name="updates[]" value="{{ item.quantity }}" min="0" aria-label="Quantity {{ item.product.title }}"></div>
+  {%- endfor -%}
+  <div class="cart-total"><span>SUBTOTAL</span><b>{{ cart.total_price | money }}</b></div>
+  <div class="row"><button class="btn" type="submit" name="update">UPDATE</button><button class="btn p" type="submit" name="checkout">CHECKOUT</button></div>
+</form>
+{%- else -%}<p>&gt; NO ITEMS YET.</p><a class="btn p" href="{{ routes.all_products_collection_url }}">SHOP</a>{%- endif -%}
+</div>
+{% schema %}{ "name": "Cart · main" }{% endschema %}

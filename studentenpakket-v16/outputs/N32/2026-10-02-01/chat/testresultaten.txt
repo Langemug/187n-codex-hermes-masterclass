@@ -1,0 +1,39 @@
+=== COMPLEET landing → status: concept klaar voor review
+CONCEPTVOORSTEL (niet verstuurd, nog te controleren)
+Dienst: Landingspagina voor lokale ondernemers
+- bedrijf: Kapsalon Test
+- soort: kapper
+- boekroute: Salonized koppelen
+- prijslijst: ja
+- fotos: ja
+- domein: kapsalontest.nl
+- contact: e-mail
+Prijzen (excl. btw):
+- Basis (eenmalig): € 701,50 [OEFENWAARDE (les 073)]
+- Meerwerk per 3 uur: € 172,50 [OEFENWAARDE]
+- Beheer per maand (optioneel): € 63,25 [OEFENWAARDE]
+Inbegrepen: 1 feedbackronde (les 072)
+Niet inbegrepen: domein, hosting, boekingstool (op naam/kosten klant)
+
+=== ONVOLLEDIG content → status: concept — met open punten
+CONCEPTVOORSTEL (niet verstuurd, nog te controleren)
+Dienst: Maandcontent
+- bedrijf: Studio Test
+- kanaal: Instagram
+- volume: ONBEKEND
+- beeld: ja
+- goedkeurder: ONBEKEND
+- contact: telefoon
+Prijzen (excl. btw):
+- Maandpakket (scope volgens aanbod les 5.8): € 1650,00 [prijs student (les 5.8), excl. btw]
+- Lichter pakket lokaal: OPEN [OPEN — nog niet vastgesteld]
+Inbegrepen: maandplanning + reviewronde via planner
+Niet inbegrepen: advertentiebudget, fotoshoots
+Open punten: volume, goedkeurder
+
+=== NIET PASSEND → status: niet passend
+Dat bied ik (nog) niet aan. Ik help met landingspagina's voor lokale ondernemers en maandcontent. Wil je één daarvan?
+
+=== ONDUIDELIJK → status: onduidelijk
+Gaat het om een landingspagina (website) of om maandcontent voor social media?
+

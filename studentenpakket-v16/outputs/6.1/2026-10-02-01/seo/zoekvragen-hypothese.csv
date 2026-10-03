@@ -1,0 +1,13 @@
+query,intentie,koppeling_aanbod,bron,status
+heavyweight hoodie 500 gsm,commercieel,UT0268 500 gsm,productspecificatie,HYPOTHESE
+oversized boxy hoodie black,commercieel,boxy fit zwart,productspecificatie,HYPOTHESE
+black graphic back print hoodie,commercieel,design 010 rugprint,productspecificatie,HYPOTHESE
+streetwear limited drop europe,commercieel,drop 001 / pop-up Europe,merkdossier,HYPOTHESE
+limited edition hoodie no restock,commercieel,no restock-beleid (nog vastleggen),merkdossier,HYPOTHESE
+matrix hoodie,navigatie/merk-adjacent,design 010 tekst (merkrisico: geen Matrix-claim),design,HYPOTHESE
+founding member hoodie,merk,productnaam,product,HYPOTHESE
+visionair society,merk,merknaam,merkdossier,HYPOTHESE
+hoodie maat advies boxy fit,informatief,maattabel S–2XL,productspecificatie,HYPOTHESE
+how should a boxy hoodie fit,informatief,pasvorm-uitleg,productspecificatie,HYPOTHESE
+how to wash heavyweight hoodie print,informatief,wasvoorschrift/print_info,metafield print_info,HYPOTHESE
+streetwear pop-up amsterdam/europe,lokaal,pop-up (datum/locatie onbekend),merkdossier,HYPOTHESE

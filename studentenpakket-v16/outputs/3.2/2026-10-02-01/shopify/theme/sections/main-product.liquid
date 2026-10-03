@@ -1,0 +1,83 @@
+{%- assign current = product.selected_or_first_available_variant -%}
+<div class="page"><div class="crumb"><a href="{{ routes.root_url }}">HOME</a>{% if collection %} / <a href="{{ collection.url }}">{{ collection.title | upcase }}</a>{% endif %} / {{ product.title | upcase }}</div>
+<div class="pgrid">
+  <div class="gallery">
+    <div class="main main-photo"><span class="corner c1"></span><span class="corner c2"></span><span class="corner c3"></span><span class="corner c4"></span>
+      {%- if section.settings.sticker != blank -%}<span class="sticker">{{ section.settings.sticker }}</span>{%- endif -%}
+      {%- assign fm = current.featured_media | default: product.featured_media -%}
+      {%- if fm -%}{{ fm | image_url: width: 1200 | image_tag: data-main: '', alt: fm.alt | default: product.title, sizes: '(min-width: 900px) 55vw, 100vw', widths: '600,900,1200' }}{%- endif -%}
+    </div>
+    {%- if product.media.size > 1 -%}
+    <div class="thumbs thumbs-4">
+      {%- for m in product.media limit: 8 -%}{%- if m.media_type == 'image' -%}
+        <button type="button" data-thumb="{{ m | image_url: width: 1200 }}" data-alt="{{ m.alt | default: product.title | escape }}" aria-label="Show image {{ forloop.index }}">{{ m | image_url: width: 200 | image_tag: loading: 'lazy', alt: '' }}</button>
+      {%- endif -%}{%- endfor -%}
+    </div>
+    {%- endif -%}
+    {%- if section.settings.image_note != blank -%}<div class="ph">{{ section.settings.image_note }}</div>{%- endif -%}
+  </div>
+
+  <div class="info">
+    <div class="rule"><s></s><span>∞</span><b></b></div>
+    {%- if section.settings.kicker != blank -%}<div class="kicker">◆ {{ section.settings.kicker }}</div>{%- endif -%}
+    <h1>{{ product.title | upcase }}</h1>
+    {%- if section.settings.offer_line != blank -%}<div class="offer"><b>Nº</b> {{ section.settings.offer_line }}{% if section.settings.offer_sub != blank %}<small>{{ section.settings.offer_sub }}</small>{% endif %}</div>{%- endif -%}
+    <div class="price"><b data-price>{{ current.price | money }}</b>{% if current.compare_at_price > current.price %}<s>{{ current.compare_at_price | money }}</s>{% endif %}<span>{{ section.settings.price_note }}</span></div>
+
+    {%- form 'product', product, class: 'pform', data-product-form: '' -%}
+      <input type="hidden" name="id" value="{{ current.id }}" data-variant-id>
+      {%- unless product.has_only_default_variant -%}
+        {%- for option in product.options_with_values -%}
+          <fieldset class="sizefield"><legend class="lbl">{{ option.name | upcase }}{% if forloop.last and section.settings.show_size_guide and product.tags contains 'size-ut0268' %} · <a href="#size-guide" class="sg-link">SIZE GUIDE ↓</a>{% endif %}</legend>
+            <div class="sizes" data-option-index="{{ forloop.index0 }}">
+              {%- for value in option.values -%}
+                <input type="radio" name="option-{{ forloop.parentloop.index0 }}" id="opt-{{ forloop.parentloop.index0 }}-{{ forloop.index0 }}" value="{{ value | escape }}"{% if option.selected_value == value %} checked{% endif %}>
+                <label for="opt-{{ forloop.parentloop.index0 }}-{{ forloop.index0 }}">{{ value | upcase }}</label>
+              {%- endfor -%}
+            </div>
+          </fieldset>
+        {%- endfor -%}
+      {%- endunless -%}
+      <button class="btn p wide" type="submit" data-add {% unless current.available %}disabled{% endunless %}>{% if current.available %}{{ section.settings.cta }}{% else %}SOLD OUT{% endif %}</button>
+      {%- if section.settings.trust != blank -%}<div class="trust">{{ section.settings.trust }}</div>{%- endif -%}
+    {%- endform -%}
+
+    {%- if product.description != blank -%}<div class="desc">{{ product.description }}</div>{%- endif -%}
+    {%- if section.settings.show_size_guide and product.tags contains 'size-ut0268' -%}{% render 'size-guide' %}{%- endif -%}
+
+    {%- if section.blocks.size > 0 -%}
+    <ul class="spec">{%- for block in section.blocks -%}<li {{ block.shopify_attributes }}><span>{{ block.settings.label }}</span><span>{{ block.settings.value }}</span></li>{%- endfor -%}</ul>
+    {%- endif -%}
+    {%- if section.settings.concept_note != blank -%}<div class="ph">{{ section.settings.concept_note }}</div>{%- endif -%}
+  </div>
+</div>
+{%- if section.settings.member_heading != blank -%}
+<div class="member" id="member"><div class="rule"><s></s><span>Nº</span><b></b></div><h2>{{ section.settings.member_heading }}</h2><p>{{ section.settings.member_text }}</p></div>
+{%- endif -%}
+</div>
+<script type="application/json" data-product-json>{{ product | json }}</script>
+{% schema %}
+{
+  "name": "Product · main",
+  "settings": [
+    { "type": "text", "id": "sticker", "label": "Sticker", "default": "FOUNDING MEMBER" },
+    { "type": "text", "id": "kicker", "label": "Kicker", "default": "DROP 001 · THE SOCIETY" },
+    { "type": "text", "id": "offer_line", "label": "Offer line", "default": "Your hoodie number is your member number." },
+    { "type": "text", "id": "offer_sub", "label": "Offer sub line", "default": "Founding Member access included" },
+    { "type": "text", "id": "price_note", "label": "Price note", "default": "INCL. VAT" },
+    { "type": "text", "id": "cta", "label": "Button", "default": "JOIN THE SOCIETY" },
+    { "type": "text", "id": "trust", "label": "Trust line", "default": "14-day withdrawal (EU) · No restock · Pop-up in Europe first · online 7 days later · Shipping: to be confirmed" },
+    { "type": "checkbox", "id": "show_size_guide", "label": "Show UT0268 size guide (products tagged size-ut0268)", "default": true },
+    { "type": "text", "id": "image_note", "label": "Image note", "default": "CONCEPT: DIGITAL MOCKUPS. NOT A PHOTO OF THE FINAL GARMENT." },
+    { "type": "text", "id": "concept_note", "label": "Concept note", "default": "PREVIEW · SHIPPING AND NUMBERING NOT CONFIRMED" },
+    { "type": "text", "id": "member_heading", "label": "Member heading", "default": "YOUR NUMBER IS YOUR MEMBERSHIP." },
+    { "type": "textarea", "id": "member_text", "label": "Member text", "default": "Every hoodie in Drop 001 carries its own number. That number is your place in Visionair Society." }
+  ],
+  "blocks": [
+    { "type": "spec", "name": "Spec row", "settings": [
+      { "type": "text", "id": "label", "label": "Label", "default": "FIT" },
+      { "type": "text", "id": "value", "label": "Value", "default": "Boxy oversized" }
+    ]}
+  ]
+}
+{% endschema %}

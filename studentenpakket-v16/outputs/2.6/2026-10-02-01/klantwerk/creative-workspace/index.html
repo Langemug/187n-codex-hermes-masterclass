@@ -1,0 +1,45 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Creative Workspace — Visionair Society (pilot)</title>
+<style>
+:root{--bg:#0b0b0b;--card:#161616;--ink:#eee;--mut:#999;--acc:#b57cff;--ok:#3ecf8e;--warn:#f5a524;--sim:#ff5c5c}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 system-ui,Arial,sans-serif}
+header{padding:14px 16px;border-bottom:1px solid #222;display:flex;flex-wrap:wrap;gap:8px;align-items:center}h1{font-size:16px;margin:0 12px 0 0}
+nav button{background:none;border:1px solid #333;color:var(--ink);padding:6px 12px;border-radius:999px;cursor:pointer}nav button.on{background:var(--acc);color:#000;border-color:var(--acc)}
+.pilot{background:#2a1b3d;color:#d9c2ff;font-size:12px;padding:6px 16px}
+main{padding:16px;max-width:1100px;margin:auto}.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.card{background:var(--card);border-radius:10px;padding:12px}.card img,.card video{width:100%;border-radius:6px;background:#000;max-height:260px;object-fit:contain}
+.pill{display:inline-block;font-size:11px;padding:2px 8px;border-radius:999px;background:#333}.goedgekeurd{background:var(--ok);color:#000}.review{background:var(--warn);color:#000}.afgekeurd{background:#555}.sim{background:var(--sim);color:#000}
+.mut{color:var(--mut);font-size:12px}input,select,textarea{background:#000;color:var(--ink);border:1px solid #333;border-radius:6px;padding:6px;width:100%}
+.row{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}.row button{flex:1;padding:6px;border-radius:6px;border:0;cursor:pointer}
+table{width:100%;border-collapse:collapse}td,th{border-bottom:1px solid #222;padding:6px;text-align:left}
+</style></head><body>
+<div class="pilot">PILOT · lokaal in je browser (localStorage) · geen login, geen server, niets wordt gepubliceerd of verstuurd · "Genereer" is GESIMULEERD</div>
+<header><h1>Creative Workspace</h1><nav><button data-t="producten" class="on">Productinput</button><button data-t="campagnes">Campagnes</button><button data-t="assets">Assetreview</button><button data-t="log">Logboek</button></nav></header>
+<main id="m"></main>
+<script src="seed.js"></script>
+<script>
+const KEY='vs-creative-workspace-v1';
+let S; try{S=JSON.parse(localStorage.getItem(KEY))}catch(e){}; if(!S){S=JSON.parse(JSON.stringify(SEED));S.log=[]}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}};
+const log=t=>{S.log.unshift({t:new Date().toLocaleString('nl-NL'),txt:t});save()};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let tab='producten',filter='';
+const V={
+producten:()=>`<h2>Productinput</h2><div class="grid">${S.producten.map(p=>`<div class="card"><b>${esc(p.naam)}</b><div class="mut">design ${esc(p.design)} · ${esc(p.prijs)}</div><span class="pill">${esc(p.status)}</span><div class="mut">bron: ${esc(p.bron)}</div><div class="row"><button onclick="filter='${p.id}';go('assets')">Assets →</button></div></div>`).join('')}
+<div class="card"><b>Nieuw product</b><input id="pn" placeholder="Naam"><input id="pd" placeholder="Designnummer" style="margin-top:6px"><input id="pp" placeholder="Prijs (leeg = onbekend)" style="margin-top:6px"><div class="row"><button onclick="nieuw()">Toevoegen</button></div><div class="mut">Wat je niet weet blijft "onbekend".</div></div></div>`,
+campagnes:()=>`<h2>Campagneoverzicht</h2><table><tr><th>Campagne</th><th>Fase</th><th>Product</th><th>Assets</th><th>Goedgekeurd</th></tr>${S.campagnes.map(c=>{const a=S.assets.filter(x=>x.campagne==c.id);return `<tr><td>${esc(c.naam)}<div class="mut">bron ${esc(c.bron)}</div></td><td>${esc(c.fase)}</td><td>${esc(c.product)}</td><td>${a.length}</td><td>${a.filter(x=>x.status=='goedgekeurd').length}/${a.length}</td></tr>`}).join('')}</table><div class="row"><button id="exp" style="background:var(--acc)" onclick="exporteer()">Export goedgekeurde assets (CSV)</button></div><div class="mut">Alleen goedgekeurd, niet-gesimuleerd. Bestand komt in je downloads; er wordt niets verstuurd.</div>`,
+assets:()=>{const L=S.assets.filter(a=>!filter||a.product==filter);return `<h2>Assetreview ${filter?`<span class="pill">${esc(filter)}</span> <button onclick="filter='';go('assets')">alles</button>`:''}</h2><div class="grid">${L.map(a=>{const v=a.versies[a.versies.length-1];return `<div class="card"><b>${esc(a.titel)}</b> <span class="pill ${a.status}">${a.status}</span>${v.sim?' <span class="pill sim">GESIMULEERD</span>':''}
+${v.sim?`<div style="height:160px;display:grid;place-items:center;background:#200;border-radius:6px;color:#f88">gesimuleerde generatie · geen echt beeld</div>`:(a.type=='video'?`<video src="${v.pad}" controls muted></video>`:`<img src="${v.pad}" alt="${esc(a.titel)}">`)}
+<div class="mut">v${v.v} van ${a.versies.length} · ${esc(v.notitie)} · product ${esc(a.product)} · campagne ${esc(a.campagne)}</div>
+<select onchange="toon('${a.id}',this.value)">${a.versies.map(x=>`<option value="${x.v}" ${x===v?'selected':''}>versie ${x.v}${x.sim?' (sim)':''}</option>`).join('')}</select>
+<textarea id="fb-${a.id}" placeholder="Feedback (verplicht bij afkeuren)" style="margin-top:6px"></textarea>
+<div class="row"><button style="background:var(--ok)" onclick="zet('${a.id}','goedgekeurd')">Goedkeuren</button><button onclick="zet('${a.id}','afgekeurd')">Afkeuren</button><button style="background:var(--sim)" onclick="sim('${a.id}')">Genereer (sim)</button></div></div>`}).join('')}</div>`},
+log:()=>`<h2>Logboek</h2>${S.log.length?`<table>${S.log.map(l=>`<tr><td class="mut">${l.t}</td><td>${esc(l.txt)}</td></tr>`).join('')}</table>`:'<p class="mut">Nog geen acties.</p>'}<div class="row"><button onclick="if(confirm('Alles terugzetten naar startdata?')){localStorage.removeItem(KEY);location.reload()}">Reset pilot</button></div>`
+};
+function go(t){tab=t;document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.t==t));document.getElementById('m').innerHTML=V[t]()}
+function zet(id,st){const a=S.assets.find(x=>x.id==id),fb=document.getElementById('fb-'+id).value.trim();if(st=='afgekeurd'&&!fb){alert('Geef feedback bij afkeuren.');return}a.status=st;log(`${a.titel} v${a.versies.length} → ${st}${fb?': '+fb:''}`);go('assets')}
+function sim(id){const a=S.assets.find(x=>x.id==id);a.versies.push({v:a.versies.length+1,sim:true,notitie:'GESIMULEERD — geen generatie, geen kosten'});a.status='review';log(`${a.titel}: gesimuleerde versie ${a.versies.length} aangemaakt`);go('assets')}
+function toon(id,v){const a=S.assets.find(x=>x.id==id);const i=a.versies.findIndex(x=>x.v==v);a.versies.push(a.versies.splice(i,1)[0]);save();go('assets')}
+function exporteer(){const q=x=>'"'+String(x).replace(/"/g,'""')+'"';const rows=[['titel','product','campagne','versie','pad','notitie']];S.assets.filter(a=>a.status=='goedgekeurd').forEach(a=>{const v=a.versies[a.versies.length-1];if(!v.sim)rows.push([a.titel,a.product,a.campagne,'v'+v.v,v.pad.replace(/^(\.\.\/)+/,''),v.notitie])});const blob=new Blob([rows.map(r=>r.map(q).join(',')).join('\n')],{type:'text/csv'});const l=document.createElement('a');l.href=URL.createObjectURL(blob);l.download='goedgekeurde-assets.csv';l.click();log('Export: '+(rows.length-1)+' goedgekeurde assets')}
+function nieuw(){const n=pn.value.trim();if(!n)return;S.producten.push({id:'p'+Date.now(),naam:n,design:pd.value||'onbekend',prijs:pp.value||'onbekend',status:'nieuw',bron:'invoer workspace'});log('Product toegevoegd: '+n);go('producten')}
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{filter='';go(b.dataset.t)});go('producten');
+</script></body></html>

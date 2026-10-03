@@ -1,0 +1,72 @@
+{
+  "boot": "> SIGNAL ACQUIRED",
+  "heading_html": "STAND <em>APART.</em>",
+  "text": "Not a brand. A movement. For the 1% who build while the rest talk. Your hoodie number is your member number.",
+  "cta_primary": {
+    "title": "JOIN THE SOCIETY",
+    "url": "product.html"
+  },
+  "cta_secondary": {
+    "title": "VIEW THE DROPS",
+    "url": "#drops"
+  },
+  "feature": {
+    "heading": "DROP 001",
+    "meta": "ONE HOODIE · NUMBERED · NO RESTOCK",
+    "card_heading": "YOUR NUMBER IS<br>YOUR MEMBERSHIP.",
+    "card_text": "Opens at a pop-up in Europe. Online seven days later. Boxy oversized, black, 500 gsm heavyweight fleece.",
+    "card_cta": "JOIN THE SOCIETY · €64,95"
+  },
+  "drops_heading": "THE DROPS",
+  "drops_meta": "06 COLLECTIONS · 500 DESIGNS · MOCKUPS",
+  "drops": [
+    {
+      "title": "DROP 01 · SIMULATION",
+      "image": "assets/img/drop-01-hoodie.jpg",
+      "tint": "t1",
+      "id": "simulation",
+      "url": "collection-simulation.html",
+      "total": 127
+    },
+    {
+      "title": "DROP 02 · ABDUCTED",
+      "image": "assets/img/drop-02-hoodie.jpg",
+      "tint": "t2",
+      "id": "abducted",
+      "url": "collection-abducted.html",
+      "total": 87
+    },
+    {
+      "title": "DROP 03 · CLASSIFIED",
+      "image": "assets/img/drop-03-hoodie.jpg",
+      "tint": "t3",
+      "id": "classified",
+      "url": "collection-classified.html",
+      "total": 76
+    },
+    {
+      "title": "DROP 04 · AWAKE",
+      "image": "assets/img/drop-04-hoodie.jpg",
+      "tint": "t1",
+      "id": "awake",
+      "url": "collection-awake.html",
+      "total": 69
+    },
+    {
+      "title": "DROP 05 · BUILD MODE",
+      "image": "assets/img/drop-05-hoodie.jpg",
+      "tint": "t2",
+      "id": "build-mode",
+      "url": "collection-build-mode.html",
+      "total": 93
+    },
+    {
+      "title": "DROP 06 · THE SOCIETY",
+      "image": "assets/img/drop-06-hoodie.jpg",
+      "tint": "t3",
+      "id": "the-society",
+      "url": "collection-the-society.html",
+      "total": 48
+    }
+  ]
+}

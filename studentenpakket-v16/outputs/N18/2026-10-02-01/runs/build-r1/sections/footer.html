@@ -1,0 +1,4 @@
+<footer class="site-foot"><div class="foot-grid">
+<div class="foot-brand"><a class="brand" href="index.html"><img src="{{ settings.logo_small }}" alt="">{{ settings.brand }}</a><p>{{ settings.tagline }}</p></div>
+{% for col in settings.footer_columns %}<div class="foot-col"><h3>{{ col.title }}</h3>{% for link in col.links %}<a href="{{ link.url }}">{{ link.title }}</a>{% endfor %}</div>{% endfor %}
+</div><div class="foot-note">{{ settings.footer_note }}</div></footer>

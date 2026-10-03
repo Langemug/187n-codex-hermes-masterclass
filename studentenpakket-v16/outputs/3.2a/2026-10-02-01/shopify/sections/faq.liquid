@@ -1,0 +1,30 @@
+<section class="vs-faq">
+  {%- if section.settings.heading != blank -%}<h2 class="vs-h2">{{ section.settings.heading }}</h2>{%- endif -%}
+  {%- for block in section.blocks -%}
+    <details class="vs-faq__item" {{ block.shopify_attributes }}>
+      <summary>{{ block.settings.question }}</summary>
+      <div class="vs-faq__a">{{ block.settings.answer }}</div>
+    </details>
+  {%- endfor -%}
+</section>
+<style>
+.vs-faq{max-width:800px;margin:0 auto;padding:64px 16px}
+.vs-faq__item{border-bottom:1px solid rgba(255,255,255,.15);padding:16px 0}
+.vs-faq__item summary{cursor:pointer;font-weight:600;list-style:none}
+.vs-faq__item summary::before{content:"> ";color:#a855f7}
+.vs-faq__a{opacity:.8;margin-top:8px}
+</style>
+{% schema %}
+{
+  "name": "FAQ",
+  "settings": [ { "type": "text", "id": "heading", "label": "Heading", "default": "> FAQ" } ],
+  "blocks": [
+    { "type": "question", "name": "Question", "settings": [
+      { "type": "text", "id": "question", "label": "Question", "default": "When does the drop ship?" },
+      { "type": "richtext", "id": "answer", "label": "Answer", "default": "<p>Answer here.</p>" }
+    ] }
+  ],
+  "max_blocks": 12,
+  "presets": [ { "name": "FAQ", "blocks": [ { "type": "question" }, { "type": "question" } ] } ]
+}
+{% endschema %}

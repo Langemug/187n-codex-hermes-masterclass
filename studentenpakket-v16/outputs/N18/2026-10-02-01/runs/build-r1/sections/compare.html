@@ -1,0 +1,4 @@
+<section class="wrap" id="compare"><div class="sec-head"><h2>{{ section.compare_heading }}</h2><span>{{ section.compare_meta }}</span></div>
+<div class="cmp" role="table" aria-label="{{ section.compare_heading }}"><div class="cmp-row cmp-head" role="row"><span role="columnheader"></span><span role="columnheader">{{ section.compare_cols.0 }}</span><span role="columnheader">{{ section.compare_cols.1 }}</span></div>
+{% for r in section.compare_rows %}<div class="cmp-row" role="row"><span role="rowheader">{{ r.label }}</span><span role="cell">{{ r.popup }}</span><span role="cell" class="{{ r.cls }}">{{ r.online }}</span></div>{% endfor %}</div>
+<p class="cmp-note">{{ section.compare_note }}</p></section>

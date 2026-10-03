@@ -1,0 +1,13 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prijsberekening landingspagina</title>
+<style>body{font:15px/1.5 Arial,sans-serif;margin:0;padding:16px;background:#f6f3ee;color:#1d1b18}table{width:100%;border-collapse:collapse;max-width:640px}td,th{padding:6px;border-bottom:1px solid #ddd;text-align:left}input{width:70px}b.tot{font-size:20px}.note{color:#6b645b;font-size:13px;max-width:640px}</style></head><body>
+<h1>Prijsberekening (invulbaar)</h1><p class="note">Geen prijsadvies. Vul de uren in na het proefproject. Excl. btw. Kosten op naam van de klant staan er niet in.</p>
+<label>Uurtarief € <input id="t" type="number" value="50"></label>
+<table id="r"><tr><th>Post</th><th>Uren</th></tr>
+<tr><td>Opbouw landingspagina</td><td><input type="number" min="0" step="0.5" value="0"></td></tr>
+<tr><td>Input verwerken</td><td><input type="number" min="0" step="0.5" value="0"></td></tr>
+<tr><td>Feedbackronde (1)</td><td><input type="number" min="0" step="0.5" value="0"></td></tr>
+<tr><td>Boekknop koppelen</td><td><input type="number" min="0" step="0.5" value="0"></td></tr></table>
+<label>Buffer % <input id="b" type="number" value="15"></label>
+<p>Uren: <span id="u">0</span> · Totaal excl. btw: <b class="tot">€ <span id="s">0</span></b></p>
+<p class="note">Klant betaalt zelf: domein, hosting, boekingstool. Meerwerk: uurtarief, alleen na akkoord.</p>
+<script>function c(){const t=+document.getElementById('t').value||0,b=+document.getElementById('b').value||0;let u=0;document.querySelectorAll('#r input').forEach(i=>u+=+i.value||0);document.getElementById('u').textContent=u;document.getElementById('s').textContent=(u*t*(1+b/100)).toFixed(2).replace('.',',')}document.querySelectorAll('input').forEach(i=>i.oninput=c);c()</script></body></html>

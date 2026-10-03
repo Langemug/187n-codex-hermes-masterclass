@@ -1,0 +1,29 @@
+# Ochtendbriefing · 2026-10-23 · periode 2026-10-18 t/m 2026-10-22
+**TESTDATA** — verzonnen orders/tickets (les 051). Geen echte omzet.
+
+## Orders
+- In periode: 6 · betaald 4 · terugbetaald 1 · open 1 (bron: orders.csv)
+- Betaald maar niet verzonden: TEST-VS-002, TEST-VS-006
+- Verzonden zonder tracking: geen
+
+## Support
+- Tickets: 6 (bron: tickets.json) · open escalaties: 3 (bron: escalaties.csv)
+  - TT4: privacy: vraag naar gegevens van andere klant
+  - TT6: dispute/chargeback
+  - TT5: ruilbeleid niet vastgesteld (voorstel maatwissel)
+
+## Voorraad
+- Beschikbaar ≤ 0: FMH-BLK-M (bron: voorraad.csv; onbevestigde leveringen niet meegeteld)
+- Levering TEST-L1 FMH-BLK-M 20 st · 2026-10-28 · onbevestigd
+- Levering TEST-L2 FMH-BLK-L 15 st · 2026-10-24 · bevestigd
+
+## Planning
+- Open items maandplanning: 9 (bron: 02-maandplanning-maand1.csv) — eerstvolgende: R3, C2, S1-S4
+
+## Drie acties vandaag
+1. **Uitverkochte maat(en) FMH-BLK-M als sold out tonen (besluit: no restock)** — bron: voorraad.csv — reden: klant kan anders bestellen wat er niet is
+2. **Dispute TT6 afhandelen; order niet verzenden tot opgelost** — bron: escalaties.csv + orders.csv — reden: geld- en verzendrisico
+3. **Productiestatus checken voor TEST-VS-002, TEST-VS-006** — bron: orders.csv — reden: betaald, nog niet verzonden
+
+## Ontbrekende databronnen
+- Echte Shopify-orders (winkel nog niet live) · verzendstatus Tapstitch (geen koppeling) · kosten (verzend/betaal/Shopify/ads) · ad- en e-maildata

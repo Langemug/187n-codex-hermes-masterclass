@@ -1,0 +1,5 @@
+<div class="page"><div class="chero"><h1>SEARCH</h1>
+<form action="{{ routes.search_url }}" method="get" role="search" class="sform"><input type="search" name="q" value="{{ search.terms | escape }}" aria-label="Search" placeholder="> search"><button class="btn" type="submit">GO</button></form></div>
+{%- if search.performed -%}<div class="cgrid cgrid-all">{%- for item in search.results -%}<a class="ccard" href="{{ item.url }}"><div class="cimg">{% if item.featured_media %}{{ item.featured_media | image_url: width: 600 | image_tag: loading: 'lazy', alt: item.title }}{% endif %}</div><div class="cap"><span class="ct">{{ item.title }}</span>{% if item.price %}<span>{{ item.price | money }}</span>{% endif %}</div></a>{%- else -%}<p>No results.</p>{%- endfor -%}</div>{%- endif -%}
+</div>
+{% schema %}{ "name": "Search · main" }{% endschema %}

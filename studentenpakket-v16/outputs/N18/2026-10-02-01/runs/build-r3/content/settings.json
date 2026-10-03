@@ -1,0 +1,97 @@
+{
+  "brand": "VISIONAIR SOCIETY",
+  "est": "EST. 2026",
+  "tagline": "STAND APART. MOVE TOGETHER.",
+  "logo_small": "assets/img/logo-purple-outline.png",
+  "system_line": [
+    "DROP 001",
+    "POP-UP AMSTERDAM",
+    "DATE: TBA"
+  ],
+  "status_left": "SYSTEM.ACTIVE · DROP 001 · V1.0",
+  "nav": [
+    {
+      "title": "HOME",
+      "url": "index.html"
+    },
+    {
+      "title": "FOUNDING MEMBER HOODIE",
+      "url": "product.html"
+    },
+    {
+      "title": "COLLECTIONS",
+      "url": "index.html#collections"
+    },
+    {
+      "title": "MEMBERSHIP",
+      "url": "product.html#member"
+    }
+  ],
+  "footer_columns": [
+    {
+      "title": "SHOP",
+      "links": [
+        {
+          "title": "Founding Member Hoodie",
+          "url": "product.html"
+        },
+        {
+          "title": "All collections",
+          "url": "index.html#collections"
+        },
+        {
+          "title": "Size guide",
+          "url": "product.html#size-guide"
+        }
+      ]
+    },
+    {
+      "title": "SOCIETY",
+      "links": [
+        {
+          "title": "Membership",
+          "url": "product.html#member"
+        },
+        {
+          "title": "Pop-up Amsterdam · date TBA",
+          "url": "index.html#drop"
+        }
+      ]
+    },
+    {
+      "title": "INFO",
+      "links": [
+        {
+          "title": "Shipping · to be confirmed",
+          "url": "#"
+        },
+        {
+          "title": "Returns · 14-day withdrawal (EU)",
+          "url": "#"
+        },
+        {
+          "title": "Contact · to be added",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "title": "FOLLOW",
+      "links": [
+        {
+          "title": "Instagram",
+          "url": "#"
+        },
+        {
+          "title": "TikTok",
+          "url": "#"
+        },
+        {
+          "title": "Facebook",
+          "url": "#"
+        }
+      ]
+    }
+  ],
+  "footer_note": "© 2026 VISIONAIR SOCIETY · CONCEPT, NOT LIVE · DEMO CART, NO CHECKOUT"
+}

@@ -1,0 +1,10 @@
+productvraag               | kb         | Boxy oversized fit, S–2XL; size guide in cm and inch on the product page. | VS-KB-03 · Tapstitch UT0268 maattabel (les 3.1)
+productvraag 2             | kb         | Drop 001 has no restock. Members get first access to Drop 002. | VS-KB-02 · offerbrief
+ordervraag                 | order      | Order TEST-VS-002 (TEST): size L, payment paid, shipping not shipped yet. | TEST-orders (les 3.4) · geen live ordertoegang
+ordervraag zonder tracking | order      | Order TEST-VS-003 (TEST): size XL, payment paid, shipping shipped. Tracking code is missin | TEST-orders (les 3.4) · geen live ordertoegang
+ontbrekende info           | ontbreekt  | Can you share your order number? It looks like TEST-VS-001. | ontbrekende info: ordernummer
+onbekend ordernr           | overdracht | I'm handing this over to a team member (ESC-002). They'll reply by email — I won't guess a | overdracht: ordernummer niet gevonden: TEST-VS-999
+kennisbank OPEN            | overdracht | I'm handing this over to a team member (ESC-003). They'll reply by email — I won't guess a | overdracht: kennisbank OPEN: verzending
+overdracht                 | overdracht | I'm handing this over to a team member (ESC-004). They'll reply by email — I won't guess a | overdracht: klant vraagt om medewerker/klacht
+niet ondersteund           | overdracht | I'm handing this over to a team member (ESC-005). They'll reply by email — I won't guess a | overdracht: onbekende vraag
+escalaties: [{"id":"ESC-001","reden":"verzonden zonder tracking TEST-VS-003"},{"id":"ESC-002","reden":"ordernummer niet gevonden: TEST-VS-999"},{"id":"ESC-003","reden":"kennisbank OPEN: verzending"},{"id":"ESC-004","reden":"klant vraagt om medewerker/klacht"},{"id":"ESC-005","reden":"onbekende vraag"}]

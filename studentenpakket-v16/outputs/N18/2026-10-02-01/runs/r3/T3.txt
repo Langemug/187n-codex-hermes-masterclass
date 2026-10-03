@@ -1,0 +1,3 @@
+cd /home/user/187n-codex-hermes-masterclass/studentenpakket-v16/outputs/N18/2026-10-02-01/runs/build-r3
+sed -i 's|"compare_note": "[^"]*"|"compare_note": "Details marked TBA are not decided yet."|' content/home.json
+python3 build.py

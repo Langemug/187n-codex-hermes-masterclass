@@ -1,0 +1,12 @@
+<div class="cart-shade" data-cart-close hidden></div>
+<aside class="cart" role="dialog" aria-modal="true" aria-labelledby="cart-title" hidden>
+  <div class="cart-head"><h2 id="cart-title">&gt; CART</h2><button type="button" data-cart-close aria-label="Close cart">×</button></div>
+  <div class="cart-body" data-cart-items></div>
+  <div class="cart-foot">
+    <div class="cart-total"><span>SUBTOTAL</span><b data-cart-total>{{ cart.total_price | money }}</b></div>
+    <p class="trust">Shipping and taxes calculated at checkout.</p>
+    <form action="{{ routes.cart_url }}" method="post"><button class="btn p wide" type="submit" name="checkout">CHECKOUT</button></form>
+    <a class="btn wide" href="{{ routes.cart_url }}">VIEW CART</a>
+  </div>
+</aside>
+<script>window.VS={money:{{ shop.money_format | json }},cartUrl:{{ routes.cart_url | json }},root:{{ routes.root_url | json }}};</script>

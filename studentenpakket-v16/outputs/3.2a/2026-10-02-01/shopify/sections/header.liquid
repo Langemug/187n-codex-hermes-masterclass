@@ -1,0 +1,27 @@
+<header class="site-head"><div class="bar">
+  <a class="brand" href="{{ routes.root_url }}">
+    {%- if section.settings.logo != blank -%}{{ section.settings.logo | image_url: width: 80 | image_tag: alt: '' }}{%- else -%}<img src="{{ 'logo-purple-outline.png' | asset_url }}" alt="" width="34" height="34">{%- endif -%}
+    {{ shop.name | upcase }}<span class="sep"></span><span class="est">{{ section.settings.est }}</span>
+  </a>
+  <nav class="nav" aria-label="Main">
+    {%- for link in linklists[section.settings.menu].links -%}<a href="{{ link.url }}"{% if link.active %} aria-current="page"{% endif %}>{{ link.title | upcase }}</a>{%- endfor -%}
+  </nav>
+  <div class="head-right">
+    {%- if section.settings.system_line != blank -%}<span class="sys hide">{{ section.settings.system_line }}</span>{%- endif -%}
+    <button class="cart-btn" type="button" data-cart-open aria-label="Open cart">CART [<span data-cart-count>{{ cart.item_count }}</span>]</button>
+    <details class="menu"><summary aria-label="Menu">MENU</summary><nav aria-label="Mobile">
+      {%- for link in linklists[section.settings.menu].links -%}<a href="{{ link.url }}">{{ link.title | upcase }}</a>{%- endfor -%}
+    </nav></details>
+  </div>
+</div></header>
+{% schema %}
+{
+  "name": "Header",
+  "settings": [
+    { "type": "image_picker", "id": "logo", "label": "Logo (small, purple with white outline)" },
+    { "type": "text", "id": "est", "label": "Label after brand", "default": "EST. 2026" },
+    { "type": "link_list", "id": "menu", "label": "Menu", "default": "main-menu" },
+    { "type": "text", "id": "system_line", "label": "System line (right)", "default": "DROP 001 · POP-UP EUROPE · DATE: TBA" }
+  ]
+}
+{% endschema %}

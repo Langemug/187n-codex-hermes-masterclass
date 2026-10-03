@@ -1,0 +1,2 @@
+<section class="wrap" id="drops" style="padding-top:0"><div class="sec-head"><h2>{{ section.drops_heading }}</h2><span>{{ section.drops_meta }}</span></div>
+<div class="grid">{% for drop in section.drops %}<a class="card {{ drop.tint }}" href="{{ drop.url }}"><div class="art art-photo"><img src="{{ drop.image }}" alt="Hoodie mockup, {{ drop.title }}"></div><div class="meta"><span>{{ drop.title }}</span><span>VIEW ALL {{ drop.total }} →</span></div></a>{% endfor %}</div></section>

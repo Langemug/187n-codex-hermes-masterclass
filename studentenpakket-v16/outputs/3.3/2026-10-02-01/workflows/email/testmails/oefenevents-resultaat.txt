@@ -1,0 +1,7 @@
+test+a@example.com | C1 | NIET: gekocht tijdens wachttijd
+test+b@example.com | C1 | STUREN (concept)
+test+c@example.com | C1 | NIET: geen toestemming
+test+d@example.com | W1 | STUREN (concept) 1x — dubbel event genegeerd
+test+d@example.com | W2 | STUREN (concept)
+test+e@example.com | W1 | STUREN (concept) 1x
+test+e@example.com | W2 | NIET: afgemeld

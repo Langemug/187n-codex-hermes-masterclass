@@ -1,0 +1,167 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {}
+    },
+    "featured": {
+      "type": "featured-product",
+      "settings": {
+        "product": "founding-member-hoodie"
+      }
+    },
+    "benefits": {
+      "type": "benefits",
+      "settings": {
+        "heading": "> WHY THE SOCIETY"
+      },
+      "blocks": {
+        "b1": {
+          "type": "benefit",
+          "settings": {
+            "code": "01",
+            "title": "Your number is your membership",
+            "text": "Every hoodie in Drop 001 carries its own number. That number is your place in Visionair Society."
+          }
+        },
+        "b2": {
+          "type": "benefit",
+          "settings": {
+            "code": "02",
+            "title": "Heavyweight 500 gsm",
+            "text": "Boxy oversized fit in black, S–2XL."
+          }
+        },
+        "b3": {
+          "type": "benefit",
+          "settings": {
+            "code": "03",
+            "title": "No restock",
+            "text": "When a design is gone, it stays gone."
+          }
+        },
+        "b4": {
+          "type": "benefit",
+          "settings": {
+            "code": "04",
+            "title": "Pop-up first",
+            "text": "Pop-up in Europe first. Online 7 days later."
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+      ]
+    },
+    "drops": {
+      "type": "collection-list",
+      "settings": {},
+      "blocks": {
+        "c1": {
+          "type": "collection",
+          "settings": {
+            "collection": "simulation"
+          }
+        },
+        "c2": {
+          "type": "collection",
+          "settings": {
+            "collection": "abducted"
+          }
+        },
+        "c3": {
+          "type": "collection",
+          "settings": {
+            "collection": "classified"
+          }
+        },
+        "c4": {
+          "type": "collection",
+          "settings": {
+            "collection": "awake"
+          }
+        },
+        "c5": {
+          "type": "collection",
+          "settings": {
+            "collection": "build-mode"
+          }
+        },
+        "c6": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-society"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6"
+      ]
+    },
+    "faq": {
+      "type": "faq",
+      "settings": {
+        "heading": "> FAQ"
+      },
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "What does Founding Member access include?",
+            "answer": "<p>The private channel, first access to Drop 002 and an invite to the pop-up.</p>"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Will this design come back?",
+            "answer": "<p>No. There is no restock.</p>"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "How does the fit run?",
+            "answer": "<p>Boxy oversized. Check the size guide on the product page (cm and inch).</p>"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Can I return it?",
+            "answer": "<p>Yes, you have a 14-day right of withdrawal (EU).</p>"
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "When does it ship?",
+            "answer": "<p>Shipping details are being confirmed and will be announced before the drop.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
+    }
+  },
+  "order": [
+    "hero",
+    "featured",
+    "benefits",
+    "drops",
+    "faq"
+  ]
+}

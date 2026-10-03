@@ -1,0 +1,155 @@
+[
+  {
+    "id": "fmh-prijs-1",
+    "project": "vs-fmh",
+    "date": "2026-10-02",
+    "key": "prijs",
+    "value": "NL €64,95 incl. 21% btw · UK/US €74,95",
+    "status": "confirmed",
+    "source": "context/merkdossier.md r22"
+  },
+  {
+    "id": "fmh-achterkant-1",
+    "project": "vs-fmh",
+    "date": "2026-10-02",
+    "key": "achterkant",
+    "value": "design 010 THE MATRIX CAN'T HOLD ME.",
+    "status": "confirmed",
+    "source": "context/merkdossier.md r18 (les 5.2)"
+  },
+  {
+    "id": "fmh-popup-1",
+    "project": "vs-fmh",
+    "date": "2026-10-02",
+    "key": "popup-locatie",
+    "value": "Amsterdam",
+    "status": "confirmed",
+    "source": "context/merkdossier.md r24 (oude versie)"
+  },
+  {
+    "id": "fmh-popup-2",
+    "project": "vs-fmh",
+    "date": "2026-10-03",
+    "key": "popup-locatie",
+    "value": "in Europe, stad nog open",
+    "status": "confirmed",
+    "source": "besluit student les 008; merkdossier r24 aangepast",
+    "supersedes": [
+      "fmh-popup-1"
+    ]
+  },
+  {
+    "id": "fmh-restock-1",
+    "project": "vs-fmh",
+    "date": "2026-10-02",
+    "key": "restock",
+    "value": "geen restock",
+    "status": "idea",
+    "source": "sessie-samenvatting; niet in merkdossier"
+  },
+  {
+    "id": "kap-r02",
+    "project": "kapsalon-voorbeeld",
+    "date": "2026-10-03",
+    "key": "huidige-vindbaarheid",
+    "value": "Google Maps + Instagram; geen website",
+    "status": "confirmed",
+    "source": "bronnen/kapper-rollenspel-2026-10-03.md R02 (ROLLENSPEL)"
+  },
+  {
+    "id": "kap-r04",
+    "project": "kapsalon-voorbeeld",
+    "date": "2026-10-03",
+    "key": "knelpunt",
+    "value": "neemt niet op tijdens knippen; bellers bellen soms niet terug (aantal onbekend)",
+    "status": "confirmed",
+    "source": "R04, R06 (ROLLENSPEL)"
+  },
+  {
+    "id": "kap-r10",
+    "project": "kapsalon-voorbeeld",
+    "date": "2026-10-03",
+    "key": "veelgestelde-vraag",
+    "value": "prijzen en plek vandaag",
+    "status": "confirmed",
+    "source": "R10 (ROLLENSPEL)"
+  },
+  {
+    "id": "kap-r14",
+    "project": "kapsalon-voorbeeld",
+    "date": "2026-10-03",
+    "key": "gewenste-uitkomst",
+    "value": "zelf afspraak inplannen zonder telefoon",
+    "status": "confirmed",
+    "source": "R14 (ROLLENSPEL)"
+  },
+  {
+    "id": "kap-r12",
+    "project": "kapsalon-voorbeeld",
+    "date": "2026-10-03",
+    "key": "fotos",
+    "value": "eigen Instagram-foto's, toestemming 'denk ik'",
+    "status": "idea",
+    "source": "R12 (ROLLENSPEL) — onzeker"
+  },
+  {
+    "id": "kap-prijs",
+    "project": "kapsalon-voorbeeld",
+    "date": "2026-10-03",
+    "key": "prijs",
+    "value": "onbekend; klant: 'Geen idee wat zoiets kost'",
+    "status": "idea",
+    "source": "R16 (ROLLENSPEL) — geen afspraak"
+  },
+  {
+    "id": "fmh-cta-1",
+    "project": "vs-fmh",
+    "date": "2026-10-02",
+    "key": "reel-cta",
+    "value": "€64,95 · LINK IN BIO",
+    "status": "confirmed",
+    "source": "outputs/N24/2026-10-02-01/v3b-clip2.mp4 caption (goedgekeurd les 060)"
+  },
+  {
+    "id": "fmh-cta-2",
+    "project": "vs-fmh",
+    "date": "2026-10-03",
+    "key": "reel-cta",
+    "value": "€64,95 · JOIN THE SOCIETY",
+    "status": "confirmed",
+    "source": "besluit student les 020 stap 3: CTA 'JOIN THE SOCIETY' vervangt 'LINK IN BIO'",
+    "supersedes": [
+      "fmh-cta-1"
+    ]
+  },
+  {
+    "id": "fmh-lidstatus-online-1",
+    "project": "vs-fmh",
+    "date": "2026-10-03",
+    "key": "lidstatus-online",
+    "value": "online kopers = ook Founding Member + eigen nummer (besluit 2a)",
+    "status": "confirmed",
+    "source": "besluit student 2026-10-03; outputs/11.1/2026-10-03-01/besluitenblad.md #2"
+  },
+  {
+    "id": "fmh-nummering-1",
+    "project": "vs-fmh",
+    "date": "2026-10-03",
+    "key": "nummering-per-hoodie",
+    "value": "uniek nummer per hoodie via Tapstitch — NIET bevestigd (vraag nog niet verstuurd); claim 'hoodie number = member number' geblokkeerd",
+    "status": "idea",
+    "source": "besluitenblad #2 + checklist B10; tapstitch-vraag.md"
+  },
+  {
+    "id": "fmh-restock-2",
+    "project": "vs-fmh",
+    "date": "2026-10-03",
+    "key": "restock",
+    "value": "zwarte Founding Member-editie komt niet terug; design 010 mag in andere kleur/versie (besluit 5b). Kale 'no restock' niet gebruiken.",
+    "status": "confirmed",
+    "source": "besluit student 2026-10-03; besluitenblad #5; merkdossier r22",
+    "supersedes": [
+      "fmh-restock-1"
+    ]
+  }
+]

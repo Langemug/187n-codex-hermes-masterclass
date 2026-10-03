@@ -1,0 +1,14 @@
+post,type,waarde,eenheid,status
+tarief,tarief,50,EUR/uur,eigen tarief (les 5.8)
+opbouw pagina,bouw,5,uur,OEFENWAARDE
+input verwerken,bouw,2,uur,OEFENWAARDE
+foto's selecteren + teksten,bouw,2,uur,OEFENWAARDE
+koppeling boekknop + WhatsApp,bouw,0.5,uur,OEFENWAARDE
+interne review (seo-check + mobiel + claims),review,1,uur,OEFENWAARDE
+feedbackronde klant (1),review,1.5,uur,OEFENWAARDE
+toolkosten eigen werkplek (aandeel AI/abonnement),tool,10,EUR/project,OEFENWAARDE
+generatiekosten (beelden/AI-credits),generatie,0,EUR/project,OEFENWAARDE (eigen foto's klant)
+marge/risicobuffer,marge,15,%,OEFENWAARDE
+beheer per maand,beheer,1,uur/maand,OEFENWAARDE
+toolkosten beheer per maand,tool_maand,5,EUR/maand,OEFENWAARDE
+meerwerk scenario,meerwerk,3,uur,OEFENWAARDE

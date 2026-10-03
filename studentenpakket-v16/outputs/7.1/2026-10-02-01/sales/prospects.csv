@@ -1,0 +1,11 @@
+rang,bedrijf,segment,bron,koopsignaal,probleem,demo_portfolio,fit_score_0_5,contact,afgemeld,besluit,status
+1,Barbershop Voorbeeld Noord,lokaal (kapper),FICTIEVE_BRON_GEEN_URL,alleen Google Maps + Instagram; "bel voor afspraak" in bio,afspraken alleen telefonisch; geen prijzen online,outputs/10.3/.../demo-voorstel/demo.html (boekflow),5,ONBEKEND,nee,GESCHIKT,OEFENING
+2,Kapsalon Voorbeeld Zuid,lokaal (kapper),FICTIEVE_BRON_GEEN_URL,website uit 2015 zonder mobiele weergave,site onleesbaar op telefoon; geen boekknop,outputs/10.1/.../demo-kapper/index.html,5,ONBEKEND,nee,GESCHIKT,OEFENING
+3,Webshop Voorbeeld Cadeau,webshop,FICTIEVE_BRON_GEEN_URL,productpagina's met 1 zin tekst en geen meta description,lage vindbaarheid; generieke productpagina's,outputs/4.2/.../voorbeeld-hoodie (SEO-tekst) + seo-check,4,ONBEKEND,nee,GESCHIKT,OEFENING
+4,Webshop Voorbeeld Mode,webshop,FICTIEVE_BRON_GEEN_URL,nieuwe collectie aangekondigd; productfoto's op witte achtergrond zonder model,productbeelden weinig onderscheidend,outputs/4.3/.../T2-mockups (foto-mockup),4,ONBEKEND,nee,GESCHIKT,OEFENING
+5,Bureau Voorbeeld A,bureau,FICTIEVE_BRON_GEEN_URL (pakket),relevante vacature,capaciteit tekort (hypothese),outputs/5.8 contentlevering R1,3,ONBEKEND,nee,GESCHIKT,OEFENING
+6,Nagelstudio Voorbeeld,lokaal (beauty),FICTIEVE_BRON_GEEN_URL,boekingen via DM; wachtlijst in story,geen boekroute; veel DM-vragen,outputs/10.3/.../demo.html (aanpasbaar),3,ONBEKEND,nee,GESCHIKT,OEFENING
+7,Koffiebar Voorbeeld,lokaal (horeca),FICTIEVE_BRON_GEEN_URL,openingstijden alleen in Instagram-highlight,info lastig te vinden; geen site,outputs/10.1/.../demo-kapper (structuur),2,ONBEKEND,nee,HANDMATIG_CONTROLEREN,OEFENING
+8,Bureau Voorbeeld C,bureau,FICTIEVE_BRON_GEEN_URL (pakket),projectgroei,onbekend probleem; historie onbekend,—,2,ONBEKEND,nee,HANDMATIG_CONTROLEREN,OEFENING
+9,Webshop Voorbeeld Kaarsen,webshop,FICTIEVE_BRON_GEEN_URL,heeft al bureau-credit in footer,lijkt al bediend door bureau,—,1,ONBEKEND,nee,NIET_NU,OEFENING
+10,Bureau Voorbeeld B,bureau,FICTIEVE_BRON_GEEN_URL (pakket),relevante intakevraag,—,—,0,ONBEKEND,ja,UITSLUITEN (afgemeld),OEFENING

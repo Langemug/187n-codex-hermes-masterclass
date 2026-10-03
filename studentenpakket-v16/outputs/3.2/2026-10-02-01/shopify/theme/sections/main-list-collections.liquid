@@ -1,0 +1,4 @@
+<div class="page"><div class="chero"><h1>COLLECTIONS</h1></div><div class="grid">
+{%- for c in collections -%}<a class="card {% cycle 't1','t2','t3' %}" href="{{ c.url }}"><div class="art art-photo">{% if c.featured_image %}{{ c.featured_image | image_url: width: 800 | image_tag: loading: 'lazy', alt: c.title }}{% endif %}</div><div class="meta"><span>{{ c.title | upcase }}</span><span>{{ c.products_count }} →</span></div></a>{%- endfor -%}
+</div></div>
+{% schema %}{ "name": "Collections list page" }{% endschema %}

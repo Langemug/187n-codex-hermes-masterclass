@@ -1,0 +1,46 @@
+{
+ "log": [
+  {
+   "test": "zonder asset",
+   "melding": "Ontbrekende velden: asset"
+  },
+  {
+   "herstel": "C1",
+   "melding": "Opgeslagen: C1"
+  },
+  {
+   "opslaan": "A3",
+   "melding": "Opgeslagen: A3"
+  },
+  {
+   "opslaan": "PV1",
+   "melding": "Opgeslagen: PV1"
+  }
+ ],
+ "check": [
+  {
+   "id": "C1",
+   "copy": true,
+   "asset": true,
+   "datum": true,
+   "kanaal": true,
+   "status": "Concept"
+  },
+  {
+   "id": "A3",
+   "copy": true,
+   "asset": true,
+   "datum": true,
+   "kanaal": true,
+   "status": "Concept"
+  },
+  {
+   "id": "PV1",
+   "copy": true,
+   "asset": true,
+   "datum": true,
+   "kanaal": true,
+   "status": "Concept"
+  }
+ ]
+}

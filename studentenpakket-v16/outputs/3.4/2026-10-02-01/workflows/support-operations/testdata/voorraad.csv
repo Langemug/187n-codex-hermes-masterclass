@@ -1,0 +1,6 @@
+sku,locatie,op_voorraad,gereserveerd
+FMH-BLK-S,TEST-magazijn,4,0
+FMH-BLK-M,TEST-magazijn,1,1
+FMH-BLK-L,TEST-magazijn,3,2
+FMH-BLK-XL,TEST-magazijn,6,0
+FMH-BLK-2XL,TEST-magazijn,2,1

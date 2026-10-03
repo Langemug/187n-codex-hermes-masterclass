@@ -1,0 +1,54 @@
+[
+  {
+    "id": "bron-oud",
+    "project": "demo-brand",
+    "date": "2026-09-01",
+    "key": "bundelprijs",
+    "value": "39 EUR",
+    "status": "confirmed",
+    "source": "FICTIEF: prijsbesluit 1"
+  },
+  {
+    "id": "bron-nieuw",
+    "project": "demo-brand",
+    "date": "2026-09-10",
+    "key": "bundelprijs",
+    "value": "45 EUR",
+    "status": "confirmed",
+    "source": "FICTIEF: prijsbesluit 2",
+    "supersedes": [
+      "bron-oud"
+    ]
+  },
+  {
+    "id": "bron-idee",
+    "project": "demo-brand",
+    "date": "2026-09-20",
+    "key": "bundelprijs",
+    "value": "29 EUR",
+    "status": "idea",
+    "source": "FICTIEF: brainstorm, niet goedgekeurd"
+  },
+  {
+    "id": "bron-mail-klant",
+    "project": "demo-brand",
+    "date": "2026-09-25",
+    "key": "bundelprijs",
+    "value": "49 EUR",
+    "status": "confirmed",
+    "source": "FICTIEF: mail eigenaar zonder vervangingsbesluit"
+  },
+  {
+    "id": "besluit-2026-10-03",
+    "project": "demo-brand",
+    "date": "2026-10-03",
+    "key": "bundelprijs",
+    "value": "49 EUR",
+    "status": "confirmed",
+    "source": "Besluit eigenaar (student, les 019 stap 3): mail van 2026-09-25 is het nieuwe besluit",
+    "supersedes": [
+      "bron-nieuw",
+      "bron-mail-klant"
+    ]
+  }
+]

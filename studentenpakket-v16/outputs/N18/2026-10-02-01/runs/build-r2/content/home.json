@@ -1,0 +1,93 @@
+{
+ "boot": "> SIGNAL ACQUIRED",
+ "heading_html": "STAND <em>APART.</em>",
+ "text": "Not a brand. A movement. For the 1% who build while the rest talk. Your hoodie number is your member number.",
+ "cta_primary": {
+  "title": "JOIN THE SOCIETY",
+  "url": "product.html"
+ },
+ "cta_secondary": {
+  "title": "VIEW THE DROPS",
+  "url": "#drops"
+ },
+ "feature": {
+  "heading": "DROP 001",
+  "meta": "ONE HOODIE · NUMBERED · NO RESTOCK",
+  "card_heading": "YOUR NUMBER IS<br>YOUR MEMBERSHIP.",
+  "card_text": "Opens at the pop-up in Amsterdam. Online seven days later. Boxy oversized, black, 500 gsm heavyweight fleece.",
+  "card_cta": "JOIN THE SOCIETY · €64,95"
+ },
+ "drops_heading": "THE DROPS",
+ "drops_meta": "06 COLLECTIONS · 500 DESIGNS · MOCKUPS",
+ "drops": [
+  {
+   "title": "DROP 01 · SIMULATION",
+   "image": "assets/img/drop-01-hoodie.jpg",
+   "tint": "t1",
+   "id": "simulation"
+  },
+  {
+   "title": "DROP 02 · ABDUCTED",
+   "image": "assets/img/drop-02-hoodie.jpg",
+   "tint": "t2",
+   "id": "abducted"
+  },
+  {
+   "title": "DROP 03 · CLASSIFIED",
+   "image": "assets/img/drop-03-hoodie.jpg",
+   "tint": "t3",
+   "id": "classified"
+  },
+  {
+   "title": "DROP 04 · AWAKE",
+   "image": "assets/img/drop-04-hoodie.jpg",
+   "tint": "t1",
+   "id": "awake"
+  },
+  {
+   "title": "DROP 05 · BUILD MODE",
+   "image": "assets/img/drop-05-hoodie.jpg",
+   "tint": "t2",
+   "id": "build-mode"
+  },
+  {
+   "title": "DROP 06 · THE SOCIETY",
+   "image": "assets/img/drop-06-hoodie.jpg",
+   "tint": "t3",
+   "id": "the-society"
+  }
+ ],
+ "compare_heading": "POP-UP OR ONLINE",
+ "compare_meta": "SAME HOODIE · SAME PRICE PER MARKET",
+ "compare_cols": [
+  "AT THE POP-UP",
+  "ONLINE"
+ ],
+ "compare_rows": [
+  {
+   "label": "Product",
+   "popup": "The Founding Member Hoodie · design 010",
+   "online": "Same hoodie",
+   "cls": ""
+  },
+  {
+   "label": "Price",
+   "popup": "NL €64,95 · UK/US €74,95",
+   "online": "Same",
+   "cls": ""
+  },
+  {
+   "label": "When",
+   "popup": "First",
+   "online": "7 days after the pop-up",
+   "cls": ""
+  },
+  {
+   "label": "Where",
+   "popup": "Pop-up in Europe (city TBA)",
+   "online": "This store",
+   "cls": ""
+  }
+ ],
+ "compare_note": "Details marked TBA are not decided yet."
+}

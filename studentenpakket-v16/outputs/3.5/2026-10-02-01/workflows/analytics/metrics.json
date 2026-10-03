@@ -1,0 +1,18 @@
+{
+ "orders_totaal": 6,
+ "orders_betaald": 4,
+ "orders_terugbetaald": 1,
+ "orders_open": 1,
+ "bruto_omzet_incl_btw": 334.75,
+ "refunds_incl_btw": 64.95,
+ "netto_omzet_incl_btw": 269.8,
+ "refund_ratio_pct": 19.4,
+ "netto_omzet_excl_btw_NL": 161.03,
+ "netto_omzet_excl_btw_UK_US": "ONBEKEND (btw/invoer UK/US niet vastgesteld)",
+ "productkosten_NL": 81.63,
+ "brutomarge_NL_eur": 79.4,
+ "brutomarge_NL_pct": 49.3,
+ "productkosten_refund_004": "ONBEKEND (geproduceerd vóór annulering?)",
+ "winst": "NIET TE BEREKENEN: verzend-, betaal-, Shopify-, ad- en overige kosten ONBEKEND",
+ "MRR_churn": "N.V.T.: geen abonnementen"
+}

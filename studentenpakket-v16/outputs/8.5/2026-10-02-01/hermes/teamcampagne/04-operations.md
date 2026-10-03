@@ -1,0 +1,15 @@
+# 04 · Operations — campagne A (stand-in operations-agent) — 2026-10-03
+Bronnen: 00-offerbrief.md · outputs/3.4/2026-10-02-01/workflows/support-operations/operations-actielijst.md · testdata/ (voorraad.csv, leveringen.csv, orders.csv, tickets.json).
+**[TEST]** = rust op TESTDATA (testdata/LEESMIJ.md: verzonnen, niet echt). Vóór livegang alles opnieuw checken met echte winkeldata. Campagnestart = T0 (pop-up-datum TBA, dus geen kalenderdata). Niets is uitgevoerd: elke winkel-, inkoop- of klantactie is een aparte opdracht.
+
+| # | Actie | Bron (bestand · rij) | Eigenaar | Deadline | Als het niet lukt: aanpassing ads/mails |
+|---|---|---|---|---|---|
+| 1 | **Maat M uitverkocht [TEST]**: variant M op sold out/0 zetten (besluit student 2026-10-02, aparte opdracht) | voorraad.csv r4 (FMH-BLK-M 1 op voorraad, 1 gereserveerd → 0 beschikbaar); actielijst tabel rij M + "Beslissing student" | student (besluit) / operations (uitvoering) | T0 −3 dagen | Maatbereik in ads/mails niet "S–2XL" noemen maar alleen S, L, XL, 2XL, of geen maten noemen. Geen "restock"/"back soon"-tekst (verboden: geen herbevoorradingsclaims). |
+| 2 | **Levering M onbevestigd [TEST]**: TEST-L1 niet meetellen; niet bevestigen (past bij besluit) | leveringen.csv r2 (TEST-L1, M, 20 st., 28-10, onbevestigd) | student | T0 −3 dagen (samen met #1) | Niets beloven over M of over leverdata. Geen aantallen of schaarste noemen ("nog maar X") en geen "binnenkort". |
+| 3 | **Krappe voorraad L en 2XL [TEST]**: 1 beschikbaar per maat; L-aanvulling TEST-L2 (15 st., 24-10) bevestigd maar nog niet binnen | voorraad.csv r5 (L 3/2), r6 (2XL 2/1); leveringen.csv r3 (TEST-L2) | operations | T0 −2 dagen: voorraad checken, dagelijks tijdens campagne | Bij 0: maat uit de maatvermelding halen, zoals bij #1. Geen leverdatum van TEST-L2 in de copy zetten. Geen nep-schaarste ("bijna op"). Met vraag/dag onbekend is geen dekking berekend. |
+| 4 | **Tracking ontbreekt / openstaande verzendingen [TEST]**: tracking TEST-VS-003 opvragen bij Tapstitch; productiestatus TEST-VS-002 en -006 checken; TEST-VS-005 niet verzenden (dispute) | orders.csv r4 (003 verzonden, tracking leeg), r3 (002), r7 (006), r6 (005 open); tickets.json TT2, TT3, TT6 | operations | vóór T0 opgelost; daarna dagelijks tijdens campagne | Geen verzend- of levertijdbeloftes in ads/mails (staat ook in de verboden lijst van de offerbrief). Transactiemails niet aanpassen: support antwoordt per ticket. |
+| 5 | **Servicebeleid ontbreekt** (retour, ruil incl. maatwissel zoals TT5 L→XL, verzending, refundbevoegdheid, escalatie) | actielijst actie 5; tickets.json TT5 (r6) **[TEST]** | student | T0 −5 dagen | Geen retour-, ruil- of verzendvoorwaarden in ads/mails. Zolang het beleid er niet is: BLOCKED voor elke copy die naar beleid verwijst. FAQ-/ruilzin weglaten. |
+
+## Open punten
+- Pop-up-datum TBA → deadlines alleen relatief. Zodra T0 bekend is, omzetten naar data.
+- Vraag per dag is onbekend [TEST], dus het risico op uitverkopen tijdens de campagne is niet te kwantificeren.

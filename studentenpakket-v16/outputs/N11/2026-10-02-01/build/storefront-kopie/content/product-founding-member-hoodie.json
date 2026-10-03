@@ -1,0 +1,158 @@
+{
+  "handle": "founding-member-hoodie",
+  "title": "THE FOUNDING MEMBER HOODIE",
+  "title_html": "THE FOUNDING<br>MEMBER HOODIE",
+  "collection": "DROP 001 · THE SOCIETY",
+  "price": "€64,95",
+  "price_note": "NL · INCL. VAT",
+  "price_alt": "UK/US €74,95",
+  "description": "A statement on your back. Own the number. Your hoodie number is your member number.",
+  "sticker": "FOUNDING MEMBER",
+  "offer_line": "Your hoodie number is your member number.",
+  "offer_sub": "Founding Member access included",
+  "images": [
+    {
+      "src": "assets/img/founding-member-hoodie-back.jpg",
+      "alt": "Founding Member Hoodie, back: The Matrix can't hold me."
+    },
+    {
+      "src": "assets/img/founding-member-hoodie-detail.jpg",
+      "alt": "Back print detail"
+    },
+    {
+      "src": "assets/img/founding-member-hoodie-worn.jpg",
+      "alt": "Worn, back view"
+    },
+    {
+      "src": "assets/img/founding-member-hoodie-front.jpg",
+      "alt": "Front, VS logo left chest"
+    }
+  ],
+  "image_note": "CONCEPT: DIGITAL MOCKUPS ON TAPSTITCH UT0268 BLANK. NOT A PHOTO OF THE FINAL GARMENT.",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "default_size": "L",
+  "size_cm": [
+    [
+      "S",
+      "61",
+      "58.5",
+      "57",
+      "48"
+    ],
+    [
+      "M",
+      "63",
+      "60.5",
+      "59",
+      "49"
+    ],
+    [
+      "L",
+      "65",
+      "62.5",
+      "61",
+      "50"
+    ],
+    [
+      "XL",
+      "67",
+      "64.5",
+      "63",
+      "51"
+    ],
+    [
+      "2XL",
+      "69",
+      "66.5",
+      "65",
+      "52"
+    ]
+  ],
+  "size_in": [
+    [
+      "S",
+      "24.02",
+      "23.03",
+      "22.44",
+      "18.90"
+    ],
+    [
+      "M",
+      "24.80",
+      "23.82",
+      "23.23",
+      "19.29"
+    ],
+    [
+      "L",
+      "25.59",
+      "24.61",
+      "24.02",
+      "19.68"
+    ],
+    [
+      "XL",
+      "26.38",
+      "25.39",
+      "24.80",
+      "20.08"
+    ],
+    [
+      "2XL",
+      "27.17",
+      "26.18",
+      "25.59",
+      "20.47"
+    ]
+  ],
+  "cta": "JOIN THE SOCIETY",
+  "cta_trust": [
+    "14-day withdrawal (EU)",
+    "No restock",
+    "Pop-up in Europe first · online 7 days later",
+    "Shipping: to be confirmed"
+  ],
+  "specs": [
+    [
+      "YOU GET",
+      "The hoodie with the design and its own number"
+    ],
+    [
+      "MEMBERSHIP",
+      "Founding Member access included"
+    ],
+    [
+      "FIT",
+      "Boxy oversized, black · S–2XL"
+    ],
+    [
+      "MATERIAL",
+      "Heavyweight fleece, 500 gsm"
+    ],
+    [
+      "DROP",
+      "Pop-up in Europe first. Online 7 days later."
+    ],
+    [
+      "RESTOCK",
+      "No restock"
+    ],
+    [
+      "SHIPPING",
+      "To be confirmed"
+    ],
+    [
+      "RETURNS",
+      "14-day right of withdrawal (EU)"
+    ]
+  ],
+  "concept_note": "CONCEPT · SHIPPING AND NUMBERING NOT CONFIRMED · DEMO CART, NO CHECKOUT",
+  "member_heading": "YOUR NUMBER IS<br>YOUR MEMBERSHIP.",
+  "member_text": "Every hoodie in Drop 001 carries its own number. That number is your place in Visionair Society: the private channel, first access to Drop 002, and an invite to the pop-up."
+}

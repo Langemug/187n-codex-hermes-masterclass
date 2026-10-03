@@ -1,0 +1,8 @@
+OK   R3 SEO title ≤ 60 (21)
+FOUT R3 primair zoekwoord vooraan in SEO title
+FOUT R5 meta 70–160 (6)
+FOUT R7 primair zoekwoord in H1/title
+FOUT R8 body ≥ 250 woorden (9)
+FOUT R1/R8 primair in body
+FOUT R4 secundair in title/meta
+OK   verboden claim 'organic' afwezig

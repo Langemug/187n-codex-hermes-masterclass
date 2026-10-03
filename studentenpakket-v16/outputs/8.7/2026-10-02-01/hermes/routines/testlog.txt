@@ -1,0 +1,5 @@
+OK outputs/8.7/2026-10-02-01/hermes/routines/runs/dagbrief-20261003T151720228020663Z.md
+BLOCKED outputs/8.7/2026-10-02-01/hermes/routines/runs/dagbrief-20261003T151720260596104Z.md
+OK outputs/8.7/2026-10-02-01/hermes/routines/runs/dagbrief-20261003T151720270288982Z.md
+OK outputs/8.7/2026-10-02-01/hermes/routines/runs/batch-20261003T151720298601644Z
+BLOCKED outputs/8.7/2026-10-02-01/hermes/routines/runs/batch-20261003T151720307487769Z

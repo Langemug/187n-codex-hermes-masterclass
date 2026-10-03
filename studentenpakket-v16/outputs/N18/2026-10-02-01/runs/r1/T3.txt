@@ -1,0 +1,16 @@
+Commando's uitgevoerd voor T3:
+
+1. Locatie: runs/build-r1/content/home.json
+   Wijziging: compare_note aangepast naar exact "Details marked TBA are not decided yet."
+   Van: "Details marked TBA are not decided yet. Nothing here is a promise beyond what is listed."
+   Naar: "Details marked TBA are not decided yet."
+
+2. Build-commando:
+   cd /home/user/187n-codex-hermes-masterclass/studentenpakket-v16/outputs/N18/2026-10-02-01/runs/build-r1
+   python3 build.py
+
+Output build.py:
+   built index.html
+   built product.html
+
+Status: ✓ Voltooid

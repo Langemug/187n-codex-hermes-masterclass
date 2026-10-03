@@ -1,0 +1,7 @@
+<header class="site-head"><div class="bar">
+<a class="brand" href="index.html"><img src="{{ settings.logo_small }}" alt="">{{ settings.brand }}<span class="sep"></span><span class="est">{{ settings.est }}</span></a>
+<nav class="nav" aria-label="Main">{% for link in settings.nav %}<a href="{{ link.url }}">{{ link.title }}</a>{% endfor %}</nav>
+<div class="head-right"><span class="sys hide">{% for s in settings.system_line %}<span>{{ s }}</span>{% endfor %}</span>
+<button class="cart-btn" type="button" data-cart-open aria-label="Open demo cart">CART [<span data-cart-count>0</span>]</button>
+<details class="menu"><summary aria-label="Menu">MENU</summary><nav aria-label="Mobile">{% for link in settings.nav %}<a href="{{ link.url }}">{{ link.title }}</a>{% endfor %}</nav></details></div>
+</div></header>

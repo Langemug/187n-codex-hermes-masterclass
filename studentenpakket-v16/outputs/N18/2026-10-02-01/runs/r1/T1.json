@@ -1,0 +1,46 @@
+{
+  "naam": "The Founding Member Hoodie",
+  "handle": "founding-member-hoodie",
+  "blank": "Tapstitch UT0268-C001-V2",
+  "kleur": "Black",
+  "gewicht": "500 gsm / 14.7 oz",
+  "maten": {
+    "S": {
+      "lengte_cm": 61,
+      "schouder_cm": 58.5,
+      "borst_cm": 57,
+      "mouw_cm": 48
+    },
+    "M": {
+      "lengte_cm": 63,
+      "schouder_cm": 60.5,
+      "borst_cm": 59,
+      "mouw_cm": 49
+    },
+    "L": {
+      "lengte_cm": 65,
+      "schouder_cm": 62.5,
+      "borst_cm": 61,
+      "mouw_cm": 50
+    },
+    "XL": {
+      "lengte_cm": 67,
+      "schouder_cm": 64.5,
+      "borst_cm": 63,
+      "mouw_cm": 51
+    },
+    "2XL": {
+      "lengte_cm": 69,
+      "schouder_cm": 66.5,
+      "borst_cm": 65,
+      "mouw_cm": 52
+    }
+  },
+  "prijs_nl": "€64,95",
+  "prijs_uk_us": "€74,95",
+  "design_achter": "Design 010 'THE MATRIX CAN'T HOLD ME.'",
+  "voorkant": "Wit VS-logo op linkerborst",
+  "goedgekeurde_claims": [
+    "500 gsm"
+  ]
+}

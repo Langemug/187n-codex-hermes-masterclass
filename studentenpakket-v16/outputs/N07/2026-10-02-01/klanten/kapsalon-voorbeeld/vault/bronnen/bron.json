@@ -1,0 +1,6 @@
+[
+ {"id":"kv-doel","project":"kapsalon-voorbeeld","date":"2026-10-03","key":"doel","value":"klanten plannen zelf een afspraak zonder telefoon","status":"confirmed","source":"ROLLENSPEL R14"},
+ {"id":"kv-aanbod","project":"kapsalon-voorbeeld","date":"2026-10-03","key":"aanbod","value":"landingspagina met boekknop en WhatsApp-knop","status":"confirmed","source":"call-analyse les 069 (concept)"},
+ {"id":"kv-knelpunt","project":"kapsalon-voorbeeld","date":"2026-10-03","key":"knelpunt","value":"neemt niet op tijdens knippen; papieren agenda; Salonized niet in gebruik","status":"confirmed","source":"ROLLENSPEL R04, R08"},
+ {"id":"kv-prijs","project":"kapsalon-voorbeeld","date":"2026-10-03","key":"prijs","value":"onbekend","status":"idea","source":"ROLLENSPEL R16"}
+]

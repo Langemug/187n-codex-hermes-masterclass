@@ -1,0 +1,5 @@
+<details class="size-guide" id="size-guide"><summary>SIZE GUIDE</summary>
+<div class="sg-unit">CM</div><table><tr><th>SIZE</th><th>LENGTH</th><th>SHOULDER</th><th>CHEST</th><th>SLEEVE</th></tr>{% for r in product.size_cm %}<tr><td>{{ r.0 }}</td><td>{{ r.1 }}</td><td>{{ r.2 }}</td><td>{{ r.3 }}</td><td>{{ r.4 }}</td></tr>{% endfor %}</table>
+<div class="sg-unit">INCHES</div><table><tr><th>SIZE</th><th>LENGTH</th><th>SHOULDER</th><th>CHEST</th><th>SLEEVE</th></tr>{% for r in product.size_in %}<tr><td>{{ r.0 }}</td><td>{{ r.1 }}</td><td>{{ r.2 }}</td><td>{{ r.3 }}</td><td>{{ r.4 }}</td></tr>{% endfor %}</table>
+{% render 'measure-diagram' %}
+<p class="sg-note">Flat measurements. 1–3 cm difference may occur.<br>1 Length: shoulder seam at collar to hem.<br>2 Shoulder: shoulder seam to shoulder seam.<br>3 Chest: below the armpits, side to side.<br>4 Sleeve: shoulder seam at armhole to cuff.</p></details>

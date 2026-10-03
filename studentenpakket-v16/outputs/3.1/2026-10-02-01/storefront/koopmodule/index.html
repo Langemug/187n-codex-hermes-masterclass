@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Visionair Hoodie 01 · Buy box</title>
+<style>
+  :root { color-scheme:dark; --bg:#000; --fg:#fff; --muted:#8a8a8a; --line:#222; --accent:#7a1fd1; --hot:#b14bff; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--fg); font-family:"Helvetica Neue",Arial,sans-serif; padding:32px 16px; }
+  .box { max-width:460px; margin:0 auto; display:grid; gap:22px; }
+  .ph { border:1px dashed var(--hot); color:var(--hot); padding:10px 12px; font-size:11px; letter-spacing:.12em; text-transform:uppercase; line-height:1.5; font-weight:700; }
+  .eyebrow { color:var(--hot); font-size:12px; letter-spacing:.35em; font-weight:900; text-transform:uppercase; }
+  h1 { font-size:40px; line-height:.92; letter-spacing:-.03em; font-weight:900; text-transform:uppercase; }
+  .price { display:flex; align-items:baseline; gap:12px; font-weight:900; }
+  .price b { font-size:30px; }
+  .price span { color:var(--muted); font-size:12px; letter-spacing:.1em; font-weight:700; }
+  .label { font-size:12px; letter-spacing:.3em; text-transform:uppercase; font-weight:900; color:var(--muted); margin-bottom:10px; }
+  .sizes { display:grid; grid-template-columns:repeat(8,1fr); gap:6px; }
+  .sizes input { position:absolute; opacity:0; pointer-events:none; }
+  .sizes label { display:block; text-align:center; padding:14px 0; border:2px solid var(--line); font-weight:900; font-size:13px; cursor:pointer; }
+  .sizes label:hover { border-color:var(--hot); }
+  .sizes input:checked + label { background:var(--accent); border-color:var(--accent); }
+  .sizes input:focus-visible + label { outline:2px solid var(--hot); outline-offset:2px; }
+  .cta { width:100%; padding:20px; background:var(--accent); color:#fff; border:2px solid var(--accent); font:inherit; font-weight:900; font-size:14px; letter-spacing:.25em; text-transform:uppercase; cursor:pointer; }
+  .cta:hover { background:#fff; color:#000; border-color:#fff; box-shadow:4px 4px 0 var(--accent); }
+  ul { list-style:none; display:grid; gap:0; border-top:1px solid var(--line); }
+  li { display:flex; justify-content:space-between; gap:16px; padding:12px 0; border-bottom:1px solid var(--line); font-size:13px; }
+  li span:first-child { color:var(--muted); text-transform:uppercase; letter-spacing:.15em; font-size:11px; font-weight:900; padding-top:2px; }
+  li span:last-child { text-align:right; font-weight:700; }
+  .open { color:var(--hot); }
+  @media (max-width:420px) { .sizes { grid-template-columns:repeat(4,1fr); } }
+</style>
+</head>
+<body>
+<form class="box" onsubmit="return false">
+  <div class="ph">Concept buy box. Price, sizes and shipping are not confirmed. No store, no checkout.</div>
+
+  <div>
+    <div class="eyebrow">◆ Drop 001</div>
+    <h1>The Visionair<br>Hoodie 01</h1>
+  </div>
+
+  <div class="price"><b>€64,95</b><span>NL, incl. VAT · one-time purchase</span></div>
+  <div style="color:var(--muted);font-size:12px;margin-top:-14px">UK / US: €74,95</div>
+
+  <fieldset style="border:0">
+    <legend class="label">Size</legend>
+    <div class="sizes">
+      <input type="radio" name="size" id="s-xs" value="XS"><label for="s-xs">XS</label>
+      <input type="radio" name="size" id="s-s" value="S"><label for="s-s">S</label>
+      <input type="radio" name="size" id="s-m" value="M"><label for="s-m">M</label>
+      <input type="radio" name="size" id="s-l" value="L" checked><label for="s-l">L</label>
+      <input type="radio" name="size" id="s-xl" value="XL"><label for="s-xl">XL</label>
+      <input type="radio" name="size" id="s-2xl" value="2XL"><label for="s-2xl">2XL</label>
+      <input type="radio" name="size" id="s-3xl" value="3XL"><label for="s-3xl">3XL</label>
+      <input type="radio" name="size" id="s-4xl" value="4XL"><label for="s-4xl">4XL</label>
+    </div>
+  </fieldset>
+
+  <button class="cta" type="submit">Join the society</button>
+
+  <ul>
+    <li><span>You get</span><span>Hoodie 01 with the design and its own number. Your number is your member number.</span></li>
+    <li><span>Membership</span><span>Founding Member access included</span></li>
+    <li><span>Fit</span><span>Oversized, black</span></li>
+    <li><span>Material</span><span>Heavyweight cotton-blend fleece</span></li>
+    <li><span>Drop</span><span>Pop-up Amsterdam first. Online 7 days later.</span></li>
+    <li><span>Restock</span><span>No restock</span></li>
+    <li><span>Shipping</span><span class="open">To be confirmed</span></li>
+    <li><span>Returns</span><span>14-day right of withdrawal (EU)</span></li>
+  </ul>
+</form>
+</body>
+</html>
