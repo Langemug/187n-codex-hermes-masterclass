@@ -15,7 +15,7 @@
 | 3.2b | 2026-10-02-01 | outputs/3.2b/2026-10-02-01/shopify/aankooproute.md | Aankooproute in code gecontroleerd, testplan + releasecheck; testorder niet uitgevoerd | concept | Les 034 |
 | 3.6 | 2026-10-02-01 | outputs/3.6/2026-10-02-01/shopify/experiment.md | Knoptekst-experiment A/B (B = variantprijs, niet vast €64,95), Basic-route, herstelplan; niet geactiveerd | completed | Goedgekeurd 2026-10-03 (review 4); activeren = aparte autorisatie |
 | 5.3 | 2026-10-02-01 | outputs/5.3/2026-10-02-01/content/video-feedback/ | Video-feedback → tijdcodes, v2 edit, 2 vaste voorkeuren getest op clip 2 | completed | Les 036 |
-| N19 | 2026-10-02-01 | outputs/N19/2026-10-02-01/montageplan.json | Reel 20 s montageplan, scherm-ID's + camerascript; camera nog op te nemen | concept | Les 037 |
+| N19 | 2026-10-02-01 | outputs/N19/2026-10-02-01/montageplan.json | Reel 20 s montageplan, scherm-ID's + camerascript; hook veilig gemaakt (geen lidnummer-belofte), v1 bewaard; camera nog op te nemen | concept | Les 037 |
 | N20 | 2026-10-02-01 | outputs/N20/2026-10-02-01/sectie-review.md | 3 secties v1→v2, stijl vastgelegd; camera/audio ontbreekt | completed | Les 038 |
 | N21 | 2026-10-02-01 | outputs/N21/2026-10-02-01/volledige-video-review.md | Reel 12,7 s uit 3 secties, bronnenlijst + aansluitingscheck | completed | Les 039 |
 | N22 | 2026-10-02-01 | outputs/N22/2026-10-02-01/clipselectie.md | 3 Reels-clips met eigen context, proefexports | completed | Les 040 |
