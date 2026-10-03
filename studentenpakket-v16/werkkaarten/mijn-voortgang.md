@@ -40,3 +40,4 @@
 | 6.3 | 2026-10-02-01 | outputs/6.3/2026-10-02-01/seo/maanddienst/ | Nulmeting-opzet, maandrapport M0 (geen cijfers), V1 link maattabel→gids in unpublished theme, Hermes-routine 3e werkdag (niet geactiveerd) | concept | Les 059 |
 | 4.1 | 2026-10-02-01 | outputs/4.1/2026-10-02-01/skills-kandidaten/foto-mockup/ | Kandidaat-skill foto-mockup (v2 met invoercontroles), acceptatieproef + bronreview, proef design 009 goedgekeurd; SkillSpector ontbreekt → BLOCKED voor laden | geblokkeerd | Les 060 |
 | N24 | 2026-10-02-01 | outputs/N24/2026-10-02-01/editstijl.md | Editstijl uit R1 + v2-clip2; toegepast op clip 2 → v3 (2 fouten) → v3b; v3b = nieuwe clip 2 | completed | Les 061 |
+| 4.2 | 2026-10-02-01 | outputs/4.2/2026-10-02-01/skills-kandidaten/tutorial-workflow/ | Tutorial Shopify SEO (geplakt) → vertaling, voorbeeld hoodie (12/12 check), kandidaat-skill; teksten in DRAFT-product gezet | concept | Les 062 |
