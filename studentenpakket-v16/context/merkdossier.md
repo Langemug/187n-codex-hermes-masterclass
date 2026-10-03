@@ -19,7 +19,7 @@ Design: The Founding Member Hoodie krijgt een eigen design (o.a. achterkant) plu
 Nog niet vastgesteld: design, kostprijs incl. logo en verzending, oplage, maten, levertijd.
 
 ## Aanbod
-Eerste aankoop: The Founding Member Hoodie + Founding Member-toegang · NL €64,95 incl. 21% btw · UK/US €74,95 (valuta, belasting en invoerkosten [OPEN]) · Online kopers: ook Founding Member + eigen nummer (besluit student 2a, 2026-10-03)
+Eerste aankoop: The Founding Member Hoodie + Founding Member-toegang · NL €64,95 incl. 21% btw · UK/US €74,95 (valuta, belasting en invoerkosten [OPEN]) · Online kopers: ook Founding Member + eigen nummer (besluit student 2a, 2026-10-03) · Restock: de zwarte Founding Member-editie komt niet terug; design 010 mag later in andere kleur/versie (besluit student 5b, 2026-10-03). Kale claim "no restock" niet gebruiken.
 Vervolglevering: n.v.t.
 Losse aankoop: online restant 7 dagen na de pop-up in Europe (stad nog open; besluit student 2026-10-03, vervangt "Amsterdam"), prijs per markt zoals hierboven
 Verzend- en retourbeleid: [OPEN]
