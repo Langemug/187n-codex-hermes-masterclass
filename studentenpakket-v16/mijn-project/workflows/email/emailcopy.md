@@ -12,7 +12,7 @@ Status: LOKAAL CONCEPT — niet in platform, niets geactiveerd.
 
 **W2 · "What your number means."** (+3 dagen)
 > Every Founding Member Hoodie carries its own number.
-> That number is your membership: Founding Member access, first access to Drop 002, an invite to the pop-up.
+> That number is your membership: Founding Member access and first access to Drop 002.
 > The black Founding Member edition won't come back.
 > **[JOIN THE SOCIETY]**
 
