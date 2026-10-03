@@ -67,3 +67,4 @@
 | 10.6 | — | — | Vereist Composio-CRM (049) en les 078 | blocked | Na Composio hervatten |
 | 10.7 | 2026-10-02-01 | outputs/10.7/2026-10-02-01/klantwerk/supportbot/ | Regelgebaseerde supportbot op eigen KB + TEST-orders; 9 tests (product, order, ontbrekend, overdracht) OK; bronvermelding; bewerkbare KB + updateprocedure; geen live ordertoegang | completed | Les 083 |
 | N32 | 2026-10-02-01 | outputs/N32/2026-10-02-01/chatassistent-review.md | Aanvraagchat (landing + content): vragen uitvragen, concept met bron-prijzen of OPEN, status + voortgang bewaard; 4 tests OK; geen koppeling | completed | Les 084 |
+| N33 | — | — | Wacht op les 081 (CRM/Composio); Calendly-route bewust niet gekozen | blocked | Na 081 hervatten |
