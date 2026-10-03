@@ -20,7 +20,7 @@ One oversized black hoodie, heavyweight cotton-blend fleece (Tapstitch UT0268-C0
 The story. You wear what you stand for — Visionair Society is an identity, not clothing.
 
 ## Launch format
-First drop paired with a physical pop-up in Amsterdam (location, date, quantity and budget TBD).
+First drop paired with a physical pop-up in Europe (city, location, date, quantity and budget TBD; owner decision 2026-10-03, replaces "Amsterdam").
 
 ## Tagline
 Stand apart. Move together.
