@@ -63,3 +63,4 @@
 | 7.3 | 2026-10-02-01 | outputs/7.3/2026-10-02-01/sales/berichten/STATUS.md | Wacht op CRM (076); geen concepten | blocked | Na Composio: 076 en 077 hervatten |
 | 7.4 | — | — | Wacht op echte reacties uit 077 (CRM/Composio) | blocked | Na 077 hervatten |
 | 2.6 | 2026-10-02-01 | outputs/2.6/2026-10-02-01/klantwerk/creative-workspace/ | Pilot creative workspace (productinput, campagnes, assetreview, versies, goedkeuring, logboek, CSV-export); generatie gesimuleerd+gelabeld; getest | completed | Les 080 |
+| N31 | 2026-10-02-01 | outputs/N31/2026-10-02-01/prototype-review.md | Prototype Productpagina-check (landing + lokale check); tests normaal 9/9, ontbrekende input, 2 niet-ondersteunde vragen OK; geen onbewezen claims | completed | Les 081 |
