@@ -70,3 +70,4 @@
 | N33 | — | — | Wacht op les 081 (CRM/Composio); Calendly-route bewust niet gekozen | blocked | Na 081 hervatten |
 | 10.8 | 2026-10-02-01 | outputs/10.8/2026-10-02-01/klantwerk/training/ | Workshop "Van print naar productpagina" (audit, leerdoelen, live builds A+B, prompts, eindopdracht, antwoordsleutel), implementatieplan + opvolgmoment; seo-check v0.1.2 (meta 70–160); OpenMAIC niet gebruikt (niet gescand) | completed | Les 086 |
 | 10.9 | 2026-10-02-01 | outputs/10.9/2026-10-02-01/klantwerk/white-label/ | White-label POD-lancering: aanbod (RACI, input, rechten, oefenprijs €115/product), schone bronbestanden, walkthrough getest in lege map | concept | Les 087 |
+| 8.2 | 2026-10-02-01 | outputs/8.2/2026-10-02-01/hermes/team-inrichting.md | 15 profielen geïnventariseerd, 3 gekozen; installatie geblokkeerd (8.2.0 niet gescand); campagneproef A met 3 aparte subagents (research → content → visual) met controleerbare output | concept | Les 090 |
