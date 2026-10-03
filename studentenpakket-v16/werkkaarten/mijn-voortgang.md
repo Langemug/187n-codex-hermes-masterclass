@@ -60,3 +60,4 @@
 | 7.1 | 2026-10-02-01 | outputs/7.1/2026-10-02-01/sales/prospects.csv | 10 fictieve prospects met bron, koopsignaal, probleem, demo, fit; contact ONBEKEND; afgemelde uitgesloten | completed | Les 075 |
 | N30 | 2026-10-02-01 | outputs/N30/2026-10-02-01/kansenonderzoek.md | 8 Shopify-community-bronnen via zoekmachine (niet te openen: proxy), 3 thema's; probleem B productpagina-inhoud + 8 toetsvragen | concept | Les 076 |
 | 7.2 | 2026-10-02-01 | outputs/7.2/2026-10-02-01/sales/prioriteiten.md | Top 5 voorbereid zonder CRM-check; Composio niet verbonden → wachten (keuze student) | blocked | Composio koppelen; daarna 076 hervatten |
+| 7.3 | 2026-10-02-01 | outputs/7.3/2026-10-02-01/sales/berichten/STATUS.md | Wacht op CRM (076); geen concepten | blocked | Na Composio: 076 en 077 hervatten |
